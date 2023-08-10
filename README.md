@@ -75,7 +75,7 @@ S\quad&\,=\quad1+9S\\
 ```
 Oops, was Ramanujan wrong?
 
-### **What if summation of the power of two** $\qquad\sum_{n=0}^{\infty}2^n$
+### **What if the summation of the power of two**
 
 ```math
 \begin{align*}
@@ -88,4 +88,4 @@ S\quad&\,=\quad1+2S\\
 ```
 Negative! once again.
 
-More to come ...
+_More to come ..._
