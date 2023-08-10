@@ -22,11 +22,13 @@ Have you ever encountered a mathematical fool proofs? Those seem so ponder, coun
 
 3. **Contribute Your Own Maths Paradox Proofs:** Do you have a mind-boggling mathematical demonstration that you'd like to share? I encourage contributions from all levels of mathematical enthusiasts.
 
+Note: _Almost all mathematical proofs herein are foolish, unless noted otherwise._
+
 ## Let's start!
 
 We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
 
-### **Ramanujan Summation** $1+2+3+4+5+6+...\quad=\quad?$
+### **Ramanujan Summation** $\qquad1+2+3+4+5+6+...\quad=\quad?$
 
 ```math
 \begin{align*}
@@ -70,5 +72,18 @@ S\quad&\,=\quad1+9S\\
 \end{align*}
 ```
 Oops, was Ramanujan wrong?
+
+### **What if summation of the power of two** $\qquad\sum_{n=0}^\infty 2^n$
+
+```math
+\begin{align*}
+\mathrm{Let}\qquad S\quad&\,=\quad\sum_{n=0}^\infty 2^n\\
+S\quad&\,=\quad1+2+4+8+16+32+...\\
+S\quad&\,=\quad1+2(1+2+4+8+16+...)\\
+S\quad&\,=\quad1+2S\\
+\mathrm{Thus}\qquad S\quad&\,=\quad-1
+\end{align*}
+```
+Negative! once again.
 
 More to come ...
