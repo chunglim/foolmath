@@ -22,9 +22,10 @@ Have you ever encountered a mathematical fool proofs? Those seem so ponder, coun
 
 3. **Contribute Your Own Maths Paradox Proofs:** Do you have a mind-boggling mathematical demonstration that you'd like to share? I encourage contributions from all levels of mathematical enthusiasts.
 
-**Note:**
-1. Almost all mathematical proofs herein are foolish, unless noted otherwise.
-2. Code of plain-text LaTeX (.tex) files are in src/.
+**Notes:**
+1. Almost all mathematical proofs here are foolish, unless noted otherwise.
+2. Code of plain-text LaTeX `.tex` files are in `src/`.
+3. Best view on any browsers, `GitHub` app on mobile devices doesn't render LaTeX.
 
 ## Let's start!
 
@@ -37,25 +38,25 @@ We firstly start from the well-known **Ramanujan Summation**, which is known to 
 S\quad&\,=\quad1+2+3+...\\
 \mathrm{Let}\qquad S_1\quad&\,=\quad1-1+1-1+...\\
 1-S_1\quad&\,=\quad1-(1+1-1+1-...)\\
-1-S_1\quad&\,=\quad1-1+1-1+...\\
-1-S_1\quad&\,=\quad S1\\
+\,&\,=\quad1-1+1-1+...\\
+\,&\,=\quad S1\\
 2S_1\quad&\,=\quad1\\
 S_1\quad&\,=\quad\frac{1}{2}\\
 \mathrm{Let}\qquad S_2\quad&\,=\quad1-2+3-4+5-6+...\\
 2S_2\quad&=\quad1-2+3-4+5-6+...\\
 \quad&\,\qquad\quad\,+1-1+3-4+5-6\\
-2S_2\quad&\,=\quad1-1+1-1+...\\
+\,&\,=\quad1-1+1-1+...\\
 2S_2\quad&\,=\quad S_1\\
 S_2\quad&\,=\quad\frac{S_1}{2}\\
 S_2\quad&\,=\quad\frac{1}{4}\\
 S-S_2\quad&\,=\quad1+2+3+4+5+6+7+8+...\\
 \quad&\,\quad-(1-2+3-4+5-6+7-...)\\
-S-S_2\quad&\,=\quad4+8+12+16+...\\
-S-S_2\quad&\,=\quad4(1+2+3+4+...)\\
+\,&\,=\quad4+8+12+16+...\\
+\,&\,=\quad4(1+2+3+4+...)\\
 S-S_2\quad&\,=\quad4S\\
 3S\quad&\,=\quad-S_2\\
 S\quad&\,=\quad-\frac{S_2}{3}\\
-S\quad&\,=\quad-\frac{1}{3*4}\\
+\,&\,=\quad-\frac{1}{3*4}\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{12}
 \end{align*}
 ```
@@ -65,9 +66,9 @@ S\quad&\,=\quad-\frac{1}{3*4}\\
 ```math
 \begin{align*}
 S\quad&\,=\quad1+2+3+4+5+6+7+8+9+10+...\\
-S\quad&\,=\quad1+(2+3+4)+(5+6+7)+(8+9+10)+...\\
-S\quad&\,=\quad1+(9+18+27+...)\\
-S\quad&\,=\quad1+9(1+2+3+...)\\
+\,&\,=\quad1+(2+3+4)+(5+6+7)+(8+9+10)+...\\
+\,&\,=\quad1+(9+18+27+...)\\
+\,&\,=\quad1+9(1+2+3+...)\\
 S\quad&\,=\quad1+9S\\
 8S\quad&\,=\quad-1\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{8}
@@ -80,12 +81,28 @@ Oops, was Ramanujan wrong?
 ```math
 \begin{align*}
 \mathrm{Let}\qquad S\quad&\,=\quad\sum_{n=0}^\infty 2^n\\
-S\quad&\,=\quad1+2+4+8+16+32+...\\
-S\quad&\,=\quad1+2(1+2+4+8+16+...)\\
+\,&\,=\quad1+2+4+8+16+32+...\\
+\,&\,=\quad1+2(1+2+4+8+16+...)\\
 S\quad&\,=\quad1+2S\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-1
 \end{align*}
 ```
 Negative! once again.
+
+### **What if the summation of all natural odd numbers**
+
+```math
+\begin{align*}
+S\quad&\,=\quad1+3+5+7+9+...\\
+-\frac{1}{12}\quad&\,=\quad1+2+3+4+5+6+7+8+9+10+...\\
+\,&\,=\quad(1+3+5+7+9+...)+(2+4+6+8+10+...)\\
+\,&\,=\quad(1+3+5+7+9+...)+2(1+2+3+4+5+...)\\
+\,&\,=\quad(1+3+5+7+9+...)+2\left(-\frac{1}{12}\right)\\
+-\frac{1}{12}\quad&\,=\quad(1+3+5+7+9+...)-\frac{2}{12}\\
+1+3+5+7+9+...\quad&\,=\quad\frac{2}{12}-\frac{1}{12}\\
+\mathrm{Thus}\qquad1+3+5+7+9+...\quad&\,=\quad\frac{1}{12}
+\end{align*}
+```
+Wow! this time the summation is positive.
 
 _More to come ..._
