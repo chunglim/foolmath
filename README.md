@@ -26,7 +26,7 @@ Have you ever encountered a mathematical fool proofs? Those seem so ponder, coun
 
 We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
 
-$1+2+3+4+5+6+...\quad=\quad?$
+### **Ramanujan Summation** $1+2+3+4+5+6+...\quad=\quad?$
 
 ```math
 \begin{align*}
@@ -55,5 +55,20 @@ S\quad&\,=\quad-\frac{1}{3*4}\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{12}
 \end{align*}
 ```
+
+### **Yet, there is a Ramanujan alternative**
+
+```math
+\begin{align*}
+S\quad&\,=\quad1+2+3+4+5+6+7+8+9+10+...\\
+S\quad&\,=\quad1+(2+3+4)+(5+6+7)+(8+9+10)+...\\
+S\quad&\,=\quad1+(9+18+27+...)\\
+S\quad&\,=\quad1+9(1+2+3+...)\\
+S\quad&\,=\quad1+9S\\
+8S\quad&\,=\quad-1\\
+\mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{8}
+\end{align*}
+```
+Oops, was Ramanujan wrong?
 
 More to come ...
