@@ -22,7 +22,9 @@ Have you ever encountered a mathematical fool proofs? Those seem so ponder, coun
 
 3. **Contribute Your Own Maths Paradox Proofs:** Do you have a mind-boggling mathematical demonstration that you'd like to share? I encourage contributions from all levels of mathematical enthusiasts.
 
-Note: _Almost all mathematical proofs herein are foolish, unless noted otherwise._
+**Note:**
+1. Almost all mathematical proofs herein are foolish, unless noted otherwise.
+2. Code of plain-text LaTeX (.tex) files are in src/.
 
 ## Let's start!
 
@@ -73,7 +75,7 @@ S\quad&\,=\quad1+9S\\
 ```
 Oops, was Ramanujan wrong?
 
-### **What if summation of the power of two** $\qquad\sum_{n=0}^\infty 2^n$
+### **What if summation of the power of two** $\qquad\sum_{n=0}^{\infty}2^n$
 
 ```math
 \begin{align*}
