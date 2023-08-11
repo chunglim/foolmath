@@ -60,6 +60,7 @@ S\quad&\,=\quad-\frac{S_2}{3}\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{12}
 \end{align*}
 ```
+_source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)
 
 ### **Yet, there is a Ramanujan alternative**
 
@@ -74,9 +75,11 @@ S\quad&\,=\quad1+9S\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{8}
 \end{align*}
 ```
+_source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)
+
 Oops, was Ramanujan wrong?
 
-### **What if the summation of the power of two**
+### **What if summing the power of two**
 
 ```math
 \begin{align*}
@@ -87,9 +90,11 @@ S\quad&\,=\quad1+2S\\
 \mathrm{Thus}\qquad S\quad&\,=\quad-1
 \end{align*}
 ```
+_source code:_&nbsp;[sum_power_of_2.tex](./src/sum_power_of_2.tex)
+
 Negative! once again.
 
-### **What if the summation of all natural odd numbers**
+### **What if summing all natural odd numbers**
 
 ```math
 \begin{align*}
@@ -103,6 +108,24 @@ S\quad&\,=\quad1+3+5+7+9+...\\
 \mathrm{Thus}\qquad1+3+5+7+9+...\quad&\,=\quad\frac{1}{12}
 \end{align*}
 ```
+_source code:_&nbsp;[sum_of_odd.tex](./src/sum_of_odd.tex)
+
 Wow! this time the summation is positive.
+
+### **Trying summing all natural even numbers**
+
+```math
+\begin{align*}
+S\quad&\,=\quad2+4+6+8+10+...\\
+-\frac{1}{12}\quad&\,=\quad1+2+3+4+5+6+7+8+9+10+...\\
+\,&\,=\quad(1+3+5+7+9+...)+(2+4+6+8+10+...)\\
+-\frac{1}{12}\quad&\,=\quad\frac{1}{12}+(2+4+6+8+10+...)\\
+-\frac{1}{12}\quad&\,=\quad\frac{1}{12}+S\\
+\mathrm{Thus}\qquad S\quad&\,=\quad-\frac{1}{6}
+\end{align*}
+```
+_source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
+
+It is even greater than summation of all natural numbers
 
 _More to come ..._
