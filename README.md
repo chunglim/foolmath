@@ -251,4 +251,24 @@ _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
 
 From now on, what I owe you is what you owe me.
 
+### **Let's see a little higher number.**
+
+```math
+\begin{align*}
+-20\quad&\,=\quad-20\\
+16-36\quad&\,=\quad25-45\\
+4^2-4*9\quad&\,=\quad5^2-5*9\\
++\frac{81}{4}\mathrm{both~sides}\qquad4^2-4*9+\frac{81}{4}\quad&\,=\quad5^2-5*9+\frac{81}{4}\\
+4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2\quad&\,=\quad5^2-2*5*\frac{9}{2}+\left(\frac{9}{2}\right)^2\\
+\left(4-\frac{9}{2}\right)^2\quad&\,=\quad\left(5-\frac{9}{2}\right)^2\\
+\sqrt{}~\mathrm{both~sides}\qquad4-\cancel{\frac{9}{2}}\quad&\,=\quad5-\cancel{\frac{9}{2}}\\
+\mathrm{Thus}\qquad4\quad&\,=\quad5
+\end{align*}
+```
+_source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
+
+Hey, what? How come, 4 = 5?<br>
+There is one more simple equation. Have a look.
+
+<br>
 _More to come, keep following ..._
