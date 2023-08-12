@@ -130,7 +130,7 @@ Why is it negative again, who know?
 
 ### **Why 0 = 1?**
 
-Here come the most foolish!
+Here come the most foolish proof!
 
 #### **Solution 1**
 
@@ -145,7 +145,7 @@ Here come the most foolish!
 ```
 _source code:_&nbsp;[0eq1_0.tex](./src/0eq1_0.tex)
 
-What about the second most foolish?
+What about the second most foolish proof?
 
 #### **Solution 2**
 
@@ -159,7 +159,7 @@ What about the second most foolish?
 ```
 _source code:_&nbsp;[0eq1_1.tex](./src/0eq1_1.tex)
 
-Is there any proof look more advanced than these?
+Is there any proof looking more advanced than these?
 
 #### **Solution 3**
 
@@ -176,6 +176,63 @@ Is there any proof look more advanced than these?
 ```
 _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)
 
-Can you find an error?
+Can you find an error?<br>
+Hmm, binary no longer exists.
+
+### **Why 1 = 2?**
+
+Here, the proof I learnt in junior high school.
+
+#### **Solution 1**
+
+```math
+\begin{align*}
+\mathrm{Let}\qquad a\quad&\,=\quad b\\
+*b~\mathrm{both~sides}\qquad a*b\quad&\,=\quad b*b\\
+a*b\quad&\,=\quad b^2\\
+-a^2~\mathrm{both~sides}\qquad a*b-a^2\quad&\,=\quad b*b-a^2\\
+a(b-a)\quad&\,=\quad b^2-a^2\\
+a\cancel{(b-a)}\quad&\,=\quad\cancel{(b-a)}(b+a)\\
+\mathrm{since}~b=a\qquad a\quad&\,=\quad a+a\\
+\cancel{a}\quad&\,=\quad2\cancel{a}\\
+\mathrm{Thus}\qquad1\quad&\,=\quad2
+\end{align*}
+```
+_source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)
+
+Nah, there is another proof in high school.
+
+#### **Solution 2**
+
+```math
+\begin{align*}
+\mathrm{Where}~x=\frac{\pi}{4}~or~\frac{5\pi}{4}\qquad\cos{x}\quad&\,=\quad\sin{x}\\
+\cos{2x}\quad&\,=\quad\sin{2x}\\
+1-2\sin^2{x}\quad&\,=\quad2\sin{x}\cos{x}\\
+\mathrm{As}~\sin{x}=\cos{x}\qquad1-2\sin^2{x}\quad&\,=\quad2\cos{x}\cos{x}\\
+\,&\,=\quad2\cos^2{x}\\
+1\,&\,=\quad2\sin^2{x}+2\cos^2{x}\\
+\,&\,=\quad2\cancelto{1}{(\sin^2{x+\cos^2{x}})}\\
+\mathrm{Thus}\qquad1\quad&\,=\quad2
+\end{align*}
+```
+_source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)
+
+Yet, there is another proof using calcuus.
+
+#### **Solution 3**
+
+```math
+\begin{align*}
+\underbrace{x+x+x+...+x}_{x~terms}\quad&\,=\quad x*x\\
+\,&\,=\quad x^2\\ \\
+\mathrm{diff~both~sides}\qquad\underbrace{1+1+1+...+1}_{x~terms}\quad&\,=\quad2x\\
+\cancel{x}\quad&\,=\quad2\cancel{x}\\ \\
+\mathrm{Thus}\qquad1\quad&\,=\quad2
+\end{align*}
+```
+_source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)
+
+Do you find any clues?
 
 _More to come ..._
