@@ -235,4 +235,20 @@ _source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)
 
 Do you find any clues?
 
-_More to come ..._
+### **Do you know that 1 = -1?**
+
+```math
+\begin{align*}
+1\quad&\,=\quad\sqrt{1}\\
+\,&\,=\quad\sqrt{(-1)(-1)}\\
+\,&\,=\quad\sqrt{-1}\sqrt{-1}\\
+\,&\,=\quad i*i\\
+\,&\,=\quad i^2\\
+\mathrm{Thus}\qquad1\quad&\,=\quad-1
+\end{align*}
+```
+_source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
+
+From now on, what I owe you is what you owe me.
+
+_More to come, keep following ..._
