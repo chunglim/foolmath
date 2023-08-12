@@ -126,6 +126,56 @@ S\quad&\,=\quad2+4+6+8+10+...\\
 ```
 _source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
 
-It is even greater than summation of all natural numbers
+Why is it negative again, who know?
+
+### **Why 0 = 1?**
+
+Here come the most foolish!
+
+#### **Solution 1**
+
+```math
+\begin{align*}
+0\quad&\,=\quad0+0+0+0+...\\
+\,&\,=\quad(1-1)+(1-1)+(1-1)+(1-1)+...\\
+\,&\,=\quad1+(-1+1)+(-1+1)+(-1+1)+...\\
+\,&\,=\quad1+0+0+0+0+...\\
+\mathrm{Thus}\qquad0\quad&\,=\quad1
+\end{align*}
+```
+_source code:_&nbsp;[0eq1_0.tex](./src/0eq1_0.tex)
+
+What about the second most foolish?
+
+#### **Solution 2**
+
+```math
+\begin{align*}
+\mathrm{Let}\qquad S\quad&\,=\quad1+1+1+1++1...\\
+\,&\,=\quad1+(1+1+1+1+...)\\
+\cancel{S}\quad&\,=\quad1+\cancel{S}\\
+\mathrm{Thus}\qquad0\quad&\,=\quad1
+\end{align*}
+```
+_source code:_&nbsp;[0eq1_1.tex](./src/0eq1_1.tex)
+
+Is there any proof look more advanced than these?
+
+#### **Solution 3**
+
+```math
+\begin{align*}
+\int u\,dv\quad&\,=\quad uv-\int v\,du\\
+\int\frac{1}{x}\,dx\quad&\,=\quad\cancel{x}\frac{1}{\cancel{x}}-\int x\,d\left(\frac{1}{x}\right)\\
+\,&\,=\quad1-\int x\,d(x^{-1})\\
+\,&\,=\quad1-\int x\,(-1x^{-2})\,dx\\
+\,&\,=\quad1+\int x.x^{-2}\,dx\\
+\cancel{\int\frac{1}{x}\,dx}\quad&\,=\quad1+\cancel{\int\frac{1}{x}\,dx}\\
+\mathrm{Thus}\qquad0\quad&\,=\quad1
+\end{align*}
+```
+_source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)
+
+Can you find an error?
 
 _More to come ..._
