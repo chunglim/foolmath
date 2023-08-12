@@ -218,7 +218,7 @@ Nah, there is another proof in high school.
 ```
 _source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)
 
-Yet, there is another proof using calcuus.
+Yet, there is another proof using calculus.
 
 #### **Solution 3**
 
