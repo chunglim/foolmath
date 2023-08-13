@@ -339,7 +339,7 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 
 ### **Let's talk more about _i_.**
 
-#### **This is the _correct proof_ of $\frac{1}{i}$**
+#### **This is the _correct proof_ of $\frac{1}{i}$.**
 
 ```math
 \begin{align*}
@@ -348,9 +348,25 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 \mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(correct~proof)}
 \end{align*}
 ```
-_source code:_&nbsp;[correct_inv_i.tex](./src/correct_inv_i.tex)
+_source code:_&nbsp;[inv_i_correct.tex](./src/inv_i_correct.tex)
 
 Nah, there is another $\frac{1}{i}$, but it is foolish.
+
+#### **This is the _fool proof_ of $\frac{1}{i}$.**
+
+```math
+\begin{align*}
+\frac{1}{i}\quad&\,=\quad i^{-1}\\
+\,&\,=\quad\sqrt{-1}^{-1}\\
+\,&\,=\quad\left((-1)^\frac{1}{2}\right)^{-1}\\
+\,&\,=\quad\left((-1)^{-1}\right)^\frac{1}{2}\\
+\,&\,=\quad\left(\frac{1}{-1}\right)^\frac{1}{2}\\
+\,&\,=\quad-1^\frac{1}{2}\\
+\,&\,=\quad\sqrt{-1}\\
+\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad i
+\end{align*}
+```
+_source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)
 
 <br><br>
 
