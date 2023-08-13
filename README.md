@@ -270,7 +270,7 @@ _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
 Hey, what? How come, 4 = 5?<br><br>
 There is one more simple equation. Have a look.
 
-### **Was I wrongly taught, 2 + 5 = 8**
+### **Was I wrongly taught? Why 2 + 5 = 8?**
 
 ```math
 \begin{align*}
@@ -292,6 +292,42 @@ _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
 
 Do you find any errors?<br><br>
 Who said `0` couldn't be a denominator? See the following fool proofs.
+
+### **Very silly solutions to find 0 / 0**
+
+#### **Let's see the first fool.**
+
+```math
+\begin{align*}
+\mathrm{Let}\qquad\frac{2}{0}\quad&\,=\quad\frac{x}{1}\\
+\mathrm{Multiply~0~both~sides}\qquad\frac{2*0}{0}\quad&\,=\quad\frac{x*0}{1}\\
+\mathrm{Divide~2~both~sides}\qquad\frac{\cancel{2}*0}{0*\cancel{2}}\quad&\,=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
+\mathrm{Thus}\qquad\frac{0}{0}\quad&\,=\quad0
+\end{align*}
+```
+_source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)
+
+#### **Here, the second fool, which is very silly.**
+
+```math
+\begin{align*}
+\frac{0}{0}\quad&\,=\quad\frac{100-100}{100-100}\\
+\,&\,=\quad\frac{10*10-10*10}{10*10-10*10}\\
+\,&\,=\quad\frac{10^2-10^2}{10(10-10)}\\
+\,&\,=\quad\frac{(10+10)\cancel{(10-10)}}{10\cancel{(10-10)}}\\
+\,&\,=\quad\frac{20}{10}\\
+\mathrm{Thus}\qquad\frac{0}{0}\quad&\,=\quad2
+\end{align*}
+```
+_source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)
+
+Bruh, how can you divide (10 - 10) with (10 - 10)?
+
+### **Is _i_ imaginary, why _i_ = 1, then.**
+
+```math
+
+```
 
 <br><br>
 
