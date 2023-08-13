@@ -363,10 +363,12 @@ Nah, there is another $\frac{1}{i}$, but it is foolish.
 \,&\,=\quad\left(\frac{1}{-1}\right)^\frac{1}{2}\\
 \,&\,=\quad-1^\frac{1}{2}\\
 \,&\,=\quad\sqrt{-1}\\
-\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad i
+\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad i\qquad\mathrm{(fool~proof)}
 \end{align*}
 ```
 _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)
+
+Which one will you believe?
 
 <br><br>
 
