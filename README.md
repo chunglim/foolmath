@@ -200,7 +200,7 @@ a\cancel{(b-a)}\quad&\,=\quad\cancel{(b-a)}(b+a)\\
 ```
 _source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)
 
-Nah, there is another proof in high school.
+Nah, there is another proof in high school using trigonometry.
 
 #### **Solution 2**
 
@@ -323,11 +323,34 @@ _source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)
 
 Bruh, how can you divide (10 - 10) with (10 - 10)?
 
-### **Is _i_ imaginary, why _i_ = 1, then.**
+### **Who said _i_ is imaginary, why _i = 1_, then?**
 
 ```math
-
+\begin{align*}
+i\quad&\,=\quad\sqrt{-1}\\
+i^2\quad&\,=\quad \sqrt{-1}.\sqrt{-1}\\
+\,&\,=\quad\sqrt{(-1)(-1)}\\
+\,&\,=\quad\sqrt{1}\\
+i^2\quad&\,=\quad1\\
+\mathrm{Thus}\qquad i\quad&\,=\quad1
+\end{align*}
 ```
+_source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
+
+### **Let's talk more about _i_.**
+
+#### **This is the _correct proof_ of $\frac{1}{i}$**
+
+```math
+\begin{align*}
+-1\quad&\,=\quad i^2\\
+\mathrm{divided~by~i~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
+\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(correct~proof)}
+\end{align*}
+```
+_source code:_&nbsp;[correct_inv_i.tex](./src/correct_inv_i.tex)
+
+Nah, there is another $\frac{1}{i}$, but it is foolish.
 
 <br><br>
 
