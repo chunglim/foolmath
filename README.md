@@ -176,7 +176,7 @@ Is there any proof looking more advanced than these?
 ```
 _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)
 
-Can you find an error?<br>
+Can you find an error?<br><br>
 Hmm, binary no longer exists.
 
 ### **Why 1 = 2?**
@@ -267,7 +267,7 @@ From now on, what I owe you is what you owe me.
 ```
 _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
 
-Hey, what? How come, 4 = 5?<br>
+Hey, what? How come, 4 = 5?<br><br>
 There is one more simple equation. Have a look.
 
 ### **Was I wrongly taught, 2 + 5 = 8**
@@ -290,8 +290,9 @@ There is one more simple equation. Have a look.
 ```
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
 
-Do you find any errors?<br>
+Do you find any errors?<br><br>
 Who said `0` couldn't be a denominator? See the following fool proofs.
 
-<br>
+<br><br>
+
 _More to come, keep following ..._
