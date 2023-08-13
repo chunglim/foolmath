@@ -251,7 +251,7 @@ _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
 
 From now on, what I owe you is what you owe me.
 
-### **Let's see a little higher number.**
+### **Let's see a little higher number, 4 = 5.**
 
 ```math
 \begin{align*}
@@ -269,6 +269,29 @@ _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
 
 Hey, what? How come, 4 = 5?<br>
 There is one more simple equation. Have a look.
+
+### **Was I wrongly taught, 2 + 5 = 8**
+
+```math
+\begin{align*}
+2+5\quad&\,=\quad4+3\\
+\,&\,=\quad4-\frac{9}{2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{\left(4-\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{16-2.4.\frac{9}{2}+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{16-36+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{-20+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{25-45+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{25-2.5.\frac{9}{2}+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{5^2-2.5.\frac{9}{2}+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad\sqrt{\left(5-\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
+\,&\,=\quad5-\cancel{\frac{9}{2}}+\cancel{\frac{9}{2}}+3\\
+\mathrm{Thus}\qquad2+5\quad&\,=\quad8
+\end{align*}
+```
+_source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
+
+Do you find any errors?<br>
+Who said `0` couldn't be a denominator? See the following fool proofs.
 
 <br>
 _More to come, keep following ..._
