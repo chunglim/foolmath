@@ -188,17 +188,17 @@ Here, the proof I learnt in junior high school.
 #### **Solution 1**
 
 ```math
-\begin{align*}
-\mathrm{Let}\qquad a\quad&\,=\quad b\\
-*b~\mathrm{both~sides}\qquad a*b\quad&\,=\quad b*b\\
-a*b\quad&\,=\quad b^2\\
--a^2~\mathrm{both~sides}\qquad a*b-a^2\quad&\,=\quad b*b-a^2\\
-a(b-a)\quad&\,=\quad b^2-a^2\\
-a\cancel{(b-a)}\quad&\,=\quad\cancel{(b-a)}(b+a)\\
-\mathrm{since}~b=a\qquad a\quad&\,=\quad a+a\\
-\cancel{a}\quad&\,=\quad2\cancel{a}\\
-\mathrm{Thus}\qquad1\quad&\,=\quad2
-\end{align*}
+\begin{alignat*}{3}
+&\mathrm{Let}&&a&&=\quad b\\
+&*b~\mathrm{both~sides}&&a*b&&=\quad b*b\\
+&\,&&a*b&&=\quad b^2\\
+&-a^2~\mathrm{both~sides}\qquad&& a*b-a^2&&=\quad b*b-a^2\\
+&\,&&a(b-a)&&=\quad b^2-a^2\\
+&\,&&a\cancel{(b-a)}&&=\quad\cancel{(b-a)}(b+a)\\
+&\mathrm{since}~b=a&&a&&=\quad a+a\\
+&\,&&\cancel{a}&&=\quad2\cancel{a}\\
+&\mathrm{Thus}&&1&&=\quad2
+\end{alignat*}
 ```
 _source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)
 
@@ -207,16 +207,16 @@ Nah, there is another proof in high school using trigonometry.
 #### **Solution 2**
 
 ```math
-\begin{align*}
-\mathrm{Where}~x=\frac{\pi}{4}~or~\frac{5\pi}{4}\qquad\cos{x}\quad&\,=\quad\sin{x}\\
-\cos{2x}\quad&\,=\quad\sin{2x}\\
-1-2\sin^2{x}\quad&\,=\quad2\sin{x}\cos{x}\\
-\mathrm{As}~\sin{x}=\cos{x}\qquad1-2\sin^2{x}\quad&\,=\quad2\cos{x}\cos{x}\\
-\,&\,=\quad2\cos^2{x}\\
-1\,&\,=\quad2\sin^2{x}+2\cos^2{x}\\
-\,&\,=\quad2\cancelto{1}{(\sin^2{x+\cos^2{x}})}\\
-\mathrm{Thus}\qquad1\quad&\,=\quad2
-\end{align*}
+\begin{alignat*}{3}
+&\mathrm{Where}~x=\frac{\pi}{4}~or~\frac{5\pi}{4}\qquad&&\cos{x}&&=\quad\sin{x}\\
+&\,&&\cos{2x}&&=\quad\sin{2x}\\
+&\,&&1-2\sin^2{x}&&=\quad2\sin{x}\cos{x}\\
+&\mathrm{As}~\sin{x}=\cos{x}\qquad&&1-2\sin^2{x}&&=\quad2\cos{x}\cos{x}\\
+&\,&&\,&&=\quad2\cos^2{x}\\
+&\,&&1&&=\quad2\sin^2{x}+2\cos^2{x}\\
+&\,&&\,&&=\quad2\cancelto{1}{(\sin^2{x+\cos^2{x}})}\\
+&\mathrm{Thus}&&1&&=\quad2
+\end{alignat*}
 ```
 _source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)
 
@@ -256,16 +256,16 @@ From now on, what I owe you is what you owe me.
 ### **Let's see a little higher number, 4 = 5.**
 
 ```math
-\begin{align*}
--20\quad&\,=\quad-20\\
-16-36\quad&\,=\quad25-45\\
-4^2-4*9\quad&\,=\quad5^2-5*9\\
-+\frac{81}{4}\mathrm{both~sides}\qquad4^2-4*9+\frac{81}{4}\quad&\,=\quad5^2-5*9+\frac{81}{4}\\
-4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2\quad&\,=\quad5^2-2*5*\frac{9}{2}+\left(\frac{9}{2}\right)^2\\
-\left(4-\frac{9}{2}\right)^2\quad&\,=\quad\left(5-\frac{9}{2}\right)^2\\
-\sqrt{}~\mathrm{both~sides}\qquad4-\cancel{\frac{9}{2}}\quad&\,=\quad5-\cancel{\frac{9}{2}}\\
-\mathrm{Thus}\qquad4\quad&\,=\quad5
-\end{align*}
+\begin{alignat*}{3}
+&\,&&-20&&=\quad-20\\
+&\,&&16-36&&=\quad25-45\\
+&\,&&4^2-4*9&&=\quad5^2-5*9\\
+&+\frac{81}{4}\mathrm{both~sides}\qquad&&4^2-4*9+\frac{81}{4}&&=\quad5^2-5*9+\frac{81}{4}\\
+&\,&&4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2&&=\quad5^2-2*5*\frac{9}{2}+\left(\frac{9}{2}\right)^2\\
+&\,&&\left(4-\frac{9}{2}\right)^2&&=\quad\left(5-\frac{9}{2}\right)^2\\
+&\sqrt{}~\mathrm{both~sides}&&4-\cancel{\frac{9}{2}}&&=\quad5-\cancel{\frac{9}{2}}\\
+&\mathrm{Thus}&&4&&=\quad5
+\end{alignat*}
 ```
 _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
 
@@ -316,7 +316,7 @@ There is one more simple equation. Have a look.
 \,&\,=\quad\sqrt{5^2-2.5.\frac{9}{2}+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
 \,&\,=\quad\sqrt{\left(5-\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
 \,&\,=\quad5-\cancel{\frac{9}{2}}+\cancel{\frac{9}{2}}+3\\
-\\mathrm{Thus}\qquad2+5\quad&\,=\quad8
+\mathrm{Thus}\qquad2+5\quad&\,=\quad8
 \end{align*}
 ```
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
