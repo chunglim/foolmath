@@ -189,15 +189,15 @@ Here, the proof I learnt in junior high school.
 
 ```math
 \begin{alignat*}{3}
-&\mathrm{Let}&&a&&=\quad b\\
+&\mathrm{Let}&&\qquad a&&=\quad b\\
 &*b~\mathrm{both~sides}&&a*b&&=\quad b*b\\
 &\,&&a*b&&=\quad b^2\\
 &-a^2~\mathrm{both~sides}\qquad&& a*b-a^2&&=\quad b*b-a^2\\
 &\,&&a(b-a)&&=\quad b^2-a^2\\
 &\,&&a\cancel{(b-a)}&&=\quad\cancel{(b-a)}(b+a)\\
-&\mathrm{since}~b=a&&a&&=\quad a+a\\
-&\,&&\cancel{a}&&=\quad2\cancel{a}\\
-&\mathrm{Thus}&&1&&=\quad2
+&\mathrm{since}~b=a&&\qquad a&&=\quad a+a\\
+&\,&&\qquad\cancel{a}&&=\quad2\cancel{a}\\
+&\mathrm{Thus}&&\qquad1&&=\quad2
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)
@@ -262,7 +262,7 @@ From now on, what I owe you is what you owe me.
 &\,&&\qquad\qquad4^2-4*9&&=\quad5^2-5*9\\
 &+\frac{81}{4}\mathrm{both~sides}&&\qquad4^2-4*9+\frac{81}{4}&&=\quad5^2-5*9+\frac{81}{4}\\
 &\,&&4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2&&=\quad5^2-2*5*\frac{9}{2}+ \left(\frac{9}{2}\right)^2\\
-&\,&&\qquad\qquad\left(4-\frac{9}{2}\right)^2&&=\quad\left(5-\frac{9}{2}\right)^2\\
+&\,&&\qquad\qquad\quad\left(4-\frac{9}{2}\right)^2&&=\quad\left(5-\frac{9}{2}\right)^2\\
 &\sqrt{}~\mathrm{both~sides}&&\qquad\qquad\qquad4-\cancel{\frac{9}{2}}&&=\quad5-\cancel{\frac{9}{2}}\\
 &\mathrm{Thus}&&\qquad\qquad\qquad\qquad4&&=\quad5
 \end{alignat*}
@@ -276,23 +276,24 @@ Wait, there are something more.
 
 ```math
 \begin{alignat*}{3}
-&\,&&\frac{-1}{1}&&=\quad\frac{1}{-1}&&(1)\\
-&\,&&\sqrt{\frac{-1}{1}}&&=\quad\sqrt{\frac{1}{-1}}&&(2)\\
-&\,&&\frac{\sqrt{-1}}{\sqrt{1}}&&=\quad\frac{\sqrt{1}}{\sqrt{-1}}&&(3)\\
-&\,&&\frac{i}{1}&&=\quad\frac{1}{i}&&(4)\\
-&*\frac{1}{2}&&\frac{i}{2}&&=\quad\frac{1}{2i}&&(5)\\
-&+\frac{3}{2i}&&\frac{i}{2}+\frac{3}{2i}&&=\quad\frac{1}{2i}+\frac{3}{2i}&&(6)\\
+&\,&&\qquad\frac{-1}{1}&&=\quad\frac{1}{-1}&&(1)\\
+&\,&&\quad\sqrt{\frac{-1}{1}}&&=\quad\sqrt{\frac{1}{-1}}&&(2)\\
+&\,&&\quad\frac{\sqrt{-1}}{\sqrt{1}}&&=\quad\frac{\sqrt{1}}{\sqrt{-1}}&&(3)\\
+&\,&&\qquad\quad\frac{i}{1}&&=\quad\frac{1}{i}&&(4)\\
+&*\frac{1}{2}&&\qquad\quad\frac{i}{2}&&=\quad\frac{1}{2i}&&(5)\\
+&+\frac{3}{2i}&&\quad\frac{i}{2}+\frac{3}{2i}&&=\quad\frac{1}{2i}+\frac{3}{2i}&&(6)\\
 &*i&&i\left(\frac{i}{2}+\frac{3}{2i}\right)&&=\quad i\left(\frac{1}{2i}+\frac{3}{2i}\right)&&(7)\\
 &\,&&\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}&&=\quad\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}&&(8)\\
 &\.&&-\frac{1}{2}+\frac{3}{2}&&=\quad\frac{1}{2}+\frac{3}{2}&&(9)\\
 &\,&&\frac{-1+3}{2}&&=\quad\frac{1+3}{2}&&(10)\\
-&\,&&\frac{\cancel{2}}{\cancel{2}}&&=\quad\cancelto{2}{\frac{4}{2}}&&(11)\\
-&\,&&1&&=\quad2&&(12)\\
+&\,&&\qquad\quad\frac{\cancel{2}}{\cancel{2}}&&=\quad\cancelto{2}{\frac{4}{2}}&&(11)\\
+&\,&&\qquad\quad1&&=\quad2&&(12)\\
 &\mathrm{from~(9)}&&-\frac{1}{2}+\cancel{\frac{3}{2}}&&=\quad\frac{1}{2}+\cancel{\frac{3}{2}}&&(13)\\
-&\,&&-\frac{1}{2}&&=\quad\frac{1}{2}&&(14)\\
-&\,&&-1&&=\quad1&&(15)\\
-&+1&&-1+1&&=\quad1+1&&(16)\\
-&\,&&0&&=\quad2&&(17)\\
+% line (14): Can't add `\cancel` inside `\frac`, MathJax bug?
+&\,&&\qquad\quad-\frac{1}{2}&&=\quad\frac{1}{2}&&(14)\\
+&\,&&\qquad\quad-1&&=\quad1&&(15)\\
+&+1&&\qquad-1+1&&=\quad1+1&&(16)\\
+&\,&&\qquad\qquad0&&=\quad2&&(17)\\
 &\mathrm{from~(12),(15),(17)}\qquad&&-1~=~0&&=\quad1~=~2&&(18)
 \end{alignat*}
 ```
@@ -375,7 +376,7 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 ```math
 \begin{align*}
 -1\quad&\,=\quad i^2\\
-\mathrm{divided~by~(-i)~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
+\mathrm{/~(-i)~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
 \mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(correct~proof)}
 \end{align*}
 ```
