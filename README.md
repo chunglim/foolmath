@@ -289,7 +289,7 @@ Wait, there are something more.
 &\,&&\frac{\cancel{2}}{\cancel{2}}&&=\quad\cancelto{2}{\frac{4}{2}}&&(11)\\
 &\,&&1&&=\quad2&&(12)\\
 &\mathrm{from~(9)}&&-\frac{1}{2}+\cancel{\frac{3}{2}}&&=\quad\frac{1}{2}+\cancel{\frac{3}{2}}&&(13)\\
-&\,&&-\frac{1}{\cancel{2}}&&=\quad\frac{1}{2}&&(14)\\
+&\,&&-\frac{1}{2}&&=\quad\frac{1}{2}&&(14)\\
 &\,&&-1&&=\quad1&&(15)\\
 &+1&&-1+1&&=\quad1+1&&(16)\\
 &\,&&0&&=\quad2&&(17)\\
