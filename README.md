@@ -276,6 +276,9 @@ Wait, there are something more.
 
 ```math
 \begin{alignat*}{3}
+&\,&&\frac{-1}{1}&&=\quad\frac{1}{-1}&&(1)\\
+&\,&&\sqrt{\frac{-1}{1}}&&=\quad\sqrt{\frac{1}{-1}}&&(2)\\
+&\,&&\frac{\sqrt{-1}}{\sqrt{1}}&&=\quad\frac{\sqrt{1}}{\sqrt{-1}}&&(3)\\
 &\,&&\frac{i}{1}&&=\quad\frac{1}{i}&&(4)\\
 &*\frac{1}{2}&&\frac{i}{2}&&=\quad\frac{1}{2i}&&(5)\\
 &\,&&0&&=\quad2&&(17)\\
