@@ -190,8 +190,8 @@ Here, the proof I learnt in junior high school.
 ```math
 \begin{alignat*}{3}
 &\mathrm{Let}&&\qquad a&&=\quad b\\
-&*b~\mathrm{both~sides}&&a*b&&=\quad b*b\\
-&\,&&a*b&&=\quad b^2\\
+&*b~\mathrm{both~sides}&&\quad a*b&&=\quad b*b\\
+&\,&&\quad a*b&&=\quad b^2\\
 &-a^2~\mathrm{both~sides}\qquad&& a*b-a^2&&=\quad b*b-a^2\\
 &\,&&a(b-a)&&=\quad b^2-a^2\\
 &\,&&a\cancel{(b-a)}&&=\quad\cancel{(b-a)}(b+a)\\
@@ -330,12 +330,12 @@ Who said `0` couldn't be a denominator? See the following fool proofs.
 #### **Let's see the first fool.**
 
 ```math
-\begin{align*}
-\mathrm{Let}\qquad\frac{2}{0}\quad&\,=\quad\frac{x}{1}\\
-\mathrm{*~0~both~sides}\qquad\frac{2*0}{0}\quad&\,=\quad\frac{x*0}{1}\\
-\mathrm{/~2~both~sides}\qquad\frac{\cancel{2}*0}{0*\cancel{2}}\quad&\,=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
-\mathrm{Thus}\qquad\frac{0}{0}\quad&\,=\quad0
-\end{align*}
+\begin{alignat*}{3}
+&\mathrm{Let}&&\qquad\quad\frac{2}{0}&&=\quad\frac{x}{1}\\
+&\mathrm{*~0~both~sides}&&\qquad\frac{2*0}{0}&&=\quad\frac{x*0}{1}\\
+&\mathrm{/~2~both~sides}&&\qquad\frac{\cancel{2}*0}{0*\cancel{2}}&&=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
+&\mathrm{Thus}&&\qquad\quad\frac{0}{0}&&=\quad0
+\end{alignat*}
 ```
 _source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)
 
