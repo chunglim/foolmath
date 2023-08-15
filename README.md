@@ -208,14 +208,14 @@ Nah, there is another proof in high school using trigonometry.
 
 ```math
 \begin{alignat*}{3}
-&\mathrm{Where}~x=\frac{\pi}{4}~or~\frac{5\pi}{4}\qquad&&\cos{x}&&=\quad\sin{x}\\
-&\,&&\cos{2x}&&=\quad\sin{2x}\\
+&\mathrm{Where}~x=\frac{\pi}{4}~or~\frac{5\pi}{4}\qquad&&\qquad\cos{x}&&=\quad\sin{x}\\
+&\,&&\qquad\cos{2x}&&=\quad\sin{2x}\\
 &\,&&1-2\sin^2{x}&&=\quad2\sin{x}\cos{x}\\
 &\mathrm{As}~\sin{x}=\cos{x}\qquad&&1-2\sin^2{x}&&=\quad2\cos{x}\cos{x}\\
 &\,&&\,&&=\quad2\cos^2{x}\\
-&\,&&1&&=\quad2\sin^2{x}+2\cos^2{x}\\
+&\,&&\qquad\quad1&&=\quad2\sin^2{x}+2\cos^2{x}\\
 &\,&&\,&&=\quad2\cancelto{1}{(\sin^2{x+\cos^2{x}})}\\
-&\mathrm{Thus}&&1&&=\quad2
+&\mathrm{Thus}&&\qquad\quad1&&=\quad2
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)
@@ -257,14 +257,14 @@ From now on, what I owe you is what you owe me.
 
 ```math
 \begin{alignat*}{3}
-&\,&&-20&&=\quad-20\\
-&\,&&16-36&&=\quad25-45\\
-&\,&&4^2-4*9&&=\quad5^2-5*9\\
-&+\frac{81}{4}\mathrm{both~sides}\qquad&&4^2-4*9+\frac{81}{4}&&=\quad5^2-5*9+\frac{81}{4}\\
-&\,&&4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2&&=\quad5^2-2*5*\frac{9}{2}+\left(\frac{9}{2}\right)^2\\
-&\,&&\left(4-\frac{9}{2}\right)^2&&=\quad\left(5-\frac{9}{2}\right)^2\\
-&\sqrt{}~\mathrm{both~sides}&&4-\cancel{\frac{9}{2}}&&=\quad5-\cancel{\frac{9}{2}}\\
-&\mathrm{Thus}&&4&&=\quad5
+&\,&&\qquad\qquad\qquad-20&&=\quad-20\\
+&\,&&\qquad\qquad\quad16-36&&=\quad25-45\\
+&\,&&\qquad\qquad4^2-4*9&&=\quad5^2-5*9\\
+&+\frac{81}{4}\mathrm{both~sides}&&\qquad4^2-4*9+\frac{81}{4}&&=\quad5^2-5*9+\frac{81}{4}\\
+&\,&&4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2&&=\quad5^2-2*5*\frac{9}{2}+ \left(\frac{9}{2}\right)^2\\
+&\,&&\qquad\qquad\left(4-\frac{9}{2}\right)^2&&=\quad\left(5-\frac{9}{2}\right)^2\\
+&\sqrt{}~\mathrm{both~sides}&&\qquad\qquad\qquad4-\cancel{\frac{9}{2}}&&=\quad5-\cancel{\frac{9}{2}}\\
+&\mathrm{Thus}&&\qquad\qquad\qquad\qquad4&&=\quad5
 \end{alignat*}
 ```
 _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
@@ -331,8 +331,8 @@ Who said `0` couldn't be a denominator? See the following fool proofs.
 ```math
 \begin{align*}
 \mathrm{Let}\qquad\frac{2}{0}\quad&\,=\quad\frac{x}{1}\\
-\mathrm{Multiply~0~both~sides}\qquad\frac{2*0}{0}\quad&\,=\quad\frac{x*0}{1}\\
-\mathrm{Divide~2~both~sides}\qquad\frac{\cancel{2}*0}{0*\cancel{2}}\quad&\,=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
+\mathrm{*~0~both~sides}\qquad\frac{2*0}{0}\quad&\,=\quad\frac{x*0}{1}\\
+\mathrm{/~2~both~sides}\qquad\frac{\cancel{2}*0}{0*\cancel{2}}\quad&\,=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
 \mathrm{Thus}\qquad\frac{0}{0}\quad&\,=\quad0
 \end{align*}
 ```
