@@ -286,6 +286,9 @@ Wait, there are something more.
 &\,&&\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}&&=\quad\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}&&(8)\\
 &\.&&-\frac{1}{2}+\frac{3}{2}&&=\quad\frac{1}{2}+\frac{3}{2}&&(9)\\
 &\,&&\frac{-1+3}{2}&&=\quad\frac{1+3}{2}&&(10)\\
+&\,&&\frac{\cancel{2}}{\cancel{2}}&&=\quad\cancelto{2}{\frac{4}{2}}&&(11)\\
+&\,&&1&&=\quad2&&(12)\\
+&\mathrm{from~(9)}&&-\frac{1}{2}+\cancel{\frac{3}{2}}&&=\quad\frac{1}{2}+\cancel{\frac{3}{2}}&&(13)\\
 &\,&&0&&=\quad2&&(17)\\
 &\mathrm{from~(12),(15),(17)}\qquad&&-1~=~0&&=\quad1~=~2&&(18)
 \end{alignat*}
