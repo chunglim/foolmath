@@ -284,6 +284,8 @@ Wait, there are something more.
 &+\frac{3}{2i}&&\frac{i}{2}+\frac{3}{2i}&&=\quad\frac{1}{2i}+\frac{3}{2i}&&(6)\\
 &*i&&i\left(\frac{i}{2}+\frac{3}{2i}\right)&&=\quad i\left(\frac{1}{2i}+\frac{3}{2i}\right)&&(7)\\
 &\,&&\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}&&=\quad\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}&&(8)\\
+&\.&&-\frac{1}{2}+\frac{3}{2}&&=\quad\frac{1}{2}+\frac{3}{2}&&(9)\\
+&\,&&\frac{-1+3}{2}&&=\quad\frac{1+3}{2}&&(10)\\
 &\,&&0&&=\quad2&&(17)\\
 &\mathrm{from~(12),(15),(17)}\qquad&&-1~=~0&&=\quad1~=~2&&(18)
 \end{alignat*}
