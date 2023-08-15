@@ -274,24 +274,24 @@ Wait, there are something more.
 
 ### **Are all intergers equal?**
 
-(01) $\frac{-1}{1}\quad=\quad\frac{1}{-1}$<br>
-(02) $\sqrt{\frac{-1}{1}}\quad=\quad\sqrt{\frac{1}{-1}}$<br>
-(03) $\frac{\sqrt{-1}}{\sqrt{1}}\quad=\quad\frac{\sqrt{1}}{\sqrt{-1}}$<br>
-(04) $\frac{i}{1}\quad=\quad\frac{1}{i}$<br>
-(05) $*\,\frac{1}{2}~both~sides\qquad\frac{i}{2}\quad=\quad\frac{1}{2i}$<br>
-(06) $+\frac{3}{2i}~both~sides\qquad\frac{i}{2}+\frac{3}{2i}\quad=\quad\frac{1}{2i}+\frac{3}{2i}$<br>
-(07) $*~i~both~sides\qquad i\left(\frac{i}{2}+\frac{3}{2i}\right)\quad=\quad i\left(\frac{1}{2i}+\frac{3}{2i}\right)$<br>
-(08) $\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}\quad=\quad\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}$<br>
-(09) $-\frac{1}{2}+\frac{3}{2}\quad=\quad\frac{1}{2}+\frac{3}{2}$<br>
-(10) $\frac{-1+3}{2}\quad=\quad\frac{1+3}{2}$<br>
-(11) $\frac{\cancel{2}}{\cancel{2}}\quad=\quad\cancelto{2}{\frac{4}{2}}$<br>
-(12) $1\quad=\quad2$<br>
-(13) $from~(09)\qquad-\frac{1}{2}+\cancel{\frac{3}{2}}\quad=\quad\frac{1}{2}+\cancel{\frac{3}{2}}$<br>
-(14) $-\frac{1}{\cancel{2}}\quad=\quad\frac{1}{\cancel{2}}$<br>
-(15) $-1\quad=\quad1$<br>
-(16) $+1~both~sides\qquad-1+1\quad=\quad1+1$<br>
-(17) $0\quad=\quad2$<br>
-(18) $from~(12),(15),(17)1~=~0~=~1~=~2$<br>
+(01) $ \frac{-1}{1}\quad=\quad\frac{1}{-1} $<br>
+(02) $ \sqrt{\frac{-1}{1}}\quad=\quad\sqrt{\frac{1}{-1}} $<br>
+(03) $ \frac{\sqrt{-1}}{\sqrt{1}}\quad=\quad\frac{\sqrt{1}}{\sqrt{-1}} $<br>
+(04) $ \frac{i}{1}\quad=\quad\frac{1}{i} $<br>
+(05) $ *\,\frac{1}{2}\mathrm{~both~sides}\qquad\frac{i}{2}\quad=\quad\frac{1}{2i} $<br>
+(06) $ +\frac{3}{2i}\mathrm{~both~sides}\qquad\frac{i}{2}+\frac{3}{2i}\quad=\quad\frac{1}{2i}+\frac{3}{2i} $<br>
+(07) $ *~i~\mathrm{both~sides}\qquad i\left(\frac{i}{2}+\frac{3}{2i}\right)\quad=\quad i\left(\frac{1}{2i}+\frac{3}{2i}\right) $<br>
+(08) $ \frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}\quad=\quad\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}} $<br>
+(09) $ -\frac{1}{2}+\frac{3}{2}\quad=\quad\frac{1}{2}+\frac{3}{2} $<br>
+(10) $ \frac{-1+3}{2}\quad=\quad\frac{1+3}{2} $<br>
+(11) $ \frac{\cancel{2}}{\cancel{2}}\quad=\quad\cancelto{2}{\frac{4}{2}} $<br>
+(12) $ 1\quad=\quad2 $<br>
+(13) $ \mathrm{from~(09)}\qquad-\frac{1}{2}+\cancel{\frac{3}{2}}\quad=\quad\frac{1}{2}+\cancel{\frac{3}{2}} $<br>
+(14) $ -\frac{1}{\cancel{2}}\quad=\quad\frac{1}{\cancel{2}} $<br>
+(15) $ -1\quad=\quad1 $<br>
+(16) $ +1\mathrm{~both~sides}\qquad-1+1\quad=\quad1+1 $<br>
+(17) $ 0\quad=\quad2 $<br>
+(18) $ \mathrm{from~(12),(15),(17)}1~=~0~=~1~=~2 $<br>
 _source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)
 
 It is very articulate, indeed.<br><br>
@@ -312,7 +312,7 @@ There is one more simple equation. Have a look.
 \,&\,=\quad\sqrt{5^2-2.5.\frac{9}{2}+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
 \,&\,=\quad\sqrt{\left(5-\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
 \,&\,=\quad5-\cancel{\frac{9}{2}}+\cancel{\frac{9}{2}}+3\\
-\Thus\qquad2+5\quad&\,=\quad8
+\\mathrm{Thus}\qquad2+5\quad&\,=\quad8
 \end{align*}
 ```
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
