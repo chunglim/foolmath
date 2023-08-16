@@ -402,6 +402,22 @@ _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)
 
 Which one will you believe?
 
+### **$i=\pm1, isn't it?$
+
+```math
+\begin{align*}
+i^2\qquad&\,=\qquad-1\\
+i*i\qquad&\,=\qquad-1\\
+i\qquad&\,=\qquad\frac{-1}{i}\\
+i=\frac{-1}{i}&\,=\frac{-1}{\frac{-1}{i}}=\frac{-1}{\frac{-1}{\frac{-1}{i}}}=...\\
+i\qquad&\,=\qquad(-1)^\infty\\
+\mathrm{Thus}\qquad i\qquad&\,=\qquad\pm1
+\end{align*}
+```
+_source code:_&nbsp;[./src/i_eq_pm1.tex](./src/i_eq_pm1.tex)
+
+Whatever it is, but it is not imaginary, anyway.
+
 <br><br>
 
 _More to come, keep following ..._
