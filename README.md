@@ -414,7 +414,7 @@ i\qquad&\,=\qquad(-1)^\infty\\
 \mathrm{Thus}\qquad i\qquad&\,=\qquad\pm1
 \end{align*}
 ```
-_source code:_&nbsp;[./src/i_eq_pm1.tex](./src/i_eq_pm1.tex)
+_source code:_&nbsp;[i_eq_pm1.tex](./src/i_eq_pm1.tex)
 
 Whatever it is, but it is not imaginary, anyway.
 
@@ -434,7 +434,7 @@ Whatever it is, but it is not imaginary, anyway.
 \mathrm{Thus}\qquad\infty\qquad&\,=\qquad\frac{-3\pm\sqrt{3}}{6}
 \end{align*}
 ```
-_source code:_&nbsp;[./src/infty.tex](./src/infty.tex)
+_source code:_&nbsp;[infty.tex](./src/infty.tex)
 
 Here, $\infty$ is so small, you see?
 
@@ -449,13 +449,12 @@ Here, $\infty$ is so small, you see?
 &\,&&\,&&=\qquad(1+1)(1^2-1^2)\\
 &\,&&\,&&=\qquad(1+1)(1+1)(1-1)\\
 &\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
-&\,&&\quad0&&=\qquad(1+1)^n...(1-1)\\
-&\mathrm{Thus}\,&&\quad0&&=\qquad2^n*0\\
+&\,&&\quad0&&=\qquad(1+1)^\infty*(1-1)\\
+&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\\
 \end{alignat*}
 ```
-_source code:_&nbsp;[./src/0_even.tex](./src/0_even.tex)
-
-Any number being a multiple of `2` is **always** `even`.
+Any number being a multiple of `2` is **always** `even`.<br>
+_source code:_&nbsp;[0_even.tex](./src/0_even.tex)
 
 <br><br>
 
