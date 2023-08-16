@@ -440,6 +440,8 @@ Here, $\infty$ is so small, you see?
 
 ### **Is 0 an even number?**
 
+This proof is known to be correct!
+
 ```math
 \begin{alignat*}{3}
 &\,&&\quad0\qquad&&=\qquad0\\
@@ -450,7 +452,7 @@ Here, $\infty$ is so small, you see?
 &\,&&\,&&=\qquad(1+1)(1+1)(1-1)\\
 &\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
 &\,&&\quad0&&=\qquad(1+1)^\infty*(1-1)\\
-&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\\
+&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(correct~proof)}\\
 \end{alignat*}
 ```
 Any number being a multiple of `2` is **always** `even`.<br>
