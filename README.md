@@ -418,6 +418,26 @@ _source code:_&nbsp;[./src/i_eq_pm1.tex](./src/i_eq_pm1.tex)
 
 Whatever it is, but it is not imaginary, anyway.
 
+### **How much is $\infty$?**
+
+```math
+\begin{align*}
+-\frac{1}{12}\qquad&\,=\qquad1+2+3+...+\infty\\
+\,&\,=\qquad\frac{\infty(\infty+1)}{2}\\
+-1\qquad&\,=\qquad6\infty(\infty+1)\\
+0\qquad&\,=\qquad6\infty^2+6\infty+1\\
+\infty\qquad&\,=\qquad\frac{-6\pm\sqrt{6^2-4*6*1}}{2*6}\\
+\,&\,=\qquad\frac{-6\pm\sqrt{36-24}}{12}\\
+\,&\,=\qquad\frac{-6\pm\sqrt{12}}{12}\\
+\,&\,=\qquad\frac{-6\pm\sqrt{2^2*3}}{12}\\
+\,&\,=\qquad\frac{-6\pm2\sqrt{3}}{12}\\
+\mathrm{Thus}\qquad\infty\qquad&\,=\qquad\frac{-3\pm\sqrt{3}}{6}
+\end{align*}
+```
+_source code:_&nbsp;[./src/infty.tex](./src/infty.tex)
+
+Here, $\infty$ is so small, you see?
+
 <br><br>
 
 _More to come, keep following ..._
