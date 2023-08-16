@@ -438,6 +438,25 @@ _source code:_&nbsp;[./src/infty.tex](./src/infty.tex)
 
 Here, $\infty$ is so small, you see?
 
+### **Is 0 an even number?**
+
+```math
+\begin{alignat*}{3}
+&\,&&\quad0\qquad&&=\qquad0\\
+&\,&&\,&&=\qquad1-1\\
+&\,&&\,&&=\qquad1^2-1^2\\
+&\,&&\,&&=\qquad(1+1)(1-1)\\
+&\,&&\,&&=\qquad(1+1)(1^2-1^2)\\
+&\,&&\,&&=\qquad(1+1)(1+1)(1-1)\\
+&\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
+&\,&&\quad0&&=\qquad(1+1)^n...(1-1)\\
+&\mathrm{Thus}\,&&\quad0&&=\qquad2^n*0\\
+\end{alignat*}
+```
+_source code:_&nbsp;[./src/0_even.tex](./src/0_even.tex)
+
+Any number being a multiple of `2` is **always** `even`.
+
 <br><br>
 
 _More to come, keep following ..._
