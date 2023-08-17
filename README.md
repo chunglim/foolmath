@@ -1,31 +1,17 @@
-# Welcome to the `foolmath` Repository!
+# Welcome to the `foolmath` repository!
 
-<!-- # ![FoolMath Logo](link_to_logo_image) -->
+<!-- # ![foolmath logo](link_to_logo_image) -->
 
-## What is FoolMath?
+## What is foolmath?
 
-Have you ever encountered a mathematical fool proofs? Those seem so ponder, counterintuitive and absurd. Some of them are quirky, while many of them are backed by impeccable logic? That's what **`foolmath`** is all about! Our repository is a treasure trove or collection of mind-bending demonstrations that challenge your preconceptions about numbers, geometry, algebra, calculus and more that will leave you scratching your head.
-
-## Why You'll Love FoolMath:
-
-- **Entertainment and Education Combined:** Engage in a unique blend of amusement and learning. There proofs might seem ridiculous at first glance, but they'll also reveal hidden insights about mathematical concepts.
-
-- **Thought-Provoking Discussions:** Dive into discussions that dissect the nuances of each fool proof. Share your thoughts, arguments, and counterarguments with fellow enthusiasts.
-
-- **Expand Your Mathematical Horizons:** Push the boundaries of your mathematical knowledge by exploring the unconventional, and sometimes absurd, side of math.
-
-## How to Get Involved:
-
-1. **Explore the Foolishness:** Browse through our collection of fool proofs. Brace yourself for a rollercoaster ride and head-scratching confusion.
-
-2. **Join the Discussion:** Find errors or oversights in each proof. Connect with fellow math aficionados, puzzle enthusiasts, and those who thrive on intellectual entertainment. Let's redefine the way we perceive mathematical truths! Each fool proof comes with a dedicated discussion section. Share your insights, ideas, and even your frustrations. The more perspectives, the merrier!
-
-3. **Contribute Your Own Maths Paradox Proofs:** Do you have a mind-boggling mathematical demonstration that you'd like to share? I encourage contributions from all levels of mathematical enthusiasts.
+Are you a fellow math aficionado or enthusiast? Have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **`foolmath`** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof.
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
-2. Code of plain-text LaTeX `.tex` files are in `src/`.
+2. Code of plain-text LaTeX `.tex` files is in `src/`.
 3. Best view on any browsers, `GitHub` app on mobile devices doesn't render LaTeX.
+
+**Proofs are loader than words.**
 
 ## Let's start!
 
@@ -457,6 +443,21 @@ This proof is known to be correct!
 ```
 Any number being a multiple of `2` is **always** `even`.<br>
 _source code:_&nbsp;[0_even.tex](./src/0_even.tex)
+
+### **Solve _x_ for _x+2=x_.**
+
+```math
+\begin{align*}
+x+2\qquad&\,=\qquad x\\
+(x+2)^2\qquad&\,=\qquad x^2\\
+\cancel{x^2}+4x+4\qquad&\,=\qquad \cancel{x^2}\\
+4x\qquad&\,=\qquad-4\\
+\mathrm{Thus}\qquad x\qquad&\,=\qquad-1
+\end{align*}
+```
+_source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)
+
+Even a silly equation always has the solution.
 
 <br><br>
 
