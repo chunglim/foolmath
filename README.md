@@ -11,7 +11,7 @@ Are you a fellow math aficionado or enthusiast? Have you ever encountered a math
 2. Code of plain-text LaTeX `.tex` files is in `src/`.
 3. Best view on any browsers, `GitHub` app on mobile devices doesn't render LaTeX.
 
-**Proofs are loader than words.**
+**Proofs are louder than words.**
 
 ## Let's start!
 
