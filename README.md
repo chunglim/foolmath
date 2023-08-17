@@ -457,7 +457,7 @@ x+2\qquad&\,=\qquad x\\
 ```
 _source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)
 
-Even a silly equation always has the solution.
+A silly equation always has the solution.
 
 <br><br>
 
