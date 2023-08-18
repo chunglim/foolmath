@@ -478,6 +478,36 @@ Now, have a look at the sane proof of _Euler's identity_.
 ```
 _source code:_&nbsp;[euler.tex](./src/euler.tex)
 
+Euler's identity shall be used in the other proofs (whether sane or fool).<br>
+Let's see the first fool proofs using Euler's identity.
+
+### **$e^x=1$, no matter what $x$ maybe**
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad e^x&&=\quad e^{i\pi.2\frac{x}{i\pi.2}}\\
+&\,&&\,&&=\quad(e^{i\pi})^{2\frac{x}{2i\pi}}\\
+&\,&&\,&&=\quad(-1)^{2\frac{x}{2i\pi}}\\
+&\,&&\quad e^x&&=\quad1^\frac{x}{2i\pi}\qquad&&(1)\\
+&\mathrm{as}\qquad&&\quad e^{i\pi}&&=\quad-1\\
+&\,&&\ln{e^{i\pi}}&&=\quad\ln{(-1)}\\
+&\,&&i\pi\cancelto{1}{\ln{e}}&&=\quad\ln{(-1)}\\
+&\,&&\quad i\pi&&=\quad\ln{(-1)}\qquad&&(2)\\
+&\mathrm{from~(1)}\qquad&&\quad e^x&&=\quad1^\frac{x}{2\ln(-1)}\\
+&\,&&\,&&=\quad1^\frac{x}{\ln(-1^2)}\\
+&\,&&\,&&=\quad1^\frac{x}{\cancelto{0}{\ln{1}}}\\
+&\,&&\,&&=\quad1^\frac{x}{0}\\
+&\,&&\,&&=\quad1^\infty\\
+&\mathrm{Thus}\qquad&&\quad e^x&&=\quad1\qquad\mathrm{(so~foolish)}
+\end{alignat*}
+```
+_source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)
+
+Bruh, how can you evaluate $1^\infty$ to $1$?<br><br>
+Now, let's see the value of $\frac{circumference}{diameter}$.
+
+<!-- ### **$\pi=0$** -->
+
 <br><br>
 
 _More to come, keep following ..._
