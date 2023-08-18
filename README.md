@@ -503,8 +503,8 @@ Let's see the first fool proofs using Euler's identity.
 ```
 _source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)
 
-Bruh, how can you evaluate $1^\infty$ to $1$?<br><br>
-Now, let's see the value of $\frac{circumference}{diameter}$.
+Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br><br>
+Now, let's see the value of $\frac{circumference}{diameter}$, you know.
 
 <!-- ### **$\pi=0$** -->
 
