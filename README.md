@@ -357,16 +357,16 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 
 ### **Let's talk more about _i_.**
 
-#### **This is the _correct proof_ of $\frac{1}{i}$.**
+#### **This is the _sane proof_ of $\frac{1}{i}$.**
 
 ```math
 \begin{align*}
 -1\quad&\,=\quad i^2\\
 \mathrm{/~(-i)~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
-\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(correct~proof)}
+\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(sane~proof)}
 \end{align*}
 ```
-_source code:_&nbsp;[inv_i_correct.tex](./src/inv_i_correct.tex)
+_source code:_&nbsp;[inv_i_sane.tex](./src/inv_i_sane.tex)
 
 Nah, there is another $\frac{1}{i}$, but it is foolish.
 
@@ -438,7 +438,7 @@ This proof is known to be correct!
 &\,&&\,&&=\qquad(1+1)(1+1)(1-1)\\
 &\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
 &\,&&\quad0&&=\qquad(1+1)^\infty*(1-1)\\
-&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(correct~proof)}\\
+&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(sane~proof)}\\
 \end{alignat*}
 ```
 Any number being a multiple of `2` is **always** `even`.<br>
@@ -459,7 +459,7 @@ _source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)
 
 A silly equation always has the solution.
 
-Now, have a look at the correct proof of _Euler's identity_.
+Now, have a look at the sane proof of _Euler's identity_.
 
 ### **$e^{i\pi}=?$, also known as Euler's identity**
 
@@ -473,7 +473,7 @@ Now, have a look at the correct proof of _Euler's identity_.
 &\,&&\,&&=\rlap{\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-...\right)+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\right)}\\
 &\,&&e^{ix}&&=\cos{x}+i\sin{x}\\
 &\,&&e^{ix}&&=\cos{\pi}+\cancelto{0}{i\sin{\pi}}\\
-&\mathrm{Thus}\quad&&e^{i\pi}&&=-1\qquad\mathrm{(correct~proof)}
+&\mathrm{Thus}\quad&&e^{i\pi}&&=-1\qquad\mathrm{(sane~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[euler.tex](./src/euler.tex)
