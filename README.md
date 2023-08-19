@@ -506,7 +506,52 @@ _source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)
 Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br><br>
 Now, let's see the value of $\frac{circumference}{diameter}$, you know.
 
-<!-- ### **$\pi=0$** -->
+### **$\pi=0$**
+
+#### **Solution 1**
+
+```math
+\begin{alignat*}{3}
+&\,&&\,\quad e^{i\pi}&&\,=\qquad-1\\
+&\,&&\,\ln{e^{i\pi}}&&\,=\qquad\ln{(-1)}\\
+&\,&&\,i\pi\cancelto{1}{\ln e}&&\,=\qquad\ln{(-1)}\\
+&\,&&\,\quad\pi&&\,=\qquad\frac{\ln{(-1)}}{i}\\
+&\,&&\,&&\,=\qquad\frac{2\ln{(-1)}}{2i}\\
+&\,&&\,&&\,=\qquad\frac{\ln{(-1)^2}}{2i}\\
+&\,&&\,&&\,=\qquad\frac{\cancelto{0}{\ln{1}}}{2i}\\
+&\mathrm{Thus}\qquad&&\,\quad\pi&&\,=\qquad0
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_0_0.tex](./src/pi_eq_0_0.tex)
+
+If you don't believe, yet there are another proof.
+
+#### **Solution 2**
+
+```math
+\begin{alignat*}{4}
+&\,&&\qquad e^{i\pi}&&\,=\qquad-1\\
+&\,&&\qquad (e^{i\pi})^2&&\,=\qquad(-1)^2\\
+&\,&&\qquad e^{2i\pi}&&\,=\qquad1&&\qquad(1)\\
+&\,&&\qquad e^{2i\pi}.e&&\,=\qquad e\\
+&\,&&\qquad e^{2i\pi+1}&&\,=\qquad e\\
+&\,&&\left(e^{2i\pi+1}\right)^{2i\pi+1}&&\,=\qquad e^{2i\pi+1}\\
+&\,&&e^{(2i\pi+1)(2i\pi+1)}&&\,=\qquad e^{2i\pi}.e\\
+&\mathrm{from~(1)}\qquad&&e^{(2i\pi+1)(2i\pi+1)}&&\,=\qquad1e\\
+&\,&&e^{(2i\pi)^2+2.2i\pi+1^2}&&\,=\qquad e\\
+&\,&&e^{(-4\pi^2+4i\pi+1)}&&\,=\qquad e\\
+&\,&&e^{-4\pi^2}.e^{4i\pi}.\cancel{e}&&\,=\qquad\cancel{e}\\
+&\,&&e^{-4\pi^2}.e^{4i\pi}&&\,=\qquad1\\
+&\,&&e^{-4\pi^2}.e^{i\pi.2.2}&&\,=\qquad1\\
+&\,&&e^{-4\pi^2}.(-1)^{2.2}&&\,=\qquad1\\
+&\,&&\quad e^{-4\pi^2}.\cancel{1}^2&&\,=\qquad\cancel{1}\\
+&\,&&\quad \ln{(e^{-4\pi^2})}&&\,=\qquad\ln1\\
+&\,&&-4\pi^2\cancelto{1}{\ln{(e)}}&&\,=\qquad0\\
+&\,&&\qquad \pi^2&&\,=\qquad0\\
+&\mathrm{Thus}&&\qquad \pi&&\,=\qquad0
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)
 
 <br><br>
 
