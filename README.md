@@ -506,7 +506,7 @@ _source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)
 Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br><br>
 Now, let's see the value of $\frac{circumference}{diameter}$, you know.
 
-### **$\pi=0$**
+### **How much is $\pi$?**
 
 #### **Solution 1**
 
@@ -552,6 +552,47 @@ If you don't believe, yet there are another proof.
 \end{alignat*}
 ```
 _source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)
+
+Wait, $\pi$ is probably something else.
+
+#### **Solution 3**
+
+```math
+\begin{alignat*}{4}
+&\,&&\quad e^{i\pi}&&\,=\quad-1\\
+&\,&&\ln{e^{i\pi}}&&\,=\quad\ln{(-1)}\\
+&\,&&i\pi\cancelto{1}{\ln{e}}&&\,=\quad\ln{(-1)}\\
+&\,&&\quad1^{i\pi}&&\,=\quad1^{\ln{(-1)}}\\
+&\,&&\quad(1^\pi)^i&&\,=\quad1^{\ln{(-1)}}\\
+&\,&&\quad1^i&&\,=\quad1^{\ln{(-1)}}\\
+&\,&&\log_{1}1^i&&\,=\quad\log_{1}1^{\ln{(-1)}}\\
+&\,&&i\log_{1}1&&\,=\quad\ln{(-1)}\log_{1}1\\
+&\,&&\quad i&&\,=\quad\ln{(-1)}\\
+&\,&&\quad i&&\,=\quad\ln{(e^{i\pi})}\\
+&\,&&\quad\cancel{i}&&\,=\quad\cancel{i}\pi\cancelto{1}{\ln{e}}\\
+&\mathrm{Thus}\qquad&&\quad\pi&&\,=\qquad1
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)
+
+Yet, there is another silly proof.
+
+#### **Solution 4**
+
+```math
+\begin{alignat*}{4}
+\rlap{\mathrm{Rotate~6~by~180}^\circ\mathrm{,~it~will~be~9.}}\\
+\rlap{\mathrm{Rotate~6~by~}\pi~\mathrm{radians,~it~will~be~9.}}\\
+&\,&&6+\pi\quad&&\,=\qquad9\\
+&\,&&\quad\pi&&\,=\qquad9-6\\
+&\mathrm{Thus}\qquad&&\quad\pi&&\,=\qquad3
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)
+
+Oops! engineers also say that!<br><br>
+
+We have seen several fool proofs, let's see sane proofs.
 
 <br><br>
 
