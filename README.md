@@ -524,7 +524,7 @@ Now, let's see the value of $\frac{circumference}{diameter}$, you know.
 ```
 _source code:_&nbsp;[pi_eq_0_0.tex](./src/pi_eq_0_0.tex)
 
-If you don't believe, yet there are another proof.
+If you don't believe, yet there are another proofs.
 
 #### **Solution 2**
 
