@@ -439,12 +439,12 @@ This proof is known to be correct!
 &\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
 &\,&&\quad0&&=\qquad(1+1)^\infty*(1-1)\\
 &\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(sane~proof)}\\
+&\rlap{\mathrm{\qquad\qquad Any~number~being~a~multiple~of~2~is~always~even.}}
 \end{alignat*}
 ```
-Any number being a multiple of `2` is **always** `even`.<br>
 _source code:_&nbsp;[0_even.tex](./src/0_even.tex)
 
-### **Solve _x_ for _x+2=x_.**
+### **Solve $x$ for $x+2=x$.**
 
 ```math
 \begin{align*}
