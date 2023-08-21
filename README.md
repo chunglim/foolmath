@@ -617,8 +617,9 @@ _source code:_&nbsp;[i_over_i.tex](./src/i_over_i.tex)
 &\mathrm{take~ln~both~sides}\qquad&&\ln{e^{i\pi}}\quad&&\,=\quad\ln{i^2}\\
 &\,&&i\pi\cancelto{1}{\ln{e}}\quad&&\,=\quad2\ln{i}\\
 &\,&&\quad\frac{\pi}{2}\quad&&\,=\quad\frac{{1}}{i}\ln{i}\\
-&\,&&\quad i^\frac{1}{i}\quad&&\,=\quad\frac{\pi}{2}\\
-&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad\frac{\pi}{2}&&\quad\mathrm{and~is~a~real~number~(sane~proof)}
+&\,&&\quad\ln{i^\frac{1}{i}}\quad&&\,=\quad\frac{\pi}{2}\\
+&\,&&\quad i^\frac{1}{i}\quad&&\,=\quad e^\frac{\pi}{2}\\
+&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad e^\frac{\pi}{2}&&\quad\mathrm{and~is~a~real~number~(sane~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
