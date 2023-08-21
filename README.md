@@ -603,7 +603,7 @@ We have seen several fool proofs, let's see sane proofs.
 &\,&&\,\quad&&\,=\quad\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&&\,\quad&&\,=\quad e^{i\frac{\pi}{2}}\\
 &\mathrm{power}~i~\mathrm{both~sides}&&\qquad i^i\quad&&\,=\quad e^{i^2\frac{\pi}{2}}\\
-&\mathrm{Thus}&&\,\qquad i\quad&&\,=\quad e^{-\frac{\pi}{2}}\quad\mathrm{and~is~a~real~number}\\
+&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\quad\mathrm{and~is~a~real~number}\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_over_i.tex](./src/i_over_i.tex)
