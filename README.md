@@ -603,10 +603,25 @@ We have seen several fool proofs, let's see sane proofs.
 &\,&&\,\quad&&\,=\quad\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&&\,\quad&&\,=\quad e^{i\frac{\pi}{2}}\\
 &\mathrm{power}~i~\mathrm{both~sides}&&\qquad i^i\quad&&\,=\quad e^{i^2\frac{\pi}{2}}\\
-&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\quad\mathrm{and~is~a~real~number}\\
+&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\quad\mathrm{and~is~a~real~number~(sane~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_over_i.tex](./src/i_over_i.tex)
+
+### **How much is $\sqrt[^i]{i}$?**
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad e^{i\pi}\quad&&\,=\quad-1\\
+&\,&&\,&&\,=\quad i^2\\
+&\mathrm{take~ln~both~sides}\qquad&&\ln{e^{i\pi}}\quad&&\,=\quad\ln{i^2}\\
+&\,&&i\pi\cancelto{1}{\ln{e}}\quad&&\,=\quad2\ln{i}\\
+&\,&&\quad\frac{\pi}{2}\quad&&\,=\quad\frac{{1}}{i}\ln{i}\\
+&\,&&\quad i^\frac{1}{i}\quad&&\,=\quad\frac{\pi}{2}\\
+&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad\frac{\pi}{2}&&\quad\mathrm{and~is~a~real~number~(sane~proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
 
 <br><br>
 
