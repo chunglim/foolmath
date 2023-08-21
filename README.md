@@ -471,7 +471,7 @@ Now, have a look at the sane proof of _Euler's identity_.
 &\,&&e^{ix}&&=\rlap{1+ix+\frac{(ix)^2}{2!}+\frac{(ix)^3}{3!}+\frac{(ix)^4}{4!}+\frac{(ix)^5}{5!}+\frac{(ix)^6}{6!}+\frac{(ix)^7}{7!}+\frac{(ix)^8}{8!}+...}\\
 &\,&&\,&&=\rlap{1+ix-\frac{x^2}{2!}-\frac{ix^3}{3!}+\frac{x^4}{4!}+\frac{ix^5}{5!}-\frac{x^6}{6!}-\frac{ix^7}{7!}+\frac{x^8}{8!}+...}\\
 &\,&&\,&&=\rlap{\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-...\right)+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\right)}\\
-&\,&&e^{ix}&&=\cos{x}+i\sin{x}\\
+&\,&&e^{ix}&&=\cos{x}+i\sin{x}&&\,&&\quad\mathrm{***}\\
 &\,&&e^{ix}&&=\cos{\pi}+\cancelto{0}{i\sin{\pi}}\\
 &\mathrm{Thus}\quad&&e^{i\pi}&&=-1\qquad\mathrm{(sane~proof)}
 \end{alignat*}
@@ -593,6 +593,20 @@ _source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)
 Oops! engineers also say that!<br><br>
 
 We have seen several fool proofs, let's see sane proofs.
+
+### **How much is $i^i$?**
+
+```math
+\begin{alignat*}{5}
+&\mathrm{from~Euler's~identity}&&\qquad e^{ix}\quad&&\,=\quad\cos{x}+i\sin{x}\\
+&\,&&\qquad i\quad&&=\quad0+i\\
+&\,&&\,\quad&&\,=\quad\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
+&\,&&\,\quad&&\,=\quad e^{i\frac{\pi}{2}}\\
+&\mathrm{power}~i~\mathrm{both~sides}&&\qquad i^i\quad&&\,=\quad e^{i^2\frac{\pi}{2}}\\
+&\mathrm{Thus}&&\,\qquad i\quad&&\,=\quad e^{-\frac{\pi}{2}}\quad\mathrm{and~is~a~real~number}\\
+\end{alignat*}
+```
+_source code:_&nbsp;[i_over_i.tex](./src/i_over_i.tex)
 
 <br><br>
 
