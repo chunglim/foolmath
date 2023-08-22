@@ -439,7 +439,7 @@ This proof is known to be correct!
 &\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
 &\,&&\quad0&&=\qquad(1+1)^\infty*(1-1)\\
 &\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(sane~proof)}\\
-&\rlap{\mathrm{\qquad\qquad Any~number~being~a~multiple~of~2~is~always~even.}}
+&\rlap{\qquad\qquad\mathrm{Any~number~being~a~multiple~of~2~is~always~even.}}
 \end{alignat*}
 ```
 _source code:_&nbsp;[0_even.tex](./src/0_even.tex)
@@ -603,10 +603,11 @@ We have seen several fool proofs, let's see sane proofs.
 &\,&&\,\quad&&\,=\quad\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&&\,\quad&&\,=\quad e^{i\frac{\pi}{2}}\\
 &\mathrm{power}~i~\mathrm{both~sides}&&\qquad i^i\quad&&\,=\quad e^{i^2\frac{\pi}{2}}\\
-&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\quad\mathrm{and~is~a~real~number~(sane~proof)}
+&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\qquad\mathrm{(sane~proof)}\\
+&\rlap{\qquad\qquad\qquad\qquad\quad\mathrm{And~it~is~a~real~number.}}\\
 \end{alignat*}
 ```
-_source code:_&nbsp;[i_over_i.tex](./src/i_over_i.tex)
+_source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)
 
 ### **How much is $\sqrt[^i]{i}$?**
 
@@ -619,10 +620,29 @@ _source code:_&nbsp;[i_over_i.tex](./src/i_over_i.tex)
 &\,&&\quad\frac{\pi}{2}\quad&&\,=\quad\frac{{1}}{i}\ln{i}\\
 &\,&&\quad\ln{i^\frac{1}{i}}\quad&&\,=\quad\frac{\pi}{2}\\
 &\,&&\quad i^\frac{1}{i}\quad&&\,=\quad e^\frac{\pi}{2}\\
-&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad e^\frac{\pi}{2}&&\quad\mathrm{and~is~a~real~number~(sane~proof)}
+&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad e^\frac{\pi}{2}&&\qquad\mathrm{(sane~proof)}\\
+&\rlap{\qquad\qquad\qquad\qquad\quad\mathrm{And~it~is~a~real~number.}}\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
+
+### **Who said $n^0=1$?**
+
+```math
+\begin{alignat*}{5}
+&\,&&n^{-1}&&\,\quad=\quad\frac{1}{n}\\
+&\,&&n^{\left(i^2\right)}&&\,\quad=\quad\frac{1}{n}\\
+&\mathrm{power}~\frac{1}{i}~\mathrm{both~sides}\quad&&n^{\left(\frac{i^2}{i}\right)} &&\,\quad=\quad\left(\frac{1}{n}\right)^\frac{1}{i}\\
+&\,&&n^i&&\,\quad=\quad\frac{1^\frac{1}{i}}{n^\frac{1}{i}}\\
+&\,&&n^i.n^\frac{i}{i}&&\,\quad=\quad1^\frac{1}{i}\\
+&\,&&n^{i+\frac{i}{i}}&&\,\quad=\quad1^\frac{1}{i}\\
+&\mathrm{As}~i=\frac{1}{-i}&&n^{-\frac{1}{i}+\frac{1}{i}}&&\,\quad=\quad1^\frac{1}{i}\\
+&\,&&\,n^0&&\,\quad=\quad(-1)^{2.\frac{1}{i}}\\
+&\mathrm{As}~e^{i\pi}=-1&&\,&&\,\quad=\quad(e^{\cancel{i}\pi})^\frac{2}{\cancel{i}}\\
+&\mathrm{Thus}&&n^0&&\,\quad=\quad e^{2\pi}\\
+\end{alignat*}
+```
+_source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)
 
 <br><br>
 
