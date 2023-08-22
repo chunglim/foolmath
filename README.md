@@ -652,7 +652,7 @@ Next, let's see sane proofs.
 
 There are many solutions out there, let's have a look.
 
-#### **Solution 1: limit definition**
+#### **Solution 1: Limit Definition**
 
 ```math
 \begin{alignat*}{5}
@@ -681,13 +681,13 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 
 ```math
 \begin{alignat*}{5}
-&\,&&\quad e^x&&\,=\quad\sum_{i=0}^\infty\frac{x^n}{n!}\\
+&\,&&\quad e^x\quad&&\,=\quad\sum_{i=0}^\infty\frac{x^n}{n!}\\
 &\,&&\,&&\,=\quad\frac{x^0}{0!}+\frac{x^1}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\\
-&\,&&\quad e^x&&\,=\quad1+\frac{x^1}{1}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\quad&&(1)\\
-&\mathrm{diff}\quad&&\frac{d}{dx}e^x&&\,=\quad0+1+\frac{2x^1}{2!}+\frac{3x^2}{3!}+\frac{4x^3}{4!}+...\\
+&\,&&\quad e^x\quad&&\,=\quad1+\frac{x^1}{1}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\quad&&(1)\\
+&\mathrm{diff}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad0+1+\frac{2x^1}{2!}+\frac{3x^2}{3!}+\frac{4x^3}{4!}+...\\
 &\,&&\,&&\,=\quad1+\frac{\cancel{2}x^1}{\cancel{2}.1!}+\frac{\cancel{3}x^2}{\cancel{3}.2!}+\frac{\cancel{4}x^3}{\cancel{4}.3!}+...\\
 &\,&&\,&&\,=\quad(1)\\
-&\mathrm{thus}&&\frac{d}{dx}e^x&&\,=\quad e^x\qquad\mathrm{(sane~proof)}
+&\mathrm{thus}&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad\mathrm{(sane~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
