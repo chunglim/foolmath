@@ -648,7 +648,7 @@ It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
 Next, let's see sane proofs.
 
-### **You might be wondering, why $\frac{d}{dx}e^x\,dx=e^x$?
+### **You might be wondering, why $\frac{d}{dx}e^x=e^x$?
 
 There are many solutions out there, let's have a look.
 
@@ -691,6 +691,22 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
+
+#### **Solution 3: Implicit Differentiation
+
+```math
+\begin{alignat*}{5}
+&\,&&y\quad&&\,=\quad e^x\\
+&\,&&\ln{y}\quad&&\,=\quad\ln{e^x}\\
+&\,&&\,\quad&&\,=\quad x\cancelto{1}{\ln{e}}\\
+&\,&&\ln{y}\quad&&\,=\quad x\\
+&\mathrm{diff~both~sides}\quad&&\frac{d}{dx}\ln{y}\quad&&\,=\quad \frac{dx}{dx}\\
+&\,&&\frac{1}{y}\frac{dy}{dx}\quad&&\,=\quad1\\
+&\,&&\frac{dy}{dx}\quad&&\,=\quad y\\
+&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x
+\end{alignat*}
+```
+_source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
 
 <br><br>
 
