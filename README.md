@@ -648,6 +648,50 @@ It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
 Next, let's see sane proofs.
 
+### **You might be wondering, why $\frac{d}{dx}e^x\,dx=e^x$?
+
+There are many solutions out there, let's have a look.
+
+#### **Solution 1: limit definition**
+
+```math
+\begin{alignat*}{5}
+&\,&&\,&&f'(x)\quad&&\,=\quad\lim_{h\to0}\frac{f(x+h)-f(x)}{h}\\
+&\,&&\,&&\frac{d}{dx}e^x\quad&&\,=\quad\lim_{h\to0}\frac{e^{x+h}-e^x}{h}\\
+&\,&&\,&&\frac{d}{dx}e^x&&\,=\quad e^x.\frac{e^h-1}{h}\quad&&(1)\\
+&\,&&\mathrm{let}&&\quad t&&\,=\quad e^h-1\quad&&(2)\\
+&\,&&\,&&\ln{t}&&\,=\quad\ln{(e^h-1)}\\
+&\,&&\,&&\quad&&\,=\quad\frac{\ln{e^h}}{\ln{1}}\\
+&\,&&\,&&\ln{t}\quad&&\,=\quad h.\frac{\cancelto{1}{\ln{e}}}{\ln{1}}\\
+&\,&&\,&&\quad h&&\,=\quad\ln{t}.\ln{1}\\
+&\,&&\,&&\quad h&&=\quad\ln{(t+1)}\quad&&(3)\\
+&\rlap{\qquad\qquad\mathrm{Since~h~approaches~0,~in~order~to~balance~the~equation,}}\\
+&\rlap{\qquad\qquad\quad\qquad\qquad\mathrm{so~t~must~also~approach~0.}}\\
+&\mathrm{from~(1),~(2)~and~(3)}&&\,&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\lim_{t\to0}\frac{t}{\ln{(t+1)}}\\
+&\,&&\,&&\quad&&=\quad e^x\lim_{t\to0}\frac{1}{\frac{1}{t}\ln{(t+1)}}\\
+&\,&&\,&&\frac{d}{dx}e^x&&=\quad e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\quad&&(4))\\
+&\mathrm{recall}&&\rlap{e=\lim_{n\to0}(1+n)^\frac{1}{n}=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n}\\
+&\mathrm{from~(4)}&&\,&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\frac{1}{\cancelto{1}{\ln{e}}}\\
+&\,&&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad\mathrm{(sane~proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
+
+#### **Solution 2: Taylor Series**
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad e^x&&\,=\quad\sum_{i=0}^\infty\frac{x^n}{n!}\\
+&\,&&\,&&\,=\quad\frac{x^0}{0!}+\frac{x^1}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\\
+&\,&&\quad e^x&&\,=\quad1+\frac{x^1}{1}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\quad&&(1)\\
+&\mathrm{diff}\quad&&\frac{d}{dx}e^x&&\,=\quad0+1+\frac{2x^1}{2!}+\frac{3x^2}{3!}+\frac{4x^3}{4!}+...\\
+&\,&&\,&&\,=\quad1+\frac{\cancel{2}x^1}{\cancel{2}.1!}+\frac{\cancel{3}x^2}{\cancel{3}.2!}+\frac{\cancel{4}x^3}{\cancel{4}.3!}+...\\
+&\,&&\,&&\,=\quad(1)\\
+&\mathrm{thus}&&\frac{d}{dx}e^x&&\,=\quad e^x\qquad\mathrm{(sane~proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
+
 <br><br>
 
 _More to come, keep following ..._
