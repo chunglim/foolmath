@@ -703,7 +703,7 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 &\mathrm{diff~both~sides}\quad&&\frac{d}{dx}\ln{y}\quad&&\,=\quad \frac{dx}{dx}\\
 &\,&&\frac{1}{y}\frac{dy}{dx}\quad&&\,=\quad1\\
 &\,&&\frac{dy}{dx}\quad&&\,=\quad y\\
-&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x
+&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x&&\mathrm{(sane~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
