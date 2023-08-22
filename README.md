@@ -630,19 +630,23 @@ _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
 
 ```math
 \begin{alignat*}{5}
-&\,&&n^{-1}&&\,\quad=\quad\frac{1}{n}\\
-&\,&&n^{\left(i^2\right)}&&\,\quad=\quad\frac{1}{n}\\
-&\mathrm{power}~\frac{1}{i}~\mathrm{both~sides}\quad&&n^{\left(\frac{i^2}{i}\right)} &&\,\quad=\quad\left(\frac{1}{n}\right)^\frac{1}{i}\\
-&\,&&n^i&&\,\quad=\quad\frac{1^\frac{1}{i}}{n^\frac{1}{i}}\\
-&\,&&n^i.n^\frac{i}{i}&&\,\quad=\quad1^\frac{1}{i}\\
-&\,&&n^{i+\frac{i}{i}}&&\,\quad=\quad1^\frac{1}{i}\\
-&\mathrm{As}~i=\frac{1}{-i}&&n^{-\frac{1}{i}+\frac{1}{i}}&&\,\quad=\quad1^\frac{1}{i}\\
-&\,&&\,n^0&&\,\quad=\quad(-1)^{2.\frac{1}{i}}\\
+&\,&&\qquad n^{-1}&&\,\quad=\quad\frac{1}{n}\\
+&\,&&\qquad n^{\left(i^2\right)}&&\,\quad=\quad\frac{1}{n}\\
+&\mathrm{power}~\frac{1}{i}~\mathrm{both~sides}\quad&&\qquad n^{\left(\frac{i^2}{i}\right)} &&\,\quad=\quad\left(\frac{1}{n}\right)^\frac{1}{i}\\
+&\,&&\qquad n^i&&\,\quad=\quad\frac{1^\frac{1}{i}}{n^\frac{1}{i}}\\
+&\,&&\quad n^i.n^\frac{i}{i}&&\,\quad=\quad1^\frac{1}{i}\\
+&\,&&\quad n^{i+\frac{i}{i}}&&\,\quad=\quad1^\frac{1}{i}\\
+&\mathrm{As}~i=\frac{1}{-i}&&\quad n^{-\frac{1}{i}+\frac{1}{i}}&&\,\quad=\quad1^\frac{1}{i}\\
+&\,&&\,\qquad n^0&&\,\quad=\quad(-1)^{2.\frac{1}{i}}\\
 &\mathrm{As}~e^{i\pi}=-1&&\,&&\,\quad=\quad(e^{\cancel{i}\pi})^\frac{2}{\cancel{i}}\\
-&\mathrm{Thus}&&n^0&&\,\quad=\quad e^{2\pi}\\
+&\mathrm{Thus}&&\qquad n^0&&\,\quad=\quad e^{2\pi}\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)
+
+It is still a constant, but not `1`, not even an integer.<br>
+It is even an irrational and transcendental number.<br><br>
+Next, let's see sane proofs.
 
 <br><br>
 
