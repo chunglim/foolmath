@@ -426,7 +426,7 @@ Here, $\infty$ is so small, you see?
 
 ### **How much is $0.\infty$?
 
-```matn
+```math
 \begin{alignat*}{5}
 &\,&&S\quad&&\,=\quad1+1+1+1+1+1+...\\
 &\,&&\,&&\,=\quad(1+1)+(1+1)+(1+1)+...\\
