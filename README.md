@@ -116,7 +116,7 @@ _source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
 
 Why is it negative again, who know?
 
-### **Why 0 = 1?**
+### **Why $0=1$?**
 
 Here come the most foolish proof!
 
@@ -167,7 +167,7 @@ _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)
 Can you find an error?<br><br>
 Hmm, binary no longer exists.
 
-### **Why 1 = 2?**
+### **Why $1=2$?**
 
 Here, the proof I learnt in junior high school.
 
@@ -223,7 +223,7 @@ _source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)
 
 Do you find any clues?
 
-### **Do you know that 1 = -1?**
+### **Do you know that $1=-1$?**
 
 ```math
 \begin{align*}
@@ -239,7 +239,7 @@ _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
 
 From now on, what I owe you is what you owe me.
 
-### **Let's see a little higher number, 4 = 5.**
+### **Let's see a little higher number, $4=5$.**
 
 ```math
 \begin{alignat*}{3}
@@ -255,7 +255,7 @@ From now on, what I owe you is what you owe me.
 ```
 _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
 
-Hey, what? How come, 4 = 5?<br><br>
+Hey, what? How come, $4=5$?<br><br>
 Wait, there are something more.
 
 ### **Are all intergers equal?**
@@ -288,7 +288,7 @@ _source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)
 It is very articulate, indeed.<br><br>
 There is one more simple equation. Have a look.
 
-### **Was I wrongly taught? Why 2 + 5 = 8?**
+### **Was I wrongly taught? Why $2+5=8$?**
 
 ```math
 \begin{align*}
@@ -309,9 +309,9 @@ There is one more simple equation. Have a look.
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
 
 Do you find any errors?<br><br>
-Who said `0` couldn't be a denominator? See the following fool proofs.
+Who said $0$ couldn't be a denominator? See the following fool proofs.
 
-### **Very silly solutions to find 0 / 0**
+### **Very silly solutions to find $\frac{0}{0}$.**
 
 #### **Let's see the first fool.**
 
@@ -339,9 +339,9 @@ _source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)
 ```
 _source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)
 
-Bruh, how can you divide (10 - 10) with (10 - 10)?
+Bruh, how can you divide $(10-10)$ with $(10-10)$?
 
-### **Who said _i_ is imaginary, why _i = 1_, then?**
+### **Who said $i$ is imaginary, why $i=1$, then?**
 
 ```math
 \begin{align*}
@@ -355,7 +355,7 @@ i^2\quad&\,=\quad1\\
 ```
 _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 
-### **Let's talk more about _i_.**
+### **Let's talk more about $i$.**
 
 #### **This is the _sane proof_ of $\frac{1}{i}$.**
 
@@ -424,7 +424,34 @@ _source code:_&nbsp;[infty.tex](./src/infty.tex)
 
 Here, $\infty$ is so small, you see?
 
-### **Is 0 an even number?**
+### **How much is $0.\infty$?
+
+```matn
+\begin{alignat*}{5}
+&\,&&S\quad&&\,=\quad1+1+1+1+1+1+...\\
+&\,&&\,&&\,=\quad(1+1)+(1+1)+(1+1)+...\\
+&\,&&\,&&\,=\quad2+2+2+...\\
+&\,&&\,&&\,=\quad2(1+1+1+...)\\
+&\,&&S\quad&&\,=\quad2S\\
+&\,&&S\quad&&\,=\quad0&&(1)\\
+&\,&&2S\quad&&\,=\quad1+1+1+1+1+1+...\\
+&\,&&\,&&\qquad\qquad1+1+1+1+1+...\\
+&\,&&2S&&\,=\quad1+2+2+2+2+2+...\\
+&\,&&3S\quad&&\,=\quad1+1+1+1+1+1+...\\
+&\,&&\,&&\qquad\quad\quad1+1+1+1+1+...\\
+&\,&&\,&&\qquad\qquad\quad~~~1+1+1+1+...\\
+&\,&&3S\quad&&\,=\quad1+2+3+3+3+3+...\\
+&\,&&...\\
+&\,&&\infty S\quad&&\,=\quad1+2+3+4+5+6+...\\
+&\mathrm{from~(1)}\,S=0\qquad&&\infty0\quad&&\,=\quad1+2+3+4+5+6+...\\
+&\mathrm{Thus}\qquad&&0\infty\quad&&\,=\quad-\frac{1}{12}
+\end{alignat*}
+```
+_source code:_&nbsp;[0infty.tex](./src/0infty.tex)
+
+Hmm, I will never believe.
+
+### **Is $0$ an even number?**
 
 This proof is known to be correct!
 
