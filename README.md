@@ -424,7 +424,7 @@ _source code:_&nbsp;[infty.tex](./src/infty.tex)
 
 Here, $\infty$ is so small, you see?
 
-### **How much is $0.\infty$?
+### **How much is $0.\infty$?**
 
 ```math
 \begin{alignat*}{5}
