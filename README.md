@@ -719,7 +719,7 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 
-#### **Solution 3: Implicit Differentiation
+#### **Solution 3: Implicit Differentiation**
 
 ```math
 \begin{alignat*}{5}
@@ -734,6 +734,23 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
+
+#### **Solution 4: Differential Equation**
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad\frac{dy}{dx}\quad&&\,=\quad y\\
+&\,&&\quad\frac{dy}{y}\quad&&\,=\quad dx\\
+&\mathrm{integral}\qquad&&\int\frac{dy}{y}\quad&&\,=\quad \int{dx}\\
+&\,&&\quad\ln{y}\quad&&\,=\quad x\qquad&&\mathrm{omit}~C\\
+&\,&&\quad y\quad&&\,=\quad e^x\\
+&\mathrm{Thus}&&\quad\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad&&\mathrm{(sane~proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)
+
+Four proofs should suffice.<br>
+$e^x$ is the only expression, you can't kill with differentiation.
 
 <br><br>
 
