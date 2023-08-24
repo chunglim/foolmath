@@ -754,4 +754,8 @@ $e^x$ is the only expression, you can't kill with differentiation.
 
 <br><br>
 
+I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or sane math. If you enjoy this project or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
+
+<br><br>
+
 _More to come, keep following ..._
