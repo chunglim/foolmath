@@ -756,6 +756,8 @@ $e^x$ is the only expression, you can't kill with differentiation.
 
 I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or sane math. If you enjoy this project or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
 
+<a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 <br><br>
 
 _More to come, keep following ..._
