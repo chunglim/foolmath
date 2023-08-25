@@ -2,6 +2,8 @@
 
 <!-- # ![foolmath logo](link_to_logo_image) -->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 ## What is foolmath?
 
 Are you a fellow math aficionado or enthusiast? Have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **`foolmath`** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof.
