@@ -2,9 +2,11 @@
 
 <!-- # ![foolmath logo](link_to_logo_image) -->
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+<!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+-->
 
 ## What is foolmath?
 
@@ -12,8 +14,8 @@ Are you a fellow math aficionado or enthusiast? Have you ever encountered a math
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
-2. Code of plain-text LaTeX `.tex` files is in `src/`.
-3. Best view on any browsers, `GitHub` app on mobile devices doesn't render LaTeX.
+2. Plain-text LaTeX `.tex` code is in `src/`.
+3. It is the best, to view `foolmath` on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
 
 **Proofs are louder than words.**
 
