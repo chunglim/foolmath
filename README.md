@@ -22,32 +22,32 @@ Are you a fellow math aficionado or enthusiast? Have you ever encountered a math
 **Proofs are louder than words. Let's start!**
 
 ## Table of Contents
-- Ramanujan summation [^](#ramanujan-summation)
-- Ramanujan alternative [^](#yet-there-is-a-ramanujan-alternative)
-- Summing the power of two [^](#what-if-summing-the-power-of-two)
-- Summing all natural odd numbers [^](#what-if-summing-all-natural-odd-numbers)
-- Summing all natural even numbers [^](#trying-summing-all-natural-even-numbers)
-- Why $0=1$? [^](#why-01)
-- Why $1=2$? [^](#why-12)
-- Do you know that $1=-1$? [^](#do-you-know-that-1-1)
-- Let's see a little higher numbers, $4=5$. [^](#lets-see-a-little-higher-numbers-45)
-- Are all intergers equal? [^](#are-all-intergers-equal)
-- Why $2+5=8$? [^](#was-i-wrongly-taught-why-258)
-- Very silly solutions to find $\frac{0}{0}$. [^](#very-silly-solutions-to-find-frac00)
-- Who said $i$ is imaginary, why $i=1$ then? [^](#who-said-i-is-imaginary-why-i1-then)
-- Let's talk more about $i$. [^](#lets-talk-more-about-i)
-- $i=\pm1$, isn't it? [^](#ipm1-isnt-it)
-- How much is $\infty$? [^](#how-much-is-infty)
-- How much is $0.\infty$? [^](#how-much-is-0infty)
-- Is $0$ an even number? [^](#is-0-an-even-number)
-- Solve $x$ for $x+2=x$. [^](#solve-x-for-x2x)
-- $e^{i\pi}=?$, also known as Euler's Identity [^](#eipi-also-known-as-eulers-identity)
-- $e^x=1$, no matter what $x$ maybe [^](#ex1-no-matter-what-x-maybe)
-- How much is $\pi$? [^](#how-much-is-pi)
-- How much is $i^i$? [^](#how-much-is-ii)
-- How much is $\sqrt[^i]{i}$? [^](#how-much-is-sqrtii)
-- Who said $n^0=1$? [^](#who-said-n01)
-- Why $\frac{d}{dx}e^x=e^x$? [^](#you-might-be-wondering-why-fracddxexex)
+- Ramanujan summation [view!](#ramanujan-summation)
+- Ramanujan alternative [view!](#yet-there-is-a-ramanujan-alternative)
+- Summing the power of two [view!](#what-if-summing-the-power-of-two)
+- Summing all natural odd numbers [view!](#what-if-summing-all-natural-odd-numbers)
+- Summing all natural even numbers [view!](#trying-summing-all-natural-even-numbers)
+- Why $0=1$? [view!](#why-01)
+- Why $1=2$? [view!](#why-12)
+- Do you know that $1=-1$? [view!](#do-you-know-that-1-1)
+- Let's see a little higher numbers, $4=5$. [view!](#lets-see-a-little-higher-numbers-45)
+- Are all intergers equal? [view!](#are-all-intergers-equal)
+- Why $2+5=8$? [view!](#was-i-wrongly-taught-why-258)
+- Very silly solutions to find $\frac{0}{0}$. [view!](#very-silly-solutions-to-find-frac00)
+- Who said $i$ is imaginary, why $i=1$ then? [view!](#who-said-i-is-imaginary-why-i1-then)
+- Let's talk more about $i$. [view!](#lets-talk-more-about-i)
+- $i=\pm1$, isn't it? [view!](#ipm1-isnt-it)
+- How much is $\infty$? [view!](#how-much-is-infty)
+- How much is $0.\infty$? [view!](#how-much-is-0infty)
+- Is $0$ an even number? [view!](#is-0-an-even-number)
+- Solve $x$ for $x+2=x$. [view!](#solve-x-for-x2x)
+- $e^{i\pi}=$?, also known as Euler's Identity [view!](#eipi-also-known-as-eulers-identity)
+- $e^x=1$, no matter what $x$ maybe. [view!](#ex1-no-matter-what-x-maybe)
+- How much is $\pi$? [view!](#how-much-is-pi)
+- How much is $i^i$? [view!](#how-much-is-ii)
+- How much is $\sqrt[^i]{i}$? [view!](#how-much-is-sqrtii)
+- Who said $n^0=1$? [view!](#who-said-n01)
+- Why $\frac{d}{dx}e^x=e^x$? [view!](#you-might-be-wondering-why-fracddxexex)
 
 ### **Ramanujan summation**
 
@@ -542,7 +542,7 @@ _source code:_&nbsp;[euler.tex](./src/euler.tex)
 Euler's identity shall be used in the other proofs (whether sane or fool).<br>
 Let's see the first fool proofs using Euler's identity.
 
-### **$e^x=1$, no matter what $x$ maybe**
+### **$e^x=1$, no matter what $x$ maybe.**
 
 ```math
 \begin{alignat*}{5}
