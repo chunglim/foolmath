@@ -22,34 +22,34 @@ Are you a fellow math aficionado or enthusiast? Have you ever encountered a math
 **Proofs are louder than words. Let's start!**
 
 ## Table of Contents
-- [Ramanujan Summation](#ramanujan-summation)
-- [Ramanujan alternative](#yet-there-is-a-ramanujan-alternative)
-- [Summing the power of two](#what-if-summing-the-power-of-two)
-- [Summing all natural odd numbers](#what-if-summing-all-natural-odd-numbers)
-- [Summing all natural even numbers](#trying-summing-all-natural-even-numbers)
-- [Why $0=1$?](#why-01)
-- [Why $1=2$?](#why-12)
-- [Do you know that $1=-1$?](#do-you-know-that-1-1)
-- [Let's see a little higher numbers, $4=5$.](#lets-see-a-little-higher-numbers-45)
-- [Are all intergers equal?](#are-all-intergers-equal)
-- [Why $2+5=8$?](#was-i-wrongly-taught-why-258)
-- [Very silly solutions to find $\frac{0}{0}.](#very-silly-solutions-to-find-frac00)
-- [Who said $i$ is imaginary, why $i=1$ then?](#who-said-i-is-imaginary-why-i1-then)
-- [Let's talk more about $i$.](#lets-talk-more-about-i)
-- [$i=\pm1$, isn't it?](#ipm1-isnt-it)
-- [How much is $\infty$?](#how-much-is-infty)
-- [How much is $0.\infty$?](#how-much-is-0infty)
-- [Is $0$ an even number?](#is-0-an-even-number)
-- [Solve $x$ for $x+2=x$.](#solve-x-for-x2x)
-- [$e^{i\pi=?}$, also known as Euler's Identity](#eipi-also-known-as-eulers-identity)
-- [$e^x=1$, no matter what $x$ maybe](#ex1-no-matter-what-x-maybe)
-- [How much is $\pi$?](#how-much-is-pi)
-- [How much is $i^i$?](#how-much-is-ii)
-- [How much is $\sqrt[^i]{i}$?](#how-much-is-sqrtii)
-- [Who said $n^0=1$?](#who-said-n01)
-- [Why $\frac{d}{dx}\,e^x=e^x$?](#you-might-be-wondering-why-fracddxexex)
+- Ramanujan summation [^](#ramanujan-summation)
+- Ramanujan alternative [^](#yet-there-is-a-ramanujan-alternative)
+- Summing the power of two [^](#what-if-summing-the-power-of-two)
+- Summing all natural odd numbers [^](#what-if-summing-all-natural-odd-numbers)
+- Summing all natural even numbers [^](#trying-summing-all-natural-even-numbers)
+- Why $0=1$? [^](#why-01)
+- Why $1=2$? [^](#why-12)
+- Do you know that $1=-1$? [^](#do-you-know-that-1-1)
+- Let's see a little higher numbers, $4=5$. [^](#lets-see-a-little-higher-numbers-45)
+- Are all intergers equal? [^](#are-all-intergers-equal)
+- Why $2+5=8$? [^](#was-i-wrongly-taught-why-258)
+- Very silly solutions to find $\frac{0}{0}. [^](#very-silly-solutions-to-find-frac00)
+- Who said $i$ is imaginary, why $i=1$ then? [^](#who-said-i-is-imaginary-why-i1-then)
+- Let's talk more about $i$. [^](#lets-talk-more-about-i)
+- $i=\pm1$, isn't it? [^](#ipm1-isnt-it)
+- How much is $\infty$? [^](#how-much-is-infty)
+- How much is $0.\infty$? [^](#how-much-is-0infty)
+- Is $0$ an even number? [^](#is-0-an-even-number)
+- Solve $x$ for $x+2=x$. [^](#solve-x-for-x2x)
+- $e^{i\pi=?}$, also known as Euler's Identity [^](#eipi-also-known-as-eulers-identity)
+- $e^x=1$, no matter what $x$ maybe [^](#ex1-no-matter-what-x-maybe)
+- How much is $\pi$? [^](#how-much-is-pi)
+- How much is $i^i$? [^](#how-much-is-ii)
+- How much is $\sqrt[^i]{i}$? [^](#how-much-is-sqrtii)
+- Who said $n^0=1$? [^](#who-said-n01)
+- Why $\frac{d}{dx}\,e^x=e^x$? [^](#you-might-be-wondering-why-fracddxexex)
 
-### **Ramanujan Summation**
+### **Ramanujan summation**
 
 We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
 
@@ -709,7 +709,7 @@ It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
 Next, let's see sane proofs.
 
-### **You might be wondering, why $\frac{d}{dx}e^x=e^x$?
+### **You might be wondering, why $\frac{d}{dx}e^x=e^x$?**
 
 There are many solutions out there, let's have a look.
 
@@ -788,7 +788,7 @@ $e^x$ is the only expression, you can't kill with differentiation.
 
 <br><br>
 
-I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or sane math. If you enjoy this project or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
+I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or sane math. If you enjoy this content or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
 
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
