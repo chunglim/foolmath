@@ -1,3 +1,5 @@
+<!-- TOC -->
+
 # Welcome to the `foolmath` repository!
 
 <!-- # ![foolmath logo](link_to_logo_image) -->
@@ -17,9 +19,16 @@ Are you a fellow math aficionado or enthusiast? Have you ever encountered a math
 2. Plain-text LaTeX `.tex` code is in `src/`.
 3. It is the best, to view `foolmath` on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
 
-**Proofs are louder than words.**
+**Proofs are louder than words. Let's start!**
 
-## Let's start!
+<!--
+## Table of Contents
+- [Ramanujan Summation](README.md#ramanujan-summation)
+- [Ramanujan alternative](https://github.com/chunglim/foolmath#yet-there-is-a-ramanujan-alternative)
+- [Summing the power of two](https://github.com/chunglim/foolmath#what-if-summing-the-power-of-two)
+- [Summing all natural odd numbers](https://github.com/chunglim/foolmath#what-if-summing-all-natural-odd-numbers)
+- [Summing all natural even numbers](https://github.com/chunglim/foolmath#trying-summing-all-natural-even-numbers)
+- [ -->
 
 We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
 
@@ -73,7 +82,7 @@ _source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)
 
 Oops, was Ramanujan wrong?
 
-### **What if summing the power of two**
+### **What if summing the power of two?**
 
 ```math
 \begin{align*}
@@ -88,7 +97,7 @@ _source code:_&nbsp;[sum_power_of_2.tex](./src/sum_power_of_2.tex)
 
 Negative! once again.
 
-### **What if summing all natural odd numbers**
+### **What if summing all natural odd numbers?**
 
 ```math
 \begin{align*}
