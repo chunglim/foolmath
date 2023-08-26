@@ -21,18 +21,37 @@ Are you a fellow math aficionado or enthusiast? Have you ever encountered a math
 
 **Proofs are louder than words. Let's start!**
 
-<!--
 ## Table of Contents
 - [Ramanujan Summation](README.md#ramanujan-summation)
-- [Ramanujan alternative](https://github.com/chunglim/foolmath#yet-there-is-a-ramanujan-alternative)
-- [Summing the power of two](https://github.com/chunglim/foolmath#what-if-summing-the-power-of-two)
-- [Summing all natural odd numbers](https://github.com/chunglim/foolmath#what-if-summing-all-natural-odd-numbers)
-- [Summing all natural even numbers](https://github.com/chunglim/foolmath#trying-summing-all-natural-even-numbers)
-- [ -->
-
-We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
+- [Ramanujan alternative](README.md#yet-there-is-a-ramanujan-alternative)
+- [Summing the power of two](README.md#what-if-summing-the-power-of-two)
+- [Summing all natural odd numbers](README.md#what-if-summing-all-natural-odd-numbers)
+- [Summing all natural even numbers](README.md#trying-summing-all-natural-even-numbers)
+- [Why $0=1$?](README.md#why-01)
+- [Why $1=2$?](README.md#why-12)
+- [Do you know that $1=-1$?](README.md#do-you-know-that-1-1)
+- [Let's see a little higher numbers, $4=5$.](README.md#lets-see-a-little-higher-numbers-45)
+- [Are all intergers equal?](README.md#are-all-intergers-equal)
+- [Why $2+5=8$?](README.md#was-i-wrongly-taught-why-258)
+- [Very silly solutions to find $\frac{0}{0}.](README.md#very-silly-solutions-to-find-frac00)
+- [Who said $i$ is imaginary, why $i=1$ then?](README.md#who-said-i-is-imaginary-why-i1-then)
+- [Let's talk more about $i$.](README.md#lets-talk-more-about-i)
+- [$i=\pm1$, isn't it?](README.md#ipm1-isnt-it)
+- [How much is $\infty$?](README.md#how-much-is-infty)
+- [How much is $0.\infty$?](README.md#how-much-is-0infty)
+- [Is $0$ an even number?](README.md#is-0-an-even-number)
+- [Solve $x$ for $x+2=x$.](README.md#solve-x-for-x2x)
+- [$e^{i\pi=?}$, also known as Euler's Identity](README.md#eipi-also-known-as-eulers-identity)
+- [$e^x=1$, no matter what $x$ maybe](README.md#ex1-no-matter-what-x-maybe)
+- [How much is $\pi$?](README.md#how-much-is-pi)
+- [How much is $i^i$?](README.md#how-much-is-ii)
+- [How much is $\sqrt[^i]{i}$?](README.md#how-much-is-sqrtii)
+- [Who said $n^0=1$?](README.md#who-said-n01)
+- [Why $\frac{d}{dx}\,e^x=e^x$?](README.md#you-might-be-wondering-why-fracddxexex)
 
 ### **Ramanujan Summation**
+
+We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
 
 $\qquad1+2+3+4+5+6+...\quad=\quad?$
 
@@ -254,7 +273,7 @@ _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
 
 From now on, what I owe you is what you owe me.
 
-### **Let's see a little higher number, $4=5$.**
+### **Let's see a little higher numbers, $4=5$.**
 
 ```math
 \begin{alignat*}{3}
