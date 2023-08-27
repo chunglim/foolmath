@@ -10,14 +10,14 @@
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 -->
 
-## What is foolmath?
+## What is **_foolmath_**?
 
 If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof.
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
 2. Plain-text LaTeX `.tex` code is in `src/`.
-3. It is the best, to view _foolmath_ on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
+3. It is the best, to view **_foolmath_** on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
 
 **Proofs are louder than words. Let's start!**
 
@@ -785,6 +785,33 @@ _source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)
 
 Four proofs should suffice.<br>
 $e^x$ is the only expression, you can't kill with differentiation.
+
+### **Multiplying factor to change power voltage from $1\phi$ to $3\phi$**
+
+You may notice that the electricity power $1\phi~110V$ is $3\phi~190V. Or $1\phi~220V$ is $3\phi~380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}.
+
+This proof is kinda engineering, so $j$ is denoted as an imaginary number.
+
+```math
+\begin{alignat*}{5}
+&\,&&V_{ab}\quad&&\,=\quad V_{an}\angle0^\circ-V_{bn}\angle120^\circ\\
+&\,&&\,&&\,=\quad V_{an}(\cos{0^\circ}+j\sin{{0^\circ}})+V_{bn}(\cos{120^\circ}+j\sin{{120^\circ}})\\
+&\,&&\,&&\,=\quad V_{an}(1+0)-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
+&\,&&\,&&\,=\quad V_{an}-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
+&\mathrm{\text{take magnitude}}&&\rlap{\abs{V_{an}}=\abs{V_{bn}}=\abs{V}}\\
+&\,&&\abs{V_{ab}}\quad&&\,=\quad\abs{V}+\frac{1}{2}\abs{V}-j\abs{V}\cdot\frac{\sqrt{3}}{2}\\
+&\,&&\,&&\,=\quad\abs{V}\frac{3}{2}-j\abs{V}\cdot\frac{\sqrt{3}}{2}\\
+&\,&&\,&&\,=\quad\abs{V}\left(\frac{3}{2}-j\cdot\frac{\sqrt{3}}{2}\right)\\
+&\mathrm{\text{polar to rectangular}}\quad&&\abs{V_{ab}}\quad&&\,=\quad\abs{V}\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}\\
+&\,&&\,&&\,=\quad\abs{V}\sqrt{\frac{9}{4}+\frac{3}{4}}\\
+&\,&&\,&&\,=\quad\abs{V}\sqrt{\frac{12}{4}}\\
+&\text{Thus}&&\abs{V_{ab}}\quad&&\,=\quad\abs{V}\sqrt{3}\qquad\text{(sane proof)}\\
+\\
+&\rlap{\text{So now you know that the power}\,1\phi\,110V~\text{is}~3\phi\,190V.}\\
+&\rlap{\text{Or}~1\phi\,220V~\text{is}~3\phi\,380V~\text{in some countries.}}
+\end{alignat*}
+```
+_source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
 
 <br><br>
 
