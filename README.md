@@ -791,10 +791,15 @@ $e^x$ is the only expression, you can't kill with differentiation.
 
 You may notice that the electrical power $1\phi\cdot110V$ is $3\phi\cdot190V$. Or $1\phi\cdot220V$ is $3\phi\cdot380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}$. Here's the proof.
 
-This proof is kinda engineering, so $j$ is denoted as an imaginary number.
+This proof is kinda engineering, so $j$ denotes an imaginary number.
 
 ```math
 \begin{alignat*}{5}
+&\rlap{\text{A full circle cover the angle of}~2\pi~\text{radians or}~360^{\circ}.}\\
+&\rlap{\text{It is split into}~3\phi\text{, each phase will cover}~\frac{2\pi}{3}~\text{radians or}~120^\circ.}\\
+&\rlap{\text{The voltage across phases can be computed by the different between phases}}\\
+&\rlap{\text{In this case we will subtract the voltage at}~120^\circ~\text{from the voltage at}~0^\circ.}\\
+\\
 &\,&&V_{ab}\quad&&\,=\quad V_{an}\angle0^\circ-V_{bn}\angle120^\circ\\
 &\,&&\,&&\,=\quad V_{an}(\cos{0^\circ}+j\sin{{0^\circ}})+V_{bn}(\cos{120^\circ}+j\sin{{120^\circ}})\\
 &\,&&\,&&\,=\quad V_{an}(1+0)-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
