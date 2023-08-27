@@ -12,7 +12,7 @@
 
 ## What is **_foolmath_**?
 
-If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof.
+If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof. We also include some valid proofs, which we consider them interesting and worth reading.
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
@@ -792,6 +792,8 @@ $e^x$ is the only expression, you can't kill with differentiation.
 You may notice that the electrical power $1\phi\cdot110V$ is $3\phi\cdot190V$. Or $1\phi\cdot220V$ is $3\phi\cdot380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}$. Here's the proof.
 
 This proof is kinda engineering, so $j$ denotes an imaginary number.
+
+![sine_waves.png](./images/sine_waves.png)
 
 ```math
 \begin{alignat*}{5}
