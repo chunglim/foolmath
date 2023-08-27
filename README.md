@@ -48,6 +48,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - How much is $\sqrt[^i]{i}$? [|view it|](#how-much-is-sqrtii)
 - Who said $n^0=1$? [|view it|](#who-said-n01)
 - Why $\frac{d}{dx}e^x=e^x$? [|view it|](#you-might-be-wondering-why-fracddxexex)
+- Why is multiplying factor converting the power $1\phi$ to $3\phi$ is $\sqrt{3}$? [|view it|](https://github.com/chunglim/foolmath#multiplying-factor-to-change-power-voltage-from-1phi-to-3phi)
 
 ### **Ramanujan summation**
 
@@ -788,7 +789,7 @@ $e^x$ is the only expression, you can't kill with differentiation.
 
 ### **Multiplying factor to change power voltage from $1\phi$ to $3\phi$**
 
-You may notice that the electricity power $1\phi~110V$ is $3\phi~190V. Or $1\phi~220V$ is $3\phi~380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}.
+You may notice that the electrical power $1\phi\cdot110V$ is $3\phi\cdot190V$. Or $1\phi\cdot220V$ is $3\phi\cdot380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}$. Here's the proof.
 
 This proof is kinda engineering, so $j$ is denoted as an imaginary number.
 
@@ -798,14 +799,14 @@ This proof is kinda engineering, so $j$ is denoted as an imaginary number.
 &\,&&\,&&\,=\quad V_{an}(\cos{0^\circ}+j\sin{{0^\circ}})+V_{bn}(\cos{120^\circ}+j\sin{{120^\circ}})\\
 &\,&&\,&&\,=\quad V_{an}(1+0)-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
 &\,&&\,&&\,=\quad V_{an}-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
-&\mathrm{\text{take magnitude}}&&\rlap{\abs{V_{an}}=\abs{V_{bn}}=\abs{V}}\\
-&\,&&\abs{V_{ab}}\quad&&\,=\quad\abs{V}+\frac{1}{2}\abs{V}-j\abs{V}\cdot\frac{\sqrt{3}}{2}\\
-&\,&&\,&&\,=\quad\abs{V}\frac{3}{2}-j\abs{V}\cdot\frac{\sqrt{3}}{2}\\
-&\,&&\,&&\,=\quad\abs{V}\left(\frac{3}{2}-j\cdot\frac{\sqrt{3}}{2}\right)\\
-&\mathrm{\text{polar to rectangular}}\quad&&\abs{V_{ab}}\quad&&\,=\quad\abs{V}\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}\\
-&\,&&\,&&\,=\quad\abs{V}\sqrt{\frac{9}{4}+\frac{3}{4}}\\
-&\,&&\,&&\,=\quad\abs{V}\sqrt{\frac{12}{4}}\\
-&\text{Thus}&&\abs{V_{ab}}\quad&&\,=\quad\abs{V}\sqrt{3}\qquad\text{(sane proof)}\\
+&\mathrm{\text{take magnitude}}&&\rlap{|V_{an}|=|V_{bn}|=|V|}\\
+&\,&&|V_{ab}|\quad&&\,=\quad|V|+\frac{1}{2}|V|-j|V|\cdot\frac{\sqrt{3}}{2}\\
+&\,&&\,&&\,=\quad|V|\frac{3}{2}-j|V|\cdot\frac{\sqrt{3}}{2}\\
+&\,&&\,&&\,=\quad|V|\left(\frac{3}{2}-j\cdot\frac{\sqrt{3}}{2}\right)\\
+&\mathrm{\text{polar to rectangular}}\quad&&|V_{ab}|\quad&&\,=\quad|V|\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}\\
+&\,&&\,&&\,=\quad|V|\sqrt{\frac{9}{4}+\frac{3}{4}}\\
+&\,&&\,&&\,=\quad|V|\sqrt{\frac{12}{4}}\\
+&\text{Thus}&&|V_{ab}|\quad&&\,=\quad|V|\sqrt{3}\qquad\text{(sane proof)}\\
 \\
 &\rlap{\text{So now you know that the power}\,1\phi\,110V~\text{is}~3\phi\,190V.}\\
 &\rlap{\text{Or}~1\phi\,220V~\text{is}~3\phi\,380V~\text{in some countries.}}
