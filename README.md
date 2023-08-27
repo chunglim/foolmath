@@ -1,8 +1,8 @@
 <!-- TOC -->
 
-# Welcome to the `foolmath` repository!
+# Welcome to the **_foolmath_** repository!
 
-<!-- # ![foolmath logo](link_to_logo_image) -->
+![foolmath logo](./images/ramanujan.png)
 
 <!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
@@ -12,42 +12,42 @@
 
 ## What is foolmath?
 
-Are you a fellow math aficionado or enthusiast? Have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **`foolmath`** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof.
+If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof.
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
 2. Plain-text LaTeX `.tex` code is in `src/`.
-3. It is the best, to view `foolmath` on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
+3. It is the best, to view _foolmath_ on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
 
 **Proofs are louder than words. Let's start!**
 
 ## Table of Contents
-- Ramanujan summation [|view it!|](#ramanujan-summation)
-- Ramanujan alternative [|view it!|](#yet-there-is-a-ramanujan-alternative)
-- Summing the power of two [|view it!|](#what-if-summing-the-power-of-two)
-- Summing all natural odd numbers [|view it!|](#what-if-summing-all-natural-odd-numbers)
-- Summing all natural even numbers [|view it!|](#trying-summing-all-natural-even-numbers)
-- Why $0=1$? [|view it!|](#why-01)
-- Why $1=2$? [|view it!|](#why-12)
-- Do you know that $1=-1$? [|view it!|](#do-you-know-that-1-1)
-- Let's see a little higher numbers, $4=5$. [|view it!|](#lets-see-a-little-higher-numbers-45)
-- Are all intergers equal? [|view it!|](#are-all-intergers-equal)
-- Why $2+5=8$? [|view it!|](#was-i-wrongly-taught-why-258)
-- Very silly solutions to find $\frac{0}{0}$. [|view it!|](#very-silly-solutions-to-find-frac00)
-- Who said $i$ is imaginary, why $i=1$ then? [|view it!|](#who-said-i-is-imaginary-why-i1-then)
-- Let's talk more about $i$. [|view it!|](#lets-talk-more-about-i)
-- $i=\pm1$, isn't it? [|view it!|](#ipm1-isnt-it)
-- How much is $\infty$? [|view it!|](#how-much-is-infty)
-- How much is $0.\infty$? [|view it!|](#how-much-is-0infty)
-- Is $0$ an even number? [|view it!|](#is-0-an-even-number)
-- Solve $x$ for $x+2=x$. [|view it!|](#solve-x-for-x2x)
-- $e^{i\pi}=$?, also known as Euler's Identity [|view it!|](#eipi-also-known-as-eulers-identity)
-- $e^x=1$, no matter what $x$ maybe. [|view it!|](#ex1-no-matter-what-x-maybe)
-- How much is $\pi$? [|view it!|](#how-much-is-pi)
-- How much is $i^i$? [|view it!|](#how-much-is-ii)
-- How much is $\sqrt[^i]{i}$? [|view it!|](#how-much-is-sqrtii)
-- Who said $n^0=1$? [|view it!|](#who-said-n01)
-- Why $\frac{d}{dx}e^x=e^x$? [|view it!|](#you-might-be-wondering-why-fracddxexex)
+- Ramanujan summation [|view it|](#ramanujan-summation)
+- Ramanujan alternative [|view it|](#yet-there-is-a-ramanujan-alternative)
+- Summing the power of two [|view it|](#what-if-summing-the-power-of-two)
+- Summing all natural odd numbers [|view it|](#what-if-summing-all-natural-odd-numbers)
+- Summing all natural even numbers [|view it|](#trying-summing-all-natural-even-numbers)
+- Why $0=1$? [|view it|](#why-01)
+- Why $1=2$? [|view it|](#why-12)
+- Do you know that $1=-1$? [|view it|](#do-you-know-that-1-1)
+- Let's see a little higher numbers, $4=5$. [|view it|](#lets-see-a-little-higher-numbers-45)
+- Are all intergers equal? [|view it|](#are-all-intergers-equal)
+- Why $2+5=8$? [|view it|](#was-i-wrongly-taught-why-258)
+- Very silly solutions to find $\frac{0}{0}$. [|view it|](#very-silly-solutions-to-find-frac00)
+- Who said $i$ is imaginary, why $i=1$ then? [|view it|](#who-said-i-is-imaginary-why-i1-then)
+- Let's talk more about $i$. [|view it|](#lets-talk-more-about-i)
+- $i=\pm1$, isn't it? [|view it|](#ipm1-isnt-it)
+- How much is $\infty$? [|view it|](#how-much-is-infty)
+- How much is $0.\infty$? [|view it|](#how-much-is-0infty)
+- Is $0$ an even number? [|view it|](#is-0-an-even-number)
+- Solve $x$ for $x+2=x$. [|view it|](#solve-x-for-x2x)
+- $e^{i\pi}=$?, also known as Euler's Identity [|view it|](#eipi-also-known-as-eulers-identity)
+- $e^x=1$, no matter what $x$ maybe. [|view it|](#ex1-no-matter-what-x-maybe)
+- How much is $\pi$? [|view it|](#how-much-is-pi)
+- How much is $i^i$? [|view it|](#how-much-is-ii)
+- How much is $\sqrt[^i]{i}$? [|view it|](#how-much-is-sqrtii)
+- Who said $n^0=1$? [|view it|](#who-said-n01)
+- Why $\frac{d}{dx}e^x=e^x$? [|view it|](#you-might-be-wondering-why-fracddxexex)
 
 ### **Ramanujan summation**
 
@@ -57,7 +57,7 @@ $\qquad1+2+3+4+5+6+...\quad=\quad?$
 
 ```math
 \begin{align*}
-S\quad&\,=\quad1+2+3+...\\
+S\quad&\,=\quad1+2+3+4+5+6+...\\
 \mathrm{Let}\qquad S_1\quad&\,=\quad1-1+1-1+...\\
 1-S_1\quad&\,=\quad1-(1+1-1+1-...)\\
 \,&\,=\quad1-1+1-1+...\\
