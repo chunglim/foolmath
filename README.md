@@ -12,7 +12,7 @@
 
 ## What is **_foolmath_**?
 
-If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! We intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof. We also include some valid proofs, which we consider them interesting and worth reading.
+If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof. I also include some valid proofs, which are considered interesting and worth reading.
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
@@ -789,19 +789,16 @@ $e^x$ is the only expression, you can't kill with differentiation.
 
 ### **Multiplying factor to change power voltage from $1\phi$ to $3\phi$**
 
-You may notice that the electrical power $1\phi\cdot110V$ is $3\phi\cdot190V$. Or $1\phi\cdot220V$ is $3\phi\cdot380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}$. Here's the proof.
+You may notice that the electrical power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}$. Here's the proof.
 
 This proof is kinda engineering, so $j$ denotes an imaginary number.
 
 ![sine_waves.png](./images/sine_waves.png)
 
+A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is split into $3\phi$. So each phase will set an angle by $\frac{2\pi}{3}$ radians or $120^\circ$ apart from one another. The voltage across phases can be computed by the difference between phases. In this case we will subtract the voltage at $120^\circ$ from the voltage at $0^\circ$.
+
 ```math
 \begin{alignat*}{5}
-&\rlap{\text{A full circle covers the angle of}~2\pi~\text{radians or}~360^{\circ}.~\text{And it is split into}~3\phi.}\\
-&\rlap{\text{So each phase will set an angle by}~\frac{2\pi}{3}~\text{radians or}~120^\circ~\text{to one another.}}\\
-&\rlap{\text{The voltage across phases can be computed by the different between phases}}\\
-&\rlap{\text{In this case we will subtract the voltage at}~120^\circ~\text{from the voltage at}~0^\circ.}\\
-\\
 &\,&&V_{ab}\quad&&\,=\quad V_{an}\angle0^\circ-V_{bn}\angle120^\circ\\
 &\,&&\,&&\,=\quad V_{an}(\cos{0^\circ}+j\sin{{0^\circ}})+V_{bn}(\cos{120^\circ}+j\sin{{120^\circ}})\\
 &\,&&\,&&\,=\quad V_{an}(1+0)-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
