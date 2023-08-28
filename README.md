@@ -58,11 +58,11 @@ $\qquad1+2+3+4+5+6+...\quad=\quad?$
 
 ```math
 \begin{align*}
-S\quad&\,=\quad1+2+3+4+5+6+...\\
+S\quad&\,=\quad1+2+3+...\\
 \mathrm{Let}\qquad S_1\quad&\,=\quad1-1+1-1+...\\
 1-S_1\quad&\,=\quad1-(1+1-1+1-...)\\
 \,&\,=\quad1-1+1-1+...\\
-\,&\,=\quad S1\\
+\,&\,=\quad S_1\\
 2S_1\quad&\,=\quad1\\
 S_1\quad&\,=\quad\frac{1}{2}\\
 \mathrm{Let}\qquad S_2\quad&\,=\quad1-2+3-4+5-6+...\\
@@ -797,8 +797,8 @@ This proof is kinda engineering, so $j$ denotes an imaginary number.
 
 ```math
 \begin{alignat*}{5}
-&\rlap{\text{A full circle cover the angle of}~2\pi~\text{radians or}~360^{\circ}.}\\
-&\rlap{\text{It is split into}~3\phi\text{, each phase will cover}~\frac{2\pi}{3}~\text{radians or}~120^\circ.}\\
+&\rlap{\text{A full circle covers the angle of}~2\pi~\text{radians or}~360^{\circ}.~\text{And it is split into}~3\phi.}\\
+&\rlap{\text{So each phase will set an angle by}~\frac{2\pi}{3}~\text{radians or}~120^\circ~\text{to one another.}}\\
 &\rlap{\text{The voltage across phases can be computed by the different between phases}}\\
 &\rlap{\text{In this case we will subtract the voltage at}~120^\circ~\text{from the voltage at}~0^\circ.}\\
 \\
