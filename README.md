@@ -394,16 +394,16 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 
 ### **Let's talk more about $i$.**
 
-#### **This is the _sane proof_ of $\frac{1}{i}$.**
+#### **This is the _valid proof_ of $\frac{1}{i}$.**
 
 ```math
 \begin{align*}
 -1\quad&\,=\quad i^2\\
 \mathrm{/~(-i)~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
-\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(sane~proof)}
+\mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(valid~proof)}
 \end{align*}
 ```
-_source code:_&nbsp;[inv_i_sane.tex](./src/inv_i_sane.tex)
+_source code:_&nbsp;[inv_i_valid.tex](./src/inv_i_valid.tex)
 
 Nah, there is another $\frac{1}{i}$, but it is foolish.
 
@@ -502,7 +502,7 @@ This proof is known to be correct!
 &\,&&\,&&=\qquad(1+1)(1+1)(1-1)\\
 &\mathrm{repeat~the~last~term}&&\quad&&=\qquad(1+1)(1+1)(1+1)...(1-1)\\
 &\,&&\quad0&&=\qquad(1+1)^\infty*(1-1)\\
-&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(sane~proof)}\\
+&\mathrm{Thus}\,&&\quad0&&=\qquad2^\infty*0\qquad\mathrm{(valid~proof)}\\
 &\rlap{\qquad\qquad\mathrm{Any~number~being~a~multiple~of~2~is~always~even.}}
 \end{alignat*}
 ```
@@ -523,7 +523,7 @@ _source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)
 
 A silly equation always has the solution.
 
-Now, have a look at the sane proof of _Euler's identity_.
+Now, have a look at the valid proof of _Euler's identity_.
 
 ### **$e^{i\pi}=?$, also known as Euler's identity**
 
@@ -537,12 +537,12 @@ Now, have a look at the sane proof of _Euler's identity_.
 &\,&&\,&&=\rlap{\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-...\right)+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\right)}\\
 &\,&&e^{ix}&&=\cos{x}+i\sin{x}&&\,&&\quad\mathrm{***}\\
 &\,&&e^{ix}&&=\cos{\pi}+\cancelto{0}{i\sin{\pi}}\\
-&\mathrm{Thus}\quad&&e^{i\pi}&&=-1\qquad\mathrm{(sane~proof)}
+&\mathrm{Thus}\quad&&e^{i\pi}&&=-1\qquad\mathrm{(valid~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[euler.tex](./src/euler.tex)
 
-Euler's identity shall be used in the other proofs (whether sane or fool).<br>
+Euler's identity shall be used in the other proofs (whether valid or fool).<br>
 Let's see the first fool proofs using Euler's identity.
 
 ### **$e^x=1$, no matter what $x$ maybe.**
@@ -656,7 +656,7 @@ _source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)
 
 Oops! engineers also say that!<br><br>
 
-We have seen several fool proofs, let's see sane proofs.
+We have seen several fool proofs, let's see valid proofs.
 
 ### **How much is $i^i$?**
 
@@ -667,7 +667,7 @@ We have seen several fool proofs, let's see sane proofs.
 &\,&&\,\quad&&\,=\quad\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&&\,\quad&&\,=\quad e^{i\frac{\pi}{2}}\\
 &\mathrm{power}~i~\mathrm{both~sides}&&\qquad i^i\quad&&\,=\quad e^{i^2\frac{\pi}{2}}\\
-&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\qquad\mathrm{(sane~proof)}\\
+&\mathrm{Thus}&&\,\qquad i^i\quad&&\,=\quad e^{-\frac{\pi}{2}}\qquad\mathrm{(valid~proof)}\\
 &\rlap{\qquad\qquad\qquad\qquad\quad\mathrm{And~it~is~a~real~number.}}\\
 \end{alignat*}
 ```
@@ -684,7 +684,7 @@ _source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)
 &\,&&\quad\frac{\pi}{2}\quad&&\,=\quad\frac{{1}}{i}\ln{i}\\
 &\,&&\quad\ln{i^\frac{1}{i}}\quad&&\,=\quad\frac{\pi}{2}\\
 &\,&&\quad i^\frac{1}{i}\quad&&\,=\quad e^\frac{\pi}{2}\\
-&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad e^\frac{\pi}{2}&&\qquad\mathrm{(sane~proof)}\\
+&\mathrm{Thus}&&\quad\sqrt[^i]{i}&&\,=\quad e^\frac{\pi}{2}&&\qquad\mathrm{(valid~proof)}\\
 &\rlap{\qquad\qquad\qquad\qquad\quad\mathrm{And~it~is~a~real~number.}}\\
 \end{alignat*}
 ```
@@ -710,7 +710,7 @@ _source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)
 
 It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
-Next, let's see sane proofs.
+Next, let's see valid proofs.
 
 ### **You might be wondering, why $\frac{d}{dx}e^x=e^x$?**
 
@@ -736,7 +736,7 @@ There are many solutions out there, let's have a look.
 &\,&&\,&&\frac{d}{dx}e^x&&=\quad e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\quad&&(4))\\
 &\mathrm{recall}&&\rlap{e=\lim_{n\to0}(1+n)^\frac{1}{n}=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n}\\
 &\mathrm{from~(4)}&&\,&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\frac{1}{\cancelto{1}{\ln{e}}}\\
-&\,&&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad\mathrm{(sane~proof)}
+&\,&&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad\mathrm{(valid~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
@@ -751,7 +751,7 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 &\mathrm{diff}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad0+1+\frac{2x^1}{2!}+\frac{3x^2}{3!}+\frac{4x^3}{4!}+...\\
 &\,&&\,&&\,=\quad1+\frac{\cancel{2}x^1}{\cancel{2}.1!}+\frac{\cancel{3}x^2}{\cancel{3}.2!}+\frac{\cancel{4}x^3}{\cancel{4}.3!}+...\\
 &\,&&\,&&\,=\quad(1)\\
-&\mathrm{thus}&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad\mathrm{(sane~proof)}
+&\mathrm{thus}&&\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad\mathrm{(valid~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
@@ -767,7 +767,7 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 &\mathrm{diff~both~sides}\quad&&\frac{d}{dx}\ln{y}\quad&&\,=\quad \frac{dx}{dx}\\
 &\,&&\frac{1}{y}\frac{dy}{dx}\quad&&\,=\quad1\\
 &\,&&\frac{dy}{dx}\quad&&\,=\quad y\\
-&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x&&\mathrm{(sane~proof)}
+&\mathrm{Thus}\quad&&\frac{d}{dx}e^x\quad&&\,=\quad e^x&&\mathrm{(valid~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
@@ -781,7 +781,7 @@ _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
 &\mathrm{integral}\qquad&&\int\frac{dy}{y}\quad&&\,=\quad \int{dx}\\
 &\,&&\quad\ln{y}\quad&&\,=\quad x\qquad&&\mathrm{omit}~C\\
 &\,&&\quad y\quad&&\,=\quad e^x\\
-&\mathrm{Thus}&&\quad\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad&&\mathrm{(sane~proof)}
+&\mathrm{Thus}&&\quad\frac{d}{dx}e^x\quad&&\,=\quad e^x\qquad&&\mathrm{(valid~proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)
@@ -812,7 +812,7 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 &\mathrm{\text{polar to rectangular}}\quad&&|V_{ab}|\quad&&\,=\quad|V|\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}\\
 &\,&&\,&&\,=\quad|V|\sqrt{\frac{9}{4}+\frac{3}{4}}\\
 &\,&&\,&&\,=\quad|V|\sqrt{\frac{12}{4}}\\
-&\text{Thus}&&|V_{ab}|\quad&&\,=\quad|V|\sqrt{3}\qquad\text{(sane proof)}\\
+&\text{Thus}&&|V_{ab}|\quad&&\,=\quad|V|\sqrt{3}\qquad\text{(valid proof)}\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
@@ -821,7 +821,7 @@ So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V
 
 **Let's see some weirdness of mathematics.**
 
-**The following math properties are not the proofs, but they are the demonstrations showing the sane weirdness of mathematics.**
+**The following math properties are not the proofs, but they are the demonstrations showing the valid weirdness of mathematics.**
 
 ### **Magic numbers**
 
@@ -836,7 +836,7 @@ or
 then `1 + 2 + 2 + 1 + 1 + 7 + 4 = 18`,<br>
 and then `1 + 8 = 9`.
 
-All explaination above is on base `10`. However this concept also applies to all bases. The magic number for each base is `base - 1`. This is a sane weirdness.
+All explaination above is on base `10`. However this concept also applies to all bases. The magic number for each base is `base - 1`. This is a valid weirdness.
 
 ```
 base 10: magic number = 10 - 1 = 9
@@ -901,7 +901,7 @@ Do you feel that math is so strange?
 
 <br><br>
 
-I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or sane math. If you enjoy this content or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
+I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or valid math. If you enjoy this content or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
 
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
