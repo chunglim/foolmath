@@ -884,7 +884,7 @@ You can try different bases. The results will be the same.
 
 ### **Vortex math**
 
-Consider the following series, each digit is a power of `2`.
+Consider the following series, each number is the power of `2`.
 
 ```math
 \begin{alignat*}{15}
