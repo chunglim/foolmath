@@ -49,7 +49,8 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Who said $n^0=1$? [|view it|](#who-said-n01)
 - Why $\frac{d}{dx}e^x=e^x$? [|view it|](#you-might-be-wondering-why-fracddxexex)
 - Why is multiplying factor converting the power $1\phi$ to $3\phi$ is $\sqrt{3}$? [|view it|](#multiplying-factor-to-change-power-voltage-from-1phi-to-3phi)
-- Magic Numbers [|view it|](#magic-numbers)
+- Magic numbers [|view it|](#magic-numbers)
+- Vortex math [|view it|](#vortex-math)
 
 ### **Ramanujan summation**
 
@@ -818,17 +819,24 @@ _source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
 
 So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. The multiplying factor is $\sqrt{3}$.
 
+**Let's see some weirdness of mathematics.**
+
+**The following math properties are not the proofs, but they are the demonstrations showing the sane weirdness of mathematics.**
+
 ### **Magic numbers**
 
 Have you ever know a magic number `9`? Whatever multiplying with `9` will result number of digits. We keep adding each digit until the final result is one digit. The final result is always `9` for examples ...
 
 `5 * 9 = 45`,<br>
-then `4 + 5 = 9` or
+then `4 + 5 = 9`
+
+or
 
 `135686 * 9 = 1221174`<br>
-then `1 + 2 + 2 + 1 + 1 + 7 + 4 = 18`, then `1 + 8 = 9`.
+then `1 + 2 + 2 + 1 + 1 + 7 + 4 = 18`,<br>
+and then `1 + 8 = 9`.
 
-All explaination above is on base `10`. However this concept also applies to all bases. The magic number for each base is `base - 1`.
+All explaination above is on base `10`. However this concept also applies to all bases. The magic number for each base is `base - 1`. This is a sane weirdness.
 
 ```
 base 10: magic number = 10 - 1 = 9
@@ -872,7 +880,24 @@ base 16: magic number = 0x10 - 0x1 = 0xf
 The final result will always be 0xf.
 ```
 
-This is not the proof, but it is only the demonstration showing the weirdness of mathematics. You can try different bases. The results will be the same.
+You can try different bases. The results will be the same.
+
+### **Vortex math**
+
+Consider the following series, each digit is a power of `2`.
+
+```math
+\begin{alignat*}{15}
+&1,&&\quad2,&&\quad4,&&\quad8,&&~~~16,&&~~32,&&~~64,&&~128,&&~256,&&~512,&&~1024,&&~2048,&&~4096, ...\\
+\rlap{\text{Keep adding each digit, until the final result is one digit, ...}}\\
+&1,&&\quad2&&\quad4,&&\quad8,&&\quad~7,&&\quad5,&&\quad1,&&\quad~2,&&\quad~4,&&\quad~8,&&\quad~~~7,&&\quad~~~5,&&\quad~~~1, ...\\
+\rlap{\text{The series will repeat with the following sub-series.}}\\
+&1,&&\quad2,&&\quad4,&&\quad8,&&\quad~7,&&\quad5
+\end{alignat*}
+```
+_source code:_&nbsp;[vortex.tex](./src/vortex.tex)
+
+Do you feel that math is so strange?
 
 <br><br>
 
