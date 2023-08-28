@@ -811,12 +811,11 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 &\,&&\,&&\,=\quad|V|\sqrt{\frac{9}{4}+\frac{3}{4}}\\
 &\,&&\,&&\,=\quad|V|\sqrt{\frac{12}{4}}\\
 &\text{Thus}&&|V_{ab}|\quad&&\,=\quad|V|\sqrt{3}\qquad\text{(sane proof)}\\
-\\
-&\rlap{\text{So now you know that the power}\,1\phi\,110V~\text{is}~3\phi\,190V.}\\
-&\rlap{\text{Or}~1\phi\,220V~\text{is}~3\phi\,380V~\text{in some countries.}}
 \end{alignat*}
 ```
 _source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
+
+So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. The multiplying factor is $\sqrt{3$}.
 
 <br><br>
 
