@@ -815,7 +815,7 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 ```
 _source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
 
-So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. The multiplying factor is $\sqrt{3$}.
+So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. The multiplying factor is $\sqrt{3}$.
 
 <br><br>
 
