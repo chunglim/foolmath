@@ -48,7 +48,8 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - How much is $\sqrt[^i]{i}$? [|view it|](#how-much-is-sqrtii)
 - Who said $n^0=1$? [|view it|](#who-said-n01)
 - Why $\frac{d}{dx}e^x=e^x$? [|view it|](#you-might-be-wondering-why-fracddxexex)
-- Why is multiplying factor converting the power $1\phi$ to $3\phi$ is $\sqrt{3}$? [|view it|](https://github.com/chunglim/foolmath#multiplying-factor-to-change-power-voltage-from-1phi-to-3phi)
+- Why is multiplying factor converting the power $1\phi$ to $3\phi$ is $\sqrt{3}$? [|view it|](#multiplying-factor-to-change-power-voltage-from-1phi-to-3phi)
+- Magic Numbers [|view it|](#magic-numbers)
 
 ### **Ramanujan summation**
 
@@ -840,7 +841,7 @@ base 10: magic number = 10 - 1 = 9
 7 * 9 = 63 --> 6 + 3 = 9
 8 * 9 = 72 --> 7 + 2 = 9
 9 * 9 = 81 --> 8 + 1 = 9
-||||^---- always 9 ----^
+	^---- always 9 ----^
 
 base 8: magic number = 010 - 01 = 07
 01 * 07 = 07
@@ -850,7 +851,7 @@ base 8: magic number = 010 - 01 = 07
 05 * 07 = 043 --> 04 + 03 = 07
 06 * 07 = 052 --> 05 + 02 = 07
 07 * 07 = 061 --> 06 + 01 = 07
-||||||^------ always 07 -----^
+		^------ always 07 -----^
 
 base 16: magic number = 0x10 - 0x1 = 0xf
 0x1 * 0xf = 0xf
@@ -868,7 +869,7 @@ base 16: magic number = 0x10 - 0x1 = 0xf
 0xd * 0xf = 0xc3 --> 0xc + 0x3 = 0xf
 0xe * 0xf = 0xd2 --> 0xd + 0x2 = 0xf
 0xf * 0xf = 0xe1 --> 0xe + 0x1 = 0xf
-||||||||^------- always 0xf -------^
+		^------- always 0xf -------^
 ```
 
 This is not the proof, but it is only the demonstration showing the weirdness of mathematics. You can try different bases. The results will be the same.
