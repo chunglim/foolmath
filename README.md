@@ -797,6 +797,10 @@ This proof is kinda engineering, so $j$ denotes an imaginary number.
 
 ![sine_waves.png](./images/sine_waves.png)
 
+In $1\phi$ electricity, the voltage is measured across the _live_ line and _neutral_, which is always `0` and the amplitude of _live_ line is always a constant. But in $3\phi$ electricity, the voltage is measured across two _live_ lines. And each _live_ line is a sine curve (plus offset). How can we measure the voltage across two _live_ lines? Let's see.
+
+![unit_circle.png](./images/unit_circle.png)
+
 A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is split into $3\phi$. So each phase will set an angle by $\frac{2\pi}{3}$ radians or $120^\circ$ apart from one another. The voltage across phases can be computed by the difference between phases. In this case we will subtract the voltage at $120^\circ$ from the voltage at $0^\circ$.
 
 ```math
@@ -884,7 +888,7 @@ You can try different bases. The results will be the same.
 
 ### **Vortex math**
 
-Consider the following series, each number is the power of `2`.
+Consider the following series, each number is the power of `2`. This is a valid math property.
 
 ```math
 \begin{alignat*}{15}
