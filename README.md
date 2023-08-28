@@ -12,7 +12,7 @@
 
 ## What is **_foolmath_**?
 
-If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. That's what **_foolmath_** is all about! I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof. I also include some valid proofs, which are considered interesting and worth reading.
+If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs like $1=2$ or evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors or oversights in each proof. I also include some valid proofs, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless noted otherwise.
@@ -816,6 +816,62 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 _source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
 
 So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. The multiplying factor is $\sqrt{3}$.
+
+### **Magic numbers**
+
+Have you ever know a magic number `9`? Whatever multiplying with `9` will result number of digits. We keep adding each digit until the final result is one digit. The final result is always `9` for examples ...
+
+`5 * 9 = 45`,<br>
+then `4 + 5 = 9` or
+
+`135686 * 9 = 1221174`<br>
+then `1 + 2 + 2 + 1 + 1 + 7 + 4 = 18`, then `1 + 8 = 9`.
+
+All explaination above is on base `10`. However this concept also applies to all bases. The magic number for each base is `base - 1`.
+
+```
+base 10: magic number = 10 - 1 = 9
+1 * 9 = 9
+2 * 9 = 18 --> 1 + 8 = 9
+3 * 9 = 27 --> 2 + 7 = 9
+4 * 9 = 36 --> 3 + 6 = 9
+5 * 9 = 45 --> 4 + 5 = 9
+6 * 9 = 54 --> 5 + 4 = 9
+7 * 9 = 63 --> 6 + 3 = 9
+8 * 9 = 72 --> 7 + 2 = 9
+9 * 9 = 81 --> 8 + 1 = 9
+||||^---- always 9 ----^
+
+base 8: magic number = 010 - 01 = 07
+01 * 07 = 07
+02 * 07 = 016 --> 01 + 06 = 07
+03 * 07 = 025 --> 02 + 05 = 07
+04 * 07 = 034 --> 03 + 04 = 07
+05 * 07 = 043 --> 04 + 03 = 07
+06 * 07 = 052 --> 05 + 02 = 07
+07 * 07 = 061 --> 06 + 01 = 07
+||||||^------ always 07 -----^
+
+base 16: magic number = 0x10 - 0x1 = 0xf
+0x1 * 0xf = 0xf
+0x2 * 0xf = 0x1e --> 0x1 + 0xe = 0xf
+0x3 * 0xf = 0x2d --> 0x2 + 0xd = 0xf
+0x4 * 0xf = 0x3c --> 0x3 + 0xc = 0xf
+0x5 * 0xf = 0x4b --> 0x4 + 0xb = 0xf
+0x6 * 0xf = 0x5a --> 0x5 + 0xa = 0xf
+0x7 * 0xf = 0x69 --> 0x6 + 0x9 = 0xf
+0x8 * 0xf = 0x78 --> 0x7 + 0x8 = 0xf
+0x9 * 0xf = 0x87 --> 0x8 + 0x7 = 0xf
+0xa * 0xf = 0x96 --> 0x9 + 0x6 = 0xf
+0xb * 0xf = 0xa5 --> 0xa + 0x5 = 0xf
+0xc * 0xf = 0xb4 --> 0xb + 0x4 = 0xf
+0xd * 0xf = 0xc3 --> 0xc + 0x3 = 0xf
+0xe * 0xf = 0xd2 --> 0xd + 0x2 = 0xf
+0xf * 0xf = 0xe1 --> 0xe + 0x1 = 0xf
+||||||||^------- always 0xf -------^
+```
+
+This is not the proof, but it is only the demonstration showing the weirdness of mathematics. You can try different bases. The results will be the same.
 
 <br><br>
 
