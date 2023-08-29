@@ -51,6 +51,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Why is multiplying factor converting the power $1\phi$ to $3\phi$ is $\sqrt{3}$? [|view it|](#multiplying-factor-to-change-power-voltage-from-1phi-to-3phi)
 - Magic numbers [|view it|](#magic-numbers)
 - Vortex math [|view it|](#vortex-math)
+- A property of prime numbers [|view it|](#a-property-of-prime-numbers)
 
 ### **Ramanujan summation**
 
@@ -902,6 +903,42 @@ Consider the following series, each number is the power of `2`. This is a valid 
 _source code:_&nbsp;[vortex.tex](./src/vortex.tex)
 
 Do you feel that math is so strange?
+
+### **A property of prime numbers**
+
+The square of a prime number other than _2_ or _3_ is always _1 more than a multiple of 24_. Let's see.
+
+```
+ 5^2 =  25 = (24 *  1) + 1
+ 7^2 =  49 = (24 *  2) + 1
+11^2 = 121 = (24 *  5) + 1
+13^2 = 169 = (24 *  7) + 1
+17^2 = 289 = (24 * 12) + 1
+19^2 = 361 = (24 * 15) + 1
+23^2 = 529 = (24 * 22) + 1
+29^2 = 841 = (24 * 35) + 1
+31^2 = 961 = (24 * 40) + 1
+```
+
+Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they are divided by `6`. If the remainder was `0`, `2` or `4` it would be _even_, and if it was `3`, it would be _divisible_ by `3`.
+
+```math
+\begin{alignat*}{5}
+&\,&&\qquad p&&\,=&&\quad6n+1\\
+&\,&&\qquad p^2&&\,=&&\quad(6n+1)^2\\
+&\,&&\qquad p^2&&\,=&&\quad36n^2+12n+1&&\qquad\text{(1)}\\
+&\rlap{\text{if }n\text{ is even, }n(3n+1)\text{ is also even.}}\\
+&\rlap{\text{if }n\text{ is odd, }3n+1\text{ is even.}}\\
+&\rlap{\text{So }n(3n+1)\text{ is still even.}}\\
+&\text{So for all }n\quad&&n(3n+1)&&\,=&&\quad2k&&\text{for some integer }k\\
+&\text{from (1)}&&\qquad p^2&&\,=&&\quad 12n(3n+1)+1\\
+&\,&&\,&&\,=&&\quad12(2k)+1\\
+&\text{Thus}&&\qquad p^2&&\,=&&\quad24k+1&&\text{(valid proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[prime.tex](./src/prime.tex)
+
+The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
 <br><br>
 
