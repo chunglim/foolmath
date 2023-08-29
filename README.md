@@ -944,9 +944,9 @@ _source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
-### **Proof of $\int_{-\infty}^\inftye^{-x^2}dx=\sqrt\pi$**
+### **Proof of $\int_{-\infty}^\infty e^{-x^2}dx=\sqrt\pi$**
 
-This valid proof demonstrates the relation between $e$ and $\pi$. It is called **_Gaussian intergral_**.
+This valid proof is called **_Gaussian intergral_**. It demonstrates the relation between $e$ and $\pi$.
 
 ```math
 \begin{alignat*}{5}
