@@ -908,17 +908,18 @@ Do you feel that math is so strange?
 
 The square of a prime number other than _2_ or _3_ is always _1 more than a multiple of 24_. Let's see.
 
+```math
+~~5^2=~~25=(24*~~1)+1\\
+~7^2=~~49=(24*~~2)+1\\
+11^2=121=(24*~~5)+1\\
+13^2=169=(24*~~7)+1\\
+17^2=289=(24*12)+1\\
+19^2=361=(24*15)+1\\
+23^2=529=(24*22)+1\\
+29^2=841=(24*35)+1\\
+31^2=961=(24*40)+1
 ```
- 5^2 =  25 = (24 *  1) + 1
- 7^2 =  49 = (24 *  2) + 1
-11^2 = 121 = (24 *  5) + 1
-13^2 = 169 = (24 *  7) + 1
-17^2 = 289 = (24 * 12) + 1
-19^2 = 361 = (24 * 15) + 1
-23^2 = 529 = (24 * 22) + 1
-29^2 = 841 = (24 * 35) + 1
-31^2 = 961 = (24 * 40) + 1
-```
+_source code:_&nbsp;[prime_0.tex](./src/prime_0.tex)
 
 Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they are divided by `6`. If the remainder was `0`, `2` or `4` it would be _even_, and if it was `3`, it would be _divisible_ by `3`.
 
@@ -936,7 +937,7 @@ Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they
 &\text{Thus}&&\qquad p^2&&\,=&&\quad24k+1&&\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[prime.tex](./src/prime.tex)
+_source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
