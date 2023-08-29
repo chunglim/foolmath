@@ -52,6 +52,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Magic numbers [|view it|](#magic-numbers)
 - Vortex math [|view it|](#vortex-math)
 - A property of prime numbers [|view it|](#a-property-of-prime-numbers)
+- Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinftye-x2dxsqrtpi)
 
 ### **Ramanujan summation**
 
@@ -943,9 +944,9 @@ _source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
-### **Proof of $\int_{-\infty}^\infty\,e^{-x^2}\,dx\,=\,\sqrt\pi$
+### **Proof of $\int_{-\infty}^\infty\,e^{-x^2}\,dx\,=\,\sqrt\pi$**
 
-This valid proof demonstrates the relation between $e$ and $\pi$.
+This valid proof demonstrates the relation between $e$ and $\pi$. It is called _Gaussian intergral_.
 
 ```math
 \begin{alignat*}{5}
@@ -968,7 +969,7 @@ This valid proof demonstrates the relation between $e$ and $\pi$.
 ```
 _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
 
-This is one of many relations between $e$ and $\pi$.
+Gaussian integral is one of many relations between $e$ and $\pi$.
 
 <br><br>
 
