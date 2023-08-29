@@ -52,7 +52,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Magic numbers [|view it|](#magic-numbers)
 - Vortex math [|view it|](#vortex-math)
 - A property of prime numbers [|view it|](#a-property-of-prime-numbers)
-- Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinftye-x2dxsqrtpi)
+- Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinfty-e-x2dxsqrtpi)
 
 ### **Ramanujan summation**
 
