@@ -946,7 +946,7 @@ The proof for the case that `p` has a remainder of `5` is almost the same, just 
 
 ### **Proof of $\int_{-\infty}^\infty\,e^{-x^2}\,dx\,=\,\sqrt\pi$**
 
-This valid proof demonstrates the relation between $e$ and $\pi$. It is called _Gaussian intergral_.
+This valid proof demonstrates the relation between $e$ and $\pi$. It is called **_Gaussian intergral_**.
 
 ```math
 \begin{alignat*}{5}
@@ -964,7 +964,7 @@ This valid proof demonstrates the relation between $e$ and $\pi$. It is called _
 &\,&&\,&&\,=\quad\left.\frac{\theta}{2}\right\vert_0^{2\pi}\\
 &\,&&\,&&\,=\quad\frac{\cancel{2}\pi}{\cancel{2}}-\cancelto{0}{\frac{0}{2}}\\
 &\,&&\qquad\quad I^2&&\,=\quad\pi\\
-&\text{Thus}&&\qquad\quad I&&\,=\quad\pi\qquad\text{(valid proof)}
+&\text{Thus}&&\qquad\quad I&&\,=\quad\sqrt{\pi}\qquad\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
