@@ -944,13 +944,13 @@ _source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
-### **Proof of $\int_{-\infty}^\infty\,e^{-x^2}\,dx\,=\,\sqrt\pi$**
+### **Proof of $\int_{-\infty}^\inftye^{-x^2}dx=\sqrt\pi$**
 
 This valid proof demonstrates the relation between $e$ and $\pi$. It is called **_Gaussian intergral_**.
 
 ```math
 \begin{alignat*}{5}
-&\,&&\qquad\quad I^2&&\,=\quad\int_{-\infty}^\infty\,e^{-x^2}\,dx+\int_{-\infty}^\infty\,e^{-y^2}\,dy\\
+&\,&&\qquad\quad I^2&&\,=\quad\int_{-\infty}^\infty\,e^{-x^2}\,dx.\int_{-\infty}^\infty\,e^{-y^2}\,dy\\
 &\,&&\,&&\,=\quad\iint_{-\infty}^\infty\,e^{-(x^2+y^2)}\,dx\,dy\\
 &\rlap{\text{convert the double integral into polar coordinates}}\\
 &\,&&\qquad\quad I^2&&\,=\quad\int_0^{2\pi}\int_0^\infty\,e^{-r^2}rdr\,d\theta\\
