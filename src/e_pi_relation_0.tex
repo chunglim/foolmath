@@ -1,0 +1,17 @@
+\begin{alignat*}{5}
+&\,&&\qquad\quad I^2&&\,=\quad\int_{-\infty}^\infty\,e^{-x^2}\,dx+\int_{-\infty}^\infty\,e^{-y^2}\,dy\\
+&\,&&\,&&\,=\quad\iint_{-\infty}^\infty\,e^{-(x^2+y^2)}\,dx\,dy\\
+&\rlap{\text{convert the double integral into polar coordinates}}\\
+&\,&&\qquad\quad I^2&&\,=\quad\int_0^{2\pi}\int_0^\infty\,e^{-r^2}rdr\,d\theta\\
+&\rlap{\text{the inner integral}}\\
+&\,&&\int_0^\infty\,e^{-r^2}rdr&&=\quad\left.-\frac{1}{2}e^{-r^2}\right\vert_0^\infty\\
+&\,&&\,&&\,=\quad-\frac{1}{2}e^{-\infty^2}-\left(\frac{1}{2}e^{-0^2}\right)\\
+&\,&&\,&&\,=\quad-0-\left(-\frac{1}{2}\right)\\
+&\,&&\int_0^\infty\,e^{-r^2}rdr&&=\quad\frac{1}{2}\\
+&\rlap{\text{substituting this result back into the double integral}}\\
+&\,&&\qquad\quad I^2&&\,=\quad\int_0^{2\pi}\,\frac{1}{2}\,d\theta\\
+&\,&&\,&&\,=\quad\left.\frac{\theta}{2}\right\vert_0^{2\pi}\\
+&\,&&\,&&\,=\quad\frac{\cancel{2}\pi}{\cancel{2}}-\cancelto{0}{\frac{0}{2}}\\
+&\,&&\qquad\quad I^2&&\,=\quad\pi\\
+&\text{Thus}&&\qquad\quad I&&\,=\quad\pi\qquad\text{(valid proof)}
+\end{alignat*}

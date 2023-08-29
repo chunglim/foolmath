@@ -906,7 +906,7 @@ Do you feel that math is so strange?
 
 ### **A property of prime numbers**
 
-The square of a prime number other than _2_ or _3_ is always _1 more than a multiple of 24_. Let's see.
+The _square of a prime number_ other than `2` or `3` is always `a multiple of 24 pluses 1`. Let's see.
 
 ```math
 \begin{alignat*}{3}
@@ -942,6 +942,33 @@ Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they
 _source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
+
+### **Proof of $\int_{-\infty}^\infty\,e^{-x^2}\,dx\,=\,\sqrt\pi$
+
+This valid proof demonstrates the relation between $e$ and $\pi$.
+
+```math
+\begin{alignat*}{5}
+&\,&&\qquad\quad I^2&&\,=\quad\int_{-\infty}^\infty\,e^{-x^2}\,dx+\int_{-\infty}^\infty\,e^{-y^2}\,dy\\
+&\,&&\,&&\,=\quad\iint_{-\infty}^\infty\,e^{-(x^2+y^2)}\,dx\,dy\\
+&\rlap{\text{convert the double integral into polar coordinates}}\\
+&\,&&\qquad\quad I^2&&\,=\quad\int_0^{2\pi}\int_0^\infty\,e^{-r^2}rdr\,d\theta\\
+&\rlap{\text{the inner integral}}\\
+&\,&&\int_0^\infty\,e^{-r^2}rdr&&=\quad\left.-\frac{1}{2}e^{-r^2}\right\vert_0^\infty\\
+&\,&&\,&&\,=\quad-\frac{1}{2}e^{-\infty^2}-\left(\frac{1}{2}e^{-0^2}\right)\\
+&\,&&\,&&\,=\quad-0-\left(-\frac{1}{2}\right)\\
+&\,&&\int_0^\infty\,e^{-r^2}rdr&&=\quad\frac{1}{2}\\
+&\rlap{\text{substituting this result back into the double integral}}\\
+&\,&&\qquad\quad I^2&&\,=\quad\int_0^{2\pi}\,\frac{1}{2}\,d\theta\\
+&\,&&\,&&\,=\quad\left.\frac{\theta}{2}\right\vert_0^{2\pi}\\
+&\,&&\,&&\,=\quad\frac{\cancel{2}\pi}{\cancel{2}}-\cancelto{0}{\frac{0}{2}}\\
+&\,&&\qquad\quad I^2&&\,=\quad\pi\\
+&\text{Thus}&&\qquad\quad I&&\,=\quad\pi\qquad\text{(valid proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
+
+This is one of many relations between $e$ and $\pi$.
 
 <br><br>
 
