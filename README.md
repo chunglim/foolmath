@@ -975,7 +975,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 Well, we have been taking valid proofs for long.<br>
 Let's start freaks again.
 
-### **How much is $\sqrt[^i]{1}$?
+### **How much is $\sqrt[^i]{1}$?**
 
 ```math
 \begin{alignat*}{5}
