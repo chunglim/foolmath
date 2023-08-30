@@ -53,6 +53,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Vortex math [|view it|](#vortex-math)
 - A property of prime numbers [|view it|](#a-property-of-prime-numbers)
 - Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinfty-e-x2dxsqrtpi)
+- How much is $1^i$? [|view it|](#how-much-is-1i)
 - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
 
 ### **Ramanujan summation**
@@ -975,6 +976,22 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 Well, we have been taking valid proofs for long.<br>
 Let's start freaks again.
 
+### **How much is $1^i$?**
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad-1\quad&&\,=\quad e^{i\pi}\\
+&\text{power }2i\text{ both sides}&&\quad-1^{2i}\quad&&\,=\quad\left(e^{i\pi}\right)^{2i}\\
+&\,&&\left(-1^2\right)^i\quad&&\,=\quad e^{2\pi.i^2}\\
+&\text{Thus}&&\qquad1^i\quad&&\,=\quad e^{-2\pi}
+\end{alignat*}
+```
+_source code:_&nbsp;[1poweri.tex](./src/1poweri.tex)
+
+Oops, a `unit real number` raises `a unit imaginary number` is real. The number is so small `0.001867...`. And it is not `1`, like what being said by _WolframAlpha_. Why, who know?
+
+Let's see more about `a unit real number` and `a unit imaginary number`.
+
 ### **How much is $\sqrt[^i]{1}$?**
 
 ```math
@@ -994,11 +1011,11 @@ Let's start freaks again.
 ```
 _source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)
 
-Once again, a unit imaginary root of a unit real is real. But it is not `1`.
+You can see `a unit imaginary root` of `a unit real number` is real and indeed a big real. It is as big as `535.5`. Once again, it is not `1`, why does _WolframAlpha_ say so?
 
 <br><br>
 
-I generally keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or valid math. If you enjoy this content or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
+I keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or valid math. If you enjoy this content or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
 
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
