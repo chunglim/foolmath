@@ -53,6 +53,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Vortex math [|view it|](#vortex-math)
 - A property of prime numbers [|view it|](#a-property-of-prime-numbers)
 - Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinfty-e-x2dxsqrtpi)
+- How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
 
 ### **Ramanujan summation**
 
@@ -970,6 +971,30 @@ This valid proof is called **_Gaussian intergral_**. It demonstrates the relatio
 _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
 
 Gaussian integral is one of many relations between $e$ and $\pi$.
+
+Well, we have been taking valid proofs for long.<br>
+Let's start freaks again.
+
+### **How much is $\sqrt[^i]{1}$?
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad-1\quad&&\,=\quad e^{i\pi}\\
+&\text{power }i^3\text{ both sides}\quad&&\left(-1\right)^{i^3}\quad&&\,=\quad(e^{i\pi})^{i^3}\\
+&\,&&-1^{i^2i}\quad&&\,=\quad e^{i^4\pi}\\
+&\,&&-1^{-1i}\quad&&\,=\quad e^{(i^2)^2\pi}\\
+&\,&&-1^{-i}\quad&&\,=\quad e^{-1^2\pi}\\
+&\,&&-1^{-i}&&\,=\quad e^{1\pi}\\
+&\,&&-1^\frac{1}{i}&&\,=\quad e^\pi\\
+&\text{power }2\text{ both sides}&&-1^\frac{2}{i}&&\,=\quad e^{2\pi}\\
+&\,&&\left(-1^2\right)^\frac{1}{i}&&\,=\quad e^{2\pi}\\
+&\,&&\quad1^{\frac{1}{i}}&&\,=\quad e^{2\pi}\\
+&\text{Thus}&&\quad\sqrt[^i]{1}&&\,=\quad e^{2\pi}
+\end{alignat*}
+```
+_source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)
+
+Once again, a unit imaginary root of a unit real is real. But it is not `1`.
 
 <br><br>
 
