@@ -55,6 +55,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinfty-e-x2dxsqrtpi)
 - How much is $1^i$? [|view it|](#how-much-is-1i)
 - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
+- Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
 
 ### **Ramanujan summation**
 
@@ -1012,6 +1013,26 @@ Let's see more about `a unit real number` and `a unit imaginary number`.
 _source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)
 
 You can see `a unit imaginary root` of `a unit real number` is real and indeed a big real. It is as big as `535.5`. Once again, it is not `1`, why does _WolframAlpha_ say so?
+
+## **Whether $e=1$ or $\pi=0$**
+
+```math
+\begin{alignat*}{5}
+&\,&&\qquad\quad e^{i\pi}\quad&&\,=\quad-1\\
+&\text{power }i^3\text{ both sides}&&\qquad\left(e^{i\pi}\right)^{i^3}\quad&&\,=\quad-1^{i^3}\\
+&\,&&\qquad\left(e^\pi\right)^{i^4}\quad&&\,=\quad\left(-1^{i^2}\right)^i\\
+&\,&&\quad\left(e^\pi\right)^{i^2.i^2}\quad&&\,=\quad\left(-1^{-1}\right)^i\\
+&\,&&\left(e^\pi\right)^{(-1)(-1)}\quad&&\,=\quad\left(\frac{1}{-1}\right)^i\\
+&\,&&\qquad\left(e^\pi\right)^1\quad&&\,=\quad(-1)^i\\
+&\text{power }2\text{ both sides}&&\qquad\quad e^{2\pi}\quad&&\,=\quad(-1)^{2i}\\
+&\,&&\,&&\,=\quad1^i\\
+&\text{from the previous proof}&&\,&&\,=\quad e^{-2\pi}\\
+&\text{Thus}&&\qquad\quad e^{2\pi}&&\,=\quad e^{-2\pi}
+\end{alignat*}
+```
+_source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)
+
+Oops, whether $e=1$ or $\pi=0$, indeed!
 
 <br><br>
 
