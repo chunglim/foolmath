@@ -218,7 +218,7 @@ Here, the proof I learnt in junior high school.
 ```math
 \begin{alignat*}{3}
 &\mathrm{Let}&&\qquad a&&=\quad b\\
-&*b~\mathrm{both~sides}&&\quad a*b&&=\quad b*b\\
+&\times b~\mathrm{both~sides}&&\quad a*b&&=\quad b*b\\
 &\,&&\quad a*b&&=\quad b^2\\
 &-a^2~\mathrm{both~sides}\qquad&& a*b-a^2&&=\quad b*b-a^2\\
 &\,&&a(b-a)&&=\quad b^2-a^2\\
@@ -308,9 +308,9 @@ Wait, there are something more.
 &\,&&\quad\sqrt{\frac{-1}{1}}&&=\quad\sqrt{\frac{1}{-1}}\quad&&(2)\\
 &\,&&\quad\frac{\sqrt{-1}}{\sqrt{1}}&&=\quad\frac{\sqrt{1}}{\sqrt{-1}}\quad&&(3)\\
 &\,&&\qquad\quad\frac{i}{1}&&=\quad\frac{1}{i}\quad&&(4)\\
-&*\frac{1}{2}&&\qquad\quad\frac{i}{2}&&=\quad\frac{1}{2i}\quad&&(5)\\
+&\times\frac{1}{2}&&\qquad\quad\frac{i}{2}&&=\quad\frac{1}{2i}\quad&&(5)\\
 &+\frac{3}{2i}&&\quad\frac{i}{2}+\frac{3}{2i}&&=\quad\frac{1}{2i}+\frac{3}{2i}\quad&&(6)\\
-&*i&&i\left(\frac{i}{2}+\frac{3}{2i}\right)&&=\quad i\left(\frac{1}{2i}+\frac{3}{2i}\right)\quad&&(7)\\
+&\times i&&i\left(\frac{i}{2}+\frac{3}{2i}\right)&&=\quad i\left(\frac{1}{2i}+\frac{3}{2i}\right)\quad&&(7)\\
 &\,&&\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}&&=\quad\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}\quad&&(8)\\
 &\.&&-\frac{1}{2}+\frac{3}{2}&&=\quad\frac{1}{2}+\frac{3}{2}\quad&&(9)\\
 &\,&&\frac{-1+3}{2}&&=\quad\frac{1+3}{2}\quad&&(10)\\
@@ -360,8 +360,8 @@ Who said $0$ couldn't be a denominator? See the following fool proofs.
 ```math
 \begin{alignat*}{3}
 &\mathrm{Let}&&\qquad\quad\frac{2}{0}&&=\quad\frac{x}{1}\\
-&\mathrm{*~0~both~sides}&&\qquad\frac{2*0}{0}&&=\quad\frac{x*0}{1}\\
-&\mathrm{/~2~both~sides}&&\qquad\frac{\cancel{2}*0}{0*\cancel{2}}&&=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
+&\times\mathrm{~0~both~sides}&&\qquad\frac{2*0}{0}&&=\quad\frac{x*0}{1}\\
+&\,\,&divide\mathrm{~2~both~sides}&&\qquad\frac{\cancel{2}*0}{0*\cancel{2}}&&=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
 &\mathrm{Thus}&&\qquad\quad\frac{0}{0}&&=\quad0
 \end{alignat*}
 ```
@@ -404,7 +404,7 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 ```math
 \begin{align*}
 -1\quad&\,=\quad i^2\\
-\mathrm{/~(-i)~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
+&divide\mathrm{~(-i)~both~sides}\qquad\frac{-1}{-i}\quad&\,=\quad\frac{i^2}{-i}\\
 \mathrm{Thus}\qquad\frac{1}{i}\quad&\,=\quad-i\qquad\mathrm{(valid~proof)}
 \end{align*}
 ```
