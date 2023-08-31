@@ -53,6 +53,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Vortex math [|view it|](#vortex-math)
 - A property of prime numbers [|view it|](#a-property-of-prime-numbers)
 - Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinfty-e-x2dxsqrtpi)
+- Golden ratio from Fibonacci sequence [|view it|](#golden-ratio-from-fibonacci-sequence)
 - How much is $1^i$? [|view it|](#how-much-is-1i)
 - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
 - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
@@ -360,7 +361,7 @@ Who said $0$ couldn't be a denominator? See the following fool proofs.
 ```math
 \begin{alignat*}{3}
 &\mathrm{Let}&&\qquad\quad\frac{2}{0}&&=\quad\frac{x}{1}\\
-&\times\mathrm{~0~both~sides}&&\qquad\frac{2*0}{0}&&=\quad\frac{x*0}{1}\\
+&\times\mathrm{0~both~sides}&&\qquad\frac{2*0}{0}&&=\quad\frac{x*0}{1}\\
 &\,\,&divide\mathrm{~2~both~sides}&&\qquad\frac{\cancel{2}*0}{0*\cancel{2}}&&=\quad\cancelto{0}{\frac{x*0}{1*2}}\\
 &\mathrm{Thus}&&\qquad\quad\frac{0}{0}&&=\quad0
 \end{alignat*}
@@ -974,7 +975,28 @@ _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
 
 Gaussian integral is one of many relations between $e$ and $\pi$.
 
-Well, we have been taking valid proofs for long.<br>
+### **Golden ratio from Fibonacci sequence**
+
+```math
+\begin{alignat*}{5}
+&\,&&\qquad\qquad F_0\quad&&\,=\quad0\\
+&\,&&\qquad\qquad F_1\quad&&\,=\quad1\\
+&\text{where }n\geqslant2&&\qquad\qquad F_n\quad&&\,=\quad F_{n-1}+F_{n-2}\\
+&\text{let }&&\qquad\qquad\Phi\quad&&\,=\quad\lim_{n\to\infty}\frac{F_{n+1}}{F_n}\\
+&\,&&\,&&\,=\quad\lim_{n\to\infty}\frac{F_n+F_{n-1}}{F_n}\\
+&\,&&\,&&\,=\quad1+\lim_{n\to\infty}\frac{F_{n-1}}{F_n}\\
+&\,&&\,&&\,=\quad1+\frac{1}{\Phi}\\
+&\,&&\qquad\qquad\Phi\quad&&\,=\quad\frac{\Phi+1}{\Phi}\\
+&\,&&\qquad\qquad\Phi^2\quad&&\,=\quad\Phi+1\\
+&\,&&\Phi^2-\Phi-1\quad&&\,=\quad0\\
+&\,&&\qquad\qquad\Phi\quad&&\,=\quad\frac{-(-1)\pm\sqrt{(-1^2)-(4)(1)(-1)}}{(2)(1)}\\
+&\Phi\text{ is positive}&&\,&&\,=\quad\frac{1+\sqrt{1+4}}{2}\\
+&\text{Thus}&&\qquad\qquad\Phi\quad&&\,=\quad\frac{1+\sqrt{5}}{2}
+\end{alignat*}
+```
+_source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)
+
+Well, we have been talking about valid proofs for long.<br>
 Let's start freaks again.
 
 ### **How much is $1^i$?**
