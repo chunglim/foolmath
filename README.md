@@ -57,6 +57,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - How much is $1^i$? [|view it|](#how-much-is-1i)
 - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
 - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
+- How much is $e^i$? [|view it|](#how-much-is-ei)
 
 ### **Ramanujan summation**
 
@@ -1055,6 +1056,19 @@ You can see `a unit imaginary root` of `a unit real number` is real and indeed a
 _source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)
 
 Oops, whether $e=1$ or $\pi=0$, indeed!
+
+### **How much is $e^i$?**
+
+```math
+\begin{alignat*}{5}
+&\,&&e^i\quad&&\,=\quad\left(e^i\right)^\frac{2\pi}{2\pi}\\
+&\,&&\quad&&\,=\quad\left(e^{i\pi}\right)^{2.\frac{\pi}{2\pi}}\\
+&\,&&\quad&&\,=\quad(-1)^{2.\frac{\cancel{\pi}}{2\cancel{\pi}}}\\
+&\,&&\quad&&\,=\quad1^\frac{1}{2}\\
+&\text{Thus}\quad&&e^i\quad&&\,=\quad1
+\end{alignat*}
+```
+_source code:_&nbsp;[./src/etoi.tex](./src/etoi.tex)
 
 <br><br>
 
