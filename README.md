@@ -283,7 +283,7 @@ Do you find any clues?
 ```
 _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
 
-Or even easier proof
+Or even an easier proof
 
 #### **Solution 2**
 
@@ -295,6 +295,22 @@ Or even easier proof
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)
+
+Yet, there is another proof.
+
+#### **Solution 3**
+
+```math
+\begin{alignat*}{5}
+&\,&&\quad\frac{-1}{1}\quad&&\,=\quad\frac{1}{-1}\\
+&\,&&\sqrt{\frac{-1}{1}}\quad&&\,=\quad\sqrt{\frac{1}{-1}}\\
+&\,&&\quad\frac{i}{1}\quad&&\,=\quad\frac{1}{i}\\
+&\,&&\quad i\quad&&\,=\quad\frac{1}{i}\\
+&\,&&\quad i^2\quad&&\,=\quad1\\
+&\text{Thus}\quad&&\quad-1\quad&&\,=\quad1
+\end{alignat*}
+```
+_source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)
 
 From now on, what I owe you is what you owe me.
 
