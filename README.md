@@ -269,6 +269,8 @@ Do you find any clues?
 
 ### **Do you know that $1=-1$?**
 
+#### **Solution 1**
+
 ```math
 \begin{align*}
 1\quad&\,=\quad\sqrt{1}\\
@@ -280,6 +282,19 @@ Do you find any clues?
 \end{align*}
 ```
 _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
+
+Or even easier proof
+
+#### **Solution 2**
+
+```math
+\begin{alignat*}{5}
+&\,&&-1\quad&&\,=\quad(-1)^{2.\frac{1}{2}}\\
+&\,&&\quad&&\,=\quad1^\frac{1}{2}\\
+&\text{Thus}\quad&&-1\quad&&\,=\quad1
+\end{alignat*}
+```
+_source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)
 
 From now on, what I owe you is what you owe me.
 
