@@ -585,6 +585,8 @@ Let's see the first fool proofs using Euler's identity.
 
 ### **$e^x=1$, no matter what $x$ maybe.**
 
+#### **Solution 1**
+
 ```math
 \begin{alignat*}{5}
 &\,&&\quad e^x&&=\quad e^{i\pi.2\frac{x}{i\pi.2}}\\
@@ -605,7 +607,37 @@ Let's see the first fool proofs using Euler's identity.
 ```
 _source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)
 
-Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br><br>
+Q: Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br>
+A: Hold on, there is another neater proof.<br><br>
+
+#### **Solution 2**
+
+```math
+\begin{alignat*}{5}
+&\,&e^{i\pi}\quad&\,=\quad-1\\
+&\,&\left(e^{i\pi}\right)^2\quad&\,=\quad-1^2\\
+&\,&e^{2i\pi}\quad&\,=\quad1\\
+&\small\text{power }n\text{ both sides}\quad&e^{2ni\pi}\quad&\,=\quad1^n&\quad\small\text{for all n}\\
+&\,&e^{2ni\pi}\quad&\,=\quad1\\
+&\small\times e\text{ both sides}&e^{2ni\pi}.e\quad&\,=\quad e\\
+&\,&e^{2ni\pi+1}\quad&\,=\quad e&\quad\small(1)\\
+&\small\text{power }2ni\pi+1\text{ both sides}\quad&\left(e^{2ni\pi+1}\right)^{2ni\pi+1}\quad&\,=\quad e^{2ni\pi+1}\\
+&\small\text{from }(1)\quad\,&e^{(2ni\pi+1)(2ni\pi+1)}\quad&\,=\quad e\\
+&\,&e^{(2ni\pi+1)^2}\quad&\,=\quad e\\
+&\,&e^{(2ni\pi)^2+2(2ni\pi)(1)+1^2}\quad&\,=\quad e\\
+&\,&e^{-4n^2\pi^2+4ni\pi+1}\quad&\,=\quad e\\
+&\,&e^{-4n^2\pi^2}.e^{4ni\pi}.\cancel{e}\quad&\,=\quad\cancel{e}\\
+&\,&e^{-4n^2\pi^2}.e^{4ni\pi}\quad&\,=\quad1\\
+&\,&e^{-4n^2\pi^2}.\left(e^{i\pi}\right)^{4n}\quad&\,=\quad1\\
+&\,&e^{-4n^2\pi^2}.(-1)^{2.2n}\quad&\,=\quad1\\
+&\,&e^{-4n^2\pi^2}.\cancelto{1}{1^{2n}}\quad&\,=\quad1\\
+&\,&e^{-4n^2\pi^2}\quad&\,=\quad1\\
+&\rlap{\small\text{as }n\text{ can be any real values, }x=-4n^2\pi^2\text{, can also be any real values.}}\\
+&\,&\small\text{Thus}\qquad e^x\quad&\,=\quad1
+\end{alignat*}
+```
+_source code:_&nbsp;[ex_eq_1_1.tex](./src/ex_eq_1_1.tex)
+
 Now, let's see the value of $\frac{circumference}{diameter}$, you know.
 
 ### **How much is $\pi$?**
