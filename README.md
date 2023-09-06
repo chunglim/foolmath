@@ -539,8 +539,8 @@ This proof is known to be correct!
 &\,&\,&=&&(1+1)(1^2-1^2)\\
 &\,&\,&=&&(1+1)(1+1)(1-1)\\
 &\small\text{repeat the last term}&\,&=&&(1+1)(1+1)(1+1)...(1-1)\\
-&\,&0&=&&(1+1)^\infty*(1-1)\\
-&\qquad\qquad\small\text{Thus}\normalsize\quad&0&=&&2^\infty*0\quad\small\text{(valid proof)}\\
+&\,&0\quad&=&&(1+1)^\infty*(1-1)\\
+&\qquad\qquad\small\text{Thus}\normalsize\quad&0\quad&=&&2^\infty*0\quad\small\text{(valid proof)}\\
 &\rlap{\qquad\qquad\small\text{Any number being a multiple of 2 is always even.}}
 \end{alignat*}
 ```
@@ -551,7 +551,7 @@ _source code:_&nbsp;[0_even.tex](./src/0_even.tex)
 ```math
 \begin{alignat*}{5}
 &\,&x+2\quad&=\quad&&x\\
-&\,&(x+2)^2&=&& x^2\\
+&\,&(x+2)^2\quad&=&& x^2\\
 &\,&\cancel{x^2}+4x+4\quad&=&&\cancel{x^2}\\
 &\,&4x\quad&=&&-4\\
 &\,&\small\text{Thus}\normalsize\quad x\quad&=&&-1
@@ -737,7 +737,7 @@ We have seen several fool proofs, let's see valid proofs.
 &\,&\,&=&&\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&\,&=&&e^{i\frac{\pi}{2}}\\
 &\small\text{power }\normalsize i\small\text{ both sides}&i^i\quad&=&& e^{i^2\frac{\pi}{2}}\\
-&\,&\small\text{Thus}\quad i^i\quad&=\quad&&e^{-\frac{\pi}{2}}\quad\small\text{(valid proof)}\\
+&\,&\small\text{Thus}\quad i^i\quad&=&&e^{-\frac{\pi}{2}}\quad\small\text{(valid proof)}\\
 &\rlap{\qquad\qquad\qquad\qquad\small\text{And it is a real number.}}
 \end{alignat*}
 ```
