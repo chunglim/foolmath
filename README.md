@@ -54,6 +54,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - A property of prime numbers [|view it|](#a-property-of-prime-numbers)
 - Relation between $e$ and $\pi$ a.k.a. Gaussian integral [|view it|](#proof-of-int_-inftyinfty-e-x2dxsqrtpi)
 - Golden ratio from Fibonacci sequence [|view it|](#golden-ratio-from-fibonacci-sequence)
+- Isn't it $\infty=\Phi$? [|view it|](#isnt-it-inftyphi)
 - How much is $1^i$? [|view it|](#how-much-is-1i)
 - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
 - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
@@ -1062,6 +1063,24 @@ _source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)
 
 Well, we have been talking about valid proofs for long.<br>
 Let's start freaks again.
+
+### **Isn't it $\infty=\Phi$?**
+
+```math
+\begin{alignat*}{5}
+&\,&\infty^2\quad&=\quad&&\infty\quad&&\small\text{(1)}\\
+&\,&\infty+1\quad&=&&\infty&&\small\text{(2)}\\
+&\small\text{(1)=(2)}\normalsize\quad&\infty^2\quad&=&&\infty+1\\
+&\,&\infty^2-\infty-1\quad&=&&0\\
+&\,&\infty\quad&=&&\frac{-(-1)\pm\sqrt{(-1^2)-4(1)(-1)}}{2(1)}\\
+&\,&\,&=&&\frac{1\pm\sqrt{1+4}}{2}\\
+&\small\text{take positive}&\infty\quad&=&&\frac{1+\sqrt{5}}{2}\\
+&\,&\small\text{Thus}\normalsize\quad\infty\quad&=&&\Phi\quad\small\text{a.k.a. Fibonacci golden ratio}
+\end{alignat*}
+```
+_source code:_&nbsp;[infty_fibo.tex](./src/infty_fibo.tex)
+
+Now you can see, $\infty$ is as small as $1.618034$.
 
 ### **How much is $1^i$?**
 
