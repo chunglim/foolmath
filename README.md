@@ -154,7 +154,7 @@ Wow! this time the summation is positive.
 &\,&\,&=&&(1+3+5+7+9+...)+(2+4+6+8+10+...)\\
 &\,&\,&=&&\frac{1}{12}+(2+4+6+8+10+...)\\
 &\,&-\frac{1}{12}\quad&=&&\frac{1}{12}+S\\
-&\,\small\text{Thus}\quad&S\quad&=&&-\frac{1}{6}
+&\small\text{Thus}\quad&S\quad&=&&-\frac{1}{6}
 \end{alignat*}
 ```
 _source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
