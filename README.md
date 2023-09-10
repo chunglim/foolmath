@@ -105,7 +105,7 @@ _source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)
 &\,&\,&=&&1+9(1+2+3+...)\\
 &\,&S\quad&=&&1+9S\\
 &\,&8S\quad&=&&-1\\
-&\small\text{Thus}&S\quad&=&&-\frac{1}{8}
+&\small\text{Thus}&\qquad S\quad&=&&-\frac{1}{8}
 \end{alignat*}
 ```
 _source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)
@@ -338,13 +338,13 @@ Wait, there are something more.
 
 ```math
 \begin{alignat*}{5}
-&\,&\frac{-1}{1}\quad&=\quad&&\frac{1}{-1}\qquad&(1)\\
+&\,&\frac{-1}{1}\quad&=\quad&&\frac{1}{-1}&(1)\\
 &\,&\sqrt{\frac{-1}{1}}\quad&=&&\sqrt{\frac{1}{-1}}&(2)\\
 &\,&\frac{\sqrt{-1}}{\sqrt{1}}\quad&=&&\frac{\sqrt{1}}{\sqrt{-1}}&(3)\\
 &\,&\frac{i}{1}\quad&=&&\frac{1}{i}&(4)\\
 &\small\times\frac{1}{2}&\frac{i}{2}\quad&=&&\frac{1}{2i}&(5)\\
 &\small+\frac{3}{2i}&\frac{i}{2}+\frac{3}{2i}\quad&=&&\frac{1}{2i}+\frac{3}{2i}&(6)\\
-&\times i&i\left(\frac{i}{2}+\frac{3}{2i}\right)\quad&=&&i\left(\frac{1}{2i}+\frac{3}{2i}\right)&(7)\\
+&\times i&i\left(\frac{i}{2}+\frac{3}{2i}\right)\quad&=&&i\left(\frac{1}{2i}+\frac{3}{2i}\right)\qquad&(7)\\
 &\,&\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}\quad&=&&\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}&(8)\\
 &\,&-\frac{1}{2}+\frac{3}{2}\quad&=&&\frac{1}{2}+\frac{3}{2}&(9)\\
 &\,&\frac{-1+3}{2}\quad&=&&\frac{1+3}{2}&(10)\\
@@ -666,8 +666,8 @@ If you don't believe, yet there are another proofs.
 ```math
 \begin{alignat*}{5}
 &\,&e^{i\pi}\quad&=\quad&&-1\\
-&\,&(e^{i\pi})^2\quad&=&&(-1)^2\\
-&\,&e^{2i\pi}\quad&=&&1\qquad&\small(1)\\
+&\,&(e^{i\pi})^2\quad&=&&(-1)^2\qquad&\,\\
+&\,&e^{2i\pi}\quad&=&&1&\small(1)\\
 &\,&e^{2i\pi}.e\quad&=&&e\\
 &\,&e^{2i\pi+1}\quad&=&&e\\
 &\,&\left(e^{2i\pi+1}\right)^{2i\pi+1}\quad&=&&e^{2i\pi+1}\\
