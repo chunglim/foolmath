@@ -346,7 +346,7 @@ Wait, there are something more.
 &\small+\frac{3}{2i}&\frac{i}{2}+\frac{3}{2i}\quad&=&&\frac{1}{2i}+\frac{3}{2i}&(6)\\
 &\times i&i\left(\frac{i}{2}+\frac{3}{2i}\right)\quad&=&&i\left(\frac{1}{2i}+\frac{3}{2i}\right)&(7)\\
 &\,&\frac{i^2}{2}+\frac{3\cancel{i}}{2\cancel{i}}\quad&=&&\frac{\cancel{i}}{2\cancel{i}}+\frac{3\cancel{i}}{2\cancel{i}}&(8)\\
-&\.&-\frac{1}{2}+\frac{3}{2}\quad&=&&\frac{1}{2}+\frac{3}{2}&(9)\\
+&\,&-\frac{1}{2}+\frac{3}{2}\quad&=&&\frac{1}{2}+\frac{3}{2}&(9)\\
 &\,&\frac{-1+3}{2}\quad&=&&\frac{1+3}{2}&(10)\\
 &\,&\frac{\cancel{2}}{\cancel{2}}\quad&=&&\cancelto{2}{\frac{4}{2}}&(11)\\
 &\,&1\quad&=&&2&(12)\\
@@ -575,7 +575,7 @@ Now, have a look at the valid proof of _Euler's identity_.
 &\,&\,&=\rlap{1+ix-\frac{x^2}{2!}-\frac{ix^3}{3!}+\frac{x^4}{4!}+\frac{ix^5}{5!}-\frac{x^6}{6!}-\frac{ix^7}{7!}+\frac{x^8}{8!}+...}\\
 &\,&\,&=\rlap{\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-...\right)+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\right)}\\
 &\,&e^{ix}&=\cos{x}+i\sin{x}&&\small\text{***}\\
-&\,&e^{ix}&=\cos{\pi}+\cancelto{0}{i\sin{\pi}}\\
+&\,&e^{i\pi}&=\cos{\pi}+\cancelto{0}{i\sin{\pi}}\\
 &\small\text{Thus}\quad&e^{i\pi}&=-1\quad\small\text{(valid proof)}
 \end{alignat*}
 ```
@@ -1056,7 +1056,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 &\,&\Phi^2-\Phi-1\quad&=&&0\\
 &\,&\Phi\quad&=&&\frac{-(-1)\pm\sqrt{(-1^2)-4(1)(-1)}}{2(1)}\\
 &\Phi\small\text{ is positive}&\,&=&&\frac{1+\sqrt{1+4}}{2}\\
-&\,&\small\text{Thus}\quad\Phi\quad&=&&\frac{1+\sqrt{5}}{2}
+&\,&\small\text{Thus}\quad\Phi\quad&=&&\frac{1+\sqrt{5}}{2}\quad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)
