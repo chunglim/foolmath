@@ -120,7 +120,7 @@ Oops, was Ramanujan wrong?
 &\,&\,&=&&1+2+4+8+16+32+...\\
 &\,&\,&=&&1+2(1+2+4+8+16+...)\\
 &\,&S\quad&=&&1+2S\\
-&\small\text{Thus}\quad&S\quad&=&&-1
+&\small\text{Thus}\normalsize\qquad&S\quad&=&&-1
 \end{alignat*}
 ```
 _source code:_&nbsp;[sum_power_of_2.tex](./src/sum_power_of_2.tex)
@@ -154,7 +154,7 @@ Wow! this time the summation is positive.
 &\,&\,&=&&(1+3+5+7+9+...)+(2+4+6+8+10+...)\\
 &\,&\,&=&&\frac{1}{12}+(2+4+6+8+10+...)\\
 &\,&-\frac{1}{12}\quad&=&&\frac{1}{12}+S\\
-&\small\text{Thus}\quad&S\quad&=&&-\frac{1}{6}
+&\small\text{Thus}\normalsize\qquad&S\quad&=&&-\frac{1}{6}
 \end{alignat*}
 ```
 _source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
@@ -173,7 +173,7 @@ Here come the most foolish proof!
 &\,&\,&=&&(1-1)+(1-1)+(1-1)+(1-1)+...\\
 &\,&\,&=&&1+(-1+1)+(-1+1)+(-1+1)+...\\
 &\,&\,&=&&1+0+0+0+0+...\\
-&\small\text{Thus}\quad&0\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&0\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[0eq1_0.tex](./src/0eq1_0.tex)
@@ -184,10 +184,10 @@ What about the second most foolish proof?
 
 ```math
 \begin{alignat*}{5}
-&\small\text{Let}\quad&S\quad&=\quad&&1+1+1+1++1...\\
+&\small\text{Let}\normalsize\qquad&S\quad&=\quad&&1+1+1+1++1...\\
 &\,&\,&=&&1+(1+1+1+1+...)\\
 &\,&\cancel{S}\quad&=&&1+\cancel{S}\\
-&\small\text{Thus}\quad&0\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&0\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[0eq1_1.tex](./src/0eq1_1.tex)
@@ -204,7 +204,7 @@ Is there any proof looking more advanced than these?
 &\,&\,&=&&1-\int x\,(-1x^{-2})\,dx\\
 &\,&\,&=&&1+\int x.x^{-2}\,dx\\
 &\,&\cancel{\int\frac{1}{x}\,dx}\quad&=&&1+\cancel{\int\frac{1}{x}\,dx}\\
-&\small\text{Thus}\quad&0\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&0\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)
@@ -220,7 +220,7 @@ Here, the proof I learnt in junior high school.
 
 ```math
 \begin{alignat*}{5}
-&\,&\small\text{Let}\qquad a\quad&=\quad&&b\\
+&\,&\small\text{Let}\normalsize\qquad a\quad&=\quad&&b\\
 &\times b\small\text{ both sides}\quad&a*b\quad&=&&b*b\\
 &\,&a*b\quad&=&&b^2\\
 &-a^2\small\text{ both sides}\quad&a*b-a^2\quad&=&&b*b-a^2\\
@@ -246,7 +246,7 @@ Nah, there is another proof in high school using trigonometry.
 &\,&1-2\sin^2{x}\quad&=&&2\cos^2{x}\\
 &\,&1\quad&=&&2\sin^2{x}+2\cos^2{x}\\
 &\,&\,&=&&2\cancelto{1}{(\sin^2{x+\cos^2{x}})}\\
-&\,&\small\text{Thus}\normalsize\quad1\quad&=&&2
+&\,&\small\text{Thus}\normalsize\qquad1\quad&=&&2
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)
@@ -279,7 +279,7 @@ Do you find any clues?
 &\,&\,&=&&\sqrt{-1}\sqrt{-1}\\
 &\,&\,&=&&i*i\\
 &\,&\,&=&&i^2\\
-&\small\text{Thus}\normalsize\quad&1\quad&=&&-1
+&\small\text{Thus}\normalsize\qquad&1\quad&=&&-1
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)
@@ -292,7 +292,7 @@ Or even an easier proof
 \begin{alignat*}{5}
 &\,&-1\quad&=\quad&&(-1)^{2.\frac{1}{2}}\\
 &\,&\,&=&&1^\frac{1}{2}\\
-&\small\text{Thus}\quad&-1\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)
@@ -308,7 +308,7 @@ Yet, there is another proof.
 &\,&\frac{i}{1}\quad&=&&\frac{1}{i}\\
 &\,&i\quad&=&&\frac{1}{i}\\
 &\,&i^2\quad&=&&1\\
-&\small\text{Thus}\quad&-1\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)
@@ -326,7 +326,7 @@ From now on, what I owe you is what you owe me.
 &\,&4^2-2*4*\frac{9}{2}+\left(\frac{9}{2}\right)^2\quad&=&&5^2-2*5*\frac{9}{2}+ \left(\frac{9}{2}\right)^2\\
 &\,&\left(4-\frac{9}{2}\right)^2\quad&=&&\left(5-\frac{9}{2}\right)^2\\
 &\small\sqrt{}~\text{both sides }&4-\cancel{\frac{9}{2}}\quad&=&&5-\cancel{\frac{9}{2}}\\
-&\,&\small\text{Thus}\qquad4\quad&=&&5
+&\,&\small\text{Thus}\normalsize\qquad4\quad&=&&5
 \end{alignat*}
 ```
 _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
@@ -338,7 +338,7 @@ Wait, there are something more.
 
 ```math
 \begin{alignat*}{5}
-&\,&\frac{-1}{1}\quad&=\quad&&\frac{1}{-1}\quad&(1)\\
+&\,&\frac{-1}{1}\quad&=\quad&&\frac{1}{-1}\qquad&(1)\\
 &\,&\sqrt{\frac{-1}{1}}\quad&=&&\sqrt{\frac{1}{-1}}&(2)\\
 &\,&\frac{\sqrt{-1}}{\sqrt{1}}\quad&=&&\frac{\sqrt{1}}{\sqrt{-1}}&(3)\\
 &\,&\frac{i}{1}\quad&=&&\frac{1}{i}&(4)\\
@@ -379,7 +379,7 @@ There is one more simple equation. Have a look.
 &\,&\,&=&&\sqrt{5^2-2.5.\frac{9}{2}+\left(\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
 &\,&\,&=&&\sqrt{\left(5-\frac{9}{2}\right)^2}+\frac{9}{2}+3\\
 &\,&\,&=&&5-\cancel{\frac{9}{2}}+\cancel{\frac{9}{2}}+3\\
-&\small\text{Thus}\normalsize\quad&2+5\quad&=&&8
+&\small\text{Thus}\normalsize\qquad&2+5\quad&=&&8
 \end{alignat*}
 ```
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
@@ -393,10 +393,10 @@ Who said $0$ couldn't be a denominator? See the following fool proofs.
 
 ```math
 \begin{alignat*}{5}
-&\,&\small\text{Let}\normalsize\quad\frac{2}{0}\quad&=\quad&&\frac{x}{1}\\
+&\,&\small\text{Let}\normalsize\qquad\frac{2}{0}\quad&=\quad&&\frac{x}{1}\\
 &\times\small\text{0 both sides}&\frac{2*0}{0}\quad&=&&\frac{x*0}{1}\\
 &\,\small &divide\text{ 2 both sides}&\frac{\cancel{2}*0}{0*\cancel{2}}\quad&=&&\cancelto{0}{\frac{x*0}{1*2}}\\
-&\,&\small\text{Thus}\quad\frac{0}{0}\quad&=&&0
+&\,&\small\text{Thus}\normalsize\qquad\frac{0}{0}\quad&=&&0
 \end{alignat*}
 ```
 _source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)
@@ -410,7 +410,7 @@ _source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)
 &\,&\,&=&&\frac{10^2-10^2}{10(10-10)}\\
 &\,&\,&=&&\frac{(10+10)\cancel{(10-10)}}{10\cancel{(10-10)}}\\
 &\,&\,&=&&\frac{20}{10}\\
-&\small\text{Thus}\normalsize\quad&\frac{0}{0}\quad&=&&2
+&\small\text{Thus}\normalsize\qquad&\frac{0}{0}\quad&=&&2
 \end{alignat*}
 ```
 _source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)
@@ -426,7 +426,7 @@ Bruh, how can you divide $(10-10)$ with $(10-10)$?
 &\,&\,&=&&\sqrt{(-1)(-1)}\\
 &\,&\,&=&&\sqrt{1}\\
 &\,&i^2\quad&=&&1\\
-&\small\text{Thus}\normalsize\quad&i\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&i\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
@@ -439,7 +439,7 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 \begin{alignat*}{5}
 &\,&-1\quad&=\quad&&i^2\\
 &\small &divide(-i)\text{ both sides}&\frac{-1}{-i}\quad&=&&\frac{i^2}{-i}\\
-&\,&\small\text{Thus}\quad\frac{1}{i}\quad&=&&-i\quad\small\text{(valid proof)}
+&\,&\small\text{Thus}\normalsize\qquad\frac{1}{i}\quad&=&&-i\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[inv_i_valid.tex](./src/inv_i_valid.tex)
@@ -457,7 +457,7 @@ Nah, there is another $\frac{1}{i}$, but it is foolish.
 &\,&\,&=&&\left(\frac{1}{-1}\right)^\frac{1}{2}\\
 &\,&\,&=&&-1^\frac{1}{2}\\
 &\,&\,&=&&\sqrt{-1}\\
-&\small\text{Thus}\normalsize\quad&\frac{1}{i}\quad&=&& i\quad\small\text{(fool proof)}
+&\small\text{Thus}\normalsize\qquad&\frac{1}{i}\quad&=&& i\qquad\small\text{(fool proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)
@@ -473,7 +473,7 @@ Which one will you believe?
 &\,&i\quad&=&&\frac{-1}{i}\\
 &\rlap{i=\frac{-1}{i}=\frac{-1}{\frac{-1}{i}}=\frac{-1}{\frac{-1}{\frac{-1}{i}}}=...}\\
 &\,&i\quad&=&&(-1)^\infty\\
-&\,&\small\text{Thus}\normalsize\quad i\quad&=&&\pm1
+&\,&\small\text{Thus}\normalsize\qquad i\quad&=&&\pm1
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_eq_pm1.tex](./src/i_eq_pm1.tex)
@@ -509,7 +509,7 @@ Here, $\infty$ is so small, you see?
 &\,&\,&=&&2+2+2+...\\
 &\,&\,&=&&2(1+1+1+...)\\
 &\,&S\quad&=&&2S\\
-&\,&S\quad&=&&0\quad&\small\text{(1)}\\
+&\,&S\quad&=&&0\qquad&\small\text{(1)}\\
 &\,&2S\quad&=&&1+1+1+1+1+1+...\\
 &\,&\,&\,&&\quad~~~1+1+1+1+1+...\\
 &\,&2S\quad&=&&1+2+2+2+2+2+...\\
@@ -541,7 +541,7 @@ This proof is known to be correct!
 &\,&\,&=&&(1+1)(1+1)(1-1)\\
 &\small\text{repeat the last term}&\,&=&&(1+1)(1+1)(1+1)...(1-1)\\
 &\,&0\quad&=&&(1+1)^\infty*(1-1)\\
-&\qquad\qquad\small\text{Thus}\normalsize\quad&0\quad&=&&2^\infty*0\quad\small\text{(valid proof)}\\
+&\qquad\qquad\small\text{Thus}\normalsize\qquad&0\quad&=&&2^\infty*0\qquad\small\text{(valid proof)}\\
 &\rlap{\qquad\qquad\small\text{Any number being a multiple of 2 is always even.}}
 \end{alignat*}
 ```
@@ -555,7 +555,7 @@ _source code:_&nbsp;[0_even.tex](./src/0_even.tex)
 &\,&(x+2)^2\quad&=&& x^2\\
 &\,&\cancel{x^2}+4x+4\quad&=&&\cancel{x^2}\\
 &\,&4x\quad&=&&-4\\
-&\,&\small\text{Thus}\normalsize\quad x\quad&=&&-1
+&\,&\small\text{Thus}\normalsize\qquad x\quad&=&&-1
 \end{alignat*}
 ```
 _source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)
@@ -568,15 +568,15 @@ Now, have a look at the valid proof of _Euler's identity_.
 
 ```math
 \begin{alignat*}{7}
-&\,&\sin{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n+1)!}x^{2n+1}&&=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...&\small\text{for all x}\\
-&\,&\cos{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}&&=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...&\small\text{for all x}\\
-&\,&e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}&&=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...&\small\text{for all x}\\
+&\,&\sin{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n+1)!}x^{2n+1}&&=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\qquad&\small\text{for all x}\\
+&\,&\cos{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}&&=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...\qquad&\small\text{for all x}\\
+&\,&e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}&&=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\qquad&\small\text{for all x}\\
 &\,&e^{ix}&=\rlap{1+ix+\frac{(ix)^2}{2!}+\frac{(ix)^3}{3!}+\frac{(ix)^4}{4!}+\frac{(ix)^5}{5!}+\frac{(ix)^6}{6!}+\frac{(ix)^7}{7!}+\frac{(ix)^8}{8!}+...}\\
 &\,&\,&=\rlap{1+ix-\frac{x^2}{2!}-\frac{ix^3}{3!}+\frac{x^4}{4!}+\frac{ix^5}{5!}-\frac{x^6}{6!}-\frac{ix^7}{7!}+\frac{x^8}{8!}+...}\\
 &\,&\,&=\rlap{\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-...\right)+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\right)}\\
 &\,&e^{ix}&=\cos{x}+i\sin{x}&&\small\text{***}\\
 &\,&e^{i\pi}&=\cos{\pi}+\cancelto{0}{i\sin{\pi}}\\
-&\small\text{Thus}\quad&e^{i\pi}&=-1\quad\small\text{(valid proof)}
+&\small\text{Thus}\normalsize\qquad&e^{i\pi}&=-1\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[euler.tex](./src/euler.tex)
@@ -593,11 +593,11 @@ Let's see the first fool proofs using Euler's identity.
 &\,&e^x\quad&=\quad&&e^{i\pi.2\frac{x}{i\pi.2}}\\
 &\,&\,&=&&(e^{i\pi})^{2\frac{x}{2i\pi}}\\
 &\,&\,&=&&(-1)^{2\frac{x}{2i\pi}}\\
-&\,&e^x\quad&=&&1^\frac{x}{2i\pi}\quad&\small(1)\\
+&\,&e^x\quad&=&&1^\frac{x}{2i\pi}\qquad&\small(1)\\
 &\small\text{as}&e^{i\pi}\quad&=&&-1\\
 &\,&\ln{e^{i\pi}}\quad&=&&\ln{(-1)}\\
 &\,&i\pi\cancelto{1}{\ln{e}}&=&&\ln{(-1)}\\
-&\,&i\pi\quad&=&&\ln{(-1)}\quad&\small(2)\\
+&\,&i\pi\quad&=&&\ln{(-1)}\qquad&\small(2)\\
 &\small\text{from (1)}&e^x\quad&=&&1^\frac{x}{2\ln(-1)}\\
 &\,&\,&=&&1^\frac{x}{\ln(-1^2)}\\
 &\,&\,&=&&1^\frac{x}{\cancelto{0}{\ln{1}}}\\
@@ -618,10 +618,10 @@ A: Hold on, there is another neater proof.<br><br>
 &\,&e^{i\pi}\quad&=\quad&&-1\\
 &\,&\left(e^{i\pi}\right)^2\quad&=&&-1^2\\
 &\,&e^{2i\pi}\quad&=&&1\\
-&\small\text{power }n\text{ both sides}&e^{2ni\pi}\quad&=&&1^n&\quad&\small\text{for all n}\\
+&\small\text{power }n\text{ both sides}&e^{2ni\pi}\quad&=&&1^n\qquad&\small\text{for all n}\\
 &\,&e^{2ni\pi}\quad&=&&1\\
 &\small\times e\text{ both sides}&e^{2ni\pi}.e\quad&=&&e\\
-&\,&e^{2ni\pi+1}\quad&=&&e&\quad&\small(1)\\
+&\,&e^{2ni\pi+1}\quad&=&&e&\small(1)\\
 &\small\text{power }(2ni\pi+1)\text{ both sides}&\left(e^{2ni\pi+1}\right)^{2ni\pi+1}\quad&=&&e^{2ni\pi+1}\\
 &\small\text{from (1)}\normalsize\quad\,&e^{(2ni\pi+1)(2ni\pi+1)}\quad&=&&e\\
 &\,&e^{(2ni\pi+1)^2}\quad&=&&e\\
@@ -634,7 +634,7 @@ A: Hold on, there is another neater proof.<br><br>
 &\,&e^{-4n^2\pi^2}.\cancelto{1}{1^{2n}}\quad&=&&1\\
 &\,&e^{-4n^2\pi^2}\quad&=&&1\\
 &\rlap{\small\text{as }n\text{ can be any real values, }x=-4n^2\pi^2\text{, can also be any real values.}}\\
-&\,&\small\text{Thus}\normalsize\quad e^x\quad&\,=\quad1
+&\,&\small\text{Thus}\normalsize\qquad e^x\quad&\,=\quad1
 \end{alignat*}
 ```
 _source code:_&nbsp;[ex_eq_1_1.tex](./src/ex_eq_1_1.tex)
@@ -667,12 +667,12 @@ If you don't believe, yet there are another proofs.
 \begin{alignat*}{5}
 &\,&e^{i\pi}\quad&=\quad&&-1\\
 &\,&(e^{i\pi})^2\quad&=&&(-1)^2\\
-&\,&e^{2i\pi}\quad&=&&1\quad&\small(1)\\
+&\,&e^{2i\pi}\quad&=&&1\qquad&\small(1)\\
 &\,&e^{2i\pi}.e\quad&=&&e\\
 &\,&e^{2i\pi+1}\quad&=&&e\\
 &\,&\left(e^{2i\pi+1}\right)^{2i\pi+1}\quad&=&&e^{2i\pi+1}\\
 &\,&e^{(2i\pi+1)(2i\pi+1)}\quad&=&&e^{2i\pi}.e\\
-&\small\text{from (1)}&e^{(2i\pi+1)(2i\pi+1)}\quad&=&&1e\\
+&\small\text{from (1)}\normalsize\qquad&e^{(2i\pi+1)(2i\pi+1)}\quad&=&&1e\\
 &\,&e^{(2i\pi)^2+2.2i\pi+1^2}\quad&=&&e\\
 &\,&e^{(-4\pi^2+4i\pi+1)}\quad&=&&e\\
 &\,&e^{-4\pi^2}.e^{4i\pi}.\cancel{e}\quad&=&&\cancel{e}\\
@@ -683,7 +683,7 @@ If you don't believe, yet there are another proofs.
 &\,&\ln{(e^{-4\pi^2})}\quad&=&&\ln1\\
 &\,&-4\pi^2\cancelto{1}{\ln{(e)}}\quad&=&&0\\
 &\,&\pi^2\quad&=&&0\\
-&\,&\small\text{Thus}\normalsize\quad\pi\quad&=&&0
+&\,&\small\text{Thus}\normalsize\qquad\pi\quad&=&&0
 \end{alignat*}
 ```
 _source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)
@@ -738,7 +738,7 @@ We have seen several fool proofs, let's see valid proofs.
 &\,&\,&=&&\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&\,&=&&e^{i\frac{\pi}{2}}\\
 &\small\text{power }i\text{ both sides}&i^i\quad&=&& e^{i^2\frac{\pi}{2}}\\
-&\,&\small\text{Thus}\quad i^i\quad&=&&e^{-\frac{\pi}{2}}\quad\small\text{(valid proof)}\\
+&\,&\small\text{Thus}\normalsize\qquad i^i\quad&=&&e^{-\frac{\pi}{2}}\qquad\small\text{(valid proof)}\\
 &\rlap{\qquad\qquad\qquad\qquad\small\text{And it is a real number.}}
 \end{alignat*}
 ```
@@ -755,7 +755,7 @@ _source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)
 &\,&\quad\frac{\pi}{2}\quad&=&&\frac{{1}}{i}\ln{i}\\
 &\,&\quad\ln{i^\frac{1}{i}}\quad&=&&\frac{\pi}{2}\\
 &\,&\quad i^\frac{1}{i}\quad&=&&e^\frac{\pi}{2}\\
-&\,&\small\text{Thus}\quad\sqrt[^i]{i}\quad&=&&e^\frac{\pi}{2}\quad\small\text{(valid proof)}\\
+&\,&\small\text{Thus}\normalsize\qquad\sqrt[^i]{i}\quad&=&&e^\frac{\pi}{2}\qquad\small\text{(valid proof)}\\
 &\rlap{\qquad\qquad\qquad\qquad\small\text{And it is a real number.}}
 \end{alignat*}
 ```
@@ -774,7 +774,7 @@ _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
 &\small\text{as }i=\frac{1}{-i}&n^{-\frac{1}{i}+\frac{1}{i}}\quad&=&&1^\frac{1}{i}\\
 &\,&n^0\quad&=&&(-1)^{2.\frac{1}{i}}\\
 &\small\text{as }e^{i\pi}=-1&\,&=&&(e^{\cancel{i}\pi})^\frac{2}{\cancel{i}}\\
-&\,&\small\text{Thus}\normalsize\quad n^0\quad&=&&e^{2\pi}\\
+&\,&\small\text{Thus}\normalsize\qquad n^0\quad&=&&e^{2\pi}\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)
@@ -793,21 +793,21 @@ There are many solutions out there, let's have a look.
 \begin{alignat*}{5}
 &\,&f'(x)\quad&=\quad&&\lim_{h\to0}\frac{f(x+h)-f(x)}{h}\\
 &\,&\frac{d}{dx}e^x\quad&=&&\lim_{h\to0}\frac{e^{x+h}-e^x}{h}\\
-&\,&\frac{d}{dx}e^x\quad&=&&e^x.\frac{e^h-1}{h}\quad&\small(1)\\
-&\,&\small\text{Let}\normalsize\quad t\quad&=&&e^h-1\quad&\small(2)\\
+&\,&\frac{d}{dx}e^x\quad&=&&e^x.\frac{e^h-1}{h}\qquad&\small(1)\\
+&\,&\small\text{Let}\normalsize\qquad t\quad&=&&e^h-1\qquad&\small(2)\\
 &\,&\ln{t}\quad&=&&\ln{(e^h-1)}\\
 &\,&\,&=&&\frac{\ln{e^h}}{\ln{1}}\\
 &\,&\ln{t}\quad&=&&h.\frac{\cancelto{1}{\ln{e}}}{\ln{1}}\\
 &\,&h\quad&=&&\ln{t}.\ln{1}\\
-&\,&h\quad&=&&\ln{(t+1)}\quad&\small(3)\\
+&\,&h\quad&=&&\ln{(t+1)}\qquad&\small(3)\\
 &\rlap{\qquad\qquad\small\text{since }h\text{ approaches }0\text{ , in order to balance the equation,}}\\
 &\rlap{\qquad\qquad\qquad\qquad\quad\small\text{so }t\text{ must also approach }0.}\\
 &\small\text{from (1), (2) and (3)}&\frac{d}{dx}e^x\quad&=&& e^x\lim_{t\to0}\frac{t}{\ln{(t+1)}}\\
 &\,&\,&=&&e^x\lim_{t\to0}\frac{1}{\frac{1}{t}\ln{(t+1)}}\\
-&\,&\frac{d}{dx}e^x\quad&=&&e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\quad&\small(4)\\
+&\,&\frac{d}{dx}e^x\quad&=&&e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\qquad&\small(4)\\
 &\rlap{\small\text{recall}\normalsize\qquad\qquad\qquad e=\lim_{n\to0}(1+n)^\frac{1}{n}=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n}\\
 &\small\text{from (4)}&\frac{d}{dx}e^x\quad&=&&e^x\frac{1}{\cancelto{1}{\ln{e}}}\\
-&\,&\small\text{Thus}\normalsize\quad\frac{d}{dx}e^x\quad&=&&e^x\quad\small\text{(valid proof)}
+&\,&\small\text{Thus}\normalsize\qquad\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
@@ -818,11 +818,11 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 \begin{alignat*}{5}
 &\,&e^x\quad&=\quad&&\sum_{i=0}^\infty\frac{x^n}{n!}\\
 &\,&\,&=&&\frac{x^0}{0!}+\frac{x^1}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\\
-&\,&e^x\quad&=&&1+\frac{x^1}{1}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\quad&\small\text{(1)}\\
+&\,&e^x\quad&=&&1+\frac{x^1}{1}+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...\qquad&\small\text{(1)}\\
 &\small\text{diff}&\frac{d}{dx}e^x\quad&=&&0+1+\frac{2x^1}{2!}+\frac{3x^2}{3!}+\frac{4x^3}{4!}+...\\
 &\,&\,&=&&1+\frac{\cancel{2}x^1}{\cancel{2}.1!}+\frac{\cancel{3}x^2}{\cancel{3}.2!}+\frac{\cancel{4}x^3}{\cancel{4}.3!}+...\\
 &\,&\,&=&&(1)\\
-&\small\text{Thus}\quad&\frac{d}{dx}e^x\quad&=&&e^x\quad\small\text{(valid proof)}
+&\small\text{Thus}\normalsize\qquad&\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
@@ -838,7 +838,7 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 &\small\text{diff both sides}\normalsize\quad&\frac{d}{dx}\ln{y}\quad&=&&\frac{dx}{dx}\\
 &\,&\frac{1}{y}\frac{dy}{dx}\quad&=&&1\\
 &\,&\frac{dy}{dx}\quad&=&&y\\
-&\qquad\small\text{Thus}\normalsize\quad&\frac{d}{dx}e^x\quad&=&&e^x\quad\small\text{(valid proof)}
+&\qquad\small\text{Thus}\normalsize\qquad&\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
@@ -850,9 +850,9 @@ _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
 &\,&\frac{dy}{dx}\quad&=\quad&&y\\
 &\,&\frac{dy}{y}\quad&=&&dx\\
 &\small\text{integral}\quad&\int\frac{dy}{y}\quad&=&&\int{dx}\\
-&\,&\ln{y}\quad&=&&x\quad&\small\text{omit}~C\\
+&\,&\ln{y}\quad&=&&x\qquad&\small\text{omit}~C\\
 &\,&y\quad&=&&e^x\\
-&\small\text{Thus}&\frac{d}{dx}e^x\quad&=&&e^x\quad&\small\text{(valid proof)}
+&\small\text{Thus}&\frac{d}{dx}e^x\quad&=&&e^x\qquad&\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)
@@ -879,7 +879,7 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 &\,&V_{ab}\quad&=\quad&&V_{an}\measuredangle0^\circ-V_{bn}\measuredangle120^\circ\\
 &\,&\,&=&& V_{an}(\cos{0^\circ}+j\sin{{0^\circ}})-V_{bn}(\cos{120^\circ}+j\sin{{120^\circ}})\\
 &\,&\,&=&&V_{an}(1+0)-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
-&\,&V_{ab}\quad&=&&V_{an}-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\quad&\small\text(1)\\
+&\,&V_{ab}\quad&=&&V_{an}-V_{bn}(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\qquad&\small\text(1)\\
 &\small\text{take magnitude}&|V_{an}|\quad&=&&|V_{bn}|\quad=\quad|V|\quad\small\text{(measure line to neutral)}\\
 &\small\text{from (1)}&|V_{ab}|\quad&=&&|V|-|V|(-\frac{1}{2}+j\cdot\frac{\sqrt{3}}{2})\\
 &\,&|V_{ab}|\quad&=&&|V|+\frac{1}{2}|V|-j|V|\cdot\frac{\sqrt{3}}{2}\\
@@ -888,7 +888,7 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 &\small\text{polar to rectangular}\normalsize\quad&|V_{ab}|\quad&=&&|V|\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}\\
 &\,&\,&=&&|V|\sqrt{\frac{9}{4}+\frac{3}{4}}\\
 &\,&\,&=&&|V|\sqrt{\frac{12}{4}}\\
-&\qquad\qquad\small\text{Thus}\normalsize\quad&|V_{ab}|\quad&=&&|V|\sqrt{3}\quad\small\text{(valid proof)}\\
+&\qquad\qquad\small\text{Thus}\normalsize\qquad&|V_{ab}|\quad&=&&|V|\sqrt{3}\qquad\small\text{(valid proof)}\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)
@@ -1000,13 +1000,13 @@ Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they
 \begin{alignat*}{5}
 &\,&p\quad&=\quad&&6n+1\\
 &\,&p^2\quad&=&&(6n+1)^2\\
-&\,&p^2\quad&=&&36n^2+12n+1&&\quad\small\text{(1)}\\
+&\,&p^2\quad&=&&36n^2+12n+1&&\qquad\small\text{(1)}\\
 &\qquad\qquad\qquad\rlap{\text{If }n\text{ is even, }n(3n+1)\text{ is also even.}}\\
 &\qquad\rlap{\text{If }n\text{ is odd, }3n+1\text{ is even, so }n(3n+1)\text{ is still even.}}\\
 &\small\text{so for all }n\normalsize\quad&n(3n+1)\quad&=&&2k\quad\small\text{for some integer }k\\
 &\small\text{from (1)}&p^2\quad&=&&12n(3n+1)+1\\
 &\,&\,&=&&12(2k)+1\\
-&\qquad\qquad\small\text{Thus}&p^2\quad&=&&24k+1\quad\small\text{(valid proof)}
+&\qquad\qquad\small\text{Thus}&p^2\quad&=&&24k+1\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
@@ -1033,7 +1033,7 @@ This valid proof is called **_Gaussian intergral_**. It demonstrates the relatio
 &\,&\,&=&&\left.\frac{\theta}{2}\right\vert_0^{2\pi}\\
 &\,&\,&=&&\frac{\cancel{2}\pi}{\cancel{2}}-\cancelto{0}{\frac{0}{2}}\\
 &\,&I^2\quad&=&&\pi\\
-&\,&\small\text{Thus}\normalsize\quad I~~\quad&=&&\sqrt{\pi}\quad\small\text{(valid proof)}
+&\,&\small\text{Thus}\normalsize\qquad I~~\quad&=&&\sqrt{\pi}\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
@@ -1056,7 +1056,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 &\,&\Phi^2-\Phi-1\quad&=&&0\\
 &\,&\Phi\quad&=&&\frac{-(-1)\pm\sqrt{(-1^2)-4(1)(-1)}}{2(1)}\\
 &\small\Phi\text{ is positive}&\,&=&&\frac{1+\sqrt{1+4}}{2}\\
-&\,&\small\text{Thus}\quad\Phi\quad&=&&\frac{1+\sqrt{5}}{2}\quad\small\text{(valid proof)}
+&\,&\small\text{Thus}\normalsize\qquad\Phi\quad&=&&\frac{1+\sqrt{5}}{2}\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)
@@ -1068,14 +1068,14 @@ Let's start freaks again.
 
 ```math
 \begin{alignat*}{5}
-&\,&\infty^2\quad&=\quad&&\infty\quad&&\small\text{(1)}\\
-&\,&\infty+1\quad&=&&\infty&&\small\text{(2)}\\
+&\,&\infty^2\quad&=\quad&&\infty\qquad&\small\text{(1)}\\
+&\,&\infty+1\quad&=&&\infty&\small\text{(2)}\\
 &\small\text{(1)=(2)}\normalsize\quad&\infty^2\quad&=&&\infty+1\\
 &\,&\infty^2-\infty-1\quad&=&&0\\
 &\,&\infty\quad&=&&\frac{-(-1)\pm\sqrt{(-1^2)-4(1)(-1)}}{2(1)}\\
 &\,&\,&=&&\frac{1\pm\sqrt{1+4}}{2}\\
 &\small\text{take positive}&\infty\quad&=&&\frac{1+\sqrt{5}}{2}\\
-&\,&\small\text{Thus}\normalsize\quad\infty\quad&=&&\Phi\quad\small\text{a.k.a. Fibonacci golden ratio}
+&\,&\small\text{Thus}\normalsize\qquad\infty\quad&=&&\Phi\quad\small\text{a.k.a. Fibonacci golden ratio}
 \end{alignat*}
 ```
 _source code:_&nbsp;[infty_fibo.tex](./src/infty_fibo.tex)
@@ -1132,7 +1132,7 @@ You can see `a unit imaginary root` of `a unit real number` is real and indeed a
 &\small\text{power }2&e^{2\pi}\quad&=&&(-1)^{2i}\\
 &\,&\,&=&&1^i\\
 &\small\text{from the previous proof}&\,&=&&e^{-2\pi}\\
-&\,&\small\text{Thus}\normalsize\quad e^{2\pi}\quad&=&&e^{-2\pi}
+&\,&\small\text{Thus}\normalsize\qquad e^{2\pi}\quad&=&&e^{-2\pi}
 \end{alignat*}
 ```
 _source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)
@@ -1147,7 +1147,7 @@ Oops, whether $e=1$ or $\pi=0$, indeed!
 &\,&\,&=&&\left(e^{i\pi}\right)^{2.\frac{1}{2\pi}}\\
 &\,&\,&=&&(-1)^{2.\frac{1}{2\pi}}\\
 &\,&\,&=&&1^\frac{1}{2\pi}\\
-&\small\text{Thus}\quad&e^i\quad&=&&1
+&\small\text{Thus}\normalsize\qquad&e^i\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[./src/etoi.tex](./src/etoi.tex)

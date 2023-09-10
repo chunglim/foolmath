@@ -1,19 +1,19 @@
 \begin{alignat*}{5}
 &\,&f'(x)\quad&=\quad&&\lim_{h\to0}\frac{f(x+h)-f(x)}{h}\\
 &\,&\frac{d}{dx}e^x\quad&=&&\lim_{h\to0}\frac{e^{x+h}-e^x}{h}\\
-&\,&\frac{d}{dx}e^x\quad&=&&e^x.\frac{e^h-1}{h}\quad&\small(1)\\
-&\,&\small\text{Let}\normalsize\quad t\quad&=&&e^h-1\quad&\small(2)\\
+&\,&\frac{d}{dx}e^x\quad&=&&e^x.\frac{e^h-1}{h}\qquad&\small(1)\\
+&\,&\small\text{Let}\normalsize\qquad t\quad&=&&e^h-1\qquad&\small(2)\\
 &\,&\ln{t}\quad&=&&\ln{(e^h-1)}\\
 &\,&\,&=&&\frac{\ln{e^h}}{\ln{1}}\\
 &\,&\ln{t}\quad&=&&h.\frac{\cancelto{1}{\ln{e}}}{\ln{1}}\\
 &\,&h\quad&=&&\ln{t}.\ln{1}\\
-&\,&h\quad&=&&\ln{(t+1)}\quad&\small(3)\\
+&\,&h\quad&=&&\ln{(t+1)}\qquad&\small(3)\\
 &\rlap{\qquad\qquad\small\text{since }h\text{ approaches }0\text{ , in order to balance the equation,}}\\
 &\rlap{\qquad\qquad\qquad\qquad\quad\small\text{so }t\text{ must also approach }0.}\\
 &\small\text{from (1), (2) and (3)}&\frac{d}{dx}e^x\quad&=&& e^x\lim_{t\to0}\frac{t}{\ln{(t+1)}}\\
 &\,&\,&=&&e^x\lim_{t\to0}\frac{1}{\frac{1}{t}\ln{(t+1)}}\\
-&\,&\frac{d}{dx}e^x\quad&=&&e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\quad&\small(4)\\
+&\,&\frac{d}{dx}e^x\quad&=&&e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\qquad&\small(4)\\
 &\rlap{\small\text{recall}\normalsize\qquad\qquad\qquad e=\lim_{n\to0}(1+n)^\frac{1}{n}=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n}\\
 &\small\text{from (4)}&\frac{d}{dx}e^x\quad&=&&e^x\frac{1}{\cancelto{1}{\ln{e}}}\\
-&\,&\small\text{Thus}\normalsize\quad\frac{d}{dx}e^x\quad&=&&e^x\quad\small\text{(valid proof)}
+&\,&\small\text{Thus}\normalsize\qquad\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
