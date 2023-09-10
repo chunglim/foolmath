@@ -603,7 +603,7 @@ Let's see the first fool proofs using Euler's identity.
 &\,&\,&=&&1^\frac{x}{\cancelto{0}{\ln{1}}}\\
 &\,&\,&=&&1^\frac{x}{0}\\
 &\,&\,&=&&1^\infty\\
-&\small\text{Thus}&e^x\quad&=&&1\quad&\small\text{(so foolish)}
+&\small\text{Thus}&e^x\quad&=&&1\qquad&\small\text{(so foolish)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)
