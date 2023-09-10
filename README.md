@@ -354,7 +354,7 @@ Wait, there are something more.
 % line (14): Can't add `\cancel` inside `\frac`, MathJax bug?
 &\,&-\frac{1}{2}\quad&=&&\frac{1}{2}&(14)\\
 &\,&-1\quad&=&&1&(15)\\
-&+1&-1+1\quad&=&&1+1&(16)\\
+&\small\text{+1}&-1+1\quad&=&&1+1&(16)\\
 &\,&0\quad&=&&2&(17)\\
 &\small\text{from (12), (15), (17)}&-1~=~0\quad&=&&1~=~2&(18)
 \end{alignat*}
@@ -395,7 +395,7 @@ Who said $0$ couldn't be a denominator? See the following fool proofs.
 \begin{alignat*}{5}
 &\,&\small\text{Let}\normalsize\quad\frac{2}{0}\quad&=\quad&&\frac{x}{1}\\
 &\times\small\text{0 both sides}&\frac{2*0}{0}\quad&=&&\frac{x*0}{1}\\
-&\,&divide\small\text{ 2 both sides}&\frac{\cancel{2}*0}{0*\cancel{2}}\quad&=&&\cancelto{0}{\frac{x*0}{1*2}}\\
+&\,\small &divide\text{ 2 both sides}&\frac{\cancel{2}*0}{0*\cancel{2}}\quad&=&&\cancelto{0}{\frac{x*0}{1*2}}\\
 &\,&\small\text{Thus}\quad\frac{0}{0}\quad&=&&0
 \end{alignat*}
 ```
@@ -438,7 +438,7 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 ```math
 \begin{alignat*}{5}
 &\,&-1\quad&=\quad&&i^2\\
-& &divide(-i)\small\text{ both sides}&\frac{-1}{-i}\quad&=&&\frac{i^2}{-i}\\
+&\small &divide(-i)\text{ both sides}&\frac{-1}{-i}\quad&=&&\frac{i^2}{-i}\\
 &\,&\small\text{Thus}\quad\frac{1}{i}\quad&=&&-i\quad\small\text{(valid proof)}
 \end{alignat*}
 ```
@@ -519,7 +519,7 @@ Here, $\infty$ is so small, you see?
 &\,&3S\quad&=&&1+2+3+3+3+3+...\\
 &\,&\,&\,&&...\\
 &\,&\infty S\quad&=\quad&&1+2+3+4+5+6+...\\
-&\small\text{from (1) }\normalsize S=0\quad&\infty0\quad&=&&1+2+3+4+5+6+...\\
+&\small\text{from (1) }S=0\normalsize\quad&\infty0\quad&=&&1+2+3+4+5+6+...\\
 &\qquad\small\text{Thus}&0\infty\quad&=&&-\frac{1}{12}
 \end{alignat*}
 ```
@@ -568,9 +568,9 @@ Now, have a look at the valid proof of _Euler's identity_.
 
 ```math
 \begin{alignat*}{7}
-&\,&\sin{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n+1)!}x^{2n+1}&&=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...&&\small\text{for all x}\\
-&\,&\cos{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}&&=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...&&\small\text{for all x}\\
-&\,&e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}&&=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...&&\small\text{for all x}\\
+&\,&\sin{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n+1)!}x^{2n+1}&&=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...&\small\text{for all x}\\
+&\,&\cos{x}&=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}&&=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...&\small\text{for all x}\\
+&\,&e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}&&=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...&\small\text{for all x}\\
 &\,&e^{ix}&=\rlap{1+ix+\frac{(ix)^2}{2!}+\frac{(ix)^3}{3!}+\frac{(ix)^4}{4!}+\frac{(ix)^5}{5!}+\frac{(ix)^6}{6!}+\frac{(ix)^7}{7!}+\frac{(ix)^8}{8!}+...}\\
 &\,&\,&=\rlap{1+ix-\frac{x^2}{2!}-\frac{ix^3}{3!}+\frac{x^4}{4!}+\frac{ix^5}{5!}-\frac{x^6}{6!}-\frac{ix^7}{7!}+\frac{x^8}{8!}+...}\\
 &\,&\,&=\rlap{\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\frac{x^8}{8!}-...\right)+i\left(x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...\right)}\\
@@ -618,12 +618,12 @@ A: Hold on, there is another neater proof.<br><br>
 &\,&e^{i\pi}\quad&=\quad&&-1\\
 &\,&\left(e^{i\pi}\right)^2\quad&=&&-1^2\\
 &\,&e^{2i\pi}\quad&=&&1\\
-&\small\text{power }\normalsize n\small\text{ both sides}&e^{2ni\pi}\quad&=&&1^n&\quad&\small\text{for all n}\\
+&\small\text{power }n\text{ both sides}&e^{2ni\pi}\quad&=&&1^n&\quad&\small\text{for all n}\\
 &\,&e^{2ni\pi}\quad&=&&1\\
-&\times e\small\text{ both sides}&e^{2ni\pi}.e\quad&=&&e\\
+&\small\times e\text{ both sides}&e^{2ni\pi}.e\quad&=&&e\\
 &\,&e^{2ni\pi+1}\quad&=&&e&\quad&\small(1)\\
-&\small\text{power }\normalsize(2ni\pi+1)\small\text{ both sides}&\left(e^{2ni\pi+1}\right)^{2ni\pi+1}\quad&=&&e^{2ni\pi+1}\\
-&\small\text{from }(1)\quad\,&e^{(2ni\pi+1)(2ni\pi+1)}\quad&=&&e\\
+&\small\text{power }(2ni\pi+1)\text{ both sides}&\left(e^{2ni\pi+1}\right)^{2ni\pi+1}\quad&=&&e^{2ni\pi+1}\\
+&\small\text{from (1)}\normalsize\quad\,&e^{(2ni\pi+1)(2ni\pi+1)}\quad&=&&e\\
 &\,&e^{(2ni\pi+1)^2}\quad&=&&e\\
 &\,&e^{(2ni\pi)^2+2(2ni\pi)(1)+1^2}\quad&=&&e\\
 &\,&e^{-4n^2\pi^2+4ni\pi+1}\quad&=&&e\\
@@ -639,7 +639,7 @@ A: Hold on, there is another neater proof.<br><br>
 ```
 _source code:_&nbsp;[ex_eq_1_1.tex](./src/ex_eq_1_1.tex)
 
-Now, let's see the value of $\frac{circumference}{diameter}$, you know.
+Now, let's see the value of $\frac{\text{circumference}}{\text{diameter}}$, you know.
 
 ### **How much is $\pi$?**
 
@@ -737,7 +737,7 @@ We have seen several fool proofs, let's see valid proofs.
 &\,&i\quad&=&&0+i\\
 &\,&\,&=&&\cos{\left(\frac{\pi}{2}\right)}+i\sin{\left(\frac{\pi}{2}\right)}\\
 &\,&\,&=&&e^{i\frac{\pi}{2}}\\
-&\small\text{power }\normalsize i\small\text{ both sides}&i^i\quad&=&& e^{i^2\frac{\pi}{2}}\\
+&\small\text{power }i\text{ both sides}&i^i\quad&=&& e^{i^2\frac{\pi}{2}}\\
 &\,&\small\text{Thus}\quad i^i\quad&=&&e^{-\frac{\pi}{2}}\quad\small\text{(valid proof)}\\
 &\rlap{\qquad\qquad\qquad\qquad\small\text{And it is a real number.}}
 \end{alignat*}
@@ -767,13 +767,13 @@ _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
 \begin{alignat*}{5}
 &\,&n^{-1}\quad&=\quad&&\frac{1}{n}\\
 &\,&n^{\left(i^2\right)}\quad&=&&\frac{1}{n}\\
-&\small\text{power }\normalsize\frac{1}{i}\small\text{ both sides}&n^{\left(\frac{i^2}{i}\right)}\quad&=&&\left(\frac{1}{n}\right)^\frac{1}{i}\\
+&\small\text{power }\frac{1}{i}\text{ both sides}&n^{\left(\frac{i^2}{i}\right)}\quad&=&&\left(\frac{1}{n}\right)^\frac{1}{i}\\
 &\,&n^i\quad&=&&\frac{1^\frac{1}{i}}{n^\frac{1}{i}}\\
 &\,&n^i.n^\frac{i}{i}\quad&=&&1^\frac{1}{i}\\
 &\,&n^{i+\frac{i}{i}}\quad&=&&1^\frac{1}{i}\\
-&\small\text{as}\normalsize~i=\frac{1}{-i}&n^{-\frac{1}{i}+\frac{1}{i}}\quad&=&&1^\frac{1}{i}\\
+&\small\text{as }i=\frac{1}{-i}&n^{-\frac{1}{i}+\frac{1}{i}}\quad&=&&1^\frac{1}{i}\\
 &\,&n^0\quad&=&&(-1)^{2.\frac{1}{i}}\\
-&\small\text{as}\normalsize~e^{i\pi}=-1&\,&=&&(e^{\cancel{i}\pi})^\frac{2}{\cancel{i}}\\
+&\small\text{as }e^{i\pi}=-1&\,&=&&(e^{\cancel{i}\pi})^\frac{2}{\cancel{i}}\\
 &\,&\small\text{Thus}\normalsize\quad n^0\quad&=&&e^{2\pi}\\
 \end{alignat*}
 ```
@@ -800,8 +800,8 @@ There are many solutions out there, let's have a look.
 &\,&\ln{t}\quad&=&&h.\frac{\cancelto{1}{\ln{e}}}{\ln{1}}\\
 &\,&h\quad&=&&\ln{t}.\ln{1}\\
 &\,&h\quad&=&&\ln{(t+1)}\quad&\small(3)\\
-&\rlap{\qquad\qquad\small\text{since }\normalsize h\small\text{ approaches }\normalsize 0\small\text{ , in order to balance the equation,}}\\
-&\rlap{\qquad\qquad\qquad\qquad\quad\small\text{so }\normalsize t \small\text{ must also approach }\normalsize 0.}\\
+&\rlap{\qquad\qquad\small\text{since }h\text{ approaches }0\text{ , in order to balance the equation,}}\\
+&\rlap{\qquad\qquad\qquad\qquad\quad\small\text{so }t\text{ must also approach }0.}\\
 &\small\text{from (1), (2) and (3)}&\frac{d}{dx}e^x\quad&=&& e^x\lim_{t\to0}\frac{t}{\ln{(t+1)}}\\
 &\,&\,&=&&e^x\lim_{t\to0}\frac{1}{\frac{1}{t}\ln{(t+1)}}\\
 &\,&\frac{d}{dx}e^x\quad&=&&e^x\lim_{t\to0}\frac{1}{\ln{(t+1)}^\frac{1}{t}}\quad&\small(4)\\
@@ -1003,7 +1003,7 @@ Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they
 &\,&p^2\quad&=&&36n^2+12n+1&&\quad\small\text{(1)}\\
 &\qquad\qquad\qquad\rlap{\text{If }n\text{ is even, }n(3n+1)\text{ is also even.}}\\
 &\qquad\rlap{\text{If }n\text{ is odd, }3n+1\text{ is even, so }n(3n+1)\text{ is still even.}}\\
-&\small\text{so for all}\normalsize~n\quad&n(3n+1)\quad&=&&2k\quad\small\text{for some integer }\normalsize k\\
+&\small\text{so for all }n\normalsize\quad&n(3n+1)\quad&=&&2k\quad\small\text{for some integer }k\\
 &\small\text{from (1)}&p^2\quad&=&&12n(3n+1)+1\\
 &\,&\,&=&&12(2k)+1\\
 &\qquad\qquad\small\text{Thus}&p^2\quad&=&&24k+1\quad\small\text{(valid proof)}
@@ -1055,7 +1055,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 &\,&\Phi^2\quad&=&&\Phi+1\\
 &\,&\Phi^2-\Phi-1\quad&=&&0\\
 &\,&\Phi\quad&=&&\frac{-(-1)\pm\sqrt{(-1^2)-4(1)(-1)}}{2(1)}\\
-&\Phi\small\text{ is positive}&\,&=&&\frac{1+\sqrt{1+4}}{2}\\
+&\small\Phi\text{ is positive}&\,&=&&\frac{1+\sqrt{1+4}}{2}\\
 &\,&\small\text{Thus}\quad\Phi\quad&=&&\frac{1+\sqrt{5}}{2}\quad\small\text{(valid proof)}
 \end{alignat*}
 ```
@@ -1087,7 +1087,7 @@ Now you can see, $\infty$ is as small as $1.618034$.
 ```math
 \begin{alignat*}{5}
 &\,&-1\quad&=\quad&&e^{i\pi}\\
-&\small\text{power }\normalsize 2i&-1^{2i}\quad&=&&\left(e^{i\pi}\right)^{2i}\\
+&\small\text{power }2i&-1^{2i}\normalsize\quad&=&&\left(e^{i\pi}\right)^{2i}\\
 &\,&\left(-1^2\right)^i\quad&=&&e^{2\pi.i^2}\\
 &\small\text{Thus}&1^i\quad&=&&e^{-2\pi}
 \end{alignat*}
@@ -1103,13 +1103,13 @@ Let's see more about `a unit real number` and `a unit imaginary number`.
 ```math
 \begin{alignat*}{5}
 &\,&-1\quad&=\quad&&e^{i\pi}\\
-&\small\text{power }\normalsize i^3&\left(-1\right)^{i^3}\quad&=&&(e^{i\pi})^{i^3}\\
+&\small\text{power }i^3&\left(-1\right)^{i^3}\quad&=&&(e^{i\pi})^{i^3}\\
 &\,&-1^{i^2i}\quad&=&&e^{i^4\pi}\\
 &\,&-1^{-1i}\quad&=&&e^{(i^2)^2\pi}\\
 &\,&-1^{-i}\quad&=&&e^{-1^2\pi}\\
 &\,&-1^{-i}\quad&=&&e^{1\pi}\\
-&\small\text{as }\normalsize -i=\frac{1}{i}&-1^\frac{1}{i}\quad&=&&e^\pi\\
-&\small\text{power }\normalsize 2&-1^\frac{2}{i}\quad&=&&e^{2\pi}\\
+&\small\text{as }-i=\frac{1}{i}&-1^\frac{1}{i}\quad&=&&e^\pi\\
+&\small\text{power }2&-1^\frac{2}{i}\quad&=&&e^{2\pi}\\
 &\,&\left(-1^2\right)^\frac{1}{i}\quad&=&&e^{2\pi}\\
 &\,&\quad1^{\frac{1}{i}}\quad&=&&e^{2\pi}\\
 &\qquad\small\text{Thus}&\sqrt[^i]{1}\quad&=&&e^{2\pi}
