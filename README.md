@@ -354,7 +354,7 @@ Wait, there are something more.
 % line (14): Can't add `\cancel` inside `\frac`, MathJax bug?
 &\,&-\frac{1}{2}\quad&=&&\frac{1}{2}&(14)\\
 &\,&-1\quad&=&&1&(15)\\
-&\small\text{+1}&-1+1\quad&=&&1+1&(16)\\
+&\small+1&-1+1\quad&=&&1+1&(16)\\
 &\,&0\quad&=&&2&(17)\\
 &\small\text{from (12), (15), (17)}&-1~=~0\quad&=&&1~=~2&(18)
 \end{alignat*}
