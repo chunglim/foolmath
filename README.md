@@ -1089,7 +1089,7 @@ Now you can see, $\infty$ is as small as $1.618034$.
 &\,&-1\quad&=\quad&&e^{i\pi}\\
 &\small\text{power }2i&-1^{2i}\normalsize\quad&=&&\left(e^{i\pi}\right)^{2i}\\
 &\,&\left(-1^2\right)^i\quad&=&&e^{2\pi.i^2}\\
-&\,&\1^i\quad&=&&e^{2\pi.(-1)}\\
+&\,&1^i\quad&=&&e^{2\pi.(-1)}\\
 &\small\text{Thus}&1^i\quad&=&&e^{-2\pi}
 \end{alignat*}
 ```
