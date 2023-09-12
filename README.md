@@ -59,6 +59,8 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
 - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
 - How much is $e^i$? [|view it|](#how-much-is-ei)
+- Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
+- Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
 
@@ -257,9 +259,9 @@ Yet, there is another proof using calculus.
 
 ```math
 \begin{alignat*}{5}
-&\,&\underbrace{x+x+x+...+x}_{x~terms}\quad&=\quad&&x*x\\
+&\,&\underbrace{x+x+x+...+x}_{x\text{ terms}}\quad&=\quad&&x*x\\
 &\,&\,&=&&x^2\\ \\
-&\small\text{diff both sides }&\underbrace{1+1+1+...+1}_{x~terms}\quad&=&&2x\\
+&\small\text{diff both sides }&\underbrace{1+1+1+...+1}_{x\text{ terms}}\quad&=&&2x\\
 &\,&\cancel{x}\quad&=&&2\cancel{x}\\ \\
 &\,&\small\text{Thus}\normalsize\qquad1\quad&=&&2
 \end{alignat*}
@@ -1151,13 +1153,71 @@ Oops, whether $e=1$ or $\pi=0$, indeed!
 &\small\text{Thus}\normalsize\qquad&e^i\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[./src/etoi.tex](./src/etoi.tex)
+_source code:_&nbsp;[etoi.tex](./src/etoi.tex)
 
-<br><br>
+### **Simple continued fraction expansion of $\pi$**
 
-I keep adding these kinds of freaks or something that I consider them interesting, no matter what they are fool math or valid math. If you enjoy this content or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be very grateful.
+In our early primary school, we were taught that $pi$ is approximately a rational number `22/7`. But actually $pi$ is an irrational number. We can have higher degree of accuracy and precision using higher numerator and denomerator. This method is called **a simple continued fraction expansion of $pi$**, of which the series has been evaluated by matheticians over the centuries. That is ...
+
+```
+3, 7, 15, 1, 292, 1, 1, 1, 2, 1, 3, 1, 14, 2, 1, 1, 2, 2, 2, 2, 1, 84, 2, 1, 1, 15, 3, 13, 1, 4, 2, 6, 6, 99, 1, 2, 2, 6, 3, 5, 1, 1, 6, 8, 1, 7, 1, 2, 3, 7, 1, 2, 1, 1, 12, 1, 1, 1, 3, 1, 1, 8, 1, 1, 2, 1, 6, 1, 1, 5, 2, 2, 3, 1, 2, 4, 4, 16, 1, 161, 45, 1, 22, 1, 2, 2, 1, 4, 1, 2, 24, 1, 2, 1, 3, 1, 2, 1, ...
+```
+(valid $\pi$ fraction expansion)
+[Further reference](https://oeis.org/A001203)
+
+**We might start with the first _two terms_.**
+
+```math
+\begin{alignat*}{5}
+&\,&\pi\quad&\approx\quad&&3+\frac{1}{7}\\
+&\,&\,&\approx&&\frac{21+1}{7}\\
+&\small\text{Thus}\qquad&\pi\quad&\approx&&\frac{22}{7}\rlap{\quad=\quad3.14}\\
+&\rlap{\qquad\quad\small\text{(valid approximation)}}
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_exp_2_terms.tex](./src/pi_exp_2_terms.tex)
+
+**Or we might want higher accuracy and precision. Let's take _three terms_.**
+
+```math
+\begin{alignat*}{5}
+&\,&\pi\quad&\approx\quad&&3+\frac{1}{7+\frac{1}{15}}\\
+&\,&\,&\approx&&3+\frac{1}{\frac{106}{15}}\\
+&\,&\,&\approx&&3+\frac{15}{106}\\
+&\small\text{Thus}\qquad&\pi\quad&\approx&&\frac{333}{106}\rlap{\quad=\quad3.1415}\\
+&\rlap{\qquad\qquad\small\text{(valid approximation)}}
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)
+
+**And we go a little further, Let's take _five terms_.**
+
+```math
+\begin{alignat*}{5}
+&\,&\pi\quad&\approx\quad&&3+\frac{1}{7+\frac{1}{15+\frac{1}{1+\frac{1}{292}}}}\\
+&\,&\,&\approx\quad&&3+\frac{1}{7+\frac{1}{15+\frac{1}{\frac{293}{292}}}}\\
+&\,&\,&\approx\quad&&3+\frac{1}{7+\frac{1}{15+\frac{292}{293}}}\\
+&\,&\,&\approx\quad&&3+\frac{1}{7+\frac{1}{\frac{4687}{293}}}\\
+&\,&\,&\approx\quad&&3+\frac{1}{7+\frac{293}{4687}}\\
+&\,&\,&\approx\quad&&3+\frac{1}{\frac{33102}{4687}}\\
+&\,&\,&\approx\quad&&3+\frac{4687}{33102}\\
+&\small\text{Thus}\quad&\pi\quad&\approx\quad&&\frac{103993}{33102}\rlap{\quad=\quad3.141592653}\\
+&\rlap{\qquad\qquad\quad\small\text{(valid approximation)}}
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_exp_5_terms.tex](./src/pi_exp_5_terms.tex)
+
+<!-- magic square -->
+
+### **Support _foolmath_**
+
+I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity and after my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
+
+If you find **_foolmath_** entertaining, educational, or you simply enjoy its content, or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim), I will be highly appreciated and very grateful.
 
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+Note: All contributions are voluntary and not required to access or use the content.
 
 <br><br>
 
