@@ -1157,12 +1157,13 @@ _source code:_&nbsp;[etoi.tex](./src/etoi.tex)
 
 ### **Simple continued fraction expansion of $\pi$**
 
-In our early primary school, we were taught that $pi$ is approximately a rational number `22/7`. But actually $pi$ is an irrational number. We can have higher degree of accuracy and precision using higher numerator and denomerator. This method is called **a simple continued fraction expansion of $pi$**, of which the series has been evaluated by matheticians over the centuries. That is ...
+In our early primary school, we were taught that $\pi$ is approximately a rational number `22/7`. But actually $\pi$ is an irrational number. We can have higher degree of accuracy and precision using higher numerator and denomerator. This method is called **a simple continued fraction expansion of $\pi$**, of which the series has been evaluated by matheticians over the centuries. That is ...
 
 ```
 3, 7, 15, 1, 292, 1, 1, 1, 2, 1, 3, 1, 14, 2, 1, 1, 2, 2, 2, 2, 1, 84, 2, 1, 1, 15, 3, 13, 1, 4, 2, 6, 6, 99, 1, 2, 2, 6, 3, 5, 1, 1, 6, 8, 1, 7, 1, 2, 3, 7, 1, 2, 1, 1, 12, 1, 1, 1, 3, 1, 1, 8, 1, 1, 2, 1, 6, 1, 1, 5, 2, 2, 3, 1, 2, 4, 4, 16, 1, 161, 45, 1, 22, 1, 2, 2, 1, 4, 1, 2, 24, 1, 2, 1, 3, 1, 2, 1, ...
 ```
 (valid $\pi$ fraction expansion)
+
 [Further reference](https://oeis.org/A001203)
 
 **We might start with the first _two terms_.**
