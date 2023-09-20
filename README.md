@@ -15,9 +15,9 @@
 If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs like $1=2$ or evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
 
 **Notes:**
-1. Almost all mathematical proofs here are foolish, unless noted otherwise.
+1. Almost all mathematical proofs here are foolish, unless explicitly noted as _valid_.
 2. Plain-text LaTeX `.tex` code is in `src/`.
-3. It is the best, to view **_foolmath_** on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
+3. Best to view **_foolmath_** on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers on any devices, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
 
 **Proofs are louder than words. Let's start!**
 
@@ -60,11 +60,12 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
 - How much is $e^i$? [|view it|](#how-much-is-ei)
 - Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
+- $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, How? [|view it|](#sqrtln-1ln-1pi-how)
 - Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
 
-We firstly start from the well-known **Ramanujan Summation**, which is known to most mathematicians.
+We firstly start from the well-known **_Ramanujan Summation_**, which is known to most mathematicians.
 
 $\qquad1+2+3+4+5+6+...\quad=\quad?$
 
@@ -531,7 +532,7 @@ Hmm, I will never believe.
 
 ### **Is $0$ an even number?**
 
-This proof is known to be correct!
+This proof is believed to be valid.
 
 ```math
 \begin{alignat*}{5}
@@ -566,7 +567,7 @@ A silly equation always has the solution.
 
 Now, have a look at the valid proof of _Euler's identity_.
 
-### **$e^{i\pi}=?$, also known as Euler's identity**
+### **$e^{i\pi}=?$, also known as _Euler's identity_**
 
 ```math
 \begin{alignat*}{7}
@@ -584,7 +585,7 @@ Now, have a look at the valid proof of _Euler's identity_.
 _source code:_&nbsp;[euler.tex](./src/euler.tex)
 
 Euler's identity shall be used in the other proofs (whether valid or fool).<br>
-Let's see the first fool proofs using Euler's identity.
+Let's see the first fool proofs using _Euler's identity_.
 
 ### **$e^x=1$, no matter what $x$ maybe.**
 
@@ -789,7 +790,7 @@ Next, let's see valid proofs.
 
 There are many solutions out there, let's have a look.
 
-#### **Solution 1: Limit Definition**
+#### **Solution 1: _Limit Definition_**
 
 ```math
 \begin{alignat*}{5}
@@ -814,7 +815,7 @@ There are many solutions out there, let's have a look.
 ```
 _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 
-#### **Solution 2: Taylor Series**
+#### **Solution 2: _Taylor Series_**
 
 ```math
 \begin{alignat*}{5}
@@ -829,7 +830,7 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 
-#### **Solution 3: Implicit Differentiation**
+#### **Solution 3: _Implicit Differentiation_**
 
 ```math
 \begin{alignat*}{5}
@@ -845,7 +846,7 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)
 ```
 _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)
 
-#### **Solution 4: Differential Equation**
+#### **Solution 4: _Differential Equation_**
 
 ```math
 \begin{alignat*}{5}
@@ -1042,7 +1043,7 @@ _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
 
 Gaussian integral is one of many relations between $e$ and $\pi$.
 
-### **Golden ratio from Fibonacci sequence**
+### **Golden ratio from _Fibonacci sequence_**
 
 ```math
 \begin{alignat*}{5}
@@ -1208,11 +1209,35 @@ _source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)
 ```
 _source code:_&nbsp;[pi_exp_5_terms.tex](./src/pi_exp_5_terms.tex)
 
+### **$\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, How?**
+
+In terms of _complex numbers_, this proof is believed to be valid.
+
+```math
+\begin{alignat*}{5}
+&\,&-1\quad&=\quad&&e^{i\pi}\\
+&\small\text{take ln both sides}&\ln{(-1)}\quad&=&&\ln{e^{i\pi}}\\
+&\,&\,&=&&i\pi\cancelto{1}{\ln{e}}\\
+&\,&\ln{(-1)}\quad&=&&i\pi&\small\text{(1)}\\
+&\small\text{from (1)}&\sqrt{-\ln{(-1)}\ln{(-1)}}\quad&=&&\sqrt{-(i\pi)(i\pi)}\\
+&\,&\,&=&&\sqrt{-(i\pi)^2}\\
+&\,&\,&=&&\sqrt{-i^2\pi^2}\\
+&\,&\,&=&&\sqrt{-(-1)(\pi^2)}\\
+&\,&\,&=&&\sqrt{\pi^2}\\
+&\small\text{Thus}&\sqrt{-\ln{(-1)}\ln{(-1)}}\quad&=&&\pi\qquad\small\text{(valid proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[ln-1.tex](./src/ln-1.tex)
+
+![wolfram_ln-1.png](./images/wolfram_ln-1-min.png)
+
+Well, WolframAlpha confirms that!
+
 <!-- magic square -->
 
 ### **Support _foolmath_**
 
-I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity and after my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
+I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
 
 If you find **_foolmath_** entertaining, educational, or you simply enjoy its content, or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim). Your support will be highly appreciated and I will be very grateful.
 
