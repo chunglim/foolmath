@@ -60,7 +60,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
 - How much is $e^i$? [|view it|](#how-much-is-ei)
 - Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
-- $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, How? [|view it|](#sqrtln-1ln-1pi-how)
+- $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
 - Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
@@ -1209,7 +1209,7 @@ _source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)
 ```
 _source code:_&nbsp;[pi_exp_5_terms.tex](./src/pi_exp_5_terms.tex)
 
-### **$\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, How?**
+### **$\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how?**
 
 In terms of _complex numbers_, this proof is believed to be valid.
 
@@ -1229,7 +1229,7 @@ In terms of _complex numbers_, this proof is believed to be valid.
 ```
 _source code:_&nbsp;[ln-1.tex](./src/ln-1.tex)
 
-![wolfram_ln-1.png](./images/wolfram_ln-1-min.png)
+![wolfram_ln-1.png](./images/wolfram_ln-1.png)
 
 Well, WolframAlpha confirms that!
 
