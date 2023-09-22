@@ -1236,7 +1236,9 @@ Well, WolframAlpha confirms that!
 
 ### **How is $6$ afraid of $7$? It ain't and will never be.**
 
-There was a joke from our childhood, why $6$ is afraid of $7$. Because $7$ ate $9$ or someone say $\cos{(789)}$. Nah, it isn't, here's the fool proof.
+There was a joke from our childhood, why $6$ is afraid of $7$. Because $7$ ate $9$ or someone say $\cos{(789)}$. Moreover, now 7 turns around and it opens its mouth while facing 6.
+
+Nah, 6 ain't afraid of 7, here's the proof. I can't believe, I simply thought about this joke, then discovered this fool proof within a few hours. ;-p
 
 ```math
 \begin{alignat*}{5}
