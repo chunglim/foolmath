@@ -61,6 +61,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - How much is $e^i$? [|view it|](#how-much-is-ei)
 - Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
 - $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
+- How is $6$ afraid of $7$? It ain't and will never be. [|view it|](#how-is-6-afraid-of-7-it-aint-and-will-never-be)
 - Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
@@ -1232,6 +1233,31 @@ _source code:_&nbsp;[ln-1.tex](./src/ln-1.tex)
 ![wolfram_ln-1.png](./images/wolfram_ln-1.png)
 
 Well, WolframAlpha confirms that!
+
+### **How is $6$ afraid of $7$? It ain't and will never be.**
+
+There was a joke from our childhood, why $6$ is afraid of $7$. Because $7$ ate $9$ or someone say $\cos{(789)}$. Nah, it isn't, here's the fool proof.
+
+```math
+\begin{alignat*}{5}
+&\,&6-7\quad&=\quad&&-1\\
+&\,&\,&=&&2-3\\
+&\,&\,&=&&2-\frac{5}{2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{\left(2-\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{2^2-2(\cancel{2})\left(\frac{5}{\cancel{2}}\right)+\left(\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{4-10+\left(\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{-6+\left(\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{9-15+\left(\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{3^2-2(3)\left(\frac{5}{2}\right)+\left(\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&\sqrt{\left(3-\frac{5}{2}\right)^2}+\frac{5}{2}-3\\
+&\,&\,&=&&3-\frac{5}{2}+\frac{5}{2}-3\\
+&\,&6-7\quad&=&&0\\
+&\small\text{Thus}&6\quad&=&&7
+\end{alignat*}
+```
+_source code:_&nbsp;[6_not_afraid_7.tex](./src/6_not_afraid_7.tex)
+
+So, $6$ is not afraid of $7$ and will never be. They are on par.
 
 <!-- magic square -->
 
