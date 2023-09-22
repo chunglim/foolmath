@@ -64,7 +64,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - How is $6$ afraid of $7$? It ain't and will never be. [|view it|](#how-is-6-afraid-of-7-it-aint-and-will-never-be)
 - Support **_foolmath_** [|here|](#support-foolmath)
 
-### Ramanujan summation
+### **Ramanujan summation**
 
 We firstly start from the well-known **_Ramanujan Summation_**, which is known to most mathematicians.
 
@@ -99,7 +99,7 @@ $\qquad1+2+3+4+5+6+...\quad=\quad?$
 ```
 _source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)
 
-### Yet, there is a Ramanujan alternative
+### **Yet, there is a Ramanujan alternative**
 
 ```math
 \begin{alignat*}{5}
@@ -116,7 +116,7 @@ _source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)
 
 Oops, was Ramanujan wrong?
 
-### What if summing the power of two?
+### **What if summing the power of two?**
 
 ```math
 \begin{alignat*}{5}
@@ -131,7 +131,7 @@ _source code:_&nbsp;[sum_power_of_2.tex](./src/sum_power_of_2.tex)
 
 Negative! once again.
 
-### What if summing all natural odd numbers?
+### **What if summing all natural odd numbers?**
 
 ```math
 \begin{alignat*}{5}
@@ -149,7 +149,7 @@ _source code:_&nbsp;[sum_of_odd.tex](./src/sum_of_odd.tex)
 
 Wow! this time the summation is positive.
 
-### Trying summing all natural even numbers
+### **Trying summing all natural even numbers**
 
 ```math
 \begin{alignat*}{5}
@@ -165,7 +165,7 @@ _source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
 
 Why is it negative again, who know?
 
-### Why $0=1$?
+### **Why $0=1$?**
 
 Here come the most foolish proof!
 
@@ -216,7 +216,7 @@ _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)
 Can you find an error?<br><br>
 Hmm, binary no longer exists.
 
-### Why $1=2$?
+### **Why $1=2$?**
 
 Here, the proof I learnt in junior high school.
 
@@ -272,7 +272,7 @@ _source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)
 
 Do you find any clues?
 
-### Do you know that $1=-1$?
+### **Do you know that $1=-1$?**
 
 #### **Solution 1**
 
@@ -319,7 +319,7 @@ _source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)
 
 From now on, what I owe you is what you owe me.
 
-### Let's see a little higher numbers, $4=5$.
+### **Let's see a little higher numbers, $4=5$.**
 
 ```math
 \begin{alignat*}{5}
@@ -338,7 +338,7 @@ _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)
 Hey, what? How come, $4=5$?<br><br>
 Wait, there are something more.
 
-### Are all intergers equal?
+### **Are all intergers equal?**
 
 ```math
 \begin{alignat*}{5}
@@ -368,7 +368,7 @@ _source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)
 It is very articulate, indeed.<br><br>
 There is one more simple equation. Have a look.
 
-### Was I wrongly taught? Why $2+5=8$?
+### **Was I wrongly taught? Why $2+5=8$?**
 
 ```math
 \begin{alignat*}{5}
@@ -391,7 +391,7 @@ _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)
 Do you find any errors?<br><br>
 Who said $0$ couldn't be a denominator? See the following fool proofs.
 
-### Very silly solutions to find $\frac{0}{0}$.
+### **Very silly solutions to find $\frac{0}{0}$.**
 
 #### **Let's see the first fool.**
 
@@ -421,7 +421,7 @@ _source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)
 
 Bruh, how can you divide $(10-10)$ with $(10-10)$?
 
-### Who said $i$ is imaginary, why $i=1$, then?
+### **Who said $i$ is imaginary, why $i=1$, then?**
 
 ```math
 \begin{alignat*}{5}
@@ -435,7 +435,7 @@ Bruh, how can you divide $(10-10)$ with $(10-10)$?
 ```
 _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)
 
-### Let's talk more about $i$.
+### **Let's talk more about $i$.**
 
 #### **This is the _valid proof_ of $\frac{1}{i}$.**
 
@@ -468,7 +468,7 @@ _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)
 
 Which one will you believe?
 
-### $i=\pm1$, isn't it?
+### **$i=\pm1$, isn't it?**
 
 ```math
 \begin{alignat*}{5}
@@ -484,7 +484,7 @@ _source code:_&nbsp;[i_eq_pm1.tex](./src/i_eq_pm1.tex)
 
 Whatever it is, but it is not imaginary, anyway.
 
-### How much is $\infty$?
+### **How much is $\infty$?**
 
 ```math
 \begin{alignat*}{5}
@@ -504,7 +504,7 @@ _source code:_&nbsp;[infty.tex](./src/infty.tex)
 
 Here, $\infty$ is so small, you see?
 
-### How much is $0.\infty$?
+### **How much is $0.\infty$?**
 
 ```math
 \begin{alignat*}{5}
@@ -531,7 +531,7 @@ _source code:_&nbsp;[0infty.tex](./src/0infty.tex)
 
 Hmm, I will never believe.
 
-### Is $0$ an even number?
+### **Is $0$ an even number?**
 
 This proof is believed to be valid.
 
@@ -551,7 +551,7 @@ This proof is believed to be valid.
 ```
 _source code:_&nbsp;[0_even.tex](./src/0_even.tex)
 
-### Solve $x$ for $x+2=x$.
+### **Solve $x$ for $x+2=x$.**
 
 ```math
 \begin{alignat*}{5}
@@ -568,7 +568,7 @@ A silly equation always has the solution.
 
 Now, have a look at the valid proof of _Euler's identity_.
 
-### $e^{i\pi}=?$, also known as _Euler's identity_
+### **$e^{i\pi}=?$, also known as _Euler's identity_**
 
 ```math
 \begin{alignat*}{7}
@@ -588,7 +588,7 @@ _source code:_&nbsp;[euler.tex](./src/euler.tex)
 Euler's identity shall be used in the other proofs (whether valid or fool).<br>
 Let's see the first fool proofs using _Euler's identity_.
 
-### $e^x=1$, no matter what $x$ maybe.
+### **$e^x=1$, no matter what $x$ maybe.**
 
 #### **Solution 1**
 
@@ -645,7 +645,7 @@ _source code:_&nbsp;[ex_eq_1_1.tex](./src/ex_eq_1_1.tex)
 
 Now, let's see the value of $\frac{\text{circumference}}{\text{diameter}}$, you know.
 
-### How much is $\pi$?
+### **How much is $\pi$?**
 
 #### **Solution 1**
 
@@ -733,7 +733,7 @@ Oops! engineers also say that!<br><br>
 
 We have seen several fool proofs, let's see valid proofs.
 
-### How much is $i^i$?
+### **How much is $i^i$?**
 
 ```math
 \begin{alignat*}{5}
@@ -748,7 +748,7 @@ We have seen several fool proofs, let's see valid proofs.
 ```
 _source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)
 
-### How much is $\sqrt[^i]{i}$?
+### **How much is $\sqrt[^i]{i}$?**
 
 ```math
 \begin{alignat*}{5}
@@ -765,7 +765,7 @@ _source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)
 ```
 _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)
 
-### Who said $n^0=1$?
+### **Who said $n^0=1$?**
 
 ```math
 \begin{alignat*}{5}
@@ -787,7 +787,7 @@ It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
 Next, let's see valid proofs.
 
-### You might be wondering, why $\frac{d}{dx}e^x=e^x$?
+### **You might be wondering, why $\frac{d}{dx}e^x=e^x$?**
 
 There are many solutions out there, let's have a look.
 
@@ -864,7 +864,7 @@ _source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)
 Four proofs should suffice.<br>
 $e^x$ is the only expression, you can't kill with differentiation.
 
-### Multiplying factor to change power voltage from $1\phi$ to $3\phi$
+### **Multiplying factor to change power voltage from $1\phi$ to $3\phi$**
 
 You may notice that the electrical power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. This is because $110\sqrt{3}=190$ or $220\sqrt{3}=380$. You may wonder, why the factor is $\sqrt{3}$. Here's the proof.
 
@@ -903,7 +903,7 @@ So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V
 
 **The following math properties are not the proofs, but they are the demonstrations showing the valid weirdness of mathematics.**
 
-### Magic numbers
+### **Magic numbers**
 
 Have you ever know a magic number `9`? Whatever multiplying with `9` will result number of digits. We keep adding each digit until the final result is one digit. The final result is always `9` for examples ...
 
@@ -962,7 +962,7 @@ The final result will always be 0xf.
 
 You can try different bases. The results will be the same.
 
-### Vortex math
+### **Vortex math**
 
 Consider the following series, each number is the power of `2`. This is a valid math property.
 
@@ -979,7 +979,7 @@ _source code:_&nbsp;[vortex.tex](./src/vortex.tex)
 
 Do you feel that math is so strange?
 
-### A property of prime numbers
+### **A property of prime numbers**
 
 The _square of a prime number_ other than `2` or `3` is always `a multiple of 24 pluses 1`. Let's see.
 
@@ -1017,7 +1017,7 @@ _source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
-### Proof of $\int_{-\infty}^\infty e^{-x^2}dx=\sqrt\pi$
+### **Proof of $\int_{-\infty}^\infty e^{-x^2}dx=\sqrt\pi$**
 
 This valid proof is called **_Gaussian intergral_**. It demonstrates the relation between $e$ and $\pi$.
 
@@ -1044,7 +1044,7 @@ _source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)
 
 Gaussian integral is one of many relations between $e$ and $\pi$.
 
-### Golden ratio from _Fibonacci sequence_
+### **Golden ratio from _Fibonacci sequence_**
 
 ```math
 \begin{alignat*}{5}
@@ -1068,7 +1068,7 @@ _source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)
 Well, we have been talking about valid proofs for long.<br>
 Let's start freaks again.
 
-### Isn't it $\infty=\Phi$?
+### **Isn't it $\infty=\Phi$?**
 
 ```math
 \begin{alignat*}{5}
@@ -1086,7 +1086,7 @@ _source code:_&nbsp;[infty_fibo.tex](./src/infty_fibo.tex)
 
 Now you can see, $\infty$ is as small as $1.618034$.
 
-### How much is $1^i$?
+### **How much is $1^i$?**
 
 ```math
 \begin{alignat*}{5}
@@ -1103,7 +1103,7 @@ Oops, a `unit real number` raises `a unit imaginary number` is real. The number 
 
 Let's see more about `a unit real number` and `a unit imaginary number`.
 
-### How much is $\sqrt[^i]{1}$?
+### **How much is $\sqrt[^i]{1}$?**
 
 ```math
 \begin{alignat*}{5}
@@ -1124,7 +1124,7 @@ _source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)
 
 You can see `a unit imaginary root` of `a unit real number` is real and indeed a big real. It is as big as `535.5`. Once again, it is not `1`, why does _WolframAlpha_ say so?
 
-### Whether $e=1$ or $\pi=0$
+### **Whether $e=1$ or $\pi=0$**
 
 ```math
 \begin{alignat*}{5}
@@ -1144,7 +1144,7 @@ _source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)
 
 Oops, whether $e=1$ or $\pi=0$, indeed!
 
-### How much is $e^i$?
+### **How much is $e^i$?**
 
 ```math
 \begin{alignat*}{5}
@@ -1157,7 +1157,7 @@ Oops, whether $e=1$ or $\pi=0$, indeed!
 ```
 _source code:_&nbsp;[etoi.tex](./src/etoi.tex)
 
-### Simple continued fraction expansion of $\pi$
+### **Simple continued fraction expansion of $\pi$**
 
 In our early primary school, we were taught that $\pi$ is approximately a rational number `22/7`. But actually $\pi$ is an irrational number. We can have higher degree of accuracy and precision using higher numerator and denomerator. This method is called **a simple continued fraction expansion of $\pi$**, of which the series has been evaluated by matheticians over the centuries. That is ...
 
@@ -1210,7 +1210,7 @@ _source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)
 ```
 _source code:_&nbsp;[pi_exp_5_terms.tex](./src/pi_exp_5_terms.tex)
 
-### $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how?
+### **$\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how?**
 
 In terms of _complex numbers_, this proof is believed to be valid.
 
@@ -1234,7 +1234,7 @@ _source code:_&nbsp;[ln-1.tex](./src/ln-1.tex)
 
 Well, WolframAlpha confirms that!
 
-### How is $6$ afraid of $7$? It ain't and will never be.
+### **How is $6$ afraid of $7$? It ain't and will never be.**
 
 There was a joke from our childhood, why $6$ is afraid of $7$. Because $7$ ate $9$ or someone say $\cos{(789)}$. Nah, it isn't, here's the fool proof.
 
@@ -1261,7 +1261,7 @@ So, $6$ is not afraid of $7$ and will never be. They are on par.
 
 <!-- magic square -->
 
-### Support _foolmath_
+### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
 
