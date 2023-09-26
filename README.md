@@ -165,7 +165,7 @@ _source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)
 
 Why is it negative again, who know?
 
-### **Why $0=1$?**
+### **Why $`0=1`$?**
 
 Here come the most foolish proof!
 
