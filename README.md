@@ -468,7 +468,7 @@ _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)
 
 Which one will you believe?
 
-### **`$i=\pm1`$, isn't it?**
+### **$`i=\pm1`$, isn't it?**
 
 ```math
 \begin{alignat*}{5}
