@@ -63,6 +63,10 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
 - How is $6$ afraid of $7$? It ain't and will never be. [|view it|](#how-is-6-afraid-of-7-it-aint-and-will-never-be)
 - The first equation we learnt in kindergartens [|view it|](#the-first-equation-we-learnt-in-kindergartens)
+- Production of all multiple of $2$ [|view it|](#production-of-all-multiple-of-2)
+- Production of all natural odd numbers [|view it|](#production-of-all-natural-odd-numbers)
+- Production of all natural numbers [|view it|](#production-of-all-natural-numbers)
+- Production of all natural even numbers [|view it|](#production-of-all-natural-even-numbers)
 - Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
@@ -351,7 +355,7 @@ From now on, what I owe you is what you owe me.
 _source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Hey, what? How come, $4=5$?<br>
+Hey, what? How come, $4=5$?<br><br>
 Wait, there are something more.
 
 ### **Are all intergers equal?**
@@ -382,7 +386,7 @@ Wait, there are something more.
 _source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-It is very articulate, indeed.<br>
+It is very articulate, indeed.<br><br>
 There is one more simple equation. Have a look.
 
 ### **Was I wrongly taught? Why $`2+5=8`$?**
@@ -406,7 +410,7 @@ There is one more simple equation. Have a look.
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Do you find any errors?<br>
+Do you find any errors?<br><br>
 Who said $0$ couldn't be a denominator? See the following fool proofs.
 
 ### **Very silly solutions to find $`\frac{0}{0}`$.**
@@ -592,8 +596,7 @@ _source code:_&nbsp;[0_even.tex](./src/0_even.tex)<br>
 _source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-A silly equation always has the solution.
-
+A silly equation always has the solution.<br><br>
 Now, have a look at the valid proof of _Euler's identity_.
 
 ### **$`e^{i\pi}=?`$, also known as _Euler's identity_**
@@ -764,8 +767,7 @@ Yet, there is another silly proof.
 _source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Oops! engineers also say that!<br>
-
+Oops! engineers also say that!<br><br>
 We have seen several fool proofs, let's see valid proofs.
 
 ### **How much is $`i^i`$?**
@@ -822,7 +824,7 @@ _source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 It is still a constant, but not `1`, not even an integer.<br>
-It is even an irrational and transcendental number.<br>
+It is even an irrational and transcendental number.<br><br>
 Next, let's see valid proofs.
 
 ### **You might be wondering, why $`\frac{d}{dx}e^x=e^x`$?**
@@ -1113,7 +1115,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 _source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Well, we have been talking about valid proofs for long.<br>
+Well, we have been talking about valid proofs for long.<br><br>
 Let's start freaks again.
 
 ### **Isn't it $`\infty=\Phi`$?**
@@ -1345,6 +1347,77 @@ _source code:_&nbsp;[11_3.tex](./src/11_3.tex)<br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you find any difference from what you have learnt in your kindergarten?
+
+### **Production of all multiple of $`2`$**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all multiple of 2}}\\
+&\small\text{find}\normalsize\qquad&A\quad&=\quad&&2*4*8*16*32*64*...\\
+&\,&\,&=&&2^1\cdot2^2\cdot2^3\cdot2^4\cdot2^5\cdot2^6\cdot...\\
+&\,&\,&=&&2^{(1+2+3+4+5+6+...)}\\
+&\small\text{Thus}&A\quad&=&&2^{-\frac{1}{12}}
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_mul2.tex](./src/prod_mul2.tex)<br>
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+The result is so small, indeed.
+
+### **Production of all natural odd numbers**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all natural odd numbers}}\\
+&\small\text{find}\normalsize\qquad&B\quad&=\quad&&1*3*5*7*...\\
+&\small\text{let}&C\quad&=&&1*2*3*4*5*6*7*8*...\\
+&\,&\,&=&&(2*4*6*8*...)(1*3*5*7*...)\\
+&\,&\,&=&&(2(1)*2(2)*2(3)*2(4)*...)(1*3*5*7*...)\\
+&\,&\,&=&&2^\infty(1*2*3*4*...)(1*3*5*7*...)\\
+&\,&\cancel{C}\quad&=&&2^\infty\cancel{C}B\\
+&\,&B\quad&=&&\frac{1}{2^\infty}\\
+&\small\text{Thus}&B\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_nat_odd.tex](./src/prod_nat_odd.tex)<br>
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Nah nah, it shouldn't be that small.
+
+### **Production of all natural numbers**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all natural numbers}}\\
+&\small\text{find}\normalsize\qquad&C\quad&=\quad&&1*2*3*4*5*6*7*8*...\\
+&\,&\,&=&&(1*3*5*7*...)(2*4*6*8*...)\\
+&\,&\,&=&&B(2*4*6*8*...)\\
+&\,&\,&=&&0(2*4*6*8*...)\\
+&\small\text{Thus}&C\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_nat.tex](./src/prod_nat.tex)<br>
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Oops, zero once again!
+
+### **Production of all natural even numbers**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all natural even numbers}}\\
+&\small\text{find}&D\quad&=\quad&&2*4*6*8*...\\
+&\,&\,&=&&2(1*2*3*4*...)\\
+&\rlap{\small\text{From the previous proof}}\\
+&\,&D\quad&=&&2C\\
+&\small\text{As }C=0\normalsize\qquad&D\quad&=&&2\cdot0\\
+&\small\text{Thus}&D\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)<br>
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Hey what? Why are these results zero? Is the universe simply empty?
 
 <!-- magic square -->
 <!-- infinite numbers of primes -->
