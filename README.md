@@ -1264,7 +1264,8 @@ So, $6$ is not afraid of $7$ and will never be. They are on par.
 
 ### **The first equation we learnt in kindergartens**
 
-The simplest equation $1+1=2$, we were taught in our kindergartens, seems wrong. Here, we prove the same way.
+The simplest equation $1+1=2$, we were taught in our kindergartens, seems wrong.
+Here, we prove the same way we previously did.
 
 ```math
 \begin{alignat*}{5}
