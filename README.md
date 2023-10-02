@@ -1,5 +1,3 @@
-<meta name="google-site-verification" content="Lsl_xUf4rjHmmgHFSOzB05zhbvmHE7yv6ngNw7gFVsc" />
-
 # Welcome to the **_foolmath_** repository!
 
 ![foolmath logo](./images/ramanujan.png)
