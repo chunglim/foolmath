@@ -100,8 +100,7 @@ $\qquad1+2+3+4+5+6+...\quad=\quad?$
 &\small\text{Thus}&S\quad&=&&-\frac{1}{12}
 \end{alignat*}
 ```
-_source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[rama_s7m.tex](./src/rama_sum.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **Yet, there is a Ramanujan alternative**
 
@@ -116,8 +115,7 @@ _source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)<br>
 &\small\text{Thus}&\qquad S\quad&=&&-\frac{1}{8}
 \end{alignat*}
 ```
-_source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops, was Ramanujan wrong?
 
@@ -132,8 +130,7 @@ Oops, was Ramanujan wrong?
 &\small\text{Thus}\normalsize\qquad&S\quad&=&&-1
 \end{alignat*}
 ```
-_source code:_&nbsp;[sum_power_of_2.tex](./src/sum_power_of_2.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[sum_power_of_2.tex](./src/sum_power_of_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Negative! once again.
 
@@ -151,8 +148,7 @@ Negative! once again.
 &\small\text{Thus}&\frac{1}{12}\quad&=&&1+3+5+7+9+...
 \end{alignat*}
 ```
-_source code:_&nbsp;[sum_of_odd.tex](./src/sum_of_odd.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[sum_of_odd.tex](./src/sum_of_odd.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Wow! this time the summation is positive.
 
@@ -168,8 +164,7 @@ Wow! this time the summation is positive.
 &\small\text{Thus}\normalsize\qquad&S\quad&=&&-\frac{1}{6}
 \end{alignat*}
 ```
-_source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Why is it negative again, who know?
 
@@ -188,8 +183,7 @@ Here come the most foolish proof!
 &\small\text{Thus}\normalsize\qquad&0\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[0eq1_0.tex](./src/0eq1_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0eq1_0.tex](./src/0eq1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 What about the second most foolish proof?
 
@@ -203,8 +197,7 @@ What about the second most foolish proof?
 &\small\text{Thus}\normalsize\qquad&0\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[0eq1_1.tex](./src/0eq1_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0eq1_1.tex](./src/0eq1_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Is there any proof looking more advanced than these?
 
@@ -221,8 +214,7 @@ Is there any proof looking more advanced than these?
 &\small\text{Thus}\normalsize\qquad&0\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Can you find an error?<br>
 Hmm, binary no longer exists.
@@ -246,8 +238,7 @@ Here, the proof I learnt in junior high school.
 &\,&\small\text{Thus}\normalsize\qquad1\quad&=&&2
 \end{alignat*}
 ```
-_source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Nah, there is another proof in high school using trigonometry.
 
@@ -265,8 +256,7 @@ Nah, there is another proof in high school using trigonometry.
 &\,&\small\text{Thus}\normalsize\qquad1\quad&=&&2
 \end{alignat*}
 ```
-_source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Yet, there is another proof using calculus.
 
@@ -281,8 +271,7 @@ Yet, there is another proof using calculus.
 &\,&\small\text{Thus}\normalsize\qquad1\quad&=&&2
 \end{alignat*}
 ```
-_source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you find any clues?
 
@@ -300,8 +289,7 @@ Do you find any clues?
 &\small\text{Thus}\normalsize\qquad&1\quad&=&&-1
 \end{alignat*}
 ```
-_source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Or even an easier proof
 
@@ -314,8 +302,7 @@ Or even an easier proof
 &\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Yet, there is another proof.
 
@@ -331,8 +318,7 @@ Yet, there is another proof.
 &\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 From now on, what I owe you is what you owe me.
 
@@ -350,8 +336,7 @@ From now on, what I owe you is what you owe me.
 &\,&\small\text{Thus}\normalsize\qquad4\quad&=&&5
 \end{alignat*}
 ```
-_source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[4eq5_0.tex](./src/4eq5_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Hey, what? How come, $4=5$?<br><br>
 Wait, there are something more.
@@ -381,8 +366,7 @@ Wait, there are something more.
 &\small\text{from (12), (15), (17)}&-1~=~0\quad&=&&1~=~2&(18)
 \end{alignat*}
 ```
-_source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 It is very articulate, indeed.<br><br>
 There is one more simple equation. Have a look.
@@ -405,8 +389,7 @@ There is one more simple equation. Have a look.
 &\small\text{Thus}\normalsize\qquad&2+5\quad&=&&8
 \end{alignat*}
 ```
-_source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you find any errors?<br><br>
 Who said $0$ couldn't be a denominator? See the following fool proofs.
@@ -423,8 +406,7 @@ Who said $0$ couldn't be a denominator? See the following fool proofs.
 &\,&\small\text{Thus}\normalsize\qquad\frac{0}{0}\quad&=&&0
 \end{alignat*}
 ```
-_source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 #### **Here, the second fool, which is very silly.**
 
@@ -438,8 +420,7 @@ _source code:_&nbsp;[0by0_0.tex](./src/0by0_0.tex)<br>
 &\small\text{Thus}\normalsize\qquad&\frac{0}{0}\quad&=&&2
 \end{alignat*}
 ```
-_source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Bruh, how can you divide $(10-10)$ with $(10-10)$?
 
@@ -455,8 +436,7 @@ Bruh, how can you divide $(10-10)$ with $(10-10)$?
 &\small\text{Thus}\normalsize\qquad&i\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **Let's talk more about $`i`$.**
 
@@ -469,8 +449,7 @@ _source code:_&nbsp;[ieq1_0.tex](./src/ieq1_0.tex)<br>
 &\,&\small\text{Thus}\normalsize\qquad\frac{1}{i}\quad&=&&-i\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[inv_i_valid.tex](./src/inv_i_valid.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[inv_i_valid.tex](./src/inv_i_valid.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Nah, there is another $\frac{1}{i}$, but it is foolish.
 
@@ -488,8 +467,7 @@ Nah, there is another $\frac{1}{i}$, but it is foolish.
 &\small\text{Thus}\normalsize\qquad&\frac{1}{i}\quad&=&& i\qquad\small\text{(fool proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Which one will you believe?
 
@@ -505,8 +483,7 @@ Which one will you believe?
 &\,&\small\text{Thus}\normalsize\qquad i\quad&=&&\pm1
 \end{alignat*}
 ```
-_source code:_&nbsp;[i_eq_pm1.tex](./src/i_eq_pm1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[i_eq_pm1.tex](./src/i_eq_pm1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Whatever it is, but it is not imaginary, anyway.
 
@@ -526,8 +503,7 @@ Whatever it is, but it is not imaginary, anyway.
 &\small\text{Thus}&\infty\quad&=&&\frac{-3\pm\sqrt{3}}{6}
 \end{alignat*}
 ```
-_source code:_&nbsp;[infty.tex](./src/infty.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[infty.tex](./src/infty.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Here, $\infty$ is so small, you see?
 
@@ -554,8 +530,7 @@ Here, $\infty$ is so small, you see?
 &\qquad\small\text{Thus}&0\infty\quad&=&&-\frac{1}{12}
 \end{alignat*}
 ```
-_source code:_&nbsp;[0infty.tex](./src/0infty.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0infty.tex](./src/0infty.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Hmm, I will never believe.
 
@@ -577,8 +552,7 @@ This proof is believed to be valid.
 &\rlap{\qquad\qquad\small\text{Any number being a multiple of 2 is always even.}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[0_even.tex](./src/0_even.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[0_even.tex](./src/0_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **Solve $`x`$ for $`x+2=x`$.**
 
@@ -591,8 +565,7 @@ _source code:_&nbsp;[0_even.tex](./src/0_even.tex)<br>
 &\,&\small\text{Thus}\normalsize\qquad x\quad&=&&-1
 \end{alignat*}
 ```
-_source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 A silly equation always has the solution.<br><br>
 Now, have a look at the valid proof of _Euler's identity_.
@@ -612,8 +585,7 @@ Now, have a look at the valid proof of _Euler's identity_.
 &\small\text{Thus}\normalsize\qquad&e^{i\pi}&=-1\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[euler.tex](./src/euler.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[euler.tex](./src/euler.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Euler's identity shall be used in the other proofs (whether valid or fool).<br>
 Let's see the first fool proofs using _Euler's identity_.
@@ -640,8 +612,7 @@ Let's see the first fool proofs using _Euler's identity_.
 &\small\text{Thus}&e^x\quad&=&&1\qquad&\small\text{(so foolish)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Q: Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br>
 A: Hold on, there is another neater proof.
@@ -672,8 +643,7 @@ A: Hold on, there is another neater proof.
 &\,&\small\text{Thus}\normalsize\qquad e^x\quad&\,=\quad1
 \end{alignat*}
 ```
-_source code:_&nbsp;[ex_eq_1_1.tex](./src/ex_eq_1_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[ex_eq_1_1.tex](./src/ex_eq_1_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Now, let's see the value of $\frac{\text{circumference}}{\text{diameter}}$, you know.
 
@@ -693,8 +663,7 @@ Now, let's see the value of $\frac{\text{circumference}}{\text{diameter}}$, you 
 &\small\text{Thus}&\pi\quad&=&&0
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_eq_0_0.tex](./src/pi_eq_0_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_eq_0_0.tex](./src/pi_eq_0_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 If you don't believe, yet there are another proofs.
 
@@ -723,8 +692,7 @@ If you don't believe, yet there are another proofs.
 &\,&\small\text{Thus}\normalsize\qquad\pi\quad&=&&0
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Wait, $\pi$ is probably something else.
 
@@ -746,8 +714,7 @@ Wait, $\pi$ is probably something else.
 &\small\text{Thus}&\pi\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Yet, there is another silly proof.
 
@@ -762,8 +729,7 @@ Yet, there is another silly proof.
 &\small\text{Thus}&\pi\quad&=&&3
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops! engineers also say that!<br><br>
 We have seen several fool proofs, let's see valid proofs.
@@ -781,8 +747,7 @@ We have seen several fool proofs, let's see valid proofs.
 &\rlap{\qquad\qquad\qquad\qquad\small\text{And it is a real number.}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **How much is $`\sqrt[^i]{i}`$?**
 
@@ -799,8 +764,7 @@ _source code:_&nbsp;[i_power_i.tex](./src/i_power_i.tex)<br>
 &\rlap{\qquad\qquad\qquad\qquad\small\text{And it is a real number.}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **Who said $`n^0=1`$?**
 
@@ -818,8 +782,7 @@ _source code:_&nbsp;[i_root_i.tex](./src/i_root_i.tex)<br>
 &\,&\small\text{Thus}\normalsize\qquad n^0\quad&=&&e^{2\pi}\\
 \end{alignat*}
 ```
-_source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[nto0neq1.tex](./src/nto0neq1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
@@ -852,8 +815,7 @@ There are many solutions out there, let's have a look.
 &\,&\small\text{Thus}\normalsize\qquad\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 #### **Solution 2: _Taylor Series_**
 
@@ -868,8 +830,7 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)<br>
 &\small\text{Thus}\normalsize\qquad&\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 #### **Solution 3: _Implicit Differentiation_**
 
@@ -885,8 +846,7 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)<br>
 &\qquad\small\text{Thus}\normalsize\qquad&\frac{d}{dx}e^x\quad&=&&e^x\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 #### **Solution 4: _Differential Equation_**
 
@@ -900,8 +860,7 @@ _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)<br>
 &\small\text{Thus}&\frac{d}{dx}e^x\quad&=&&e^x\qquad&\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[d_e_power_x_3.tex](./src/d_e_power_x_3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Four proofs should suffice.<br>
 $e^x$ is the only expression, you can't kill with differentiation.
@@ -937,8 +896,7 @@ A full circle covers the angle of $2\pi$ radians or $360^{\circ}$. And it is spl
 &\qquad\qquad\small\text{Thus}\normalsize\qquad&|V_{ab}|\quad&=&&|V|\sqrt{3}\qquad\small\text{(valid proof)}\\
 \end{alignat*}
 ```
-_source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[3p_power.tex](./src/3p_power.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 So now you know that the power $1\phi\cdot110V$ is branched from $3\phi\cdot190V$. Or $1\phi\cdot220V$ is branched from $3\phi\cdot380V$ in some countries. The multiplying factor is $\sqrt{3}$.
 
@@ -1018,8 +976,7 @@ Consider the following series, each number is the power of `2`. This is a valid 
 &1,&\quad2,&\quad4,&\quad8,&\quad~7,&\quad5~
 \end{alignat*}
 ```
-_source code:_&nbsp;[vortex.tex](./src/vortex.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[vortex.tex](./src/vortex.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you feel that math is so strange?
 
@@ -1040,8 +997,7 @@ The _square of a prime number_ other than `2` or `3` is always `a multiple of 24
 &31^2&=961&=(24*40)+1
 \end{alignat*}
 ```
-_source code:_&nbsp;[prime_0.tex](./src/prime_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[prime_0.tex](./src/prime_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they are divided by `6`. If the remainder was `0`, `2` or `4` it would be _even_, and if it was `3`, it would be _divisible_ by `3`.
 
@@ -1058,8 +1014,7 @@ Primes (other than `2` and `3`) can only have remainders of `1` or `5` when they
 &\qquad\qquad\small\text{Thus}&p^2\quad&=&&24k+1\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[prime_1.tex](./src/prime_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 The proof for the case that `p` has a remainder of `5` is almost the same, just start with `p = 6n - 1` instead of `6n + 1`.
 
@@ -1086,8 +1041,7 @@ This valid proof is called **_Gaussian intergral_**. It demonstrates the relatio
 &\,&\small\text{Thus}\normalsize\qquad I~~\quad&=&&\sqrt{\pi}\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[e_pi_relation.tex](./src/e_pi_relation_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Gaussian integral is one of many relations between $e$ and $\pi$.
 
@@ -1110,8 +1064,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 &\,&\small\text{Thus}\normalsize\qquad\Phi\quad&=&&\frac{1+\sqrt{5}}{2}\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Well, we have been talking about valid proofs for long.<br><br>
 Let's start freaks again.
@@ -1130,8 +1083,7 @@ Let's start freaks again.
 &\,&\small\text{Thus}\normalsize\qquad\infty\quad&=&&\Phi\quad\small\text{a.k.a. Fibonacci golden ratio}
 \end{alignat*}
 ```
-_source code:_&nbsp;[infty_fibo.tex](./src/infty_fibo.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[infty_fibo.tex](./src/infty_fibo.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Now you can see, $\infty$ is as small as $1.618034$.
 
@@ -1146,8 +1098,7 @@ Now you can see, $\infty$ is as small as $1.618034$.
 &\small\text{Thus}&1^i\quad&=&&e^{-2\pi}
 \end{alignat*}
 ```
-_source code:_&nbsp;[1poweri.tex](./src/1poweri.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[1poweri.tex](./src/1poweri.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops, a `unit real number` raises `a unit imaginary number` is real. The number is so small `0.001867...`. And it is not `1`, like what being said by _WolframAlpha_. Why, who know?
 
@@ -1170,8 +1121,7 @@ Let's see more about `a unit real number` and `a unit imaginary number`.
 &\qquad\small\text{Thus}&\sqrt[^i]{1}\quad&=&&e^{2\pi}
 \end{alignat*}
 ```
-_source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 You can see `a unit imaginary root` of `a unit real number` is real and indeed a big real. It is as big as `535.5`. Once again, it is not `1`, why does _WolframAlpha_ say so?
 
@@ -1191,8 +1141,7 @@ You can see `a unit imaginary root` of `a unit real number` is real and indeed a
 &\,&\small\text{Thus}\normalsize\qquad e^{2\pi}\quad&=&&e^{-2\pi}
 \end{alignat*}
 ```
-_source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops, whether $e=1$ or $\pi=0$, indeed!
 
@@ -1207,8 +1156,7 @@ Oops, whether $e=1$ or $\pi=0$, indeed!
 &\small\text{Thus}\normalsize\qquad&e^i\quad&=&&1
 \end{alignat*}
 ```
-_source code:_&nbsp;[etoi.tex](./src/etoi.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[etoi.tex](./src/etoi.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **Simple continued fraction expansion of $`\pi`$**
 
@@ -1231,8 +1179,7 @@ In our early primary school, we were taught that $\pi$ is approximately a ration
 &\rlap{\qquad\quad\small\text{(valid approximation)}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_exp_2_terms.tex](./src/pi_exp_2_terms.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_exp_2_terms.tex](./src/pi_exp_2_terms.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 **Or we might want higher accuracy and precision. Let's take _three terms_.**
 
@@ -1245,8 +1192,7 @@ _source code:_&nbsp;[pi_exp_2_terms.tex](./src/pi_exp_2_terms.tex)<br>
 &\rlap{\qquad\qquad\small\text{(valid approximation)}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 **And we go a little further, Let's take _five terms_.**
 
@@ -1263,8 +1209,7 @@ _source code:_&nbsp;[pi_exp_3_terms.tex](./src/pi_exp_3_terms.tex)<br>
 &\rlap{\qquad\qquad\quad\small\text{(valid approximation)}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[pi_exp_5_terms.tex](./src/pi_exp_5_terms.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[pi_exp_5_terms.tex](./src/pi_exp_5_terms.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **$`\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi`$, how?**
 
@@ -1284,8 +1229,7 @@ In terms of _complex numbers_, this proof is believed to be valid.
 &\small\text{Thus}&\sqrt{-\ln{(-1)}\ln{(-1)}}\quad&=&&\pi\qquad\small\text{(valid proof)}
 \end{alignat*}
 ```
-_source code:_&nbsp;[ln-1.tex](./src/ln-1.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[ln-1.tex](./src/ln-1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ![wolfram_ln-1.png](./images/wolfram_ln-1.png)
 
@@ -1314,8 +1258,7 @@ Nah, 6 ain't afraid of 7, here's the proof. I can't believe, I simply thought ab
 &\small\text{Thus}&6\quad&=&&7
 \end{alignat*}
 ```
-_source code:_&nbsp;[6_not_afraid_7.tex](./src/6_not_afraid_7.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[6_not_afraid_7.tex](./src/6_not_afraid_7.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 So, $6$ is not afraid of $7$ and will never be. They are on par.
 
@@ -1341,8 +1284,7 @@ Here, we prove the same way we previously did.
 &\small\text{Thus}\normalsize\qquad&1+1\quad&=\quad&&3
 \end{alignat*}
 ```
-_source code:_&nbsp;[11_3.tex](./src/11_3.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[11_3.tex](./src/11_3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you find any difference from what you have learnt in your kindergarten?
 
@@ -1357,8 +1299,7 @@ Do you find any difference from what you have learnt in your kindergarten?
 &\small\text{Thus}&A\quad&=&&2^{-\frac{1}{12}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[prod_mul2.tex](./src/prod_mul2.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[prod_mul2.tex](./src/prod_mul2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 The result is so small, indeed.
 
@@ -1377,8 +1318,7 @@ The result is so small, indeed.
 &\small\text{Thus}&B\quad&=&&0
 \end{alignat*}
 ```
-_source code:_&nbsp;[prod_nat_odd.tex](./src/prod_nat_odd.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[prod_nat_odd.tex](./src/prod_nat_odd.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Nah nah, it shouldn't be that small.
 
@@ -1394,8 +1334,7 @@ Nah nah, it shouldn't be that small.
 &\small\text{Thus}&C\quad&=&&0
 \end{alignat*}
 ```
-_source code:_&nbsp;[prod_nat.tex](./src/prod_nat.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[prod_nat.tex](./src/prod_nat.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops, zero once again!
 
@@ -1412,8 +1351,7 @@ Oops, zero once again!
 &\small\text{Thus}&D\quad&=&&0
 \end{alignat*}
 ```
-_source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)<br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Hey what? Why are these results zero? Is the universe simply empty?
 
