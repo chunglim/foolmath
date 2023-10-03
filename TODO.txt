@@ -1,7 +1,0 @@
-	+ Summing all natural even numbers version 1
-	+ Infinite number of primes
-	o Homepage
-	o Magic square
-	o Change license to 2BSD
-
-vim: ft=mine tw=0 nowrap
