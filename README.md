@@ -2,12 +2,6 @@
 
 ![foolmath logo](./images/ramanujan.png)
 
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
--->
-
 ## What is **_foolmath_**?
 
 If you are a math enthusiast or aficionado, have you ever encountered a mathematical fool proofs like $1=2$ or evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
@@ -65,6 +59,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
 - Production of all natural odd numbers [|view it|](#production-of-all-natural-odd-numbers)
 - Production of all natural numbers [|view it|](#production-of-all-natural-numbers)
 - Production of all natural even numbers [|view it|](#production-of-all-natural-even-numbers)
+- Infinite numbers of primes [|view it|](#infinite-numbers-of-primes)
 - Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
@@ -154,6 +149,8 @@ Wow! this time the summation is positive.
 
 ### **Trying summing all natural even numbers**
 
+#### **Solution 1**
+
 ```math
 \begin{alignat*}{5}
 &\,&S\quad&=\quad&&2+4+6+8+10+...\\
@@ -164,9 +161,24 @@ Wow! this time the summation is positive.
 &\small\text{Thus}\normalsize\qquad&S\quad&=&&-\frac{1}{6}
 \end{alignat*}
 ```
-_source code:_&nbsp;[sum_of_even.tex](./src/sum_of_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[sum_of_even_0.tex](./src/sum_of_even_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Why is it negative again, who know?
+Why is it negative again, who know? Probably something wrong.<br>
+Try the next proof, which is simpler.
+
+#### **Solution 2**
+
+```math
+\begin{alignat*}{5}
+&\,&S\quad&=\quad&&2+4+6+8+10+...\\
+&\,&\,&=&&2(1+2+3+4+5+...)\\
+&\,&\,&=&&2\left(-\frac{1}{12}\right)\\
+&\small\text{Thus}\normalsize\qquad&S\quad&=&&-\frac{1}{6}
+\end{alignat*}
+```
+_source code:_&nbsp;[sum_of_even_1.tex](./src/sum_of_even_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Same result, do you start to believe?
 
 ### **Why $`0=1`$?**
 
@@ -1264,7 +1276,8 @@ So, $6$ is not afraid of $7$ and will never be. They are on par.
 
 ### **The first equation we learnt in kindergartens**
 
-The simplest equation $1+1=2$, we were taught in our kindergartens, seems wrong.
+The first and the simplest equation is $1+1=2$.<br>
+We learnt this equation in kindergartens, but it seems wrong.<br>
 Here, we prove the same way we previously did.
 
 ```math
@@ -1353,10 +1366,37 @@ Oops, zero once again!
 ```
 _source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Hey what? Why are these results zero? Is the universe simply empty?
+Hey what? Why are these results zero? Is the universe simply empty?<br><br>
+We have been dealing with fool proofs so far, let's talk about valid mathematical properties again.
 
-<!-- magic square -->
-<!-- infinite numbers of primes -->
+### **Infinite numbers of primes**
+
+You might have ever wondered, how many prime numbers there are. Is there an upper limit of primes, so called `the highest primes`? As the number grows higher, there will be also higher number of divisible divisors. This assumption may limit the size of primes.<br>
+Well, there have been many proofs over centuries. The number of primes is unlimited. (valid)
+
+#### **Solution: _Euclid's Proof_ (300 BC)**
+
+- Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|24-6|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
+- Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
+- Let $P$ be a product of all prime numbers i.e. $P=p_1.p_2.p_3...p_n$.
+- Let $Q=P+1$, then $Q$ is a prime or not
+	+ If $Q$ is a prime, then there is one more prime outside our finite list.
+	+ If $Q$ is not a prime, then there is at least one $p$ that $Q$ divides $p$.
+		* So $P$ divides $p$ and $Q$ divides $p$.
+		* And then $|P-Q|$ mush also divides $p$.
+		* Since $|P-Q|=|P-(P+1)|=1$, so $1$ divides $p$ that is not possible.
+- So there are always primes outside our finite list, i.e. there are infinite number of primes.
+(valid proof)
+
+#### **Other solutions**
+
+From time to time, there were several proofs, which you can find them in the following list.
+
+- _Furstenberg's proof_ (1955) [|view it|](https://t5k.org/notes/proofs/infinite/topproof.html)
+- _Goldbach's Proof_ (1730) [|view it|](https://t5k.org/notes/proofs/infinite/goldbach.html)
+- _Kummer's Restatement of Euclid's Proof_ [|view it|](https://t5k.org/notes/proofs/infinite/kummers.html)
+- _Filip Saidak's Proof_ (2005) [|view it|](https://t5k.org/notes/proofs/infinite/Saidak.html)
+- _Other proofs_ see [Wikipedia](https://en.wikipedia.org/wiki/Euclid%27s_theorem#Variations)
 
 ### **Support _foolmath_**
 
