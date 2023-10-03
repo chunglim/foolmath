@@ -1,6 +1,6 @@
 src/test*.tex
 test*.tex
-TODO.md
+TODO.txt
 *.o
 *.core
 *.log
