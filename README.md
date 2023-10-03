@@ -1376,9 +1376,9 @@ Well, there have been many proofs over centuries. The number of primes is unlimi
 
 #### **Solution: _Euclid's Proof_ (300 BC)**
 
-- Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|24-6|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
+- Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
 - Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
-- Let $P$ be a product of all prime numbers i.e. $P=p_1.p_2.p_3...p_n$.
+- Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
 - Let $Q=P+1$, then $Q$ is a prime or not
 	+ If $Q$ is a prime, then there is one more prime outside our finite list.
 	+ If $Q$ is not a prime, then there is at least one $p$ that $Q$ divides $p$.
@@ -1397,6 +1397,8 @@ From time to time, there were several proofs, which you can find them in the fol
 - _Kummer's Restatement of Euclid's Proof_ [|view it|](https://t5k.org/notes/proofs/infinite/kummers.html)
 - _Filip Saidak's Proof_ (2005) [|view it|](https://t5k.org/notes/proofs/infinite/Saidak.html)
 - _Other proofs_ see [Wikipedia](https://en.wikipedia.org/wiki/Euclid%27s_theorem#Variations)
+
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 ### **Support _foolmath_**
 
