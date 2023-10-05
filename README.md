@@ -1377,16 +1377,16 @@ Well, there have been many proofs over centuries. The number of primes is infini
 
 #### **Solution: _Euclid's Proof_ (300 BC)**
 
-- Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
-- Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
-- Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
-- Let $Q=P+1$, is $Q$ a prime?
-	+ If $Q$ is a prime, then there is one more prime outside our finite list.
-	+ If $Q$ is not a prime, then there is at least one $p$ that $Q$ divides $p$.
-		* So $P$ divides $p$ and $Q$ divides $p$.
-		* And then $|P-Q|$ mush also divide $p$.
-		* Since $|P-Q|=|P-(P+1)|=|\cancel{P}-\cancel{P}-1|=1$, so $1$ divides $p$ that is not possible.
-- Thus there are always primes outside our finite list no matter how big our finite list is, i.e. there are infinite number of primes. (valid proof)
++ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
++ Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
++ Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
++ Let $Q=P+1$, is $Q$ a prime?
+  - If $Q$ is a prime, then there is one more prime outside our finite list.
+  - If $Q$ is not a prime, then there is at least one $p$ that $Q$ divides $p$.
+    * So $P$ divides $p$ and $Q$ divides $p$.
+    * And then $|P-Q|$ mush also divide $p$.
+    * Since $|P-Q|=|P-(P+1)|=|\cancel{P}-\cancel{P}-1|=1$, so $1$ divides $p$ that is not possible.
++ Thus there are always primes outside our finite list no matter how big our finite list is, i.e. there are infinite number of primes. (valid proof)
 
 #### **Other solutions**
 
@@ -1419,77 +1419,77 @@ For simplicity, I created a C source file to generate these numbers.
 #include <stdio.h>
 #include <string.h>
 
-#define isodd(n)	((n) % 2)
-#define isempty(n)	(!(n))
-#define MAXDIM		15
+#define isodd(n)    ((n) % 2)
+#define isempty(n)  (!(n))
+#define MAXDIM      15
 
 void initialize(int [][MAXDIM+1], int);
 void matrix(int [][MAXDIM+1], int);
 
 int main()
 {
-	int i, j, n, a[MAXDIM+1][MAXDIM+1];
+    int i, j, n, a[MAXDIM+1][MAXDIM+1];
 
-	do {
-		printf("enter dimension <odd number 1-%d>: ", MAXDIM);
-		scanf("%d", &n);
-	} while (!isodd(n) || n > MAXDIM);
-	initialize(a, n);
-	matrix(a, n);
-	int	sumrow,
-		sumcol[n+1];
-	memset(sumcol, 0, sizeof (int) * (n + 1));
-	for (i = 1; i <= n; i++) {
-		sumrow = 0;
-		for (j = 1; j <= n; j++) {
-			printf("%*d", j == 1 ? 4 : 5, a[i][j]);
-			sumrow += a[i][j];
-			sumcol[j] += a[i][j];
-		}
-		printf("%6d\n", sumrow);
-	}
-	puts("\n");
-	for (j = 1; j <= n; j++)
-		printf("%*d", j == 1 ? 4 : 5, sumcol[j]);
-	puts("\n");
-	return 0;
+    do {
+        printf("enter dimension <odd number 1-%d>: ", MAXDIM);
+        scanf("%d", &n);
+    } while (!isodd(n) || n > MAXDIM);
+    initialize(a, n);
+    matrix(a, n);
+    int sumrow,
+        sumcol[n+1];
+    memset(sumcol, 0, sizeof (int) * (n + 1));
+    for (i = 1; i <= n; i++) {
+        sumrow = 0;
+        for (j = 1; j <= n; j++) {
+            printf("%*d", j == 1 ? 4 : 5, a[i][j]);
+            sumrow += a[i][j];
+            sumcol[j] += a[i][j];
+        }
+        printf("%6d\n", sumrow);
+    }
+    puts("\n");
+    for (j = 1; j <= n; j++)
+        printf("%*d", j == 1 ? 4 : 5, sumcol[j]);
+    puts("\n");
+    return 0;
 }
 
 void initialize(int a[][MAXDIM+1], int n)
 {
-	int i, j;
+    int i, j;
 
-	for (i = 1; i <= n; i++)
-		for (j = 1; j <= n; j++)
-			a[i][j] = 0;
+    for (i = 1; i <= n; i++)
+        for (j = 1; j <= n; j++)
+            a[i][j] = 0;
 }
 
 void matrix(int a[][MAXDIM+1], int n)
 {
-	int i, j, index;
+    int i, j, index;
 
-	i = 1; j = (n + 1) / 2;
-	a[i][j] = 1;
-	for (index = 2; index <= n * n; index++) {
-		j++; i--; /* normal case */
-		if (i < 1)
-			if (j <= n)
-				for (i = n; !isempty(a[i][j]); i--)
-					; /* overflow top go bottom */
-			else { /* top right corner go next row same column */
-				i += 2;
-				j--;
-			}
-		else
-			if (j > n) /* overflow right go first column */
-				j = 1;
-			else
-				if (!isempty(a[i][j])) { /* next occupied go next row same column */
-					i += 2;
-					j--;
-				}
-		a[i][j] = index;
-	}
+    i = 1; j = (n + 1) / 2;
+    a[i][j] = 1;
+    for (index = 2; index <= n * n; index++) {
+        j++; i--; /* normal case */
+        if (i < 1)
+            if (j <= n)
+                for (i = n; !isempty(a[i][j]); i--)
+                    ; /* overflow top go bottom */
+            else { /* top right corner go next row same column */
+                i += 2;
+                j--;
+            }
+        else
+            if (j > n) /* overflow right go first column */
+                j = 1;
+            else
+                if (!isempty(a[i][j])) { /* next occupied go next row same column */
+                    i += 2;
+                    j--;
+                }
+        a[i][j] = index;
+    }
 }
 ```
 _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
@@ -1503,7 +1503,7 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#welcome-
 
 **Compilation and running:**
 
-```sh
+```
 % gcc -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic -s square.c
 % ./a.out
 enter dimension <odd number 1-15>:
@@ -1513,32 +1513,30 @@ After running `./a.out`, you will get prompted for an odd number. Fill any odd n
 Here we start the first one, $3\times3$ matrix contains $9$ elements i.e. $1...9$, so that we fill these numbers into the matrix, then summations of each row, each column and each diagonal line are all equal.
 
 ```math
-\begin{array}{rrr|r}
-\,&\,&\,&15\\
-\hline
-8&1&6&15\\
-3&5&7&15\\
-4&9&2&15\\
-\hline
-15&15&15&15
+\begin{array}{rrrcr}
+\,&\,&\,&15&\,\\
+8&1&6&\ldots&15\\
+3&5&7&\ldots&15\\
+4&9&2&\ldots&15\\
+\vdots&\vdots&\vdots&15&\,\\
+15&15&15&\,&\,
 \end{array}
 ```
 _source code:_&nbsp;[3x3.tex](./src/3x3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 You can see that summations of each row, each column and each diagonal line are all `15`.<br><br>
-Now let's see a little bigger square matrix i.e. $5\timex5$ matrix.
+Now let's see a little bigger square matrix i.e. $5\times5$ matrix.
 
 ```math
-\begin{array}{rrrrr|r}
-\,&\,&\,&\,&\,&65\\
-\hline
-17&24&1&8&15&65\\
-23&5&7&14&16&65\\
-4&6&13&20&22&65\\
-10&12&19&21&3&65\\
-11&18&25&2&9&65\\
-\hline
-65&65&65&65&65&65
+\begin{array}{rrrrrcr}
+\,&\,&\,&\,&\,&65&\,\\
+17&24&1&8&15&\ldots&65\\
+23&5&7&14&16&\ldots&65\\
+4&6&13&20&22&\ldots&65\\
+10&12&19&21&3&\ldots&65\\
+11&18&25&2&9&\ldots&65\\
+\vdots&\vdots&\vdots&\vdots&\vdots&65&\,\\
+65&65&65&65&65&\,&\,
 \end{array}
 ```
 _source code:_&nbsp;[5x5.tex](./src/5x5.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
@@ -1548,26 +1546,25 @@ Let's see a big size matrix, not sure if you can display it in mobile devices.<b
 This is the output of $15\times15$ matrix.
 
 ```math
-\begin{array}{rrrrrrrrrrrrrrr|r}
-\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&1695\\
-\hline
-122&139&156&173&190&207&224&1&18&35&52&69&86&103&120&1695\\
-138&155&172&189&206&223&15&17&34&51&68&85&102&119&121&1695\\
-154&171&188&205&222&14&16&33&50&67&84&101&118&135&137&1695\\
-170&187&204&221&13&30&32&49&66&83&100&117&134&136&153&1695\\
-186&203&220&12&29&31&48&65&82&99&116&133&150&152&169&1695\\
-202&219&11&28&45&47&64&81&98&115&132&149&151&168&185&1695\\
-218&10&27&44&46&63&80&97&114&131&148&165&167&184&201&1695\\
-9&26&43&60&62&79&96&113&130&147&164&166&183&200&217&1695\\
-25&42&59&61&78&95&112&129&146&163&180&182&199&216&8&1695\\
-41&58&75&77&94&111&128&145&162&179&181&198&215&7&24&1695\\
-57&74&76&93&110&127&144&161&178&195&197&214&6&23&40&1695\\
-73&90&92&109&126&143&160&177&194&196&213&5&22&39&56&1695\\
-89&91&108&125&142&159&176&193&210&212&4&21&38&55&72&1695\\
-105&107&124&141&158&175&192&209&211&3&20&37&54&71&88&1695\\
-106&123&140&157&174&191&208&225&2&19&36&53&70&87&104&1695\\
-\hline
-1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695
+\begin{array}{rrrrrrrrrrrrrrrcr}
+\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&\,&1695&\,\\
+122&139&156&173&190&207&224&1&18&35&52&69&86&103&120&\ldots&1695\\
+138&155&172&189&206&223&15&17&34&51&68&85&102&119&121&\ldots&1695\\
+154&171&188&205&222&14&16&33&50&67&84&101&118&135&137&\ldots&1695\\
+170&187&204&221&13&30&32&49&66&83&100&117&134&136&153&\ldots&1695\\
+186&203&220&12&29&31&48&65&82&99&116&133&150&152&169&\ldots&1695\\
+202&219&11&28&45&47&64&81&98&115&132&149&151&168&185&\ldots&1695\\
+218&10&27&44&46&63&80&97&114&131&148&165&167&184&201&\ldots&1695\\
+9&26&43&60&62&79&96&113&130&147&164&166&183&200&217&\ldots&1695\\
+25&42&59&61&78&95&112&129&146&163&180&182&199&216&8&\ldots&1695\\
+41&58&75&77&94&111&128&145&162&179&181&198&215&7&24&\ldots&1695\\
+57&74&76&93&110&127&144&161&178&195&197&214&6&23&40&\ldots&1695\\
+73&90&92&109&126&143&160&177&194&196&213&5&22&39&56&\ldots&1695\\
+89&91&108&125&142&159&176&193&210&212&4&21&38&55&72&\ldots&1695\\
+105&107&124&141&158&175&192&209&211&3&20&37&54&71&88&\ldots&1695\\
+106&123&140&157&174&191&208&225&2&19&36&53&70&87&104&\ldots&1695\\
+\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&\vdots&1695&\,\\
+1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&1695&\,&\,
 \end{array}
 ```
 _source code:_&nbsp;[15x15.tex](./src/15x15.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
@@ -1578,7 +1575,7 @@ Now, the summation for $15\times15$ matrix is $1695$.
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
 
-If you find **_foolmath_** entertaining, educational, or you simply enjoy its content, or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim). Your support will be highly appreciated and I will be very grateful.
+If you find **_foolmath_** entertaining, educational, or you simply enjoy its content, or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim). I will highly appreciate and will be very grateful.
 
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
