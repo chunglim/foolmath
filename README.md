@@ -1581,13 +1581,27 @@ The result of summation for each row, each column or each diagonal line can be c
 + The sum of all elements will be $\frac{n^2(n^2+1)}{2}$.
 + The sum of each line will be $\frac{n^2(n^2+1)}{2n}$.
 + Thus each sum is $\frac{n(n^2+1)}{2}$.
-<br><br>
+
 Let's counter check the summations of the matrixes, we previously did.
 
 ```math
 \begin{alignat*}{5}
-&\,&a\quad&=\quad&&b+c\\
-&\,&\,&=&&e+f
+&\text{matrix }3\times3\normalsize\qquad&each~sum\quad&=\quad&&\frac{3(3^2+1)}{2}\\
+&\,&\,&=&&\frac{3(9+1)}{2}\\
+&\,&\,&=&&\frac{3\cdot10}{2}\\
+&\,&\,&=&&\frac{30}{2}\\
+&\,&\,&=&&15\\
+\\ \\
+&\text{matrix }5\times5\normalsize\qquad&each~sum\quad&=&&\frac{5(5^2+1)}{2}\\
+&\,&\,&=&&\frac{5(25+1)}{2}\\
+&\,&\,&=&&\frac{5\cdot26}{2}\\
+&\,&\,&=&&\frac{130}{2}\\
+&\,&\,&=&&65\\
+\\ \\
+&\text{matrix }15\times15\normalsize\qquad&each~sum\quad&=&&\frac{15(15^2+1)}{2}\\
+&\,&\,&=&&\frac{15(225+1)}{2}\\
+&\,&\,&=&&\frac{15\cdot\cancelto{113}{226}}{\cancel{2}}\\
+&\,&\,&=&&1695
 \end{alignat*}
 ```
 _source code:_&nbsp;[verify.tex](./src/verify.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
