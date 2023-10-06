@@ -1595,11 +1595,6 @@ Let's counter check the summations of the matrixes, we previously did.
 &\,&\,&=&&\frac{5(25+1)}{2}\\
 &\,&\,&=&&\frac{5\cdot26}{2}\\
 &\,&\,&=&&65\\
-\\ \\
-&\,&s\quad&=&&\frac{15(15^2+1)}{2}\\
-&\,&\,&=&&\frac{15(225+1)}{2}\\
-&\,&\,&=&&\frac{15\cdot226}{2}\\
-&\,&\,&=&&1695
 \end{alignat*}
 ```
 _source code:_&nbsp;[verify.tex](./src/verify.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
