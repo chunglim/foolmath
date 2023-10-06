@@ -1576,22 +1576,15 @@ Now, the summation for $15\times15$ matrix is `1695`.
 
 The result of summation for each row, each column or each diagonal line can be calculated.
 
-- $n\times n$ is the dimension of the matrix.
-- Total number of all elements will be $n\times n$ or $n^2$.
-- The sum of all elements will be $\frac{n^2(n^2+1)}{2}$.
-- The sum of each line will be $\frac{n^2(n^2+1)}{2n}$.
-- Thus each sum is $\frac{n(n^2+1)}{2}$.
-
-Let's counter check the summation of each matrix, we previously did.
-
-$3\times3$ matrix,
-each sum $=\frac{3(3^2+1)}{2}=\frac{3(9+1)}{2}=\frac{3(10)}{2}=15$
-
-Then $5\times5$ matrix,
-each sum $=\frac{5(5^2+1)}{2}=\frac{5(25+1)}{2}=\frac{5(26)}{2}=65$
-
-And then $15\times15$ matrix,
-each sum $=\frac{15(15^2+1)}{2}=\frac{15(225+1)}{2}=\frac{15(226)}{2}=1695$
++ $n\times n$ is the dimension of the matrix.
++ Total number of all elements will be $n\times n$ or $n^2$.
++ The sum of all elements will be $\frac{n^2(n^2+1)}{2}$.
++ The sum of each line will be $\frac{n^2(n^2+1)}{2n}$.
++ Thus each sum is $\frac{n(n^2+1)}{2}$.
++ Let's counter check the summation of each matrix, we previously did.
+  - $3\times3$ matrix, each sum $=\frac{3(3^2+1)}{2}=\frac{3(9+1)}{2}=\frac{3(10)}{2}=15$
+  - $5\times5$ matrix, each sum $=\frac{5(5^2+1)}{2}=\frac{5(25+1)}{2}=\frac{5(26)}{2}=65$
+  - $15\times15$ matrix, each sum $=\frac{15(15^2+1)}{2}=\frac{15(225+1)}{2}=\frac{15(226)}{2}=1695$
 
 All summations are correct as expected.
 
