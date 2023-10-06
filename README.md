@@ -1496,7 +1496,7 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#welcome-
 
 **Notes:**
 
-- This property of mathematics is _valid_.
+- This property of mathematics is **_valid_**.
 - In order to create understandable matrixes, I use `.tex` math notation files. But don't rely on these `.tex` files, which are in turn generated from C language. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented.
 - C source code presented here only generates text output on console or terminal, not `.tex` files.
 - In this repository, C source code is rare, I don't write `Makefile`.
@@ -1579,24 +1579,33 @@ The result of summation for each row, each column or each diagonal line can be c
 + $n\times n$ is the dimension of the matrix.
 + Total number of all elements will be $n\times n$ or $n^2$.
 + The sum of all elements will be $\frac{n^2(n^2+1)}{2}$.
-+ Thus the sum of each line will be $\frac{n^2(n^2+1)}{2n}$ or $\frac{n(n^2+1)}{2}$.
++ The sum of each line will be $\frac{n^2(n^2+1)}{2n}$.
++ Thus each sum is  $\frac{n(n^2+1)}{2}$.
 <br><br>
 Let's counter check the summations of the matrixes, we previously did.
 
 ```math
-\frac{3(3^2+1)}{2}=\frac{3(9+1)}{2}=\frac{3\cdot10}{2}=15
+\begin{alignat*}{5}
+&\rlap{\text{matrix }3\times3}\\
+&\,&\text{each sum}\quad&=\quad&&\frac{3(3^2+1)}{2}\\
+&\,&\,&=&&\frac{3(9+1)}{2}\\
+&\,&\,&=&&\frac{3\cdot10}{2}\\
+&\,&\,&=&&15\\
+\\ \\
+&\rlap{\text{matrix }5\times5}\\
+&\,&\text{each sum}\quad&=\quad&&\frac{5(5^2+1)}{2}\\
+&\,&\,&=&&\frac{5(25+1)}{2}\\
+&\,&\,&=&&\frac{5\cdot26}{2}\\
+&\,&\,&=&&65\\
+\\ \\
+&\rlap{\text{matrix }15\times15}\\
+&\,&\text{each sum}\quad&=\quad&&\frac{15(15^2+1)}{2}\\
+&\,&\,&=&&\frac{15(225+1)}{2}\\
+&\,&\,&=&&\frac{15\cdot226}{2}\\
+&\,&\,&=&&1695
+\end{alignat*}
 ```
-$3\times3$ matrix
-
-```math
-\frac{5(5^2+1)}{2}=\frac{5(25+1)}{2}=\frac{5\cdot26}{2}=65
-```
-$5\times5$ matrix
-
-```math
-\frac{15(15^2+1)}{2}=\frac{15(225+1)}{2}=\frac{15\cdot226}{2}=1695
-```
-$15\times15$ matrix
+_source code:_&nbsp;[verify.tex](./src/verify.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 All summations are correct as expected.
 
