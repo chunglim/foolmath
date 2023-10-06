@@ -1580,23 +1580,23 @@ The result of summation for each row, each column or each diagonal line can be c
 + Total number of all elements will be $n\times n$ or $n^2$.
 + The sum of all elements will be $\frac{n^2(n^2+1)}{2}$.
 + The sum of each line will be $\frac{n^2(n^2+1)}{2n}$.
-+ Thus each sum is  $\frac{n(n^2+1)}{2}$.
++ Thus each sum is $\frac{n(n^2+1)}{2}$.
 <br><br>
 Let's counter check the summations of the matrixes, we previously did.
 
 ```math
 \begin{alignat*}{5}
-&\,&\text{each sum}\quad&=\quad&&\frac{3(3^2+1)}{2}\\
+&\,&each~sum\quad&=\quad&&\frac{3(3^2+1)}{2}\\
 &\,&\,&=&&\frac{3(9+1)}{2}\\
 &\,&\,&=&&\frac{3\cdot10}{2}\\
 &\,&\,&=&&15\\
 \\ \\
-&\,&\text{each sum}\quad&=\quad&&\frac{5(5^2+1)}{2}\\
+&\,&each~sum\quad&=&&\frac{5(5^2+1)}{2}\\
 &\,&\,&=&&\frac{5(25+1)}{2}\\
 &\,&\,&=&&\frac{5\cdot26}{2}\\
 &\,&\,&=&&65\\
 \\ \\
-&\,&\text{each sum}\quad&=\quad&&\frac{15(15^2+1)}{2}\\
+&\,&each~sum\quad&=&&\frac{15(15^2+1)}{2}\\
 &\,&\,&=&&\frac{15(225+1)}{2}\\
 &\,&\,&=&&\frac{15\cdot226}{2}\\
 &\,&\,&=&&1695
