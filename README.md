@@ -1598,7 +1598,7 @@ Let's counter check the summations of the matrixes, we previously did.
 &\small\text{matrix }5\times5\qquad&each~sum\quad&=&&\frac{5(5^2+1)}{2}\\
 &\,&\,&=&&\frac{5(25+1)}{2}\\
 &\,&\,&=&&\frac{5\cdot26}{2}\\
-&\,&\,&=&&65
+&\,&\,&=&&65\\
 \end{alignat*}
 ```
 _source code:_&nbsp;[verify.tex](./src/verify.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
