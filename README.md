@@ -1542,7 +1542,7 @@ Now let's see a little bigger square matrix i.e. $5\times5$ matrix.
 ```
 _source code:_&nbsp;[5x5.tex](./src/5x5.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Now, the summation for $5\times5$ matrix is $65$.<br><br>
+Now, the summation for $5\times5$ matrix is `65`.<br><br>
 Let's see a big size matrix, not sure if you can display it in mobile devices.<br>
 This is the output of $15\times15$ matrix.
 
@@ -1570,7 +1570,7 @@ This is the output of $15\times15$ matrix.
 ```
 _source code:_&nbsp;[15x15.tex](./src/15x15.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Now, the summation for $15\times15$ matrix is $1695$.
+Now, the summation for $15\times15$ matrix is `1695`.
 
 **Summary**
 
