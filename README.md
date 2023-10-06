@@ -1594,7 +1594,7 @@ $3\times3$ matrix,
 \end{alignat*}
 ```
 
-Then $15\times15$ matrix,
+Then $5\times5$ matrix,
 ```math
 \begin{alignat*}{5}
 &\,&each~sum\quad&=\quad&&\frac{5(5^2+1)}{2}\\
