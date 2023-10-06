@@ -1584,6 +1584,7 @@ The result of summation for each row, each column or each diagonal line can be c
 
 Let's counter check the summations of the matrixes, we previously did.
 
+$3\times3$ matrix,
 ```math
 \begin{alignat*}{5}
 &\,&each~sum\quad&=\quad&&\frac{3(3^2+1)}{2}\\
@@ -1593,8 +1594,7 @@ Let's counter check the summations of the matrixes, we previously did.
 \end{alignat*}
 ```
 
-Then $5\times5$ matrix,
-
+Then $15\times15$ matrix,
 ```math
 \begin{alignat*}{5}
 &\,&each~sum\quad&=\quad&&\frac{5(5^2+1)}{2}\\
@@ -1605,7 +1605,6 @@ Then $5\times5$ matrix,
 ```
 
 And then $15\times15$ matrix,
-
 ```math
 \begin{alignat*}{5}
 &\,&each~sum\quad&=\quad&&\frac{15(15^2+1)}{2}\\
