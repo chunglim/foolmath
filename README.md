@@ -1402,11 +1402,11 @@ From time to time, there were several proofs, which you can find them in the fol
 
 ### **Magic squares**
 
-Some or most mathematicians know that we can fill numbers in any odd-sized square matrixes, and summations of each row, each column and each diagonal line are all equal. The numbers to fill are natural numbers starting from $1$ and no overlap. This is caused by balancing numbers in the matrix. This doesn't work with even-sized square matrixes, because there is no middle element having the same number of elements at its left and its right.
+Some or most mathematicians know that we can fill numbers in any odd-sized square matrices, and summations of each row, each column and each diagonal line are all equal. The numbers to fill are natural numbers starting from `1` and no overlap. This is caused by balancing numbers in the matrix. This doesn't work with even-sized square matrices, because there is no middle element having the same number of elements at its left and its right.
 
 There is a rule explaining how to fill the matrix. (valid rule)
 
-- `1` is placed at the middle of the first row.
+- `1` is placed at the **middle of the first row**.
 - The next element is placed at `+1` **upper right** of the current element.
 - If it overflows at the **top** of the matrix, then drop it to the **bottom in that column**.
 - If it overflows at the **right** of the matrix, place it at the **first column in that row**.
@@ -1497,7 +1497,7 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#welcome-
 **Notes:**
 
 - This property of mathematics is **_valid_**.
-- In order to create understandable matrixes, I use `.tex` math notation files. But don't rely on these `.tex` files, which are in turn generated from C language. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented.
+- In order to create understandable matrices, I use `.tex` math notation files. But don't rely on these `.tex` files, which are in turn generated from C language. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented, where necessary.
 - C source code presented here only generates text output on console or terminal, not `.tex` files.
 - In this repository, C source code is rare, I don't write `Makefile`.
 - This C source code is expected to compile and run on any operating systems. It is simply C99 source code. I personally use `gcc` compiler on Unix-liked operating systems.
@@ -1509,9 +1509,9 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#welcome-
 % ./a.out
 enter dimension <odd number 1-15>:
 ```
-After running `./a.out`, you will get prompted for an odd number. Fill any odd number and press enter.
+After running `./a.out`, you will get prompted for an odd number. Fill any odd number in the given range and press enter.
 
-Here we start the first one, $3\times3$ matrix contains $9$ elements i.e. $1...9$, so that we fill these numbers into the matrix, then summations of each row, each column and each diagonal line are all equal.
+Here we start the first one, `3 x 3` matrix contains `9` elements i.e. `1...9`, so that we fill these numbers into the matrix, then summations of each row, each column and each diagonal line are all equal.
 
 ```math
 \begin{array}{rrrcr}
@@ -1526,7 +1526,7 @@ Here we start the first one, $3\times3$ matrix contains $9$ elements i.e. $1...9
 _source code:_&nbsp;[3x3.tex](./src/3x3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 You can see that summations of each row, each column and each diagonal line are all `15`.<br><br>
-Now let's see a little bigger square matrix i.e. $5\times5$ matrix.
+Now let's see a little bigger square matrix i.e. `5 x 5` matrix.
 
 ```math
 \begin{array}{rrrrrcr}
@@ -1542,9 +1542,9 @@ Now let's see a little bigger square matrix i.e. $5\times5$ matrix.
 ```
 _source code:_&nbsp;[5x5.tex](./src/5x5.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Now, the summation for $5\times5$ matrix is `65`.<br><br>
+Now, the summation for `5 x 5` matrix is `65`.<br><br>
 Let's see a big size matrix, not sure if you can display it in mobile devices.<br>
-This is the output of $15\times15$ matrix.
+This is the output of `15 x 15` matrix.
 
 ```math
 \begin{array}{rrrrrrrrrrrrrrrcr}
@@ -1570,14 +1570,14 @@ This is the output of $15\times15$ matrix.
 ```
 _source code:_&nbsp;[15x15.tex](./src/15x15.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Now, the summation for $15\times15$ matrix is `1695`.
+Now, the summation for `15 x 15` matrix is `1695`.
 
 **Summary**
 
 The result of summation for each row, each column or each diagonal line can be calculated.
 
-+ $n\times n$ is the dimension of the matrix.
-+ Total number of all elements will be $n\times n$ or $n^2$.
++ `n x n` is the dimension of the matrix.
++ Total number of all elements will be `n x n` or $n^2$.
 + The sum of all elements will be $\frac{n^2(n^2+1)}{2}$.
 + The sum of each line will be $\frac{n^2(n^2+1)}{2n}$.
 + Thus each sum is $\frac{n(n^2+1)}{2}$.
