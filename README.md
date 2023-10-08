@@ -1588,7 +1588,7 @@ The result of summation for each row, each column or each diagonal line can be c
 
 All summations are correct as expected.
 
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)&nbsp;|&nbsp;[next page](./PAGE-2.md)
 
 ### **Support _foolmath_**
 
@@ -1599,6 +1599,6 @@ If you find **_foolmath_** entertaining, educational, or you simply enjoy its co
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 Note: All contributions are voluntary and not required to access or use the content. See [LICENSE](./LICENSE.md).<br><br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)&nbsp;|&nbsp;[next page](./PAGE-2.md)
 
 <br><br>
