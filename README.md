@@ -1598,7 +1598,7 @@ If you find **_foolmath_** entertaining, educational, or you simply enjoy its co
 
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Note: All contributions are voluntary and not required to access or use the content. See [LICENSE](./LICENSE)<br><br>
+Note: All contributions are voluntary and not required to access or use the content. See [LICENSE](./LICENSE.md).<br><br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 <br><br>
