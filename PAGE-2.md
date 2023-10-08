@@ -27,7 +27,7 @@ Here we go.
 &\rlap{\small\text{Thus }\sqrt{2}\text{ is irrational.}\qquad\qquad\text{(valid proof)}}\\
 \end{alignat*}
 ```
-_source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)
+_source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top](#why-is-sqrt2-irrational)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)
 
 ### **Support _foolmath_**
 
@@ -38,6 +38,6 @@ If you find **_foolmath_** entertaining, educational, or you simply enjoy its co
 <a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 Note: All contributions are voluntary and not required to access or use the content. See [LICENSE](./LICENSE.md).<br><br>
-[Go to top](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)
+[Go to top](#why-is-sqrt2-irrational)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)
 
 <br><br>
