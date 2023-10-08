@@ -62,8 +62,8 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Production of all natural even numbers [|view it|](#production-of-all-natural-even-numbers)
   - Infinite numbers of primes [|view it|](#infinite-numbers-of-primes)
   - Magic squares [|view it|](#magic-squares)
-+ Page 2 [|view it|](./PAGE-2.md#page-2)
-  - Why is $\sqrt{2}$ irrational? [|view it|](./PAGE-2.md#why-is-sqrt2-irrational)
++ Page 2 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#page-2)
+  - Why is $\sqrt{2}$ irrational? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#why-is-sqrt2-irrational)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
