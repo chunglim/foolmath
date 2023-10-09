@@ -219,7 +219,33 @@ Here we go.
 &\rlap{\small\text{Thus }\sqrt{2}\text{ is irrational.}\qquad\qquad\text{(valid proof)}}\\
 \end{alignat*}
 ```
-_source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;next page
+_source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+### **How do programmers increase a variable?**
+
+```math
+\begin{alignat*}{5}
+&\,&(n+1)^2\quad&=\quad&&n^2+2n+1\\
+&\,&n^2\quad&=&&(n+1)^2-(2n+1)\\
+&\small-n(2n+1)\text{ both sides}&n^2-n(2n+1)\quad&=&&(n+1)^2-(2n+1)-n(2n+1)\\
+&\,&\,&=&&(n+1)^2-2n-1-2n^2-n\\
+&\,&\,&=&&(n+1)^2-2n^2-3n-1\\
+&\,&\,&=&&(n+1)^2-(2n^2+3n+1)\\
+&\,&\,&=&&(n+1)^2-(n+1)(2n+1)\\
+&\small+\frac{(2n+1)^2}{4}\text{ both sides}\normalsize\qquad&n^2-n(2n+1)+\frac{(2n+1)^2}{4}\quad&=&&(n+1)^2-(n+1)(2n+1)+\frac{(2n+1)^2}{4}\\
+&\,&n^2-2n\frac{(2n+1)}{2}+\left(\frac{2n+1}{2}\right)^2\quad&=&&(n+1)^2-2(n+1)\left(\frac{2n+1}{2}\right)+\left(\frac{2n+1}{2}\right)^2\\
+&\,&\left(n-\frac{2n+1}{2}\right)^2\quad&=&&\left((n+1)-\frac{2n+1}{2}\right)^2\\
+&\small\sqrt{}\text{ both sides}&n-\cancel{\frac{2n+1}{2}}\quad&=&&n+1-\cancel{\frac{2n+1}{2}}\\
+&\,&\small\text{Thus}\qquad\qquad\normalsize n\quad&=&&n+1
+\end{alignat*}
+```
+_source code:_&nbsp;[nn+1.tex](./src/nn+1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;next page
+
+Now you see how programmers increase a variable.<br>
+Wait, isn't it `n += 1;`?<br>
+Nah nah, it should be `++n;` or `n++;`.<br><br>
+
+Hey what? This is mathematical proof. Find errors, mistakes or oversights.
 
 ### **Support _foolmath_**
 
