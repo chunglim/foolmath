@@ -221,6 +221,9 @@ Here we go.
 ```
 _source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
+We have talked about valid proof for a while.<br><br>
+Let's start fool proofs again.
+
 ### **How do programmers increase a variable?**
 
 ```math
@@ -239,12 +242,11 @@ _source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top]
 &\,&\small\text{Thus}\qquad\qquad\normalsize n\quad&=&&n+1
 \end{alignat*}
 ```
-_source code:_&nbsp;[nn+1.tex](./src/nn+1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)&nbsp;|&nbsp;[previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;next page
+_source code:_&nbsp;[nn+1.tex](./src/nn+1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 Now you see how programmers increase a variable.<br>
 Wait, isn't it `n += 1;`?<br>
 Nah nah, it should be `++n;` or `n++;`.<br><br>
-
 Hey what? This is mathematical proof. Find errors, mistakes or oversights.
 
 ### **Support _foolmath_**
