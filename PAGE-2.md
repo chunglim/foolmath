@@ -17,7 +17,7 @@ There is a rule explaining how to fill the matrix. (valid rule)
 - If it overflows at the **top right corner**, place it **under the current element** i.e. the same column and the next row.
 - If it strikes a **non-empty element**, place it **under the current element** i.e. the same column and the next row.
 
-For simplicity, I created a C source file to generate these numbers.
+For simplicity, I code C to generate each magic square.
 
 ```c
 #include <stdio.h>
@@ -101,10 +101,11 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 **Notes:**
 
 - This property of mathematics is **_valid_**.
-- In order to create understandable matrices, I use `.tex` math notation files. But don't rely on these `.tex` files, which are in turn generated from C code. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented, where necessary.
+- In order to create understandable matrices, I use `.tex` math notation files. But you don't rely on these `.tex` files, which are in turn generated from C code. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented, where necessary.
 - C source code presented here only generates text output on console or terminal. It doesn't generate `.tex` files.
 - In this repository, C source code is rare, so I don't write `Makefile`.
-- This C source code is expected to compile and run on any operating systems. It is simply C99 source code. I personally use `gcc` compiler on Unix-liked operating systems.
+- This C source code is expected to compile and run on any operating systems. It is simply C99 source code. I personally use `gcc` compiler on Unix-liked operating systems e.g. Linux or NetBSD, which provides `gcc` compiler support out of the box.
+- For other operating systems or compilers, please consult documentation for each system or compiler being used.
 
 **Compilation and running:**
 
