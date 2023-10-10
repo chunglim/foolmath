@@ -6,7 +6,7 @@
 
 ### **Magic squares**
 
-Some or most mathematicians know that we can fill numbers in any odd-sized square matrices, and summations of each row, each column and each diagonal line are all equal. The numbers to fill are natural numbers starting from `1` and no overlap. This is caused by balancing numbers in the matrix. This doesn't work with even-sized square matrices, because there is no middle element having the same number of elements at its left and its right.
+Some or most mathematicians know that we can fill numbers in any odd-sized square matrices, and summations of each row, each column and each diagonal line are all equal. This is caused by balancing numbers in the matrix. The numbers to fill are natural numbers starting from `1` and carry on with the next natural number and no overlap. This doesn't work with even-sized square matrices. Because there is no middle element having the same number of elements at its left side and its right side in even-sized square matrices.
 
 There is a rule explaining how to fill the matrix. (valid rule)
 
@@ -101,9 +101,9 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 **Notes:**
 
 - This property of mathematics is **_valid_**.
-- In order to create understandable matrices, I use `.tex` math notation files. But don't rely on these `.tex` files, which are in turn generated from C language. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented, where necessary.
-- C source code presented here only generates text output on console or terminal, not `.tex` files.
-- In this repository, C source code is rare, I don't write `Makefile`.
+- In order to create understandable matrices, I use `.tex` math notation files. But don't rely on these `.tex` files, which are in turn generated from C code. So coding style of these `.tex` files is probably not what you desire. Please refer to the output results or `.c` file, which is well commented, where necessary.
+- C source code presented here only generates text output on console or terminal. It doesn't generate `.tex` files.
+- In this repository, C source code is rare, so I don't write `Makefile`.
 - This C source code is expected to compile and run on any operating systems. It is simply C99 source code. I personally use `gcc` compiler on Unix-liked operating systems.
 
 **Compilation and running:**
@@ -113,7 +113,7 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 % ./a.out
 enter dimension <odd number 1-15>:
 ```
-After running `./a.out`, you will get prompted for an odd number. Fill any odd number in the given range and press enter.
+After compilation and running `./a.out`, you will get prompted for an odd number. Fill any odd number in the given range and press enter.
 
 Here we start the first one, `3 x 3` matrix contains `9` elements i.e. `1...9`, so that we fill these numbers into the matrix, then summations of each row, each column and each diagonal line are all equal.
 
@@ -196,7 +196,7 @@ All summations are correct as expected.
 
 ### **Why is $`\sqrt{2}`$ irrational?**
 
-We have learnt that $\sqrt{2}$ is irrational. Have you seen the proof?<br>
+We have learnt that $\sqrt{2}$ is irrational. Have you ever seen the proof?<br>
 Here we go.
 
 ```math
@@ -207,7 +207,7 @@ Here we go.
 &\rlap{\small\text{otherwise, if both are even, we can simplify further.}}\\
 &\,&2\quad&=&&\frac{a^2}{b^2}\qquad&\small\text{(1)}\\
 &\,&a^2\quad&=&&2b^2\\
-&\rlap{\small\text{so }a^2\text{ is even, and }a\text{ is also even, because }odd^2\text{ is odd.}}\\
+&\rlap{\small\text{so }a^2\text{ is even, and }a\text{ is also even, because }odd^2\text{ is always odd.}}\\
 &\small\text{let }&a\quad&=&&2k\\
 &\small\text{(1)}&2\quad&=&&\frac{(2k)^2}{b^2}\\
 &\,&2\quad&=&&\frac{4k^2}{b^2}\\
@@ -236,7 +236,7 @@ Let's start fool proofs again.
 &\,&\,&=&&(n+1)^2-(2n^2+3n+1)\\
 &\,&\,&=&&(n+1)^2-(n+1)(2n+1)\\
 &\small+\frac{(2n+1)^2}{4}\text{ both sides}\normalsize\qquad&n^2-n(2n+1)+\frac{(2n+1)^2}{4}\quad&=&&(n+1)^2-(n+1)(2n+1)+\frac{(2n+1)^2}{4}\\
-&\,&n^2-2n\frac{(2n+1)}{2}+\left(\frac{2n+1}{2}\right)^2\quad&=&&(n+1)^2-2(n+1)\left(\frac{2n+1}{2}\right)+\left(\frac{2n+1}{2}\right)^2\\
+&\,&n^2-2n\left(\frac{2n+1}{2}\right)+\left(\frac{2n+1}{2}\right)^2\quad&=&&(n+1)^2-2(n+1)\left(\frac{2n+1}{2}\right)+\left(\frac{2n+1}{2}\right)^2\\
 &\,&\left(n-\frac{2n+1}{2}\right)^2\quad&=&&\left((n+1)-\frac{2n+1}{2}\right)^2\\
 &\small\sqrt{}\text{ both sides}&n-\cancel{\frac{2n+1}{2}}\quad&=&&n+1-\cancel{\frac{2n+1}{2}}\\
 &\,&\small\text{Thus}\qquad\qquad\normalsize n\quad&=&&n+1
