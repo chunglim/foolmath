@@ -491,7 +491,7 @@ _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)&nbsp;|&nbsp;[Go to to
 
 Which one will you believe?
 
-#### **This is the _fool proof_ of $`-i`$.
+#### **This is the _fool proof_ of $`-i`$.**
 
 ```math
 \begin{alignat*}{5}
