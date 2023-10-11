@@ -105,7 +105,7 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 - C source code presented here only generates text output on console or terminal. It doesn't generate `.tex` files.
 - In this repository, C source code is rare, so I don't write `Makefile`.
 - This C source code is expected to compile and run on any operating systems. It is simply C99 source code. I personally use GNU `gcc` or LLVM `clang` compiler on Unix-liked operating systems e.g. Linux, macOS, FreeBSD, NetBSD or OpenBSD, which natively supports `gcc` or `clang` compiler out of the box. (Native C compiler depends on the operating system being used.)
-- For other operating systems or compilers, please consult documentation for each system or compiler being used.
+- For other operating systems or compilers, please consult the documentation for each system or compiler being used.
 
 **Compilation or build**
 

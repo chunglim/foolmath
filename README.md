@@ -491,6 +491,24 @@ _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)&nbsp;|&nbsp;[Go to to
 
 Which one will you believe?
 
+#### **This is the _fool proof_ of $`-i`$.
+
+```math
+\begin{alignat*}{5}
+&\,&i\quad&=\quad&&\sqrt{-1}\\
+&\,&-i\quad&=&&-\sqrt{-1}\\
+&\,&\,&=&&(-1)(-1)^\frac{1}{2}\\
+&\,&\,&=&&(-1)^{1+\frac{1}{2}}\\
+&\,&\,&=&&(-1)^\frac{3}{2}\\
+&\,&\,&=&&\sqrt{-1^3}\\
+&\,&\,&=&&\sqrt{-1}\\
+&\small\text{Thus}\normalsize\qquad&-i\quad&=&&i&\small\text{(fool proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[i_eq-i.tex](./src/i_eq-i.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+It is exactly imaginary.
+
 ### **$`i=\pm1`$, isn't it?**
 
 ```math
