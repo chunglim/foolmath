@@ -29,6 +29,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Let's see a little higher numbers, $4=5$. [|view it|](#lets-see-a-little-higher-numbers-45)
   - Are all intergers equal? [|view it|](#are-all-intergers-equal)
   - Why $2+5=8$? [|view it|](#was-i-wrongly-taught-why-258)
+  - Just another freak, $9=17$. [|view it|](#just-another-freak-917)
   - Very silly solutions to find $\frac{0}{0}$. [|view it|](#very-silly-solutions-to-find-frac00)
   - Who said $i$ is imaginary, why $i=1$ then? [|view it|](#who-said-i-is-imaginary-why-i1-then)
   - Let's talk more about $i$. [|view it|](#lets-talk-more-about-i)
@@ -411,7 +412,25 @@ There is one more simple equation. Have a look.
 ```
 _source code:_&nbsp;[2plus5eq8_0.tex](./src/2plus5eq8_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Do you find any errors?<br><br>
+There is one more, it is tricky.
+
+### **Just another freak, $`9=17`$.**
+
+```math
+\begin{alignat*}{5}
+&\small\text{let}&x\quad&=\quad&&9\\
+&\,&x^2-26x+169\quad&=&&9^2-26(9)+169\\
+&\,&\,&=&&16\\
+&\,&x^2-2(13)x+13^2\quad&=&&16\\
+&\,&(x-13)^2\quad&=&&16\\
+&\,&x-13\quad&=&&4\\
+&\,&x\quad&=&&17\\
+&\small\text{Thus}&9\quad&=&&17
+\end{alignat*}
+```
+_source code:_&nbsp;[9eq17_0.tex](./src/9eq17_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Square of negative numbers really does the trick.<br><br>
 Who said $0$ couldn't be a denominator? See the following fool proofs.
 
 ### **Very silly solutions to find $`\frac{0}{0}`$.**
@@ -1431,7 +1450,7 @@ I keep adding these kinds of freaks or topics, which are considered interesting,
 
 If you find **_foolmath_** entertaining, educational, or you simply enjoy its content, or just feeling generous, please consider [buy me a coffee](https://www.buymeacoffee.com/chunglim). I will highly appreciate and will be very grateful.
 
-<a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/chunglim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a> ![bmc_qr](./images/bmc_qr.png)
 
 Note: All contributions are voluntary and not required to access or use the content. See [LICENSE](./LICENSE.md).<br><br>
 [Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)&nbsp;|&nbsp;previous page&nbsp;|&nbsp;[next page](./PAGE-2.md#page-2)
