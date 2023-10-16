@@ -105,26 +105,22 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 - C source code presented here only generates text output on console or terminal. It doesn't generate `.tex` files.
 - In this repository, C source code is rare, so I don't write `Makefile`.
 - This C source code is expected to compile and run on any operating systems. It is simply C99 source code. I personally use GNU `gcc` or LLVM `clang` compiler on Unix-liked operating systems e.g. Linux, macOS, FreeBSD, NetBSD or OpenBSD, which natively supports `gcc` or `clang` compiler out of the box. (Native C compiler depends on the operating system being used.)
-- For other operating systems or compilers, please consult the documentation for each system or compiler being used.
+- For other operating systems or compilers, please consult the documentation for each system or compiler.
 
 **Compilation or build**
 
-For GNU `gcc`,
-```
-% gcc -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic -s square.c
-```
+Note that `%` or probalby `$` is a shell prompt, you don't have to type.
 
-For LLVM `clang`, it is nearly the same, just omit `-s` option,
-```
-% clang -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic square.c
-```
+For GNU `gcc`,<br>
+% `gcc -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic -s square.c`
+
+For LLVM `clang`, it is nearly the same, just omit `-s` option,<br>
+% `clang -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic square.c`
 
 **Running**
 
-```
-% ./a.out
-enter dimension <odd number 1-15>:
-```
+% `./a.out`<br>
+`enter dimension <odd number 1-15>:`
 
 After compilation and running `./a.out`, you will get prompted for an odd number. Fill any odd number in the given range and press enter.
 
@@ -160,7 +156,7 @@ Now let's see a little bigger square matrix i.e. `5 x 5` matrix.
 _source code:_&nbsp;[5x5.tex](./src/5x5.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 Now, the summation for `5 x 5` matrix is `65`.<br><br>
-Let's see a big size matrix, not sure if you can display it in mobile devices.<br>
+Let's see a big square matrix, not sure if you can display it in mobile devices.<br>
 This is the output of `15 x 15` matrix.
 
 ```math
