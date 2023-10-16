@@ -109,7 +109,7 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 
 **Compilation or build**
 
-Note that `%` or probalby `$` is a shell prompt, you don't have to type.
+Note that `%` or probably `$` is a shell prompt, you don't have to type.
 
 For GNU `gcc`,<br>
 % `gcc -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic -s square.c`
