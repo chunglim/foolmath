@@ -69,6 +69,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Magic squares [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#magic-squares)
   - Why is $\sqrt{2}$ irrational? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#why-is-sqrt2-irrational)
   - How do programmers increase a variable? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-do-programmers-increase-a-variable)
+  - $\frac{dx}{dx}=0$, really? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#$fracdxdx0-really)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**

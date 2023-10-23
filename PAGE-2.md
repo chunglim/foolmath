@@ -258,6 +258,21 @@ Wait, isn't it `n += 1;`?<br>
 Nah nah, it should be `++n;` or `n++;`.<br><br>
 Hey what? This is mathematical proof. Find errors, mistakes or oversights.
 
+### **$`\frac{dx}{dx}=0`$, really?
+
+```math
+\begin{alignat*}{5}
+&\,&\frac{dx}{dx}\quad&=\quad&&\frac{d}{dx}\underbrace{(1+1+1+1+...+1)}_{x\text{ terms}}\\
+&\,&\,&=&&\underbrace{\frac{d}{dx}1+\frac{d}{dx}1+\frac{d}{dx}1+...+\frac{d}{dx}1}_{x\text{ terms}}\\
+&\,&\,&=&&\underbrace{0+0+0+...+0}_{x\text{ terms}}\\
+&\,&\,&=&&0x\\
+&\small\text{Thus}\normalsize\qquad&\frac{dx}{dx}\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[dx_by_dx_0.tex](./src/dx_by_dx_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Hold on! `x terms` implies that `x` is an _integer_ not _real number_. In calculus, aren't all variables and functions required to be _continuous_, not _discrete_? If `x` is an _integer_, how can `dx` approach zero?
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
