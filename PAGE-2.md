@@ -258,7 +258,7 @@ Wait, isn't it `n += 1;`?<br>
 Nah nah, it should be `++n;` or `n++;`.<br><br>
 Hey what? This is mathematical proof. Find errors, mistakes or oversights.
 
-### **$`\frac{dx}{dx}=0`$, really?
+### **$`\frac{dx}{dx}=0`$, really?**
 
 ```math
 \begin{alignat*}{5}
