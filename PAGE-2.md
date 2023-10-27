@@ -305,6 +305,31 @@ _source code:_&nbsp;[dx_by_dx_0.tex](./src/dx_by_dx_0.tex)&nbsp;|&nbsp;[Go to to
 
 Hold on! `x terms` implies that `x` is an _integer_ not a _real number_. In calculus, aren't all variables and functions required to be _continuous_, not _discrete_? If `x` is an _integer_, how can `dx` approach zero?
 
+### **$'\pi=-\pi`$, what?**
+
+```math
+\begin{alignat*}{5}
+&\,&e^{i\pi}\quad&=\quad&&-1\\
+&\small\ln{}\text{ both sides}&\ln{e^{i\pi}}\quad&=&&\ln{(-1)}\\
+&\,&i\pi\cancelto{1}{\ln{e}}\quad&=&&\ln{(-1)}\\
+&\qquad\qquad\small\text{so}&\pi\quad&=&&\frac{\ln{(-1)}}{i}\qquad&\small\text{(1)}\\
+&\small\times(-1)\text{ both sides}\qquad&-\pi\quad&=&&-\frac{\ln{(-1)}}{i}\\
+&\,&\,&=&&\frac{\ln{(-1)}}{-i}\\
+&\small\text{as }\frac{1}{-i}=i&\,&=&&i\ln{(-1)}\\
+&\,&\,&=&&(-1)^{\frac{1}{2}}\ln{(-1)}\\
+&\,&\,&=&&\left(\frac{1}{-1}\right)^\frac{1}{2}\ln{(-1)}\\
+&\,&\,&=&&\frac{1^\frac{1}{2}}{(-1)^\frac{1}{2}}\ln{(-1)}\\
+&\,&\,&=&&\frac{1}{\sqrt{-1}}\ln{(-1)}\\
+&\,&\,&=&&\frac{1}{i}\ln{(-1)}\\
+&\qquad\qquad\small\text{so}&-\pi\quad&=&&\frac{\ln{(-1)}}{i}\qquad&\small\text{(2)}\\
+&\qquad\qquad\small\text{hence}&(1)\quad&=&&(2)\\
+&\qquad\qquad\small\text{Thus}&\pi\quad&=&&-\pi
+\end{alignat*}
+```
+_source code:_&nbsp;[pi-pi.tex](./src/pi-pi.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Would there be minus areas or minus circumferences then?
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.

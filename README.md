@@ -34,7 +34,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Who said $i$ is imaginary, why $i=1$ then? [|view it|](#who-said-i-is-imaginary-why-i1-then)
   - Let's talk more about $i$. [|view it|](#lets-talk-more-about-i)
   - $i=\pm1$, isn't it? [|view it|](#ipm1-isnt-it)
-  - $i=0$, probably [|view it|](i0-probably)
+  - $i=0$, probably [|view it|](#i0-probably)
   - How much is $\infty$? [|view it|](#how-much-is-infty)
   - How much is $0.\infty$? [|view it|](#how-much-is-0infty)
   - Is $0$ an even number? [|view it|](#is-0-an-even-number)
@@ -71,6 +71,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Why is $\sqrt{2}$ irrational? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#why-is-sqrt2-irrational)
   - How do programmers increase a variable? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-do-programmers-increase-a-variable)
   - $\frac{dx}{dx}=0$, really? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#fracdxdx0-really)
+  - $\pi=-\pi$, what? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pi-pi-what)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
