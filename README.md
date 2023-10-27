@@ -34,6 +34,7 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Who said $i$ is imaginary, why $i=1$ then? [|view it|](#who-said-i-is-imaginary-why-i1-then)
   - Let's talk more about $i$. [|view it|](#lets-talk-more-about-i)
   - $i=\pm1$, isn't it? [|view it|](#ipm1-isnt-it)
+  - $i=0$, probably [|view it|](i0-probably)
   - How much is $\infty$? [|view it|](#how-much-is-infty)
   - How much is $0.\infty$? [|view it|](#how-much-is-0infty)
   - Is $0$ an even number? [|view it|](#is-0-an-even-number)
@@ -543,7 +544,26 @@ It is exactly imaginary.
 ```
 _source code:_&nbsp;[i_eq_pm1.tex](./src/i_eq_pm1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Whatever it is, but it is not imaginary, anyway.
+Hold on! $i$ is probably something else.
+
+### **$`i=0`$, probably**
+
+```math
+\begin{alignat*}{5}
+&\,&0\quad&=\quad&&i-i\\
+&\,&\,&=&&i-\sqrt{-1}\\
+&\,&\,&=&&i-\sqrt{(-1)(1)}\\
+&\,&\,&=&&i-\sqrt{(-1)(-1)^2}\\
+&\,&\,&=&&i-\sqrt{-1}\sqrt{(-1)^2}\\
+&\,&\,&=&&i-(i)(-1)\\
+&\,&\,&=&&i+i\\
+&\,&0\quad&=&&2i\\
+&\small\text{Thus}\normalsize\qquad&i\quad&=&&0\\
+\end{alignat*}
+```
+_source code:_&nbsp;[i0.tex](./src/i0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Whatever it is, it is not imaginary anyway.
 
 ### **How much is $`\infty`$?**
 
