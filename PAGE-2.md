@@ -305,7 +305,7 @@ _source code:_&nbsp;[dx_by_dx_0.tex](./src/dx_by_dx_0.tex)&nbsp;|&nbsp;[Go to to
 
 Hold on! `x terms` implies that `x` is an _integer_ not a _real number_. In calculus, aren't all variables and functions required to be _continuous_, not _discrete_? If `x` is an _integer_, how can `dx` approach zero?
 
-### **$'\pi=-\pi`$, what?**
+### **$`\pi=-\pi`$, what?**
 
 ```math
 \begin{alignat*}{5}
