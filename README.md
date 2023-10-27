@@ -64,8 +64,8 @@ If you are a math enthusiast or aficionado, have you ever encountered a mathemat
   - Production of all natural odd numbers [|view it|](#production-of-all-natural-odd-numbers)
   - Production of all natural numbers [|view it|](#production-of-all-natural-numbers)
   - Production of all natural even numbers [|view it|](#production-of-all-natural-even-numbers)
-  - Infinite numbers of primes [|view it|](#infinite-numbers-of-primes)
 + Page 2 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#page-2)
+  - Infinite numbers of primes [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infinite-numbers-of-primes)
   - Magic squares [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#magic-squares)
   - Why is $\sqrt{2}$ irrational? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#why-is-sqrt2-irrational)
   - How do programmers increase a variable? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-do-programmers-increase-a-variable)
@@ -1412,38 +1412,7 @@ Oops, zero once again!
 ```
 _source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Hey what? Why are these results zero? Is the universe simply empty?<br><br>
-We have been dealing with fool proofs so far, let's talk about valid mathematical properties again.
-
-### **Infinite numbers of primes**
-
-You might have ever wondered, how many prime numbers there are. Is there an upper limit of primes, so called `the highest prime`? As the number grows higher, there will be also higher number of divisible divisors. This assumption may limit the size of primes.<br>
-Well, there have been many proofs over centuries. The number of primes is infinite or unlimited. (valid)
-
-#### **Solution: _Euclid's Proof_ (300 BC)**
-
-+ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
-+ Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
-+ Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
-+ Let $Q=P+1$, is $Q$ a prime?
-  - If $Q$ is a prime, then there is one more prime outside our finite list.
-  - If $Q$ is not a prime, then there is at least one $p$ that $Q$ divides $p$.
-    * So $P$ divides $p$ and $Q$ divides $p$.
-    * And then $|P-Q|$ mush also divide $p$.
-    * Since $|P-Q|=|P-(P+1)|=|\cancel{P}-\cancel{P}-1|=1$, so $1$ divides $p$ that is not possible.
-+ Thus there are always primes outside our finite list no matter how big our finite list is, i.e. there are infinite number of primes. (valid proof)
-
-#### **Other solutions**
-
-From time to time, there were several proofs, which you can find them in the following list.
-
-- _Furstenberg's proof_ (1955) [|view it|](https://t5k.org/notes/proofs/infinite/topproof.html)
-- _Goldbach's Proof_ (1730) [|view it|](https://t5k.org/notes/proofs/infinite/goldbach.html)
-- _Kummer's Restatement of Euclid's Proof_ [|view it|](https://t5k.org/notes/proofs/infinite/kummers.html)
-- _Filip Saidak's Proof_ (2005) [|view it|](https://t5k.org/notes/proofs/infinite/Saidak.html)
-- _Other proofs_ see [Wikipedia](https://en.wikipedia.org/wiki/Euclid%27s_theorem#Variations)
-
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+Hey what? Why are these results zero? Is the universe simply empty?
 
 ### **Support _foolmath_**
 

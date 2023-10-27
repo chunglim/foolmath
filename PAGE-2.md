@@ -4,6 +4,38 @@
 
 [previous page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;next page
 
+### **Infinite numbers of primes**
+
+We have been dealing with fool proofs so far, let's talk about valid mathematical properties again.
+
+You might have ever wondered, how many prime numbers there are. Is there an upper limit of primes, so called `the highest prime`? As the number grows higher, there will be also higher number of divisible divisors. This assumption may limit the size of primes.<br>
+Well, there have been many proofs over centuries. The number of primes is infinite or unlimited. (valid)
+
+#### **Solution: _Euclid's Proof_ (300 BC)**
+
++ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
++ Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
++ Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
++ Let $Q=P+1$, is $Q$ a prime?
+  - If $Q$ is a prime, then there is one more prime outside our finite list.
+  - If $Q$ is not a prime, then there is at least one $p$ that $Q$ divides $p$.
+    * So $P$ divides $p$ and $Q$ divides $p$.
+    * And then $|P-Q|$ mush also divide $p$.
+    * Since $|P-Q|=|P-(P+1)|=|\cancel{P}-\cancel{P}-1|=1$, so $1$ divides $p$ that is not possible.
++ Thus there are always primes outside our finite list no matter how big our finite list is, i.e. there are infinite number of primes. (valid proof)
+
+#### **Other solutions**
+
+From time to time, there were several proofs, which you can find them in the following list.
+
+- _Furstenberg's proof_ (1955) [|view it|](https://t5k.org/notes/proofs/infinite/topproof.html)
+- _Goldbach's Proof_ (1730) [|view it|](https://t5k.org/notes/proofs/infinite/goldbach.html)
+- _Kummer's Restatement of Euclid's Proof_ [|view it|](https://t5k.org/notes/proofs/infinite/kummers.html)
+- _Filip Saidak's Proof_ (2005) [|view it|](https://t5k.org/notes/proofs/infinite/Saidak.html)
+- _Other proofs_ see [Wikipedia](https://en.wikipedia.org/wiki/Euclid%27s_theorem#Variations)
+
+[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
 ### **Magic squares**
 
 Some or most mathematicians know that we can fill numbers in any odd-sized square matrices, and summations of each row, each column and each diagonal line are all equal. This is caused by balancing numbers in the matrix. The numbers to fill are natural numbers starting from `1` and carry on with the next natural number and no overlap. This doesn't work with even-sized square matrices. Because there is no middle element having the same number of elements at its left side and its right side in even-sized square matrices.
