@@ -8,7 +8,7 @@ previous page&nbsp;|&nbsp;[next page](./PAGE-2.md#page-2)
 
 ## What is **_foolmath_**?
 
-If you are a math enthusiast or aficionado, have you ever encountered mathematical fool proofs like $1=2$ or evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
+If you are a math enthusiast or aficionado, have you ever encountered mathematical fool proofs like $1=2$ or $2+5=8$ or even evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless explicitly noted as _valid_.
