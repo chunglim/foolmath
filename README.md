@@ -1146,7 +1146,7 @@ Gaussian integral is one of many relations between $e$ and $\pi$.
 ```
 _source code:_&nbsp;[golden_fib.tex](./src/golden_fib.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Well, we have been talking about valid proofs for long.<br><br>
+Well, we have been talking about valid proofs for long.<br>
 Let's start freaks again.
 
 ### **Isn't it $`\infty=\Phi`$?**
