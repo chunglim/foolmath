@@ -242,8 +242,7 @@ Is there any proof looking more advanced than these?
 ```
 _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Can you find an error?<br>
-Hmm, binary no longer exists.
+Can you find an error? Hmm, binary no longer exists.
 
 ### **Why $`1=2`$?**
 
