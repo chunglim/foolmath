@@ -21,7 +21,8 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
 ## Table of Contents
 + Page 1 [|view it|](#welcome-to-the-foolmath-repository)
   - Ramanujan summation [|view it|](#ramanujan-summation)
-  - Ramanujan alternative [|view it|](#yet-there-is-a-ramanujan-alternative)
+  - Ramanujan alternative 1 [|view it|](#ramanujan~alternative~1)
+  - Ramanujan alternative 2 [|view it|](#ramanujan~alternative~2)
   - Summing the power of two [|view it|](#what-if-summing-the-power-of-two)
   - Summing all natural odd numbers [|view it|](#what-if-summing-all-natural-odd-numbers)
   - Summing all natural even numbers [|view it|](#trying-summing-all-natural-even-numbers)
@@ -111,7 +112,9 @@ $\qquad1+2+3+4+5+6+...\quad=\quad?$
 ```
 _source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-### **Yet, there is a Ramanujan alternative**
+There are still a few Ramanujan alternatives.
+
+### **Ramanujan alternative 1**
 
 ```math
 \begin{alignat*}{5}
@@ -124,7 +127,27 @@ _source code:_&nbsp;[rama_sum.tex](./src/rama_sum.tex)&nbsp;|&nbsp;[Go to top](#
 &\small\text{Thus}&\qquad S\quad&=&&-\frac{1}{8}
 \end{alignat*}
 ```
-_source code:_&nbsp;[rama_alt.tex](./src/rama_alt.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[rama_alt_1.tex](./src/rama_alt_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Hold on! There is still another alternative.
+
+### **Ramanujan alternative 2**
+
+```math
+\begin{alignat*}{5}
+&\,&S\quad&=\quad&&1+2+3+4+5+6+7+8+...\\
+&\,&\,&=&&(2+4+6+8+10+12+14+...)+\\
+&\,&\,&\,&&(1+3+5+7+9+11+13+...)\\
+&\,&\,&=&&2(1+2+3+4+5+6+7+...)+\\
+&\,&\,&\,&&~\,(1+(3+5)+(7+9)+(11+13)+...)\\
+&\,&\,&=&&2S+(1+8+16+24+32+...)\\
+&\,&\,&=&&2S+(1+8(1+2+3+4+...))\\
+&\,&\,&=&&2S+(1+8S)\\
+&\,&S\quad&=&&10S+1\\
+&\small\text{Thus}\normalsize\qquad&S\quad&=&&-\frac{1}{9}
+\end{alignat*}
+```
+_source code:_&nbsp;[rama_alt_2.tex](./src/rama_alt_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops, was Ramanujan wrong?
 
