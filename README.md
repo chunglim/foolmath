@@ -21,8 +21,8 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
 ## Table of Contents
 + Page 1 [|view it|](#welcome-to-the-foolmath-repository)
   - Ramanujan summation [|view it|](#ramanujan-summation)
-  - Ramanujan alternative 1 [|view it|](#ramanujan~alternative~1)
-  - Ramanujan alternative 2 [|view it|](#ramanujan~alternative~2)
+  - Ramanujan alternative 1 [|view it|](#ramanujan-alternative-1)
+  - Ramanujan alternative 2 [|view it|](#ramanujan-alternative-2)
   - Summing the power of two [|view it|](#what-if-summing-the-power-of-two)
   - Summing all natural odd numbers [|view it|](#what-if-summing-all-natural-odd-numbers)
   - Summing all natural even numbers [|view it|](#trying-summing-all-natural-even-numbers)
