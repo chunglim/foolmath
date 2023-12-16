@@ -797,9 +797,27 @@ If you don't believe, yet there are another proofs.
 ```
 _source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Wait, $\pi$ is probably something else.
+$\pi$ is really zero, let's confirm with the next proof.
 
 #### **Solution 3**
+
+```math
+\begin{alignat*}{5}
+&\,&e^{ix}\quad&=\quad&&\cos{x}+i\sin{x}\\
+&\,&e^{2i\pi}\quad&=&&\cos{2\pi}+\cancelto{0}{i\sin{2\pi}}\\
+&\,&\,&=&&1\\
+&\small\text{ln() both sides}\normalsize\qquad&\ln{e^{2i\pi}}\quad&=&&\cancelto{0}{\ln{1}}\\
+&\,&2i\pi\quad&=&&0\\
+&\small&divide\,i\text{ both sides}&\frac{2\cancel{i}\pi}{\cancel{i}}\quad&=&&\cancelto{0}{\frac{0}{i}}\\
+&\,&2\pi\quad&=&&0\\
+&\qquad\small\text{Thus}&\pi\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_0_2.tex](./src/pi_eq_0_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Hold on, $\pi$ is probably something else.
+
+#### **Solution 4**
 
 ```math
 \begin{alignat*}{5}
@@ -821,7 +839,7 @@ _source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)&nbsp;|&nbsp;[Go to top]
 
 Yet, there is another silly proof.
 
-#### **Solution 4**
+#### **Solution 5**
 
 ```math
 \begin{alignat*}{5}
@@ -835,7 +853,7 @@ Yet, there is another silly proof.
 _source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops! engineers also say that!<br><br>
-We have seen several fool proofs, let's see valid proofs.
+We have seen several fool proofs so far, let's see valid proofs.
 
 ### **How much is $`i^i`$?**
 
