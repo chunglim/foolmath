@@ -4,7 +4,7 @@
 
 ![foolmath logo](./images/ramanujan.png)
 
-previous page&nbsp;|&nbsp;[next page](./PAGE-2.md#page-2)
+Previous Page&nbsp;|&nbsp;[Next Page](./PAGE-2.md#page-2)&nbsp;|&nbsp;[Contribute](#support-foolmath)
 
 ## What is **_foolmath_**?
 
@@ -1488,6 +1488,6 @@ If you find **_foolmath_** entertaining, educational, or you simply enjoy its co
 <img src="./images/bmc_qr.png" width="217"/>
 
 Note: All contributions are voluntary and not required to access or use the content. See [LICENSE](./LICENSE.md).<br><br>
-[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)&nbsp;|&nbsp;previous page&nbsp;|&nbsp;[next page](./PAGE-2.md#page-2)
+[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)&nbsp;|&nbsp;Previous Page&nbsp;|&nbsp;[Next Page](./PAGE-2.md#page-2)
 
 <br><br>
