@@ -348,6 +348,25 @@ _source code:_&nbsp;[2eq3_0.tex](./src/2eq3_0.tex)&nbsp;|&nbsp;[Go to top](#page
 
 Well, this is another trick of $\sqrt{-1^2}$.
 
+### **What if $`3=0`$?**
+
+```math
+\begin{alignat*}{5}
+&\small\text{given}&x^2+x+1\quad&=\quad&&0\qquad&\small\text{(1)}\\
+&\,&x+1\quad&=&&-x^2\qquad&\small\text{(2)}\\
+&\small\text{(1)}&divide x\text{ both sides}\qquad&x+1+\frac{1}{x}\quad&=&&0\\
+&\small\text{substitute with (2)}&-x^2+\frac{1}{x}\quad&=&&0\\
+&\,&\frac{1}{x}\quad&=&&x^2\\
+&\,&x^3\quad&=&&1\\
+&\,&x\quad&=&&1\\
+&\small\text{substitute in (1)}&1^2+1+1\quad&=&&0\\
+&\qquad\qquad\small\text{Thus}&3\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[3eq0_0.tex](./src/3eq0_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+You see? The subtraction result of $3$ is still $0$.
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.

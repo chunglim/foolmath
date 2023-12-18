@@ -76,6 +76,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - $\frac{dx}{dx}=0$, really? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#fracdxdx0-really)
   - $\pi=-\pi$, what? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pi-pi-what)
   - $2=3$, isn't it absurd? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#23-isnt-it-absurd)
+  - What if $3=0$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#what-if-30)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
