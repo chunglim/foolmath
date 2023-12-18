@@ -302,7 +302,6 @@ Hey what? This is mathematical proof. Find errors, mistakes or oversights.
 \end{alignat*}
 ```
 _source code:_&nbsp;[dx_by_dx_0.tex](./src/dx_by_dx_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
-
 Hold on! `x terms` implies that `x` is an _integer_ not a _real number_. In calculus, aren't all variables and functions required to be _continuous_, not _discrete_? If `x` is an _integer_, how can `dx` approach zero?
 
 ### **$`\pi=-\pi`$, what?**
@@ -329,6 +328,25 @@ Hold on! `x terms` implies that `x` is an _integer_ not a _real number_. In calc
 _source code:_&nbsp;[pi-pi.tex](./src/pi-pi.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 Would there be minus areas or minus circumferences then?
+
+### **$`2=3`$, isn't it absurd?**
+
+```math
+\begin{alignat*}{5}
+&\,&1\quad&=\quad&&1\\
+&\,&41-40\quad&=&&61-60\\
+&\,&16+25-40\quad&=&&36+25-60\\
+&\,&16-40+25\quad&=&&36-60+25\\
+&\,&4^2-2(4)(5)+5^2\quad&=&&6^2-2(6)(5)+5^2\\
+&\,&(4-5)^2\quad&=&&(6-5)^2\\
+&\,&4-\cancel{5}\quad&=&&6-\cancel{5}\\
+&\,&4\quad&=&&6\\
+&\small\text{Thus}&2\quad&=&&3\\
+\end{alignat*}
+```
+_source code:_&nbsp;[2eq3_0.tex](./src/2eq3_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Well, this is another trick of $\sqrt{-1^2}$.
 
 ### **Support _foolmath_**
 

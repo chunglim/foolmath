@@ -75,6 +75,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - How do programmers increase a variable? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-do-programmers-increase-a-variable)
   - $\frac{dx}{dx}=0$, really? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#fracdxdx0-really)
   - $\pi=-\pi$, what? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pi-pi-what)
+  - $2=3$, isn't it absurd? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#23-isnt-it-absurd)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
