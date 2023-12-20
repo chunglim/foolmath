@@ -367,6 +367,72 @@ _source code:_&nbsp;[3eq0_0.tex](./src/3eq0_0.tex)&nbsp;|&nbsp;[Go to top](#page
 
 You see? The subtraction result of $3$ is still $0$.
 
+### **Do you know that $`1=-1`$?**
+
+#### **Solution 1**
+
+```math
+\begin{alignat*}{5}
+&\,&1\quad&=\quad&&\sqrt{1}\\
+&\,&\,&=&&\sqrt{(-1)(-1)}\\
+&\,&\,&=&&\sqrt{-1}\sqrt{-1}\\
+&\,&\,&=&&i*i\\
+&\,&\,&=&&i^2\\
+&\small\text{Thus}\normalsize\qquad&1\quad&=&&-1
+\end{alignat*}
+```
+_source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents))
+
+Or even an easier proof
+
+#### **Solution 2**
+
+```math
+\begin{alignat*}{5}
+&\,&-1\quad&=\quad&&(-1)^{2.\frac{1}{2}}\\
+&\,&\,&=&&1^\frac{1}{2}\\
+&\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
+\end{alignat*}
+```
+_source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+There are many more fool proofs like this using complex number.
+
+#### **Solution 3**
+
+```math
+\begin{alignat*}{5}
+&\,&\frac{-1}{1}\quad&=\quad&&\frac{1}{-1}\\
+&\,&\sqrt{\frac{-1}{1}}\quad&=&&\sqrt{\frac{1}{-1}}\\
+&\,&\frac{i}{1}\quad&=&&\frac{1}{i}\\
+&\,&i\quad&=&&\frac{1}{i}\\
+&\,&i^2\quad&=&&1\\
+&\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
+\end{alignat*}
+```
+_source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+#### **Solution 4**
+
+```math
+\begin{alignat*}{5}
+&\,&1\quad&=\quad&&1\\
+&\,&\,&=&&1\cdot1\\
+&\,&\,&=&&1\cdot(-1)^2\\
+&\,&\,&=&&1\cdot(i^2)^2\\
+&\,&\,&=&&1\cdot i^4\\
+&\small\sqrt{}\text{ both sides}\qquad&\sqrt{1}\quad&=&&\sqrt{1\cdot i^4}\\
+&\,&1\quad&=&&\sqrt{1}\cdot\sqrt{i^4}\\
+&\,&\,&=&&1\cdot\left(i^4\right)^\frac{1}{2}\\
+&\,&\,&=&&1\cdot i^2\\
+&\,&\,&=&&1\cdot-1\\
+&\qquad\small\text{Thus}&1\quad&=&&-1
+\end{alignat*}
+```
+_source code:_&nbsp;[1eq-1_3.tex](./src/1eq-1_3.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+From now on, what I owe you is what you owe me.
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.

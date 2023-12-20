@@ -28,7 +28,6 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Summing all natural even numbers [|view it|](#trying-summing-all-natural-even-numbers)
   - Why $0=1$? [|view it|](#why-01)
   - Why $1=2$? [|view it|](#why-12)
-  - Do you know that $1=-1$? [|view it|](#do-you-know-that-1-1)
   - Let's see a little higher numbers, $4=5$. [|view it|](#lets-see-a-little-higher-numbers-45)
   - Are all intergers equal? [|view it|](#are-all-intergers-equal)
   - Why $2+5=8$? [|view it|](#was-i-wrongly-taught-why-258)
@@ -77,6 +76,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - $\pi=-\pi$, what? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pi-pi-what)
   - $2=3$, isn't it absurd? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#23-isnt-it-absurd)
   - What if $3=0$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#what-if-30)
+  - Do you know that $1=-1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#do-you-know-that-1-1)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
@@ -324,53 +324,6 @@ Yet, there is another proof using calculus.
 _source code:_&nbsp;[1eq2_2.tex](./src/1eq2_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you find any clues?
-
-### **Do you know that $`1=-1`$?**
-
-#### **Solution 1**
-
-```math
-\begin{alignat*}{5}
-&\,&1\quad&=\quad&&\sqrt{1}\\
-&\,&\,&=&&\sqrt{(-1)(-1)}\\
-&\,&\,&=&&\sqrt{-1}\sqrt{-1}\\
-&\,&\,&=&&i*i\\
-&\,&\,&=&&i^2\\
-&\small\text{Thus}\normalsize\qquad&1\quad&=&&-1
-\end{alignat*}
-```
-_source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-Or even an easier proof
-
-#### **Solution 2**
-
-```math
-\begin{alignat*}{5}
-&\,&-1\quad&=\quad&&(-1)^{2.\frac{1}{2}}\\
-&\,&\,&=&&1^\frac{1}{2}\\
-&\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
-\end{alignat*}
-```
-_source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-Yet, there is another proof.
-
-#### **Solution 3**
-
-```math
-\begin{alignat*}{5}
-&\,&\frac{-1}{1}\quad&=\quad&&\frac{1}{-1}\\
-&\,&\sqrt{\frac{-1}{1}}\quad&=&&\sqrt{\frac{1}{-1}}\\
-&\,&\frac{i}{1}\quad&=&&\frac{1}{i}\\
-&\,&i\quad&=&&\frac{1}{i}\\
-&\,&i^2\quad&=&&1\\
-&\small\text{Thus}\normalsize\qquad&-1\quad&=&&1
-\end{alignat*}
-```
-_source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-From now on, what I owe you is what you owe me.
 
 ### **Let's see a little higher numbers, $`4=5`$.**
 
