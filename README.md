@@ -547,6 +547,8 @@ Whatever it is, it is not imaginary anyway.
 
 ### **How much is $`\infty`$?**
 
+#### **Solution 1**
+
 ```math
 \begin{alignat*}{5}
 &\,&-\frac{1}{12}\quad&=\quad&&1+2+3+...+\infty\\
@@ -561,7 +563,29 @@ Whatever it is, it is not imaginary anyway.
 &\small\text{Thus}&\infty\quad&=&&\frac{-3\pm\sqrt{3}}{6}
 \end{alignat*}
 ```
-_source code:_&nbsp;[infty.tex](./src/infty.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+_source code:_&nbsp;[infty_0.tex](./src/infty_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Hold on, $\infty$ is probably something else.
+
+#### **Solution 2**
+
+```math
+\begin{alignat*}{5}
+&\,&x\quad&=\quad&&\bar{9}&&\small\text{(1)}\\
+&\,&x\quad&=&&\infty&&\small\text{(2)}\\
+&\small10*\text{(1)}&10x\quad&=&&\bar{9}0\\
+&\small+9\text{ both sides}\qquad&10x+9\quad&=&&\bar{9}\\
+&\small\text{from (1)}&10x+9\quad&=&&x\\
+&\,&9x\quad&=&&-9\\
+&\,&x\quad&=&&-1\qquad&&\small\text{(3)}\\
+&\small\text{(2)=(3)}&\infty\quad&=&&-1&&\small\text{(4)}\\
+&\small1&divide\text{(4)}&\frac{1}{\infty}\quad&=&&\frac{1}{-1}\\
+&\,&0\quad&=&&-1\\
+&\small\text{from (3)}&0\quad&=&&x&&\small\text{(5)}\\
+&\small\text{Thus (2)=(4)=(5)}&\infty\quad&=&&-1\quad=\quad0
+\end{alignat*}
+```
+_source code:_&nbsp;[infty_1.tex](./src/infty_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Here, $\infty$ is so small, you see?
 
