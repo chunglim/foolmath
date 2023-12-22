@@ -77,6 +77,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - $2=3$, isn't it absurd? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#23-isnt-it-absurd)
   - What if $3=0$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#what-if-30)
   - Do you know that $1=-1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#do-you-know-that-1-1)
+  - Is $1$ defined in mathematics? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#is-1-defined-in-mathematics)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**

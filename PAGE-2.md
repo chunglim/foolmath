@@ -433,6 +433,23 @@ _source code:_&nbsp;[1eq-1_3.tex](./src/1eq-1_3.tex)&nbsp;|&nbsp;[Go to top](#pa
 
 From now on, what I owe you is what you owe me.
 
+### **Is $`1`$ defined in mathematics?**
+
+```math
+\begin{alignat*}{5}
+&\,&0\quad&=\quad&&0\\
+&\,&e\cdot0\quad&=\quad&&0^2\\
+&\small\ln{()}\text{ both sides}\qquad&\ln{(e\cdot0)}\quad&=&&\ln{\left(0^2\right)}\\
+&\,&\ln{e+\ln{0}}\quad&=&&2\cdot\ln{0}\\
+&\,&\ln{e}\quad&=&&\ln{0}\\
+&\,&1\quad&=&&\ln{0}\\
+&\qquad\small\text{Thus}&1\quad&\text{ is}&&\text{undefined.}
+\end{alignat*}
+```
+_source code:_&nbsp;[1undefined.tex](./src/1undefined.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Is there anything defined in the universe, then?
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
