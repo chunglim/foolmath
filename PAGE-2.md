@@ -517,7 +517,7 @@ _source code:_&nbsp;[1undefined.tex](./src/1undefined.tex)&nbsp;|&nbsp;[Go to to
 
 Is there anything defined in the universe, then?
 
-### **How much is $`e`$?
+### **How much is $`e`$?**
 
 ```math
 \begin{alignat*}{5}
