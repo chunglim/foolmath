@@ -777,7 +777,7 @@ If you don't believe, yet there are another proofs.
 ```
 _source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-$\pi$ is really zero, let's confirm with the next proof.
+$\pi$ is really zero, let's confirm with the next proofs.
 
 #### **Solution 3**
 
@@ -795,9 +795,27 @@ $\pi$ is really zero, let's confirm with the next proof.
 ```
 _source code:_&nbsp;[pi_eq_0_2.tex](./src/pi_eq_0_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
+#### **Solution 4**
+
+```math
+\begin{alignat*}{5}
+&\,&e^{i\pi}\quad&=\quad&&-1\\
+&\,&\left(e^{i\pi}\right)^2\quad&=\quad&&(-1)^2\\
+&\,&e^{2i\pi}\quad&=&&1\qquad\qquad&\small\text{(1)}\\
+&\,&\sqrt[^i]{2}\quad&=&&\sqrt[^i]{2}\\
+&\small\text{from (1)}&\sqrt[^i]{2\cdot e^{2i\pi}}\quad&=&&\sqrt[^i]{2}\\
+&\,&\cancel{\sqrt[^i]{2}}\cdot\sqrt[^i]{e^{2i\pi}}\quad&=&&\cancel{\sqrt[^i]{2}}\\
+&\,&e^{\frac{2\cancel{i}\pi}{\cancel{i}}}\quad&=&&1\\
+&\small\ln{}\text{ both sides}\normalsize\qquad&\ln{e^{2\pi}}\quad&=&&\ln{1}\\
+&\,&2\pi\cancelto{1}{\ln{e}}\quad&=&&0\\
+&\qquad\small\text{Thus}&\pi\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_0_3.tex](./src/pi_eq_0_3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
 Hold on, $\pi$ is probably something else.
 
-#### **Solution 4**
+#### **Solution 5**
 
 ```math
 \begin{alignat*}{5}
@@ -819,7 +837,7 @@ _source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)&nbsp;|&nbsp;[Go to top]
 
 Yet, there is another silly proof.
 
-#### **Solution 5**
+#### **Solution 6**
 
 ```math
 \begin{alignat*}{5}
