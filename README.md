@@ -63,11 +63,11 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
   - How is $6$ afraid of $7$? It ain't and will never be. [|view it|](#how-is-6-afraid-of-7-it-aint-and-will-never-be)
   - The first equation we learnt in kindergartens [|view it|](#the-first-equation-we-learnt-in-kindergartens)
-  - Production of all multiple of $2$ [|view it|](#production-of-all-multiple-of-2)
-  - Production of all natural odd numbers [|view it|](#production-of-all-natural-odd-numbers)
-  - Production of all natural numbers [|view it|](#production-of-all-natural-numbers)
-  - Production of all natural even numbers [|view it|](#production-of-all-natural-even-numbers)
 + Page 2 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#page-2)
+  - Production of all multiple of $2$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-multiple-of-2)
+  - Production of all natural odd numbers [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-natural-odd-numbers)
+  - Production of all natural numbers [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-natural-numbers)
+  - Production of all natural even numbers [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-natural-even-numbers)
   - Infinite numbers of primes [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infinite-numbers-of-primes)
   - Magic squares [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#magic-squares)
   - Why is $\sqrt{2}$ irrational? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#why-is-sqrt2-irrational)
@@ -1407,73 +1407,6 @@ Here, we prove the same way we previously did.
 _source code:_&nbsp;[11_3.tex](./src/11_3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Do you find any difference from what you have learnt in your kindergarten?
-
-### **Production of all multiple of $`2`$**
-
-```math
-\begin{alignat*}{5}
-&\rlap{\text{Find production of all multiple of 2}}\\
-&\small\text{find}\normalsize\qquad&A\quad&=\quad&&2*4*8*16*32*64*...\\
-&\,&\,&=&&2^1\cdot2^2\cdot2^3\cdot2^4\cdot2^5\cdot2^6\cdot...\\
-&\,&\,&=&&2^{(1+2+3+4+5+6+...)}\\
-&\small\text{Thus}&A\quad&=&&2^{-\frac{1}{12}}
-\end{alignat*}
-```
-_source code:_&nbsp;[prod_mul2.tex](./src/prod_mul2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-The result is so small, indeed.
-
-### **Production of all natural odd numbers**
-
-```math
-\begin{alignat*}{5}
-&\rlap{\text{Find production of all natural odd numbers}}\\
-&\small\text{find}\normalsize\qquad&B\quad&=\quad&&1*3*5*7*...\\
-&\small\text{let}&C\quad&=&&1*2*3*4*5*6*7*8*...\\
-&\,&\,&=&&(2*4*6*8*...)(1*3*5*7*...)\\
-&\,&\,&=&&(2(1)*2(2)*2(3)*2(4)*...)(1*3*5*7*...)\\
-&\,&\,&=&&2^\infty(1*2*3*4*...)(1*3*5*7*...)\\
-&\,&\cancel{C}\quad&=&&2^\infty\cancel{C}B\\
-&\,&B\quad&=&&\frac{1}{2^\infty}\\
-&\small\text{Thus}&B\quad&=&&0
-\end{alignat*}
-```
-_source code:_&nbsp;[prod_nat_odd.tex](./src/prod_nat_odd.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-Nah nah, it shouldn't be that small.
-
-### **Production of all natural numbers**
-
-```math
-\begin{alignat*}{5}
-&\rlap{\text{Find production of all natural numbers}}\\
-&\small\text{find}\normalsize\qquad&C\quad&=\quad&&1*2*3*4*5*6*7*8*...\\
-&\,&\,&=&&(1*3*5*7*...)(2*4*6*8*...)\\
-&\,&\,&=&&B(2*4*6*8*...)\\
-&\,&\,&=&&0(2*4*6*8*...)\\
-&\small\text{Thus}&C\quad&=&&0
-\end{alignat*}
-```
-_source code:_&nbsp;[prod_nat.tex](./src/prod_nat.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-Oops, zero once again!
-
-### **Production of all natural even numbers**
-
-```math
-\begin{alignat*}{5}
-&\rlap{\text{Find production of all natural even numbers}}\\
-&\small\text{find}&D\quad&=\quad&&2*4*6*8*...\\
-&\,&\,&=&&2(1*2*3*4*...)\\
-&\rlap{\small\text{From the previous proof}}\\
-&\,&D\quad&=&&2C\\
-&\small\text{As }C=0\normalsize\qquad&D\quad&=&&2\cdot0\\
-&\small\text{Thus}&D\quad&=&&0
-\end{alignat*}
-```
-_source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-Hey what? Why are these results zero? Is the universe simply empty?
 
 ### **Support _foolmath_**
 

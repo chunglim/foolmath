@@ -4,6 +4,73 @@
 
 [Previous Page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;Next Page&nbsp;|&nbsp;[Contribute](#support-foolmath)
 
+### **Production of all multiple of $`2`$**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all multiple of 2}}\\
+&\small\text{find}\normalsize\qquad&A\quad&=\quad&&2*4*8*16*32*64*...\\
+&\,&\,&=&&2^1\cdot2^2\cdot2^3\cdot2^4\cdot2^5\cdot2^6\cdot...\\
+&\,&\,&=&&2^{(1+2+3+4+5+6+...)}\\
+&\small\text{Thus}&A\quad&=&&2^{-\frac{1}{12}}
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_mul2.tex](./src/prod_mul2.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+The result is so small, indeed.
+
+### **Production of all natural odd numbers**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all natural odd numbers}}\\
+&\small\text{find}\normalsize\qquad&B\quad&=\quad&&1*3*5*7*...\\
+&\small\text{let}&C\quad&=&&1*2*3*4*5*6*7*8*...\\
+&\,&\,&=&&(2*4*6*8*...)(1*3*5*7*...)\\
+&\,&\,&=&&(2(1)*2(2)*2(3)*2(4)*...)(1*3*5*7*...)\\
+&\,&\,&=&&2^\infty(1*2*3*4*...)(1*3*5*7*...)\\
+&\,&\cancel{C}\quad&=&&2^\infty\cancel{C}B\\
+&\,&B\quad&=&&\frac{1}{2^\infty}\\
+&\small\text{Thus}&B\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_nat_odd.tex](./src/prod_nat_odd.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Nah nah, it shouldn't be that small.
+
+### **Production of all natural numbers**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all natural numbers}}\\
+&\small\text{find}\normalsize\qquad&C\quad&=\quad&&1*2*3*4*5*6*7*8*...\\
+&\,&\,&=&&(1*3*5*7*...)(2*4*6*8*...)\\
+&\,&\,&=&&B(2*4*6*8*...)\\
+&\,&\,&=&&0(2*4*6*8*...)\\
+&\small\text{Thus}&C\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_nat.tex](./src/prod_nat.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Oops, zero once again!
+
+### **Production of all natural even numbers**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\text{Find production of all natural even numbers}}\\
+&\small\text{find}&D\quad&=\quad&&2*4*6*8*...\\
+&\,&\,&=&&2(1*2*3*4*...)\\
+&\rlap{\small\text{From the previous proof}}\\
+&\,&D\quad&=&&2C\\
+&\small\text{As }C=0\normalsize\qquad&D\quad&=&&2\cdot0\\
+&\small\text{Thus}&D\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[prod_nat_even.tex](./src/prod_nat_even.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Hey what? Why are these results zero? Is the universe simply empty?
+
 ### **Infinite numbers of primes**
 
 We have been dealing with fool proofs so far, let's talk about valid mathematical properties again.
