@@ -78,6 +78,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - What if $3=0$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#what-if-30)
   - Do you know that $1=-1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#do-you-know-that-1-1)
   - Is $1$ defined in mathematics? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#is-1-defined-in-mathematics)
+  - How much is $e$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-much-is-e)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**

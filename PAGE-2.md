@@ -517,6 +517,18 @@ _source code:_&nbsp;[1undefined.tex](./src/1undefined.tex)&nbsp;|&nbsp;[Go to to
 
 Is there anything defined in the universe, then?
 
+### **How much is $`e`$?
+
+```math
+\begin{alignat*}{5}
+&\,&e\quad&=\quad&&e^\frac{2i\pi}{2i\pi}\\
+&\,&\,&=&&\left(e^{2i\pi}\right)^\frac{1}{2i\pi}\\
+&\,&\,&=&&1^\frac{1}{2i\pi}\\
+&\small\text{Thus}\normalsize\qquad&e\quad&=&&1\\
+\end{alignat*}
+```
+_source code:_&nbsp;[e_eq_1_0.tex](./src/e_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
