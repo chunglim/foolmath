@@ -532,7 +532,7 @@ _source code:_&nbsp;[e_eq_1_0.tex](./src/e_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#
 ### **How much is $`\frac{a}{0}`$?**
 
 ```math
-n{alignat*}{5}
+\begin{alignat*}{5}
 &\small\text{Let}&x\quad&=\quad&&\frac{a}{0}\qquad&\small\text{(1)}\\
 &\,&\frac{1}{x}\quad&=&&\cancelto{0}{\frac{0}{a}}\qquad&\small\text{(2)}\\
 &\,&\frac{1}{x}\quad&=&&0\\
