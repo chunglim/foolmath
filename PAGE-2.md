@@ -529,6 +529,30 @@ Is there anything defined in the universe, then?
 ```
 _source code:_&nbsp;[e_eq_1_0.tex](./src/e_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
+### **How much is $`\frac{a}{0}`$?**
+
+```math
+n{alignat*}{5}
+&\small\text{Let}&x\quad&=\quad&&\frac{a}{0}\qquad&\small\text{(1)}\\
+&\,&\frac{1}{x}\quad&=&&\cancelto{0}{\frac{0}{a}}\qquad&\small\text{(2)}\\
+&\,&\frac{1}{x}\quad&=&&0\\
+&\small\text{(1)+(2)}&x+\frac{1}{x}\quad&=&&\frac{a}{0}+\cancelto{0}{\frac{0}{a}}\\
+&\small\text{from (1)}&x+\frac{1}{x}\quad&=&&x\\
+&\,&\left(x+\frac{1}{x}\right)^2\quad&=&&x^2\\
+&\,&\cancel{x^2}+2\cancel{x}\frac{1}{\cancel{x}}+\left(\frac{1}{x}\right)^2\quad&=&&\cancel{x^2}\\
+&\,&2+\frac{1}{x^2}\quad&=&&0\\
+&\,&\frac{1}{x^2}\quad&=&&-2{}\\
+&\,&x\quad&=&&\pm\frac{1}{\sqrt{-2}}\\
+&\small\text{from (1)}&\frac{a}{0}\quad&=&&\pm\frac{1}{\sqrt{-2}}\\
+&\,&\,&=&&\pm\frac{1}{\sqrt{2}\cdot\,i}\\
+&\small -i=\frac{1}{i}&\,&=&&\pm\frac{1}{\sqrt{2}}\cdot(-i)\\
+&\small\text{Thus}&\frac{a}{0}\quad&=&&\mp\sin{\left(\frac{\pi}{4}\right)}\cdot\,i
+\end{alignat*}
+```
+_source code:_&nbsp;[a_over_0.tex](./src/a_over_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+There are many ways to skin a cat, actually.
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
