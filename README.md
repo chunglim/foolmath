@@ -592,6 +592,29 @@ _source code:_&nbsp;[infty_1.tex](./src/infty_1.tex)&nbsp;|&nbsp;[Go to top](#we
 
 Here, $\infty$ is so small, you see?
 
+#### **Solution 3**
+
+```math
+\begin{alignat*}{5}
+&\,&\infty\quad&=\quad&&1+1+1+1+...\\
+&\small\text{regroup in multiple of 2}&\,&=&&2+4+6+8+...\\
+&\,&\,&=&&2(1+2+3+4+...)\\
+&\,&\,&=&&2\left(-\frac{1}{12}\right)\\
+&\qquad\qquad\small\text{Thus}&\infty\quad&=&&-\frac{1}{6}\\
+&\small\text{or regroup in multiple of 3}&\,&=&&3+6+9+12+...\\
+&\,&\,&=&&3(1+2+3+4+...)\\
+&\,&\,&=&&3\left(-\frac{1}{12}\right)\\
+&\qquad\qquad\small\text{Thus}&\infty\quad&=&&-\frac{1}{4}\\
+&\small\text{or regroup in multiple of 96}\normalsize\qquad&\,&=&&96+192+288+384+...\\
+&\,&\,&=&&96(1+2+3+4+...)\\
+&\,&\,&=&&96\left(-\frac{1}{12}\right)\\
+&\qquad\qquad\small\text{Thus}&\infty\quad&=&&-8\\
+\end{alignat*}
+```
+_source code:_&nbsp;[infty_2.tex](./src/infty_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
+Well, $\infty$ can be anything negative.
+
 ### **How much is $`0.\infty`$?**
 
 ```math
