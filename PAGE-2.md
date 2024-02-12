@@ -500,6 +500,26 @@ _source code:_&nbsp;[1eq-1_3.tex](./src/1eq-1_3.tex)&nbsp;|&nbsp;[Go to top](#pa
 
 From now on, what I owe you is what you owe me.
 
+### **Oh what, $`\pm2\pi=0`$?**
+
+```math
+\begin{alignat*}{5}
+&\small\text{from the previous proof}&-1\quad&=\quad&&1\qquad\quad&\small\text{(1)}\\
+&\,&\ln{(-1)}\quad&=&&\ln{(1)}\\
+&\,&\ln{e^{i\pi}}\quad&=&&0\\
+&\,&i\pi\cancelto{1}{\ln{e}}\quad&=&&0\\
+&\,&i\pi\quad&=&&0\\
+&\small\times2i\text{ both sides}&2i\cdot\,i\pi\quad&=&&2i\cdot\,0\\
+&\,&2i^2\pi\quad&=&&0\\
+&\small\,i^2=-1&-2\pi\quad&=&&0&\small\text{(2)}\\
+&\small\text{(1)}\times\text{(2)}&2\pi\quad&=&&0&\small\text{(3)}\\
+&\qquad\qquad\small\text{Thus}&\pm2\pi\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[pm2pi_eq_0.tex](./src/pm2pi_eq_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Isn't it the reason, $\sin{(x)}=x$?
+
 ### **Is $`1`$ defined in mathematics?**
 
 ```math
