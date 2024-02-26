@@ -573,6 +573,27 @@ _source code:_&nbsp;[a_over_0.tex](./src/a_over_0.tex)&nbsp;|&nbsp;[Go to top](#
 
 There are many ways to skin a cat, actually.
 
+### **$`\pi`$ can be any real numbers.**
+
+```math
+\begin{alignat*}{5}
+&\qquad\qquad\small\text{Let}&C\quad&=\quad&&\frac{\pi+R}{2}\qquad&\small R\text{ is any real numbers}\\
+&\small\times(\pi-R)&(\pi-R)C\quad&=&&(\pi-R)\frac{\pi+R}{2}\\
+&\,&(\pi-R)2C\quad&=&&(\pi-R)(\pi+R)\\
+&\,&2\pi C-2RC\quad&=&&\pi^2-R^2\\
+&\small+(R^2-2\pi C)\quad&R^2-\cancel{2\pi C}+\cancel{2\pi C}-2RC\quad&=&&\cancel{R^2}-2\pi C+\pi^2-\cancel{R^2}\\
+&\,&-2RC+R^2\quad&=&&-2\pi C+\pi^2\\
+&\small+C^2&C^2-2RC+R^2\quad&=&&C^2-2\pi C+\pi^2\\
+&\,&(C-R)^2\quad&=&&(C-\pi)^2\\
+&\,&\cancel{C}-R\quad&=&&\cancel{C}-\pi\\
+&\,&\pi\quad&=&&R\\
+&\rlap{\qquad\qquad\qquad\qquad\qquad\qquad\text{Thus $\pi$ can be any real numbers.}}
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_is_any_real.tex](./src/pi_is_any_real.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Doesn't it also apply to $e$ or $\Phi$?
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
