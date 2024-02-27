@@ -610,7 +610,7 @@ Doesn't it also apply to $e$ or $\Phi$?
 ```
 _source code:_&nbsp;[infty_eq_0_0.tex](./src/infty_eq_0_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
-The universe is tryly empty.
+The universe is truly empty.
 
 ### **Support _foolmath_**
 
