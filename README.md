@@ -82,6 +82,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - How much is $e$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-much-is-e)
   - How much is $\frac{a}{0}$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#how-much-is-fraca0)
   - $\pi$ can be any real numbers. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pi-can-be-any-real-numbers)
+  - $\infty=0$, the universe is empty. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infty0-the-universe-is-empty)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**

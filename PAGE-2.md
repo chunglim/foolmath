@@ -594,6 +594,24 @@ _source code:_&nbsp;[pi_is_any_real.tex](./src/pi_is_any_real.tex)&nbsp;|&nbsp;[
 
 Doesn't it also apply to $e$ or $\Phi$?
 
+### **$`\infty=0`$, the universe is empty.**
+
+```math
+\begin{alignat*}{5}
+&\,&1\quad&=\quad&&\lim_{x\to0}\left(\frac{\int\,x\,dx}{\int\,x\,dx}\right)\\
+&\,&\,&=&&\lim_{x\to0}\left(\frac{\frac{x^2}{2}+C_1}{\frac{x^2}{2}+C_2}\right)\\
+&\small\text{Let }C_1=1; C_2=0&\,&=&&\lim_{x\to0}\left(\frac{\frac{x^2}{2}+1}{\frac{x^2}{2}}\right)\\
+&\,&\,&=&&\lim_{x\to0}\left({\frac{x^2+2}{x^2}}\right)\\
+&\,&\,&=&&\lim_{x\to0}\left(\frac{x^2}{x^2}+\frac{2}{x^2}\right)\\
+&\,&\,&=&&1+\lim_{x\to0}\left(\frac{2}{x^2}\right)\\
+&\,&1\quad&=&&1+\infty\\
+&\qquad\small\text{Thus}&\infty\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[infty_eq_0_0.tex](./src/infty_eq_0_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+The universe is tryly empty.
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
