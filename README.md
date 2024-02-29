@@ -587,8 +587,8 @@ Hold on, $\infty$ is probably something else.
 &\small\text{(2)=(3)}&\infty\quad&=&&-1&&\small\text{(4)}\\
 &\small1&divide\text{(4)}&\frac{1}{\infty}\quad&=&&\frac{1}{-1}\\
 &\,&0\quad&=&&-1\\
-&\small\text{from (3)}&0\quad&=&&x&&\small\text{(5)}\\
-&\small\text{Thus (2)=(4)=(5)}&\infty\quad&=&&-1\quad=\quad0
+&\small\text{from (3)}&x\quad&=&&0&&\small\text{(5)}\\
+&\small\text{Thus (2)=(3)=(5)}&\infty\quad&=&&-1\quad=\quad0
 \end{alignat*}
 ```
 _source code:_&nbsp;[infty_1.tex](./src/infty_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
