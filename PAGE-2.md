@@ -612,6 +612,26 @@ _source code:_&nbsp;[infty_eq_0_0.tex](./src/infty_eq_0_0.tex)&nbsp;|&nbsp;[Go t
 
 The universe is truly empty.
 
+### **$`\pi=e`$, why do engineers say so?**
+
+```math
+\begin{alignat*}{5}
+&\qquad\small\text{Let}&x\quad&=\quad&&\frac{\pi+e}{2}\\
+&\small\times2&2x\quad&=&&\cancel{2}\cdot\frac{\pi+e}{\cancel{2}}\\
+&\small\times(\pi-e)\qquad&2x(\pi-e)\quad&=&&(\pi+e)(\pi-e)\\
+&\,&2\pi x-2ex\quad&=&&\pi^2-e^2\\
+&\,&-\pi^2+2\pi x\quad&=&&-e^2+2ex\\
+&\small\times-1&\pi^2-2\pi x\quad&=&&e^2-2ex\\
+&\small+x^2&\pi^2-2\pi x+x^2\quad&=&&e^2-2ex+x^2\\
+&\,&\left(\pi-x\right)^2\quad&=&&(e-x)^2\\
+&\,&\pi-\cancel{x}\quad&=&&e-\cancel{x}\\
+&\qquad\small\text{Thus}&\pi\quad&=&&e
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_e.tex](./src/pi_eq_e.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Hold on! you haven't said about the definitions of $\pi$ and $e$. Can we apply the same proof to any real numbers?
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
