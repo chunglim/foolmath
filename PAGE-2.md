@@ -632,6 +632,23 @@ _source code:_&nbsp;[pi_eq_e.tex](./src/pi_eq_e.tex)&nbsp;|&nbsp;[Go to top](#pa
 
 Hold on! you haven't said about the definitions of $\pi$ and $e$. Can we apply the same proof to any real numbers?
 
+### **Freak again $`i=\infty`$**
+
+```math
+\begin{alignat*}{5}
+&\,&-1\quad&=\quad&&e^{\pi i}\\
+&\small{\text{square root}}\qquad&\sqrt{-1}\quad&=&&e^{\frac{\pi}{2}i}\\
+&\,&i\quad&=&&e^{\frac{\pi}{2}i}\\
+&\,&\,&=&&e^{\frac{\pi}{2}e^{\frac{\pi}{2}i}}\\
+&\,&\,&=&&e^{\frac{\pi}{2}e^{\frac{\pi}{2}e^{\frac{\pi}{2}i}}}\\
+&\small{\text{continue}}&\,&=&&e^{\frac{\pi}{2}e^{\frac{\pi}{2}e^{\frac{\pi}{2}\ldots^{\infty}}}}\\
+&\scriptstyle{\text{Thus}}&i\quad&=&&\infty
+\end{alignat*}
+```
+_source code:_&nbsp;[i_eq_infty.tex](./src/i_eq_infty.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+$\infty$ is always imaginary.
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
