@@ -26,14 +26,14 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Summing the power of two [|view it|](#what-if-summing-the-power-of-two)
   - Summing all natural odd numbers [|view it|](#what-if-summing-all-natural-odd-numbers)
   - Summing all natural even numbers [|view it|](#trying-summing-all-natural-even-numbers)
-  - Why $0=1$? [|view it|](#why-01)
-  - Why $1=2$? [|view it|](#why-12)
+  - Why is $0=1$? [|view it|](#why-is-01)
+  - Why is $1=2$? [|view it|](#why-is-12)
   - Let's see a little higher numbers, $4=5$. [|view it|](#lets-see-a-little-higher-numbers-45)
   - Are all intergers equal? [|view it|](#are-all-intergers-equal)
-  - Why $2+5=8$? [|view it|](#was-i-wrongly-taught-why-258)
+  - Why is $2+5=8$? [|view it|](#was-i-wrongly-taught-why-is-258)
   - Just another freak, $9=17$. [|view it|](#just-another-freak-917)
   - Very silly solutions to find $\frac{0}{0}$. [|view it|](#very-silly-solutions-to-find-frac00)
-  - Who said $i$ is imaginary, why $i=1$ then? [|view it|](#who-said-i-is-imaginary-why-i1-then)
+  - Who said $i$ is imaginary, why is $i=1$ then? [|view it|](#who-said-i-is-imaginary-why-is-i1-then)
   - Let's talk more about $i$. [|view it|](#lets-talk-more-about-i)
   - $i=\pm1$, isn't it? [|view it|](#ipm1-isnt-it)
   - $i=0$, probably [|view it|](#i0-probably)
@@ -47,7 +47,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - How much is $i^i$? [|view it|](#how-much-is-ii)
   - How much is $\sqrt[^i]{i}$? [|view it|](#how-much-is-sqrtii)
   - Who said $n^0=1$? [|view it|](#who-said-n01)
-  - Why $\frac{d}{dx}e^x=e^x$? [|view it|](#you-might-be-wondering-why-fracddxexex)
+  - Why is $\frac{d}{dx}e^x=e^x$? [|view it|](#you-might-be-wondering-why-is-fracddxexex)
   - Why is multiplying factor converting the power $1\phi$ to $3\phi$ is $\sqrt{3}$? [|view it|](#multiplying-factor-to-change-power-voltage-from-1phi-to-3phi)
   - Magic numbers [|view it|](#magic-numbers)
   - Vortex math [|view it|](#vortex-math)
@@ -84,7 +84,8 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - $\pi$ can be any real numbers. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pi-can-be-any-real-numbers)
   - $\infty=0$, the universe is empty. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infty0-the-universe-is-empty)
   - $\pi=e$, why do engineers say so? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pie-why-do-engineers-say-so)
-  - Freak again $i=\infty$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#freak-again-iinfty)
+  - Freak again, $i=\infty$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#freak-again-iinfty)
+  - Whether $i$ or $\pi$ is $0$. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#whether-i-or-pi-is-0)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
@@ -227,11 +228,11 @@ _source code:_&nbsp;[sum_of_even_1.tex](./src/sum_of_even_1.tex)&nbsp;|&nbsp;[Go
 
 Same result, do you start to believe?
 
-### **Why $`0=1`$?**
+### **Why is $`0=1`$?**
 
 Here come the most foolish proof!
 
-#### **Solution 1**
+#### **Proof 1**
 
 ```math
 \begin{alignat*}{5}
@@ -246,7 +247,7 @@ _source code:_&nbsp;[0eq1_0.tex](./src/0eq1_0.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 What about the second most foolish proof?
 
-#### **Solution 2**
+#### **Proof 2**
 
 ```math
 \begin{alignat*}{5}
@@ -260,7 +261,7 @@ _source code:_&nbsp;[0eq1_1.tex](./src/0eq1_1.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 Is there any proof looking more advanced than these?
 
-#### **Solution 3**
+#### **Proof 3**
 
 ```math
 \begin{alignat*}{5}
@@ -277,11 +278,11 @@ _source code:_&nbsp;[0eq1_2.tex](./src/0eq1_2.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 Can you find an error? Hmm, binary no longer exists.
 
-### **Why $`1=2`$?**
+### **Why is $`1=2`$?**
 
 Here, the proof I learnt in junior high school.
 
-#### **Solution 1**
+#### **Proof 1**
 
 ```math
 \begin{alignat*}{5}
@@ -300,7 +301,7 @@ _source code:_&nbsp;[1eq2_0.tex](./src/1eq2_0.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 Nah, there is another proof in high school using trigonometry.
 
-#### **Solution 2**
+#### **Proof 2**
 
 ```math
 \begin{alignat*}{5}
@@ -318,7 +319,7 @@ _source code:_&nbsp;[1eq2_1.tex](./src/1eq2_1.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 Yet, there is another proof using calculus.
 
-#### **Solution 3**
+#### **Proof 3**
 
 ```math
 \begin{alignat*}{5}
@@ -382,7 +383,7 @@ _source code:_&nbsp;[all_int_eq.tex](./src/all_int_eq.tex)&nbsp;|&nbsp;[Go to to
 It is very articulate, indeed.<br><br>
 There is one more simple equation. Have a look.
 
-### **Was I wrongly taught? Why $`2+5=8`$?**
+### **Was I wrongly taught? Why is $`2+5=8`$?**
 
 ```math
 \begin{alignat*}{5}
@@ -453,7 +454,7 @@ _source code:_&nbsp;[0by0_1.tex](./src/0by0_1.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 Bruh, how can you divide $(10-10)$ with $(10-10)$?
 
-### **Who said $`i`$ is imaginary, why $`i=1`$, then?**
+### **Who said $`i`$ is imaginary, why is $`i=1`$, then?**
 
 ```math
 \begin{alignat*}{5}
@@ -705,7 +706,7 @@ Let's see the first fool proofs using _Euler's identity_.
 
 ### **$`e^x=1`$, no matter what $`x`$ maybe.**
 
-#### **Solution 1**
+#### **Proof 1**
 
 ```math
 \begin{alignat*}{5}
@@ -730,7 +731,7 @@ _source code:_&nbsp;[ex_eq_1_0.tex](./src/ex_eq_1_0.tex)&nbsp;|&nbsp;[Go to top]
 Q: Bruh, how can you divide by $0$ and evaluate $1^\infty$ to $1$?<br>
 A: Hold on, there is another neater proof.
 
-#### **Solution 2**
+#### **Proof 2**
 
 ```math
 \begin{alignat*}{5}
@@ -778,7 +779,7 @@ Now, let's see the value of $\frac{\text{circumference}}{\text{diameter}}$, you 
 ```
 _source code:_&nbsp;[pi_eq_0_0.tex](./src/pi_eq_0_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-If you don't believe, yet there are another proofs.
+If you don't believe, yet there are another solutions.
 
 #### **Solution 2**
 
@@ -807,7 +808,7 @@ If you don't believe, yet there are another proofs.
 ```
 _source code:_&nbsp;[pi_eq_0_1.tex](./src/pi_eq_0_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-$\pi$ is really zero, let's confirm with the next proofs.
+$\pi$ is really zero, let's confirm with the next solution.
 
 #### **Solution 3**
 
@@ -865,7 +866,7 @@ Hold on, $\pi$ is probably something else.
 ```
 _source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Yet, there is another silly proof.
+Yet, there is another silly solution.
 
 #### **Solution 6**
 
@@ -937,11 +938,11 @@ It is still a constant, but not `1`, not even an integer.<br>
 It is even an irrational and transcendental number.<br><br>
 Next, let's see valid proofs.
 
-### **You might be wondering, why $`\frac{d}{dx}e^x=e^x`$?**
+### **You might be wondering, why is $`\frac{d}{dx}e^x=e^x`$?**
 
 There are many solutions out there, let's have a look.
 
-#### **Solution 1: _Limit Definition_**
+#### **Proof 1: _Limit Definition_**
 
 ```math
 \begin{alignat*}{5}
@@ -966,7 +967,7 @@ There are many solutions out there, let's have a look.
 ```
 _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-#### **Solution 2: _Taylor Series_**
+#### **Proof 2: _Taylor Series_**
 
 ```math
 \begin{alignat*}{5}
@@ -981,7 +982,7 @@ _source code:_&nbsp;[d_e_power_x_0.tex](./src/d_e_power_x_0.tex)&nbsp;|&nbsp;[Go
 ```
 _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-#### **Solution 3: _Implicit Differentiation_**
+#### **Proof 3: _Implicit Differentiation_**
 
 ```math
 \begin{alignat*}{5}
@@ -997,7 +998,7 @@ _source code:_&nbsp;[d_e_power_x_1.tex](./src/d_e_power_x_1.tex)&nbsp;|&nbsp;[Go
 ```
 _source code:_&nbsp;[d_e_power_x_2.tex](./src/d_e_power_x_2.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-#### **Solution 4: _Differential Equation_**
+#### **Proof 4: _Differential Equation_**
 
 ```math
 \begin{alignat*}{5}

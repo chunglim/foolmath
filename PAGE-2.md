@@ -78,7 +78,7 @@ We have been dealing with fool proofs so far, let's talk about valid mathematica
 You might have ever wondered, how many prime numbers there are. Is there an upper limit of primes, so called `the highest prime`? As the number grows higher, there will be also higher number of divisible divisors. This assumption may limit the size of primes.<br>
 Well, there have been many proofs over centuries. The number of primes is infinite or unlimited. (valid)
 
-#### **Solution: _Euclid's Proof_ (300 BC)**
+#### **_Euclid's Proof_ (300 BC)**
 
 + Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
 + Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
@@ -91,7 +91,7 @@ Well, there have been many proofs over centuries. The number of primes is infini
     * Since $|P-Q|=|P-(P+1)|=|\cancel{P}-\cancel{P}-1|=1$, so $1$ divides $p$ that is not possible.
 + Thus there are always primes outside our finite list no matter how big our finite list is, i.e. there are infinite number of primes. (valid proof)
 
-#### **Other solutions**
+#### **Other proofs**
 
 From time to time, there were several proofs, which you can find them in the following list.
 
@@ -211,10 +211,10 @@ _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&
 Note that `%` or probably `$` is a shell prompt, you don't have to type.
 
 For GNU `gcc`,<br>
-% `gcc -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic -s square.c`
+% `gcc -Wall -Wextra -Werror -pedantic-errors -O2 -std=c99 -pedantic -s square.c`
 
 For LLVM `clang`, it is nearly the same, just omit `-s` option,<br>
-% `clang -Wall -Wextra -Werror -pedantic-errors -Os -std=c99 -pedantic square.c`
+% `clang -Wall -Wextra -Werror -pedantic-errors -O2 -std=c99 -pedantic square.c`
 
 **Running**
 
@@ -436,7 +436,7 @@ You see? The subtraction result of $3$ is still $0$.
 
 ### **Do you know that $`1=-1`$?**
 
-#### **Solution 1**
+#### **Proof 1**
 
 ```math
 \begin{alignat*}{5}
@@ -452,7 +452,7 @@ _source code:_&nbsp;[1eq-1_0.tex](./src/1eq-1_0.tex)&nbsp;|&nbsp;[Go to top](#pa
 
 Or even an easier proof
 
-#### **Solution 2**
+#### **Proof 2**
 
 ```math
 \begin{alignat*}{5}
@@ -465,7 +465,7 @@ _source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)&nbsp;|&nbsp;[Go to top](#pa
 
 There are many more fool proofs like this using complex number.
 
-#### **Solution 3**
+#### **Proof 3**
 
 ```math
 \begin{alignat*}{5}
@@ -479,7 +479,7 @@ There are many more fool proofs like this using complex number.
 ```
 _source code:_&nbsp;[1eq-1_2.tex](./src/1eq-1_2.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
-#### **Solution 4**
+#### **Proof 4**
 
 ```math
 \begin{alignat*}{5}
@@ -632,7 +632,7 @@ _source code:_&nbsp;[pi_eq_e.tex](./src/pi_eq_e.tex)&nbsp;|&nbsp;[Go to top](#pa
 
 Hold on! you haven't said about the definitions of $\pi$ and $e$. Can we apply the same proof to any real numbers?
 
-### **Freak again $`i=\infty`$**
+### **Freak again, $`i=\infty`$**
 
 ```math
 \begin{alignat*}{5}
@@ -648,6 +648,22 @@ Hold on! you haven't said about the definitions of $\pi$ and $e$. Can we apply t
 _source code:_&nbsp;[i_eq_infty.tex](./src/i_eq_infty.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 $\infty$ is always imaginary.
+
+### **Whether $`i`$ or $`\pi`$ is $`0`$.**
+
+```math
+\begin{alignat*}{5}
+&\,&1\quad&=\quad&&1\\
+&\,&\ln{(1)}\quad&=&&\ln{(1)}\\
+&\,&0\quad&=&&\ln{(1)}\\
+&\,&\,&=&&\ln{(-1^2)}\\
+&\,&\,&=&&\ln{((e^{i\pi})^2)}\\
+&\,&\,&=&&\ln{(e^{2i\pi})}\\
+&\,&0\quad&=&&2i\pi\cancelto{1}{\ln{(e)}}\\
+&\rlap{\small{\text{Thus, whether }i\text{ or }\pi\text{ is zero.}}}
+\end{alignat*}
+```
+_source code:_&nbsp;[i_or_pi_is_0.tex](./src/i_or_pi_is_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 ### **Support _foolmath_**
 
