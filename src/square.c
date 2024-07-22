@@ -9,7 +9,7 @@ void matrix(int [][MAXDIM+1], int);
 
 int main()
 {
-	int i, j, n, a[MAXDIM+1][MAXDIM+1] = {0};
+	int i, j, n, a[MAXDIM+1][MAXDIM+1] = {0}; /* initialize all elements in the matrix to 0 */
 
 	do {
 		printf("enter dimension <odd number 1-%d>: ", MAXDIM);
