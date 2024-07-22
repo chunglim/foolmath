@@ -62,8 +62,8 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
   - $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
   - How is $6$ afraid of $7$? It ain't and will never be. [|view it|](#how-is-6-afraid-of-7-it-aint-and-will-never-be)
-  - The first equation we learnt in kindergartens [|view it|](#the-first-equation-we-learnt-in-kindergartens)
 + Page 2 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#page-2)
+  - The first equation we learnt in kindergartens [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#the-first-equation-we-learnt-in-kindergartens)
   - Production of all multiple of $2$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-multiple-of-2)
   - Production of all natural odd numbers [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-natural-odd-numbers)
   - Production of all natural numbers [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#production-of-all-natural-numbers)
@@ -1411,33 +1411,6 @@ Nah, 6 ain't afraid of 7, here's the proof. I can't believe, I simply thought ab
 _source code:_&nbsp;[6_not_afraid_7.tex](./src/6_not_afraid_7.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 So, $6$ is not afraid of $7$ and will never be. They are on par.
-
-### **The first equation we learnt in kindergartens**
-
-The first and the simplest equation is $1+1=2$.<br>
-We learnt this equation in kindergartens, but it seems wrong.<br>
-Here, we prove the same way we previously did.
-
-```math
-\begin{alignat*}{5}
-&\,&1+1\quad&=\quad&&2\\
-&\,&\,&=\quad&&4-2\\
-&\,&\,&=\quad&&4-\frac{9}{2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{\left(4-\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{4^2-\cancel{2}(4)\left(\frac{9}{\cancel{2}}\right)+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{16-36+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{-20+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{25-45+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{25-2(5)\left(\frac{9}{2}\right)+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{5^2-2(5)\left(\frac{9}{2}\right)+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&\sqrt{\left(5-\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
-&\,&\,&=\quad&&5-\cancel{\frac{9}{2}}+\cancel{\frac{9}{2}}-2\\
-&\small\text{Thus}\normalsize\qquad&1+1\quad&=\quad&&3
-\end{alignat*}
-```
-_source code:_&nbsp;[11_3.tex](./src/11_3.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
-
-Do you find any difference from what you have learnt in your kindergarten?
 
 ### **Support _foolmath_**
 

@@ -4,6 +4,33 @@
 
 [Previous Page](https://github.com/chunglim/foolmath#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;Next Page&nbsp;|&nbsp;[Contribute](#support-foolmath)
 
+### **The first equation we learnt in kindergartens**
+
+The first and the simplest equation is $1+1=2$.<br>
+We learnt this equation in kindergartens, but it seems wrong.<br>
+Here, we prove the same way we previously did.
+
+```math
+\begin{alignat*}{5}
+&\,&1+1\quad&=\quad&&2\\
+&\,&\,&=\quad&&4-2\\
+&\,&\,&=\quad&&4-\frac{9}{2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{\left(4-\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{4^2-\cancel{2}(4)\left(\frac{9}{\cancel{2}}\right)+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{16-36+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{-20+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{25-45+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{25-2(5)\left(\frac{9}{2}\right)+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{5^2-2(5)\left(\frac{9}{2}\right)+\left(\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&\sqrt{\left(5-\frac{9}{2}\right)^2}+\frac{9}{2}-2\\
+&\,&\,&=\quad&&5-\cancel{\frac{9}{2}}+\cancel{\frac{9}{2}}-2\\
+&\small\text{Thus}\normalsize\qquad&1+1\quad&=\quad&&3
+\end{alignat*}
+```
+_source code:_&nbsp;[11_3.tex](./src/11_3.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+Do you find any difference from what you have learnt in your kindergarten?
+
 ### **Production of all multiple of $`2`$**
 
 ```math
@@ -119,80 +146,71 @@ There is a rule explaining how to fill the matrix. (valid rule)
 For simplicity, I code C to generate each magic square.
 
 ```c
+/* magic squares */
+
 #include <stdio.h>
 #include <string.h>
 
-#define isodd(n)    ((n) % 2)
-#define isempty(n)  (!(n))
-#define MAXDIM      15
+#define isodd(n)	((n) % 2)
+#define isempty(n)	(!(n))
+#define MAXDIM		15
 
-void initialize(int [][MAXDIM+1], int);
 void matrix(int [][MAXDIM+1], int);
 
 int main()
 {
-    int i, j, n, a[MAXDIM+1][MAXDIM+1];
+	int i, j, n, a[MAXDIM+1][MAXDIM+1] = {0};
 
-    do {
-        printf("enter dimension <odd number 1-%d>: ", MAXDIM);
-        scanf("%d", &n);
-    } while (!isodd(n) || n > MAXDIM);
-    initialize(a, n);
-    matrix(a, n);
-    int sumrow,
-        sumcol[n+1];
-    memset(sumcol, 0, sizeof (int) * (n + 1));
-    for (i = 1; i <= n; i++) {
-        sumrow = 0;
-        for (j = 1; j <= n; j++) {
-            printf("%*d", j == 1 ? 4 : 5, a[i][j]);
-            sumrow += a[i][j];
-            sumcol[j] += a[i][j];
-        }
-        printf("%6d\n", sumrow);
-    }
-    puts("\n");
-    for (j = 1; j <= n; j++)
-        printf("%*d", j == 1 ? 4 : 5, sumcol[j]);
-    puts("\n");
-    return 0;
-}
-
-void initialize(int a[][MAXDIM+1], int n)
-{
-    int i, j;
-
-    for (i = 1; i <= n; i++)
-        for (j = 1; j <= n; j++)
-            a[i][j] = 0;
+	do {
+		printf("enter dimension <odd number 1-%d>: ", MAXDIM);
+		scanf("%d", &n);
+	} while (!isodd(n) || n > MAXDIM);
+	matrix(a, n);
+	int	sumrow,
+		sumcol[n+1];
+	memset(sumcol, 0, sizeof (int) * (n + 1));
+	for (i = 1; i <= n; i++) {
+		sumrow = 0;
+		for (j = 1; j <= n; j++) {
+			printf("%*d", j == 1 ? 4 : 5, a[i][j]);
+			sumrow += a[i][j];
+			sumcol[j] += a[i][j];
+		}
+		printf("%6d\n", sumrow);
+	}
+	puts("\n");
+	for (j = 1; j <= n; j++)
+		printf("%*d", j == 1 ? 4 : 5, sumcol[j]);
+	puts("\n");
+	return 0;
 }
 
 void matrix(int a[][MAXDIM+1], int n)
 {
-    int i, j, index;
+	int i, j, index;
 
-    i = 1; j = (n + 1) / 2;
-    a[i][j] = 1;
-    for (index = 2; index <= n * n; index++) {
-        j++; i--; /* normal case */
-        if (i < 1)
-            if (j <= n)
-                for (i = n; !isempty(a[i][j]); i--)
-                    ; /* overflow top go bottom */
-            else { /* top right corner go next row same column */
-                i += 2;
-                j--;
-            }
-        else
-            if (j > n) /* overflow right go first column */
-                j = 1;
-            else
-                if (!isempty(a[i][j])) { /* next occupied go next row same column */
-                    i += 2;
-                    j--;
-                }
-        a[i][j] = index;
-    }
+	i = 1; j = (n + 1) / 2;
+	a[i][j] = 1;
+	for (index = 2; index <= n * n; index++) {
+		j++; i--; /* normal case */
+		if (i < 1)
+			if (j <= n)
+				for (i = n; !isempty(a[i][j]); i--)
+					; /* overflow top go bottom */
+			else { /* top right corner go next row same column */
+				i += 2;
+				j--;
+			}
+		else
+			if (j > n) /* overflow right go first column */
+				j = 1;
+			else
+				if (!isempty(a[i][j])) { /* next occupied go next row same column */
+					i += 2;
+					j--;
+				}
+		a[i][j] = index;
+	}
 }
 ```
 _source code:_&nbsp;[square.c](./src/square.c)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)

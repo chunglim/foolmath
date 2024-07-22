@@ -5,18 +5,16 @@
 #define isempty(n)	(!(n))
 #define MAXDIM		15
 
-void initialize(int [][MAXDIM+1], int);
 void matrix(int [][MAXDIM+1], int);
 
 int main()
 {
-	int i, j, n, a[MAXDIM+1][MAXDIM+1];
+	int i, j, n, a[MAXDIM+1][MAXDIM+1] = {0};
 
 	do {
 		printf("enter dimension <odd number 1-%d>: ", MAXDIM);
 		scanf("%d", &n);
 	} while (!isodd(n) || n > MAXDIM);
-	initialize(a, n);
 	matrix(a, n);
 	int	sumrow,
 		sumcol[n+1];
@@ -35,15 +33,6 @@ int main()
 		printf("%*d", j == 1 ? 4 : 5, sumcol[j]);
 	puts("\n");
 	return 0;
-}
-
-void initialize(int a[][MAXDIM+1], int n)
-{
-	int i, j;
-
-	for (i = 1; i <= n; i++)
-		for (j = 1; j <= n; j++)
-			a[i][j] = 0;
 }
 
 void matrix(int a[][MAXDIM+1], int n)
