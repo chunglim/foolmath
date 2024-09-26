@@ -107,7 +107,7 @@ Well, there have been many proofs over centuries. The number of primes is infini
 
 #### **_Euclid's Proof_ (300 BC)**
 
-+ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18 &divide 3$ has no remainder.
++ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18$ $&divide$ 3$$ has no remainder.
 + Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
 + Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
 + Let $Q=P+1$, is $Q$ a prime?
