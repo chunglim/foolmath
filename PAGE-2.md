@@ -689,7 +689,7 @@ So far, here's the valid proof, you were probably taught in Math class.
 
 ```math
 \begin{alignat*}{7}
-&\small\text{Let}\normalsize&x\quad&=\quad&&a\qquad&&\small\text{where }a{\text{ is any real number}}\\
+&\small\text{Let}\normalsize&x\quad&=\quad&&a\qquad&&\small\text{where }a\text{ is any real number}\normalsize\\
 &\,&x-a\quad&=&&0\\
 &\,&(x-a)x\quad&=&&0\\
 &\,&x^2-ax\quad&=&&0\\
