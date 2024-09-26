@@ -107,7 +107,7 @@ Well, there have been many proofs over centuries. The number of primes is infini
 
 #### **_Euclid's Proof_ (300 BC)**
 
-+ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18&divide3$ has no remainder.
++ Let's review about divisibility. if $a$ divides $c$ and $b$ divides $c$, then $|a-b|$ must also divide $c$. For example, $6$ divides $3$ and $24$ divides $3$ so $|6-24|$ or $18$ mush also divide $3$. That is $18 &divide 3$ has no remainder.
 + Assuming we have finite number of primes $p_1, p_2, p_3, ..., p_n$.
 + Let $P$ be a product of all prime numbers i.e. $P=p_1\cdot p_2\cdot p_3\cdot...\cdot p_n$.
 + Let $Q=P+1$, is $Q$ a prime?
@@ -689,16 +689,16 @@ So far, here's the valid proof, you were probably taught in Math class.
 
 ```math
 \begin{alignat*}{7}
-&\small\text{Let}&x\quad&=\quad&&a\qquad&&\small\text{where }a{\text{ is any real number}}\\
+&\small\text{Let}\normalsize&x\quad&=\quad&&a\qquad&&\small\text{where }a{\text{ is any real number}}\\
 &\,&x-a\quad&=&&0\\
 &\,&(x-a)x\quad&=&&0\\
 &\,&x^2-ax\quad&=&&0\\
 &\,&x^2\quad&=&&ax\\
 &\,&x\quad&=&&\sqrt{ax}&&\small\text{(1)}\\
-&\small\text{substitue (1)}&x\quad&=&&\sqrt{a\sqrt{ax}}\\
-&\rlap{\small\text{indefinitely recursively substitute (1)}}\\
+&\small\text{substitue (1)}\normalsize&x\quad&=&&\sqrt{a\sqrt{ax}}\\
+&\rlap{\small\text{indefinitely recursively substitute (1)}\normalsize}\\
 &\,&x\quad&=&&\sqrt{a\sqrt{a\sqrt{a\sqrt{a\sqrt{\ldots}}}}}\\
-&\small\text{since }x=a\text{, thus}&x\quad&=&&\sqrt{x\sqrt{x\sqrt{x\sqrt{x\sqrt{\ldots}}}}}\qquad&&\small\text{(valid proof)}
+&\small\text{since }x=a\text{, thus}\normalsize&x\quad&=&&\sqrt{x\sqrt{x\sqrt{x\sqrt{x\sqrt{\ldots}}}}}\qquad&&\small\text{(valid proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[inf_nested_rad.tex](./src/inf_nested_rad.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
