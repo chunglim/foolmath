@@ -683,6 +683,26 @@ $\infty$ is always imaginary.
 ```
 _source code:_&nbsp;[i_or_pi_is_0.tex](./src/i_or_pi_is_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
+### **Infinite nested radical**
+
+So far, here's the valid proof, you were probably taught in Math class.
+
+```math
+\begin{alignat*}{7}
+&\small\text{Let}&x\quad&=\quad&&a\qquad&&\small\text{where }a{\text{ is any real number}}\\
+&\,&x-a\quad&=&&0\\
+&\,&(x-a)x\quad&=&&0\\
+&\,&x^2-ax\quad&=&&0\\
+&\,&x^2\quad&=&&ax\\
+&\,&x\quad&=&&\sqrt{ax}&&\small\text{(1)}\\
+&\small\text{substitue (1)}&x\quad&=&&\sqrt{a\sqrt{ax}}\\
+&\rlap{\small\text{indefinitely recursively substitute (1)}}\\
+&\,&x\quad&=&&\sqrt{a\sqrt{a\sqrt{a\sqrt{a\sqrt{\ldots}}}}}\\
+&\small\text{since }x=a\text{, thus}&x\quad&=&&\sqrt{x\sqrt{x\sqrt{x\sqrt{x\sqrt{\ldots}}}}}\qquad&&\small\text{(valid proof)}
+\end{alignat*}
+```
+_source code:_&nbsp;[inf_nested_rad.tex](./src/inf_nested_rad.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
