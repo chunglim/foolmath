@@ -87,6 +87,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Freak again, $i=\infty$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#freak-again-iinfty)
   - Whether $i$ or $\pi$ is $0$. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#whether-i-or-pi-is-0)
   - Infinite nested radical [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infinite-nested-radical)
+  - Sum of Cubes Identity [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#sum-of-cubes-identity)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
