@@ -704,6 +704,8 @@ _source code:_&nbsp;[inf_nested_rad.tex](./src/inf_nested_rad.tex)&nbsp;|&nbsp;[
 
 ### **Sum of Cubes Identity**
 
+Another valid proof.
+
 ```math
 \begin{alignat*}{5}
 &\small\text{Ever seen?}\qquad&1^3+2^3\quad&=\quad&&(1+2)^2\\
