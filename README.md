@@ -15,6 +15,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
 2. Plain-text LaTeX `.tex` code is in `src/`.
 3. Best to view **_foolmath_** on [GitHub.com](https://github.com/chunglim/foolmath) using any browsers on any devices, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX.
 4. There are many pages in the repository. Other than `README.md` in the root directory of the repository, `GitHub` will show the _left pane_ displaying the source tree when viewing the other files. For the best viewing experience, you can simply close such _left pane_, in order to see the contents in full screen.
+5. Best view with Firefox web browser.
 
 **Proofs speak louder than words. Let's start!**
 
