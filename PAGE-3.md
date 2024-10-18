@@ -13,16 +13,16 @@ Another valid proof.
 &\small\text{Ever seen?}\qquad&1^3+2^3\quad&=\quad&&(1+2)^2\\
 &\,&1^3+2^3+3^3\quad&=&&(1+2+3)^2\\
 &\,&1^3+2^3+3^3+4^3\quad&=&&(1+2+3+4)^2\\
-&\small\text{That is}&\sum_{i=1}^{n}i^3\quad&=&&\left(\sum_{i=1}^{n}i\right)^2\\
+&\small\text{That is}&\sum_{i=1}^{n}i^3\quad&=&&\left(\sum_{i=1}^{n}i\right)^2\\ \\
 &\rlap{\text{It is called Sum of Cubes Identity (a.k.a. Square of the Sum)}}\\
 &\rlap{\text{Here's the proof.}}\\ \\
-&\rlap{\large\text{Step 1. Base Case}}\\
+&\rlap{\text{Step 1. Base Case}}\\
 &\,&\sum_{i=1}^{1}i^3\quad&=&&1^3\quad=\quad1\\
 &\,&\left(\sum_{i=1}^{1}i\right)^2\quad&=&&1^2\quad=\quad1\\
 &\small\text{i.e.}&\sum_{i=1}^{1}i^3\quad&=&&\left(\sum_{i=1}^{1}i\right)^2\\
-&\rlap{\large\text{Step 2. Induction Hypothesis}}\\
+&\rlap{\text{Step 2. Induction Hypothesis}}\\
 &\small\text{assuming}&\sum_{i=1}^{k}i^3\quad&=&&\left(\sum_{i=1}^{k}i\right)^2\\
-&\rlap{\large\text{Step 3. Induction Step}}\\
+&\rlap{\text{Step 3. Induction Step}}\\
 &\rlap{\text{We need to prove that the formula also holds for k + 1.}}\\
 &\rlap{\text{That is, we need to prove:}}\\
 &\,&\sum_{i=1}^{k+1}i^3\quad&=&&\left(\sum_{i=1}^{k+1}i\right)^2\\
@@ -32,7 +32,7 @@ Another valid proof.
 &\,&\,&=&&\left(\frac{(k+1)(k+2)}{2}\right)^2\\
 &\,&\sum_{i=1}^{k+1}i^3\quad&=&&\left(\sum_{i=1}^{k+1}i\right)^2\\
 &\rlap{\text{This matches the formula for }n=k+1\text{, completing the induction step.}}\\
-&\rlap{\large\text{Step 4. Conclusion}}\\
+&\rlap{\text{Step 4. Conclusion}}\\
 &\small\text{Thus}&\sum_{i=1}^{n}i^3\quad&=&&\left(\sum_{i=1}^{n}i\right)^2\qquad&&\small\text{(valid proof)}\\
 \end{alignat*}
 ```
