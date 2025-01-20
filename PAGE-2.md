@@ -100,7 +100,7 @@ Hey what? Why are these results zero? Is the universe simply empty?
 
 ### **Infinite numbers of primes**
 
-We have been dealing with fool proofs so far, let's talk about valid mathematical properties again.
+We have been dealing with foolish proofs so far, let's talk about valid mathematical properties again.
 
 You might have ever wondered, how many prime numbers there are. Is there an upper limit of primes, so called `the highest prime`? As the number grows higher, there will be also higher number of divisible divisors. This assumption may limit the size of primes.<br>
 Well, there have been many proofs over centuries. The number of primes is infinite or unlimited. (valid)
@@ -348,7 +348,7 @@ Here we go.
 _source code:_&nbsp;[sqrt2_irr.tex](./src/sqrt2_irr.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 We have talked about valid proof for a while.<br><br>
-Let's start fool proofs again.
+Let's start foolish proofs again.
 
 ### **How do programmers increase a variable?**
 
@@ -481,7 +481,7 @@ Or even an easier proof
 ```
 _source code:_&nbsp;[1eq-1_1.tex](./src/1eq-1_1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
-There are many more fool proofs like this using complex number.
+There are many more foolish proofs like this using complex number.
 
 #### **Proof 3**
 

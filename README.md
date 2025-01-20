@@ -8,7 +8,7 @@ Previous Page&nbsp;|&nbsp;[Next Page](./PAGE-2.md#page-2)&nbsp;|&nbsp;[Contribut
 
 ## What is **_foolmath_**?
 
-If you are a math enthusiast or aficionado, have you ever encountered mathematical fool proofs like $1=2$ or $2+5=8$ or even evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
+If you are a math enthusiast or aficionado, have you ever encountered mathematical foolish proofs like $1=2$ or $2+5=8$ or even evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
 
 **Notes:**
 1. Almost all mathematical proofs here are foolish, unless explicitly noted as _valid_.
@@ -425,7 +425,7 @@ There is one more, it is tricky.
 _source code:_&nbsp;[9eq17_0.tex](./src/9eq17_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Square of negative numbers really does the trick.<br><br>
-Who said $0$ couldn't be a denominator? See the following fool proofs.
+Who said $0$ couldn't be a denominator? See the following foolish proofs.
 
 ### **Very silly solutions to find $`\frac{0}{0}`$.**
 
@@ -486,7 +486,7 @@ _source code:_&nbsp;[inv_i_valid.tex](./src/inv_i_valid.tex)&nbsp;|&nbsp;[Go to 
 
 Nah, there is another $\frac{1}{i}$, but it is foolish.
 
-#### **This is the _fool proof_ of $`\frac{1}{i}`$.**
+#### **This is the _foolish proof_ of $`\frac{1}{i}`$.**
 
 ```math
 \begin{alignat*}{5}
@@ -497,14 +497,14 @@ Nah, there is another $\frac{1}{i}$, but it is foolish.
 &\,&\,&=&&\left(\frac{1}{-1}\right)^\frac{1}{2}\\
 &\,&\,&=&&-1^\frac{1}{2}\\
 &\,&\,&=&&\sqrt{-1}\\
-&\small\text{Thus}\normalsize\qquad&\frac{1}{i}\quad&=&& i\qquad\small\text{(fool proof)}
+&\small\text{Thus}\normalsize\qquad&\frac{1}{i}\quad&=&& i\qquad\small\text{(foolish proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[inv_i_fool.tex](./src/inv_i_fool.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Which one will you believe?
 
-#### **This is the _fool proof_ of $`-i`$.**
+#### **This is the _foolish proof_ of $`-i`$.**
 
 ```math
 \begin{alignat*}{5}
@@ -515,7 +515,7 @@ Which one will you believe?
 &\,&\,&=&&(-1)^\frac{3}{2}\\
 &\,&\,&=&&\sqrt{-1^3}\\
 &\,&\,&=&&\sqrt{-1}\\
-&\small\text{Thus}\normalsize\qquad&-i\quad&=&&i&\small\text{(fool proof)}
+&\small\text{Thus}\normalsize\qquad&-i\quad&=&&i&\small\text{(foolish proof)}
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_eq-i.tex](./src/i_eq-i.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
@@ -704,8 +704,8 @@ Now, have a look at the valid proof of _Euler's identity_.
 ```
 _source code:_&nbsp;[euler.tex](./src/euler.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Euler's identity shall be used in the other proofs (whether valid or fool).<br>
-Let's see the first fool proofs using _Euler's identity_.
+Euler's identity shall be used in the other proofs (whether valid or foolish).<br>
+Let's see the first foolish proofs using _Euler's identity_.
 
 ### **$`e^x=1`$, no matter what $`x`$ maybe.**
 
@@ -885,7 +885,7 @@ Yet, there is another silly solution.
 _source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
 Oops! engineers also say that!<br><br>
-We have seen several fool proofs so far, let's see valid proofs.
+We have seen several foolish proofs so far, let's see valid proofs.
 
 ### **How much is $`i^i`$?**
 
@@ -1392,7 +1392,7 @@ Well, WolframAlpha confirms that!
 
 There was a joke from our childhood, why $6$ is afraid of $7$. Because $7$ ate $9$ or someone say $\cos{(789)}$. Moreover, now 7 turns around and it opens its mouth while facing 6.
 
-Nah, 6 ain't afraid of 7, here's the proof. I can't believe, I simply thought about this joke, then discovered this fool proof within a few hours. ;-p
+Nah, 6 ain't afraid of 7, here's the proof. I can't believe, I simply thought about this joke, then discovered this foolish proof within a few hours. ;-p
 
 ```math
 \begin{alignat*}{5}
