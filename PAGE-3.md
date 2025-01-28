@@ -48,8 +48,9 @@ _source code:_&nbsp;[sum_of_the_cubes_id.tex](./src/sum_of_the_cubes_id.tex)&nbs
 &\,&\left(\sqrt{x}\right)^{\frac{1}{2}}\quad&=&&9^{\frac{1}{\infty}}\\
 &\,&\sqrt{\sqrt{x}}\quad&=&&9^0\\
 &\,&x^{\frac{1}{4}}\quad&=&&1\\
-&\,&x\quad&=&&1^4&&\small\text{(4)}\\
-&\small\text{(1)=(4); thus}\qquad&9^\infty\quad&=&&1
+&\,&x\quad&=&&1^4\\
+&\,&x\quad&=&&1&&\small\text{(2)}\\
+&\small\text{(1)=(2); thus}\qquad&9^\infty\quad&=&&1
 \end{alignat*}
 ```
 _source code:_&nbsp;[9inf_eq_1.tex](./src/9inf_eq_1.tex)&nbsp;|&nbsp;[Go to top](#page-3)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
