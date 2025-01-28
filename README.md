@@ -11,7 +11,7 @@ Previous Page&nbsp;|&nbsp;[Next Page](./PAGE-2.md#page-2)&nbsp;|&nbsp;[Contribut
 If you are a math enthusiast or aficionado, have you ever encountered mathematical foolish proofs like $1=2$ or $2+5=8$ or even evaluating $\infty$? Those seem so strange, queer, quirky and absurd. Many of them are foolish, while some of them are backed by impeccable logic. I intend this repository to be a treasure trove or collection of mind-bending demonstrations that challenge your concepts about numbers, algebra, trigonometry, logarithm, calculus and more. They will leave you scratching your head dissecting each equation to find errors, incorrectness or oversights in each proof. I also include some valid proofs and strange mathematical properties, which are considered interesting and worth reading. That's what **_foolmath_** is all about!
 
 **Notes:**
-1. Almost all mathematical proofs here are foolish, unless explicitly noted as _valid_.
+1. Almost all mathematical proofs here are _foolish_, unless explicitly noted as _valid_.
 2. Plain-text LaTeX `.tex` code is in `src/`.
 3. Best to view **_foolmath_** on [GitHub.com](https://github.com/chunglim/foolmath) using [Firefox](https://www.mozilla.org/en-US/firefox/) web browser on any devices, `GitHub` app on mobile devices or `GitHub.io` doesn't render LaTeX or MathJax. `GitHub.com` itself is also updated every now and then. Sometimes it appears to have rendered incorrectly on other web browsers.
 4. There are many pages in the repository. Other than `README.md` in the root directory of the repository, `GitHub` will show the _left pane_ displaying the source tree when viewing the other files. For the best viewing experience, you can simply close such _left pane_, in order to see the contents in full screen.
