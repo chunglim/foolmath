@@ -89,6 +89,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Infinite nested radical [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infinite-nested-radical)
 + Page 3 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#page-3)
   - Sum of Cubes Identity [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#sum-of-cubes-identity)
+  - What if $9^\infty=1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#what-if-9infty1)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
