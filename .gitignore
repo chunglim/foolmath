@@ -5,3 +5,4 @@ TODO.txt
 *.core
 *.log
 .git/
+.DS_Store
