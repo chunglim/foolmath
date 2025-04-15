@@ -413,7 +413,7 @@ There is one more, it is tricky.
 
 ```math
 \begin{alignat*}{5}
-&\small\text{let}&x\quad&=\quad&&9\\
+&\small\text{Let}&x\quad&=\quad&&9\\
 &\,&x^2-26x+169\quad&=&&9^2-26(9)+169\\
 &\,&\,&=&&16\\
 &\,&x^2-2(13)x+13^2\quad&=&&16\\
@@ -870,7 +870,7 @@ Hold on, $\pi$ is probably something else.
 ```
 _source code:_&nbsp;[pi_eq_1_0.tex](./src/pi_eq_1_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Yet, there is another silly solution.
+Yet, there are another silly solutions.
 
 #### **Solution 6**
 
@@ -885,7 +885,25 @@ Yet, there is another silly solution.
 ```
 _source code:_&nbsp;[pi_eq_3_0.tex](./src/pi_eq_3_0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Oops! engineers also say that!<br><br>
+Oops! engineers also say that!
+
+#### **Solution 7**
+
+```math
+\begin{alignat*}{7}
+&\small\text{Let}&x\quad&=\quad&&\frac{\pi+3}{2}\\
+&\,&2x\quad&=&&\pi+3\\
+&\small\times(\pi-3)\qquad&2x(\pi-3)\quad&=&&(\pi+3)(\pi-3)\\
+&\,&2\pi x-6x\quad&=&&\pi^2-9\\
+&\,&9-6x\quad&=&&\pi^2-2\pi x\\
+&\small+x^2&9-6x+x^2\quad&=&&\pi^2-2\pi x+x^2\\
+&\,&(3-x)^2\quad&=&&(\pi-x)^2\\
+&\,&3-\cancel{x}\quad&=&&\pi-\cancel{x}\\
+&\small\text{Thus}&\pi\quad&=&&3
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq_3_1.tex](./src/pi_eq_3_1.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
+
 We have seen several foolish proofs so far, let's see valid proofs.
 
 ### **How much is $`i^i`$?**
