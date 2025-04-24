@@ -80,7 +80,7 @@ _source code:_&nbsp;[multiroots.tex](./src/multiroots.tex)&nbsp;|&nbsp;[Go to to
 ### **A play with equality**
 
 ```math
-i\begin{alignat*}{7}
+\begin{alignat*}{7}
 &\,&i^2\quad&=\quad&&-1\\
 &\,&i^2\quad&<&&0\\
 &\,&\sqrt{i^2}\quad&<&&0\\
