@@ -77,6 +77,21 @@ _source code:_&nbsp;[9inf_eq_1.tex](./src/9inf_eq_1.tex)&nbsp;|&nbsp;[Go to top]
 ```
 _source code:_&nbsp;[multiroots.tex](./src/multiroots.tex)&nbsp;|&nbsp;[Go to top](#page-3)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
+### **A play with equality**
+
+```math
+i\begin{alignat*}{7}
+&\,&i^2\quad&=\quad&&-1\\
+&\,&i^2\quad&<&&0\\
+&\,&\sqrt{i^2}\quad&<&&0\\
+&\,&i\quad&<&&0\\
+&\small\times i\qquad&i.i\quad&>&&0.i\\
+&\,&i^2\quad&>&&0\\
+&\small\text{Thus}&-1\quad&>&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[inequal_00.tex](./src/inequal_00.tex)&nbsp;|&nbsp;[Go to top](#page-3)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
