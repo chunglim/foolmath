@@ -55,6 +55,28 @@ _source code:_&nbsp;[sum_of_the_cubes_id.tex](./src/sum_of_the_cubes_id.tex)&nbs
 ```
 _source code:_&nbsp;[9inf_eq_1.tex](./src/9inf_eq_1.tex)&nbsp;|&nbsp;[Go to top](#page-3)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
+### **A gimmick of multiple roots**
+
+```math
+\begin{alignat*}{7}
+&\small{\text{Solve}}&x^3+x^2+x+1\quad&=\quad&&0&\small\text{(1)}\\
+&\,&x^2+x+1\quad&=&&-x^3\qquad&\small\text{(2)}\\
+&\small &divide x&x^2+x+1+\frac{1}{x}\quad&=&&0\\
+&\small\text{from (2)}&\cancelto{-x^3}{(x^2+x+1)}+\frac{1}{x}\quad&=&&0\\
+&\,&\frac{1}{x}\quad&=&&x^3\\
+&\,&x^4\quad&=&&1&\small{(3)}\\
+&\,&x\quad&=&&1\\
+&\small\text{substitute (1)}\qquad&1^3+1^2+1+1\quad&=&&0\\
+&\small\text{Thus}&4\quad&=&&0\\
+&\rlap{\small\rm\underline{Caveat}\text{ solving (3) also results $x=\pm i\,\&-1$, which are the right solutions.}}\\
+&\small\text{(1)}&x^3+x^2+x+1\quad&=\quad&&0\\
+&\small x=i&-i-1+i+1\quad&=&&0\\
+&\small x=-i\qquad&i-1-i+1\quad&=&&0\\
+&\small x=-1&-1+1-1+1\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[multiroots.tex](./src/multiroots.tex)&nbsp;|&nbsp;[Go to top](#page-3)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.

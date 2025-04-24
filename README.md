@@ -90,6 +90,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
 + Page 3 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#page-3)
   - Sum of Cubes Identity [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#sum-of-cubes-identity)
   - What if $9^\infty=1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#what-if-9infty1)
+  - A gimmick of multiple roots [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#a-gimmick-of-multiple-roots)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
