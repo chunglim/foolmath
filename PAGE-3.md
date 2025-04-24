@@ -68,7 +68,7 @@ _source code:_&nbsp;[9inf_eq_1.tex](./src/9inf_eq_1.tex)&nbsp;|&nbsp;[Go to top]
 &\,&x\quad&=&&1\\
 &\small\text{substitute (1)}\qquad&1^3+1^2+1+1\quad&=&&0\\
 &\small\text{Thus}&4\quad&=&&0\\
-&\rlap{\small\rm\underline{Caveat}\text{ solving (3) also results $x=\pm i\,\&-1$, which are the right solutions.}}\\
+&\rlap{\small\text{Caveat: solving (3) also results $x=\pm i\,\&-1$, which are the right solutions.}}\\
 &\small\text{(1)}&x^3+x^2+x+1\quad&=\quad&&0\\
 &\small x=i&-i-1+i+1\quad&=&&0\\
 &\small x=-i\qquad&i-1-i+1\quad&=&&0\\
