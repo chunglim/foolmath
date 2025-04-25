@@ -77,7 +77,7 @@ _source code:_&nbsp;[9inf_eq_1.tex](./src/9inf_eq_1.tex)&nbsp;|&nbsp;[Go to top]
 ```
 _source code:_&nbsp;[multiroots.tex](./src/multiroots.tex)&nbsp;|&nbsp;[Go to top](#page-3)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
-### **A play with equality**
+### **A play with inequality**
 
 ```math
 \begin{alignat*}{7}

@@ -91,7 +91,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Sum of Cubes Identity [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#sum-of-cubes-identity)
   - What if $9^\infty=1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#what-if-9infty1)
   - A gimmick of multiple roots [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#a-gimmick-of-multiple-roots)
-  - A play with equality [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#a-play-with-equality)
+  - A play with inequality [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#a-play-with-equality)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
