@@ -667,7 +667,9 @@ _source code:_&nbsp;[i_eq_infty.tex](./src/i_eq_infty.tex)&nbsp;|&nbsp;[Go to to
 
 $\infty$ is always imaginary.
 
-### **Whether $`i`$ or $`\pi`$ is $`0`$.**
+### **Either $`i`$ or $`\pi`$ is $`0`$.**
+
+#### **Proof 1**
 
 ```math
 \begin{alignat*}{5}
@@ -681,7 +683,20 @@ $\infty$ is always imaginary.
 &\rlap{\small{\text{Thus, whether }i\text{ or }\pi\text{ is zero.}}}
 \end{alignat*}
 ```
-_source code:_&nbsp;[i_or_pi_is_0.tex](./src/i_or_pi_is_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+_source code:_&nbsp;[i_or_pi_is_0_0.tex](./src/i_or_pi_is_0_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
+#### **Proof 2**
+
+```math
+\begin{alignat*}{7}
+&\,&e^{i\pi}\quad&=\quad&&-1\\
+&\,&\,&=\quad&&-e^0\\
+&\,&e^{i\pi}\quad&=\quad&&e^{-0}\\
+&\,&i\pi\quad&=&&-0\\
+&\small\text{Thus}\qquad&\pi\quad&=&&0
+\end{alignat*}
+```
+_source code:_&nbsp;[i_or_pi_is_0_1.tex](./src/i_or_pi_is_0_1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
 ### **Infinite nested radical**
 

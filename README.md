@@ -57,7 +57,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Isn't it $\infty=\Phi$? [|view it|](#isnt-it-inftyphi)
   - How much is $1^i$? [|view it|](#how-much-is-1i)
   - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
-  - Whether $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
+  - Either $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
   - How much is $e^i$? [|view it|](#how-much-is-ei)
   - Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
   - $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
