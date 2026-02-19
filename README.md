@@ -85,7 +85,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - $\infty=0$, the universe is empty. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infty0-the-universe-is-empty)
   - $\pi=e$, why do engineers say so? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#pie-why-do-engineers-say-so)
   - Freak again, $i=\infty$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#freak-again-iinfty)
-  - Whether $i$ or $\pi$ is $0$. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#whether-i-or-pi-is-0)
+  - Either $i$ or $\pi$ is $0$. [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#either-i-or-pi-is-0)
   - Infinite nested radical [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-2.md#infinite-nested-radical)
 + Page 3 [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#page-3)
   - Sum of Cubes Identity [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-3.md#sum-of-cubes-identity)
