@@ -680,7 +680,7 @@ $\infty$ is always imaginary.
 &\,&\,&=&&\ln{((e^{i\pi})^2)}\\
 &\,&\,&=&&\ln{(e^{2i\pi})}\\
 &\,&0\quad&=&&2i\pi\cancelto{1}{\ln{(e)}}\\
-&\rlap{\small{\text{Thus, whether }i\text{ or }\pi\text{ is zero.}}}
+&\rlap{\small{\text{Thus, either }i\text{ or }\pi\text{ is zero.}}}
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_or_pi_is_0_0.tex](./src/i_or_pi_is_0_0.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
@@ -693,7 +693,8 @@ _source code:_&nbsp;[i_or_pi_is_0_0.tex](./src/i_or_pi_is_0_0.tex)&nbsp;|&nbsp;[
 &\,&\,&=\quad&&-e^0\\
 &\,&e^{i\pi}\quad&=\quad&&e^{-0}\\
 &\,&i\pi\quad&=&&-0\\
-&\small\text{Thus}\qquad&\pi\quad&=&&0
+&\,&i\pi\quad&=&&0\\
+&\rlap{\small{\text{Thus, either }i\text{ or }\pi\text{ is zero.}}}
 \end{alignat*}
 ```
 _source code:_&nbsp;[i_or_pi_is_0_1.tex](./src/i_or_pi_is_0_1.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
