@@ -605,7 +605,7 @@ There are many ways to skin a cat, actually.
 &\,&(C-R)^2\quad&=&&(C-\pi)^2\\
 &\,&\cancel{C}-R\quad&=&&\cancel{C}-\pi\\
 &\,&\pi\quad&=&&R\\
-&\rlap{\qquad\qquad\qquad\qquad\qquad\qquad\text{Thus $\pi$ can be any real numbers.}}
+&\rlap{\qquad\qquad\qquad\qquad\qquad\qquad\text{Thus }\pi\text{ can be any real numbers.}}
 \end{alignat*}
 ```
 _source code:_&nbsp;[pi_is_any_real.tex](./src/pi_is_any_real.tex)&nbsp;|&nbsp;[Go to top](#page-2)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
