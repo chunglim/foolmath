@@ -57,7 +57,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - Isn't it $\infty=\Phi$? [|view it|](#isnt-it-inftyphi)
   - How much is $1^i$? [|view it|](#how-much-is-1i)
   - How much is $\sqrt[^i]{1}$? [|view it|](#how-much-is-sqrti1)
-  - Either $e=1$ or $\pi=0$ [|view it|](#whether-e1-or-pi0)
+  - Either $e=1$ or $\pi=0$ [|view it|](#either-e1-or-pi0)
   - How much is $e^i$? [|view it|](#how-much-is-ei)
   - Simple continued fraction expansion of $\pi$ [|view it|](#simple-continued-fraction-expansion-of-pi)
   - $\sqrt{-\ln{(-1)}\ln{(-1)}}=\pi$, how? [|view it|](#sqrt-ln-1ln-1pi-how)
@@ -1299,7 +1299,7 @@ _source code:_&nbsp;[sqrti1.tex](./src/sqrti1.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 You can see `a unit imaginary root` of `a unit real number` is real and indeed a big real. It is as big as `535.5`. Once again, it is not `1`, why does _WolframAlpha_ say so?
 
-### **Whether $`e=1`$ or $`\pi=0`$**
+### **Either $`e=1`$ or $`\pi=0`$**
 
 ```math
 \begin{alignat*}{5}
@@ -1317,7 +1317,7 @@ You can see `a unit imaginary root` of `a unit real number` is real and indeed a
 ```
 _source code:_&nbsp;[e1pi0.tex](./src/e1pi0.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-Oops, whether $e=1$ or $\pi=0$, indeed!
+Oops, either $e=1$ or $\pi=0$, indeed!
 
 ### **How much is $`e^i`$?**
 
