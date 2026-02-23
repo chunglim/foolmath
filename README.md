@@ -678,16 +678,18 @@ _source code:_&nbsp;[0_even.tex](./src/0_even.tex)&nbsp;|&nbsp;[Go to top](#welc
 
 ```math
 \begin{alignat*}{5}
-&\,&x+2\quad&=\quad&&x\\
+&\,&x+2\quad&=\quad&&x\qquad&\small\text{(1)}\\
 &\,&(x+2)^2\quad&=&& x^2\\
 &\,&\cancel{x^2}+4x+4\quad&=&&\cancel{x^2}\\
 &\,&4x\quad&=&&-4\\
-&\,&\small\text{Thus}\normalsize\qquad x\quad&=&&-1
+&\,&x\quad&=&&-1\qquad&\small\text{(2)}\\
+&\small\text{substitute (2) in (1)}\qquad&-1+2\quad&=&&-1\\
+&\small\text{Thus}&1\quad&=&&-1
 \end{alignat*}
 ```
 _source code:_&nbsp;[x+2eqx.tex](./src/x+2eqx.tex)&nbsp;|&nbsp;[Go to top](#welcome-to-the-foolmath-repository)&nbsp;|&nbsp;[TOC](#table-of-contents)
 
-A silly equation always has the solution.<br><br>
+Wow, there are many ways to skin the cat, indeed.<br><br>
 Now, have a look at the valid proof of _Euler's identity_.
 
 ### **$`e^{i\pi}=?`$, also known as _Euler's identity_**
