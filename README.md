@@ -93,8 +93,7 @@ If you are a math enthusiast or aficionado, have you ever encountered mathematic
   - What if $9^\infty=1$? [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-4.md#what-if-9infty1)
   - A gimmick of multiple roots [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-4.md#a-gimmick-of-multiple-roots)
   - A play with inequality [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-4.md#a-play-with-inequality)
-  - Wow, $\pi=-\pi$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-4.md#wow-pipi)
-
+  - Wow, $\pi=-\pi$ [|view it|](https://github.com/chunglim/foolmath/blob/master/PAGE-4.md#wow-pi-pi)
 + Support **_foolmath_** [|here|](#support-foolmath)
 
 ### **Ramanujan summation**
