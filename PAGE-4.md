@@ -219,6 +219,33 @@ _source code:_&nbsp;[multiroots.tex](./src/multiroots.tex)&nbsp;|&nbsp;[Go to to
 ```
 _source code:_&nbsp;[inequal_00.tex](./src/inequal_00.tex)&nbsp;|&nbsp;[Go to top](#page-4)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
 
+### **Wow, $`\pi=-\pi`$**
+
+```math
+\begin{alignat*}{5}
+&\rlap{\small{\text{The area under a bell-shaped curve from $-1$ to $1$}}}\\
+&\,&I\quad&=\quad&&\int_{-1}^{1}\frac{1}{1+x^2}dx\\
+&\,&\,&=&&\arctan{(1)}-\arctan{(-1)}\\
+&\,&\,&=&&\frac{\pi}{4}-\left(-\frac{\pi}{4}\right)\\
+&\,&I\quad&=&&\frac{\pi}{2}\quad&\small{\text{(1)}}\\
+&\rlap{\small{\text{Let's also calculate the integral with $u$ substitution}}}\\
+&\small{\text{Let}}&x\quad&=&&-\frac{1}{u}\\
+&\,&dx\quad&=&&\frac{1}{u^2}du\quad&\small{\text{(2)}}\\
+&\rlap{\small{\text{fraction substitution}}}\\
+&\,&\int_{-1}^{1}\frac{1}{1+\left(-\frac{1}{u}\right)^2}dx\quad&=&&\int_{-1}^{1}\frac{1}{1+\frac{1}{u^2}}dx\\
+&\,&\int_{-1}^{1}\frac{1}{1+\left(-\frac{1}{u}\right)^2}dx\quad&=&&\int_{-1}^{1}\frac{u^2}{u^2+1}dx\quad&\small{\text{(3)}}\\
+&\rlap{\small\text{substitute (2) in (3) and adjust bounds}}\\
+&\,&\int_{\frac{-1}{(-1)}}^{\frac{-1}{(1)}}\frac{u^2}{u^2+1}\frac{1}{u^2}du\quad&=&&\int_{1}^{-1}\frac{1}{u^2+1}du\\
+&\rlap{\small{\text{Swap the bounds to find that we have exactly}}}\\
+&\rlap{\small{\text{the integral we started with, but negative}}}\\
+&\,&I\quad&=&&-\int_{-1}^{1}\frac{1}{1+x^2}dx\\
+&\,&I\quad&=&&-\frac{\pi}{2}\quad&\small{\text{(4)}}\\
+&\small{\text{(1)=(4)}}&\frac{\pi}{2}\quad&=&&-\frac{\pi}{2}\\
+&\small{\text{Thus}}&\pi\quad&=&&-\pi\\
+\end{alignat*}
+```
+_source code:_&nbsp;[pi_eq-pi.tex](./src/pi_eq-pi.tex)&nbsp;|&nbsp;[Go to top](#page-4)&nbsp;|&nbsp;[TOC](https://github.com/chunglim/foolmath#table-of-contents)
+
 ### **Support _foolmath_**
 
 I keep adding these kinds of freaks or topics, which are considered interesting, no matter what they are foolish or valid math. **_foolmath_** is a passion project I do under my curiosity at my retirement. Your support will motivate me to curate and expand this repository with even more fascinating content, and especially it can help me pay the bills.
