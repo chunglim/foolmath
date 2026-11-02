@@ -225,6 +225,7 @@ _source code:_&nbsp;[inequal_00.tex](./src/inequal_00.tex)&nbsp;|&nbsp;[Go to to
 \begin{alignat*}{5}
 &\rlap{\small{\text{The area under a bell-shaped curve from $-1$ to $1$}}}\\
 &\,&I\quad&=\quad&&\int_{-1}^{1}\frac{1}{1+x^2}dx\\
+&\,&\,&=&&\arctan{(x)}\bigg\vert_{-1}^{1}\\
 &\,&\,&=&&\arctan{(1)}-\arctan{(-1)}\\
 &\,&\,&=&&\frac{\pi}{4}-\left(-\frac{\pi}{4}\right)\\
 &\,&I\quad&=&&\frac{\pi}{2}\quad&\small{\text{(1)}}\\
@@ -236,11 +237,10 @@ _source code:_&nbsp;[inequal_00.tex](./src/inequal_00.tex)&nbsp;|&nbsp;[Go to to
 &\,&\int_{-1}^{1}\frac{1}{1+\left(-\frac{1}{u}\right)^2}dx\quad&=&&\int_{-1}^{1}\frac{u^2}{u^2+1}dx\quad&\small{\text{(3)}}\\
 &\rlap{\small\text{substitute (2) in (3) and adjust bounds}}\\
 &\,&\int_{\frac{-1}{(-1)}}^{\frac{-1}{(1)}}\frac{u^2}{u^2+1}\frac{1}{u^2}du\quad&=&&\int_{1}^{-1}\frac{1}{u^2+1}du\\
-&\rlap{\small{\text{Swap the bounds to find that we have exactly}}}\\
-&\rlap{\small{\text{the integral we started with, but negative}}}\\
+&\rlap{\small{\text{Swap the bounds, we end up with the integral we started with, but negative}}}\\
 &\,&I\quad&=&&-\int_{-1}^{1}\frac{1}{1+x^2}dx\\
 &\,&I\quad&=&&-\frac{\pi}{2}\quad&\small{\text{(4)}}\\
-&\small{\text{(1)=(4)}}&\frac{\pi}{2}\quad&=&&-\frac{\pi}{2}\\
+&\small{\text{(1)=(4)}}&\frac{\pi}{\cancel{2}}\quad&=&&-\frac{\pi}{\cancel{2}}\\
 &\small{\text{Thus}}&\pi\quad&=&&-\pi\\
 \end{alignat*}
 ```
